@@ -1,0 +1,3069 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba669b94ec0c484e85b7afb7407f75ba, type: 3}
+  m_Name: IconCollection
+  m_EditorClassIdentifier: 
+  Backgrounds:
+  - {fileID: 21300000, guid: 6a7965a697c24a689633cfa2a821ca7e, type: 3}
+  - {fileID: 21300000, guid: 533abca1f345417e984b150a43d1ef78, type: 3}
+  - {fileID: 21300000, guid: b7b50a648b914b71a63c6ede8a31ea9b, type: 3}
+  - {fileID: 21300000, guid: 176661c66228466f9f74c027f6d60f9f, type: 3}
+  - {fileID: 21300000, guid: 3d210ed8562242d3804c2502b7312c3a, type: 3}
+  - {fileID: 21300000, guid: dbff44ea28934646b14fff229f0db0d9, type: 3}
+  Id: MilitaryHeroes
+  IconFolders:
+  - {fileID: 102900000, guid: bd7c323d27976eb4385086dd5a52abbc, type: 3}
+  - {fileID: 102900000, guid: bcb9521e183041b0af6400f79c708df5, type: 3}
+  - {fileID: 102900000, guid: 2f2f6091dd0864b499e51fc8ebddcf03, type: 3}
+  Icons:
+  - Name: =3=
+    Collection: Emoji
+    Id: Common.Emoji.Eyebrows.=3=
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Emoji/=3=.png
+    Sprite: {fileID: 21300000, guid: 50c0fbca7c194393b5d1f06b8e36c98d, type: 3}
+  - Name: =3=
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.=3=
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/=3=.png
+    Sprite: {fileID: 21300000, guid: 21e867c0314c46ed80dc46f4a1e71b92, type: 3}
+  - Name: =3=
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.=3=
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/=3=.png
+    Sprite: {fileID: 21300000, guid: 77533f8b6f8b452d8aaba199dea3146a, type: 3}
+  - Name: 1
+    Collection: Bonus
+    Id: Common.Bonus.Mouth.1
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Bonus/1.png
+    Sprite: {fileID: 21300000, guid: 83fdaf3e5c2143b1b1138eb398520baf, type: 3}
+  - Name: 10
+    Collection: Bonus
+    Id: Common.Bonus.Mouth.10
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Bonus/10.png
+    Sprite: {fileID: 21300000, guid: f06d05f5db8845b3b5b3a20fe45123d8, type: 3}
+  - Name: 11
+    Collection: Bonus
+    Id: Common.Bonus.Mouth.11
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Bonus/11.png
+    Sprite: {fileID: 21300000, guid: c2daf8105b5040dba248d2f73f070789, type: 3}
+  - Name: 2
+    Collection: Bonus
+    Id: Common.Bonus.Mouth.2
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Bonus/2.png
+    Sprite: {fileID: 21300000, guid: 54e5edf5d6514af880872afab7df73fc, type: 3}
+  - Name: 3
+    Collection: Bonus
+    Id: Common.Bonus.Mouth.3
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Bonus/3.png
+    Sprite: {fileID: 21300000, guid: 8dcca6c1a3e948b5af9787bc356a9bed, type: 3}
+  - Name: 4
+    Collection: Bonus
+    Id: Common.Bonus.Mouth.4
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Bonus/4.png
+    Sprite: {fileID: 21300000, guid: 714c48ade87a42f3908290d6d039edb0, type: 3}
+  - Name: 5
+    Collection: Bonus
+    Id: Common.Bonus.Mouth.5
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Bonus/5.png
+    Sprite: {fileID: 21300000, guid: b060de008e79421a98580f5eaa7216a0, type: 3}
+  - Name: 6
+    Collection: Bonus
+    Id: Common.Bonus.Mouth.6
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Bonus/6.png
+    Sprite: {fileID: 21300000, guid: 17ca31195bad47c79fae4a825782b004, type: 3}
+  - Name: 7
+    Collection: Bonus
+    Id: Common.Bonus.Mouth.7
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Bonus/7.png
+    Sprite: {fileID: 21300000, guid: 71b05317a0974d5aa203cc29fd9bd5cd, type: 3}
+  - Name: 8
+    Collection: Bonus
+    Id: Common.Bonus.Mouth.8
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Bonus/8.png
+    Sprite: {fileID: 21300000, guid: 6ca4eb2017f84c7890d79f2219e60d1b, type: 3}
+  - Name: 83
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.83
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/83.png
+    Sprite: {fileID: 21300000, guid: 119f6077ba554b9c9bdb0b3c33a0b345, type: 3}
+  - Name: 83
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.83
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/83.png
+    Sprite: {fileID: 21300000, guid: 06713b644acc4b0fa88cc3f0a59a58a2, type: 3}
+  - Name: 9
+    Collection: Bonus
+    Id: Common.Bonus.Mouth.9
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Bonus/9.png
+    Sprite: {fileID: 21300000, guid: 36caab924aa747cfb7856001b70dc3e0, type: 3}
+  - Name: Adventurer
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Armor.Adventurer
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Casual/Adventurer.png
+    Sprite: {fileID: 21300000, guid: 680bd69e9e804d6381511dbb6f41495b, type: 3}
+  - Name: Adventurer
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Belt.Adventurer
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Casual/Adventurer.png
+    Sprite: {fileID: 21300000, guid: b74148b22d5638648895de0008fdcc45, type: 3}
+  - Name: Adventurer
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Boots.Adventurer
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Casual/Adventurer.png
+    Sprite: {fileID: 21300000, guid: d292a23805d9abe44b8b6f00c9a9bb76, type: 3}
+  - Name: Adventurer
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Gloves.Adventurer
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Casual/Adventurer.png
+    Sprite: {fileID: 21300000, guid: 31ea1238c3c53ac40adb05c2bdc1443c, type: 3}
+  - Name: Adventurer
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Pauldrons.Adventurer
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Casual/Adventurer.png
+    Sprite: {fileID: 21300000, guid: 17a1e45bccfa64d42b18a78684d73bce, type: 3}
+  - Name: Adventurer
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Vest.Adventurer
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Casual/Adventurer.png
+    Sprite: {fileID: 21300000, guid: 25dda29883468ae4cba5a0a4e499bbac, type: 3}
+  - Name: AdventurerCap
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Helmet.AdventurerCap
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Casual/AdventurerCap.png
+    Sprite: {fileID: 21300000, guid: 67d8fc97254a4f25961e92e95a72d879, type: 3}
+  - Name: Afro
+    Collection: Basic
+    Id: Common.Basic.Hair.Afro
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Basic/Afro.png
+    Sprite: {fileID: 21300000, guid: 4a40ef22bf024465a4f42561e4eb3db3, type: 3}
+  - Name: AfroSmall
+    Collection: Basic
+    Id: Common.Basic.Hair.AfroSmall
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Basic/AfroSmall.png
+    Sprite: {fileID: 21300000, guid: 69b3d696ee194df79f84ae38450e940f, type: 3}
+  - Name: AK-47
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Firearms2H.AK-47
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Basic/AK-47.png.png
+    Sprite: {fileID: 21300000, guid: 844f93d739c55fc4aa34cb09b3d0eb9c, type: 3}
+  - Name: AK-47 [Golden]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.AK-47 [Golden]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/AK-47
+      [Golden].png.png
+    Sprite: {fileID: 21300000, guid: 84e9b417b16f7e04eb33acb0554daa7b, type: 3}
+  - Name: Angry
+    Collection: Basic
+    Id: Common.Basic.Eyebrows.Angry
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Basic/Angry.png
+    Sprite: {fileID: 21300000, guid: eb1be0427fc2485d9c712faf1ba8e247, type: 3}
+  - Name: Angry
+    Collection: Expressions
+    Id: Common.Expressions.Eyebrows.Angry
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Expressions/Angry.png
+    Sprite: {fileID: 21300000, guid: a5bc8dada9b642c09a90ec9fb5b2e607, type: 3}
+  - Name: Angry
+    Collection: Expressions
+    Id: Common.Expressions.Eyes.Angry
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Expressions/Angry.png
+    Sprite: {fileID: 21300000, guid: 16da46f814954d78a055c03ec391601b, type: 3}
+  - Name: Angry
+    Collection: Basic
+    Id: Common.Basic.Mouth.Angry
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Basic/Angry.png
+    Sprite: {fileID: 21300000, guid: 8ae5f6298a86477f888e6653a4f474a9, type: 3}
+  - Name: Angry
+    Collection: Expressions
+    Id: Common.Expressions.Mouth.Angry
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Expressions/Angry.png
+    Sprite: {fileID: 21300000, guid: f2f1a0f905fe466cbaf626acbc64cdcb, type: 3}
+  - Name: AnimeGirl
+    Collection: Bonus
+    Id: Common.Bonus.Hair.AnimeGirl
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Bonus/AnimeGirl.png
+    Sprite: {fileID: 21300000, guid: af69363dafed4438bacdf0dd7ae5ef53, type: 3}
+  - Name: Annoyed
+    Collection: Emoji
+    Id: Common.Emoji.Eyebrows.Annoyed
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Emoji/Annoyed.png
+    Sprite: {fileID: 21300000, guid: fd5d202a7408471aa7184a35833019dd, type: 3}
+  - Name: Annoyed
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Annoyed
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Annoyed.png
+    Sprite: {fileID: 21300000, guid: 3b8fbac533db431697e6f17b79c16125, type: 3}
+  - Name: Annoyed
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Annoyed
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Annoyed.png
+    Sprite: {fileID: 21300000, guid: 57538e1da06649bb8a788ed30e54cc59, type: 3}
+  - Name: AR-25
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.AR-25
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/AR-25.png.png
+    Sprite: {fileID: 21300000, guid: 56e4b23db220c8e47a271eb28bdf5863, type: 3}
+  - Name: Ariel
+    Collection: MoonStyle [NoPaint]
+    Id: Extensions.MoonStyle [NoPaint].Hair.Ariel
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/MoonStyle
+      [NoPaint]/Ariel.png
+    Sprite: {fileID: 21300000, guid: da1892f6b98ea02448877f807d684675, type: 3}
+  - Name: Ariel
+    Collection: SkyStyle [NoPaint]
+    Id: Extensions.SkyStyle [NoPaint].Hair.Ariel
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SkyStyle
+      [NoPaint]/Ariel.png
+    Sprite: {fileID: 21300000, guid: 9efd79461bc1b944b9ca73aea1bae761, type: 3}
+  - Name: Ariel
+    Collection: Style
+    Id: Extensions.Style.Hair.Ariel
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/Style/Ariel.png
+    Sprite: {fileID: 21300000, guid: 14d1076149bfb4a47af44570be8212a0, type: 3}
+  - Name: Ariel
+    Collection: SunStyle [NoPaint]
+    Id: Extensions.SunStyle [NoPaint].Hair.Ariel
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SunStyle
+      [NoPaint]/Ariel.png
+    Sprite: {fileID: 21300000, guid: a5e0abd4e77555244a7ccacb5a35d9e9, type: 3}
+  - Name: Army
+    Collection: Bonus
+    Id: Common.Bonus.Hair.Army
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Bonus/Army.png
+    Sprite: {fileID: 21300000, guid: 446ca477fc2443fca4f51cb8274e814b, type: 3}
+  - Name: ArmyKnife
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.MeleeWeapon1H.ArmyKnife
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Basic/Knife/ArmyKnife.png
+    Sprite: {fileID: 21300000, guid: a066e9271b6546e09114dd098505b57e, type: 3}
+  - Name: ArmyMan
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Armor.ArmyMan
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Pro/ArmyMan.png
+    Sprite: {fileID: 21300000, guid: ca9afc93e7404b6aa470470c9f23a66c, type: 3}
+  - Name: ArmyMan
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Belt.ArmyMan
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Pro/ArmyMan.png
+    Sprite: {fileID: 21300000, guid: 527fae95273014a4d80c31cf4050140e, type: 3}
+  - Name: ArmyMan
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Boots.ArmyMan
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Pro/ArmyMan.png
+    Sprite: {fileID: 21300000, guid: b0a3895fcd9e104459f7a5b2842ea77b, type: 3}
+  - Name: ArmyMan
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Gloves.ArmyMan
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Pro/ArmyMan.png
+    Sprite: {fileID: 21300000, guid: be3ba28f401d1c24e86712f3ddd3530a, type: 3}
+  - Name: ArmyMan
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Pauldrons.ArmyMan
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Pro/ArmyMan.png
+    Sprite: {fileID: 21300000, guid: 558a433b7507e1f4fbec88d6641051fd, type: 3}
+  - Name: ArmyMan
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Vest.ArmyMan
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Pro/ArmyMan.png
+    Sprite: {fileID: 21300000, guid: 4d389df9802e4754ebc85bc4e325932c, type: 3}
+  - Name: ArrowQuiver
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Back.ArrowQuiver
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Back/Pro/ArrowQuiver.png
+    Sprite: {fileID: 21300000, guid: 4a28852f111f4e2fb12def2e08b59bf0, type: 3}
+  - Name: Axeorang
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Supplies.Axeorang
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Pro/Throwing/Axeorang.png
+    Sprite: {fileID: 21300000, guid: 66d548ee4f324d97ac570f86caffb3f8, type: 3}
+  - Name: Banan
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Earrings.Banan
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Earrings/Basic/Banan.png
+    Sprite: {fileID: 21300000, guid: ec45ea2a227147e19994b98d9ba4a849, type: 3}
+  - Name: Bandana [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Helmet.Bandana [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Pro/Bandana
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 85952067ec23445b9da696fd5bc13d43, type: 3}
+  - Name: Bandit [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Mask.Bandit [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Mask/Pro/Bandit
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 259e5408986c4f2e8000a0320470dda8, type: 3}
+  - Name: BaseballBat
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.MeleeWeapon1H.BaseballBat
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Basic/Baton/BaseballBat.png
+    Sprite: {fileID: 21300000, guid: 26831e81492143219f5058c3bdbed3f0, type: 3}
+  - Name: BattleBow
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Arrow.BattleBow
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Arrow/Pro/BattleBow.png
+    Sprite: {fileID: 21300000, guid: e67aede164491d3499983f1a2669f8c7, type: 3}
+  - Name: BattleBow
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Bow.BattleBow
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Bow/Pro/BattleBow.png
+    Sprite: {fileID: 21300000, guid: af9e8633dcc643f482064d5bc2b2d9ea, type: 3}
+  - Name: Beard1
+    Collection: Basic
+    Id: Common.Basic.Beard.Beard1
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Beard/Basic/Beard1.png
+    Sprite: {fileID: 21300000, guid: 2df1a96381e70a6478ecd0fa96ac092c, type: 3}
+  - Name: Beard2
+    Collection: Basic
+    Id: Common.Basic.Beard.Beard2
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Beard/Basic/Beard2.png
+    Sprite: {fileID: 21300000, guid: 7589d8a41c86875499ec1eaf46a860f1, type: 3}
+  - Name: Beard3
+    Collection: Basic
+    Id: Common.Basic.Beard.Beard3
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Beard/Basic/Beard3.png
+    Sprite: {fileID: 21300000, guid: e08061bb00525f94cb1596c7aaa63292, type: 3}
+  - Name: Beard4
+    Collection: Basic
+    Id: Common.Basic.Beard.Beard4
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Beard/Basic/Beard4.png
+    Sprite: {fileID: 21300000, guid: 2e34338e7ba8d7e408b0f04c67125023, type: 3}
+  - Name: Beard5
+    Collection: Basic
+    Id: Common.Basic.Beard.Beard5
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Beard/Basic/Beard5.png
+    Sprite: {fileID: 21300000, guid: 391087658665a8c46adc02d4a1df0697, type: 3}
+  - Name: Beard6
+    Collection: Basic
+    Id: Common.Basic.Beard.Beard6
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Beard/Basic/Beard6.png
+    Sprite: {fileID: 21300000, guid: 130e511441f9d3f4aa050918b7398f78, type: 3}
+  - Name: Beer
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Supplies.Beer
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Basic/Potions/Beer.png
+    Sprite: {fileID: 21300000, guid: 281c971d655a4f97bd0c7c08e4e6b55a, type: 3}
+  - Name: Black
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Glasses.Black
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Glasses/Pro/Black.png
+    Sprite: {fileID: 21300000, guid: c6ba81a29afe4e3481436f3f17213ab5, type: 3}
+  - Name: Blade
+    Collection: MoonStyle [NoPaint]
+    Id: Extensions.MoonStyle [NoPaint].Hair.Blade
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/MoonStyle
+      [NoPaint]/Blade.png
+    Sprite: {fileID: 21300000, guid: 5b8550f1b782fff45a0989585f76b48f, type: 3}
+  - Name: Blade
+    Collection: SkyStyle [NoPaint]
+    Id: Extensions.SkyStyle [NoPaint].Hair.Blade
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SkyStyle
+      [NoPaint]/Blade.png
+    Sprite: {fileID: 21300000, guid: 3a6fa4f0ae12581439c351fc5665447a, type: 3}
+  - Name: Blade
+    Collection: Style
+    Id: Extensions.Style.Hair.Blade
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/Style/Blade.png
+    Sprite: {fileID: 21300000, guid: 47838c5070c132f47bd80ea6cb34a0ea, type: 3}
+  - Name: Blade
+    Collection: SunStyle [NoPaint]
+    Id: Extensions.SunStyle [NoPaint].Hair.Blade
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SunStyle
+      [NoPaint]/Blade.png
+    Sprite: {fileID: 21300000, guid: d4773fabdc4b6524592bad9e78066335, type: 3}
+  - Name: Blank
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Blank
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Blank.png
+    Sprite: {fileID: 21300000, guid: 087c93830ae34e53bdb351f6a1bb1a73, type: 3}
+  - Name: Blank
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Blank
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Blank.png
+    Sprite: {fileID: 21300000, guid: 2ebe6dabada84c7196c3a28984a730cc, type: 3}
+  - Name: Blossom [HideEars]
+    Collection: MoonStyle [NoPaint]
+    Id: Extensions.MoonStyle [NoPaint].Hair.Blossom [HideEars]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/MoonStyle
+      [NoPaint]/Blossom [HideEars].png
+    Sprite: {fileID: 21300000, guid: f3e897a8531cb0c48a01d323b67301c6, type: 3}
+  - Name: Blossom [HideEars]
+    Collection: SkyStyle [NoPaint]
+    Id: Extensions.SkyStyle [NoPaint].Hair.Blossom [HideEars]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SkyStyle
+      [NoPaint]/Blossom [HideEars].png
+    Sprite: {fileID: 21300000, guid: 1a2d658401e2b3f4cbd9e180bbc94fc0, type: 3}
+  - Name: Blossom [HideEars]
+    Collection: Style
+    Id: Extensions.Style.Hair.Blossom [HideEars]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/Style/Blossom
+      [HideEars].png
+    Sprite: {fileID: 21300000, guid: ca5fcc50182b7694990860dde4833836, type: 3}
+  - Name: Blossom [HideEars]
+    Collection: SunStyle [NoPaint]
+    Id: Extensions.SunStyle [NoPaint].Hair.Blossom [HideEars]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SunStyle
+      [NoPaint]/Blossom [HideEars].png
+    Sprite: {fileID: 21300000, guid: 2d5284a80abba354abb4133a3289e8e7, type: 3}
+  - Name: Blossom [Paint] [FullHair]
+    Collection: Style
+    Id: Extensions.Style.Helmet.Blossom [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Style/Blossom
+      [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: 9d30d7b834c2b354e8e4a983869ce828, type: 3}
+  - Name: Blue
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Glasses.Blue
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Glasses/Pro/Blue.png
+    Sprite: {fileID: 21300000, guid: bb39ebad74b643f3a8756d03cc3de8e6, type: 3}
+  - Name: BlueSoldier
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Armor.BlueSoldier
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Basic/BlueSoldier.png
+    Sprite: {fileID: 21300000, guid: 1bf7e6ddefdd4600bdf667d8b28c3161, type: 3}
+  - Name: BlueSoldier
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Belt.BlueSoldier
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Basic/BlueSoldier.png
+    Sprite: {fileID: 21300000, guid: 55fb97c69e05abe4588cc7d42d7d6f04, type: 3}
+  - Name: BlueSoldier
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Boots.BlueSoldier
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Basic/BlueSoldier.png
+    Sprite: {fileID: 21300000, guid: c9ebea9d8ce10724a9cf6dc5dcc280b6, type: 3}
+  - Name: BlueSoldier
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Gloves.BlueSoldier
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Basic/BlueSoldier.png
+    Sprite: {fileID: 21300000, guid: 0a7e147bda2426e4c8a20e675d134ad6, type: 3}
+  - Name: BlueSoldier
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Pauldrons.BlueSoldier
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Basic/BlueSoldier.png
+    Sprite: {fileID: 21300000, guid: a7236d2512369984a8655f941338b67c, type: 3}
+  - Name: BlueSoldier
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Vest.BlueSoldier
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Basic/BlueSoldier.png
+    Sprite: {fileID: 21300000, guid: 863701b7fdae20443b08a2ddc0ffd59c, type: 3}
+  - Name: Bluetooth
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Earrings.Bluetooth
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Earrings/Basic/Bluetooth.png
+    Sprite: {fileID: 21300000, guid: 675a37882c5b401daa2363267421fc2d, type: 3}
+  - Name: Bomberman
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Armor.Bomberman
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Pro/Bomberman.png
+    Sprite: {fileID: 21300000, guid: 6fbd6fafa6064df5818a82566a20427f, type: 3}
+  - Name: Bomberman
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Belt.Bomberman
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Pro/Bomberman.png
+    Sprite: {fileID: 21300000, guid: a88647f82a45ec245bc0ffcb39963d8e, type: 3}
+  - Name: Bomberman
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Boots.Bomberman
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Pro/Bomberman.png
+    Sprite: {fileID: 21300000, guid: 7d881a0fa556d96469342e1c17b91b48, type: 3}
+  - Name: Bomberman
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Gloves.Bomberman
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Pro/Bomberman.png
+    Sprite: {fileID: 21300000, guid: 8bd18102b9144e0489891f4811b54e64, type: 3}
+  - Name: Bomberman
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Pauldrons.Bomberman
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Pro/Bomberman.png
+    Sprite: {fileID: 21300000, guid: c668674db1d7866479f43fca03ebc267, type: 3}
+  - Name: Bomberman
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Vest.Bomberman
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Pro/Bomberman.png
+    Sprite: {fileID: 21300000, guid: 2f846864fd51c8640ac5cf17923c71f1, type: 3}
+  - Name: Boombox
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Armor.Boombox
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Casual/Boombox.png
+    Sprite: {fileID: 21300000, guid: a6a3db34321d416786f2b4000b182a00, type: 3}
+  - Name: Boombox
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Belt.Boombox
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Casual/Boombox.png
+    Sprite: {fileID: 21300000, guid: a81166914d5c7574bb84d90aae9a6dfb, type: 3}
+  - Name: Boombox
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Boots.Boombox
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Casual/Boombox.png
+    Sprite: {fileID: 21300000, guid: 58deda8bc6ef4f34f97ca9d7dc90ce64, type: 3}
+  - Name: Boombox
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Gloves.Boombox
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Casual/Boombox.png
+    Sprite: {fileID: 21300000, guid: e2620b61985af6043bfef0da645a0f9b, type: 3}
+  - Name: Boombox
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Pauldrons.Boombox
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Casual/Boombox.png
+    Sprite: {fileID: 21300000, guid: 5cfcf21fb6cdad847a0577b179ab42b9, type: 3}
+  - Name: Boombox
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Vest.Boombox
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Casual/Boombox.png
+    Sprite: {fileID: 21300000, guid: c4eab4b2655c46b4eaba37fa051ab813, type: 3}
+  - Name: BoomBoxCap [Paint]
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Helmet.BoomBoxCap [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Casual/BoomBoxCap
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: ae3350702e6f444b887dbf03d5f05c87, type: 3}
+  - Name: Boomerang
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Supplies.Boomerang
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Pro/Throwing/Boomerang.png
+    Sprite: {fileID: 21300000, guid: 9d24245a8795409f9e6d167c90cd261b, type: 3}
+  - Name: Boomerang [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Supplies.Boomerang [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Pro/Throwing/Boomerang
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 417c5439a8f7424e910553a7bd8a080e, type: 3}
+  - Name: Bored
+    Collection: Expressions
+    Id: Common.Expressions.Eyebrows.Bored
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Expressions/Bored.png
+    Sprite: {fileID: 21300000, guid: 133505b05fba4e4d8c076bcc05ae7ed2, type: 3}
+  - Name: Bored
+    Collection: Expressions
+    Id: Common.Expressions.Eyes.Bored
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Expressions/Bored.png
+    Sprite: {fileID: 21300000, guid: ee34bca92ef740d68a63244ffd1cb7eb, type: 3}
+  - Name: Bored
+    Collection: Expressions
+    Id: Common.Expressions.Mouth.Bored
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Expressions/Bored.png
+    Sprite: {fileID: 21300000, guid: c1dc2aa7a7eb47cebf5c28caf1b94fca, type: 3}
+  - Name: Bottle
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Supplies.Bottle
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Basic/Potions/Bottle.png
+    Sprite: {fileID: 21300000, guid: d2d6eb59aa694e9695025721f6fb9259, type: 3}
+  - Name: BowlCut
+    Collection: Bonus
+    Id: Common.Bonus.Hair.BowlCut
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Bonus/BowlCut.png
+    Sprite: {fileID: 21300000, guid: ac1c085b8f20496aa07c141ccc978494, type: 3}
+  - Name: Bubble
+    Collection: MoonStyle [NoPaint]
+    Id: Extensions.MoonStyle [NoPaint].Hair.Bubble
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/MoonStyle
+      [NoPaint]/Bubble.png
+    Sprite: {fileID: 21300000, guid: f61eae39697aa3a48952fbf38ad7ff40, type: 3}
+  - Name: Bubble
+    Collection: SkyStyle [NoPaint]
+    Id: Extensions.SkyStyle [NoPaint].Hair.Bubble
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SkyStyle
+      [NoPaint]/Bubble.png
+    Sprite: {fileID: 21300000, guid: 5ce6260424837ac478acbbebb4286bec, type: 3}
+  - Name: Bubble
+    Collection: Style
+    Id: Extensions.Style.Hair.Bubble
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/Style/Bubble.png
+    Sprite: {fileID: 21300000, guid: 305348e13c37d7f44a76d7252240cf8d, type: 3}
+  - Name: Bubble
+    Collection: SunStyle [NoPaint]
+    Id: Extensions.SunStyle [NoPaint].Hair.Bubble
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SunStyle
+      [NoPaint]/Bubble.png
+    Sprite: {fileID: 21300000, guid: ed85ddd22d2412049896c00f7e9cbd3f, type: 3}
+  - Name: Bundle
+    Collection: Bonus
+    Id: Common.Bonus.Hair.Bundle
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Bonus/Bundle.png
+    Sprite: {fileID: 21300000, guid: 9e4a1b0b84b342f4a1d99ed0089d8f3e, type: 3}
+  - Name: BunnyEars [FullHair]
+    Collection: Style
+    Id: Extensions.Style.Helmet.BunnyEars [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Style/BunnyEars
+      [FullHair].png
+    Sprite: {fileID: 21300000, guid: ec7badad1cd9c004da4ef5a7c535526a, type: 3}
+  - Name: BunnyEars1 [Paint] [FullHair]
+    Collection: Style
+    Id: Extensions.Style.Helmet.BunnyEars1 [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Style/BunnyEars1
+      [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: f7cb5be64dc62e3469b9bb7363888cb7, type: 3}
+  - Name: BunnyEars2 [FullHair]
+    Collection: Style
+    Id: Extensions.Style.Helmet.BunnyEars2 [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Style/BunnyEars2
+      [FullHair].png
+    Sprite: {fileID: 21300000, guid: eea7163e32da0c140ab01906d502787a, type: 3}
+  - Name: BunnyEars2 [Paint] [FullHair]
+    Collection: Style
+    Id: Extensions.Style.Helmet.BunnyEars2 [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Style/BunnyEars2
+      [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: 6a6036641934cc74b8b77fabb4bcd3e3, type: 3}
+  - Name: BunnyFace
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.BunnyFace
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/BunnyFace.png
+    Sprite: {fileID: 21300000, guid: 171fa479c79542a4aa95a6aa4806414c, type: 3}
+  - Name: BunnyFace
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.BunnyFace
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/BunnyFace.png
+    Sprite: {fileID: 21300000, guid: b9825e26a9ad4b8788c1c5676d8792df, type: 3}
+  - Name: BunnyPin [FullHair]
+    Collection: Style
+    Id: Extensions.Style.Helmet.BunnyPin [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Style/BunnyPin
+      [FullHair].png
+    Sprite: {fileID: 21300000, guid: a134d6667c9c21b44978e44c3a0b408f, type: 3}
+  - Name: BuzzCut
+    Collection: Basic
+    Id: Common.Basic.Hair.BuzzCut
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Basic/BuzzCut.png
+    Sprite: {fileID: 21300000, guid: 264a16f6b0db446fb2c4424dc1cfdc23, type: 3}
+  - Name: Cap
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Helmet.Cap
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Basic/Cap.png
+    Sprite: {fileID: 21300000, guid: cee337e97ea443359b073d56bd624301, type: 3}
+  - Name: CatEars [Paint] [FullHair]
+    Collection: Style
+    Id: Extensions.Style.Helmet.CatEars [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Style/CatEars
+      [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: e2cf17919d5502d4da47cd7b133ca2db, type: 3}
+  - Name: Cheeky
+    Collection: MoonStyle [NoPaint]
+    Id: Extensions.MoonStyle [NoPaint].Hair.Cheeky
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/MoonStyle
+      [NoPaint]/Cheeky.png
+    Sprite: {fileID: 21300000, guid: d2469b42e1c99994c982586be903f6ea, type: 3}
+  - Name: Cheeky
+    Collection: SkyStyle [NoPaint]
+    Id: Extensions.SkyStyle [NoPaint].Hair.Cheeky
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SkyStyle
+      [NoPaint]/Cheeky.png
+    Sprite: {fileID: 21300000, guid: 2759bb4b9c6441a458e5c898a70ca85f, type: 3}
+  - Name: Cheeky
+    Collection: Style
+    Id: Extensions.Style.Hair.Cheeky
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/Style/Cheeky.png
+    Sprite: {fileID: 21300000, guid: dc2f7efff8da82f4399f349feec6da7f, type: 3}
+  - Name: Cheeky
+    Collection: SunStyle [NoPaint]
+    Id: Extensions.SunStyle [NoPaint].Hair.Cheeky
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SunStyle
+      [NoPaint]/Cheeky.png
+    Sprite: {fileID: 21300000, guid: b669c2891badc0149b75c48c64e47cb3, type: 3}
+  - Name: Cleo [HideEars]
+    Collection: MoonStyle [NoPaint]
+    Id: Extensions.MoonStyle [NoPaint].Hair.Cleo [HideEars]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/MoonStyle
+      [NoPaint]/Cleo [HideEars].png
+    Sprite: {fileID: 21300000, guid: de3f29f1a5af5174c8e223271acbfb9b, type: 3}
+  - Name: Cleo [HideEars]
+    Collection: SkyStyle [NoPaint]
+    Id: Extensions.SkyStyle [NoPaint].Hair.Cleo [HideEars]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SkyStyle
+      [NoPaint]/Cleo [HideEars].png
+    Sprite: {fileID: 21300000, guid: 93e1ad4c8f2477f4191e38c75f657054, type: 3}
+  - Name: Cleo [HideEars]
+    Collection: Style
+    Id: Extensions.Style.Hair.Cleo [HideEars]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/Style/Cleo
+      [HideEars].png
+    Sprite: {fileID: 21300000, guid: e1c755c3d5ea72b4b8431651a7b12eea, type: 3}
+  - Name: Cleo [HideEars]
+    Collection: SunStyle [NoPaint]
+    Id: Extensions.SunStyle [NoPaint].Hair.Cleo [HideEars]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SunStyle
+      [NoPaint]/Cleo [HideEars].png
+    Sprite: {fileID: 21300000, guid: 30848089f0b925f46a426fd1e3dab13e, type: 3}
+  - Name: Clumsy
+    Collection: Bonus
+    Id: Common.Bonus.Hair.Clumsy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Bonus/Clumsy.png
+    Sprite: {fileID: 21300000, guid: 8ab96e8be608439bb6c0488c706411d7, type: 3}
+  - Name: CommanderHat
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Helmet.CommanderHat
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Pro/CommanderHat.png
+    Sprite: {fileID: 21300000, guid: f692676a823c4ede9e3304c784c4ec73, type: 3}
+  - Name: CommandoNinja
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Armor.CommandoNinja
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Pro/CommandoNinja.png
+    Sprite: {fileID: 21300000, guid: 4c9e056a58314cd295905d211c8f5946, type: 3}
+  - Name: CommandoNinja
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Belt.CommandoNinja
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Pro/CommandoNinja.png
+    Sprite: {fileID: 21300000, guid: 3766d70d211778a40ad68a6f67fe1faa, type: 3}
+  - Name: CommandoNinja
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Boots.CommandoNinja
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Pro/CommandoNinja.png
+    Sprite: {fileID: 21300000, guid: 1081725395d13af4aa6e31013860e1f1, type: 3}
+  - Name: CommandoNinja
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Gloves.CommandoNinja
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Pro/CommandoNinja.png
+    Sprite: {fileID: 21300000, guid: f14a18192a94f3c4899dfeb215e15286, type: 3}
+  - Name: CommandoNinja
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Pauldrons.CommandoNinja
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Pro/CommandoNinja.png
+    Sprite: {fileID: 21300000, guid: 6e69c1585b573b741a366f2e90454476, type: 3}
+  - Name: CommandoNinja
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Vest.CommandoNinja
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Pro/CommandoNinja.png
+    Sprite: {fileID: 21300000, guid: e77cd104ce472fa42a906e561be63abb, type: 3}
+  - Name: CompositeBow
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Arrow.CompositeBow
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Arrow/Pro/CompositeBow.png
+    Sprite: {fileID: 21300000, guid: 65d5bca9d666d964a91fa2e048202bb2, type: 3}
+  - Name: CompositeBow
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Bow.CompositeBow
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Bow/Pro/CompositeBow.png
+    Sprite: {fileID: 21300000, guid: 4df562b013374aef8bb9be8a4219ffd8, type: 3}
+  - Name: Confused
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Confused
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Confused.png
+    Sprite: {fileID: 21300000, guid: dc209fdb388048fcb8e81cd15379bb79, type: 3}
+  - Name: Confused
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Confused
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Confused.png
+    Sprite: {fileID: 21300000, guid: c3f51d5f5b77438a9dfd1e85d01ca056, type: 3}
+  - Name: CoolBoy
+    Collection: Bonus
+    Id: Common.Bonus.Hair.CoolBoy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Bonus/CoolBoy.png
+    Sprite: {fileID: 21300000, guid: 1c6935c702634f0c8fdde1e7c0e9c01a, type: 3}
+  - Name: CowboyHat
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Helmet.CowboyHat
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Pro/CowboyHat.png
+    Sprite: {fileID: 21300000, guid: c3b75af90ba64db198d54e9dfc08b0aa, type: 3}
+  - Name: Crown [FullHair]
+    Collection: Style
+    Id: Extensions.Style.Helmet.Crown [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Style/Crown
+      [FullHair].png
+    Sprite: {fileID: 21300000, guid: d521850f7131aa74dae819dd8806e581, type: 3}
+  - Name: Crying
+    Collection: Emoji
+    Id: Common.Emoji.Eyebrows.Crying
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Emoji/Crying.png
+    Sprite: {fileID: 21300000, guid: 69ecc24761174866b7292269ab63dd11, type: 3}
+  - Name: Crying
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Crying
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Crying.png
+    Sprite: {fileID: 21300000, guid: aacae06311a444c1acdf55a8ae28b453, type: 3}
+  - Name: Crying
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Crying
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Crying.png
+    Sprite: {fileID: 21300000, guid: 3cc3b61b288a4b42a923a02f4cf2914d, type: 3}
+  - Name: Cutie
+    Collection: MoonStyle [NoPaint]
+    Id: Extensions.MoonStyle [NoPaint].Hair.Cutie
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/MoonStyle
+      [NoPaint]/Cutie.png
+    Sprite: {fileID: 21300000, guid: 72c2521633ad53944b611dcd7d92b99b, type: 3}
+  - Name: Cutie
+    Collection: SkyStyle [NoPaint]
+    Id: Extensions.SkyStyle [NoPaint].Hair.Cutie
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SkyStyle
+      [NoPaint]/Cutie.png
+    Sprite: {fileID: 21300000, guid: 97baec504cd49384e80cd78392c2d17b, type: 3}
+  - Name: Cutie
+    Collection: Style
+    Id: Extensions.Style.Hair.Cutie
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/Style/Cutie.png
+    Sprite: {fileID: 21300000, guid: ee4259f64be553949b0f893b448daf87, type: 3}
+  - Name: Cutie
+    Collection: SunStyle [NoPaint]
+    Id: Extensions.SunStyle [NoPaint].Hair.Cutie
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SunStyle
+      [NoPaint]/Cutie.png
+    Sprite: {fileID: 21300000, guid: 9b4f6d8ca06a5f24fbc7e82c626ba1d9, type: 3}
+  - Name: Dandy
+    Collection: Bonus
+    Id: Common.Bonus.Hair.Dandy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Bonus/Dandy.png
+    Sprite: {fileID: 21300000, guid: d527d7d2e6994c0e8c5cbf552670cc03, type: 3}
+  - Name: Dead
+    Collection: Basic
+    Id: Common.Basic.Eyes.Dead
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Basic/Dead.png
+    Sprite: {fileID: 21300000, guid: 0248cae4fb4b4f62beae520afe47724c, type: 3}
+  - Name: Dead
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Dead
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Dead.png
+    Sprite: {fileID: 21300000, guid: c00402852d354ca7a996bf6a508a1cf6, type: 3}
+  - Name: Dead
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Dead
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Dead.png
+    Sprite: {fileID: 21300000, guid: 5ebe2becad4c41b6a47640afdce11130, type: 3}
+  - Name: DesertEagle
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Firearms1H.DesertEagle
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms1H/Basic/DesertEagle.png.png
+    Sprite: {fileID: 21300000, guid: c35d17186e23f204e8c1f2638f3f71f3, type: 3}
+  - Name: DeutschenHat [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Helmet.DeutschenHat [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Pro/DeutschenHat
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 9d4d8143d5e74f77ab53969ad29542b1, type: 3}
+  - Name: DeutschenSoldier [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Armor.DeutschenSoldier [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Pro/DeutschenSoldier
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: acb048f631b04b4eb1f74ec87a1efebf, type: 3}
+  - Name: DeutschenSoldier [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Belt.DeutschenSoldier [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Pro/DeutschenSoldier
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 71478a6e7fbb90c4e9e6f9ca1083568e, type: 3}
+  - Name: DeutschenSoldier [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Boots.DeutschenSoldier [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Pro/DeutschenSoldier
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 20d9e27bf4e3aa441a14d0eab968f5bc, type: 3}
+  - Name: DeutschenSoldier [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Gloves.DeutschenSoldier [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Pro/DeutschenSoldier
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 581d482f62d492741a7b68e1d9c1f8f9, type: 3}
+  - Name: DeutschenSoldier [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Pauldrons.DeutschenSoldier [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Pro/DeutschenSoldier
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: f5e1143208dd5ea47afc85797a597837, type: 3}
+  - Name: DeutschenSoldier [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Vest.DeutschenSoldier [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Pro/DeutschenSoldier
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: aa92bddbbe4ef7f418898414d7b897d9, type: 3}
+  - Name: Diadem [FullHair]
+    Collection: Style
+    Id: Extensions.Style.Helmet.Diadem [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Style/Diadem
+      [FullHair].png
+    Sprite: {fileID: 21300000, guid: e07a80b1a1216674c930fdc1156396de, type: 3}
+  - Name: Dizzy
+    Collection: Emoji
+    Id: Common.Emoji.Eyebrows.Dizzy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Emoji/Dizzy.png
+    Sprite: {fileID: 21300000, guid: 8e995ba286b84d9485fbac75392e31db, type: 3}
+  - Name: Dizzy
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Dizzy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Dizzy.png
+    Sprite: {fileID: 21300000, guid: ba407164baac40fea336a90a3fa6b837, type: 3}
+  - Name: Dizzy
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Dizzy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Dizzy.png
+    Sprite: {fileID: 21300000, guid: acdc3360574b4780b8a5ef8fce6d7941, type: 3}
+  - Name: DoubleTrouble
+    Collection: MoonStyle [NoPaint]
+    Id: Extensions.MoonStyle [NoPaint].Hair.DoubleTrouble
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/MoonStyle
+      [NoPaint]/DoubleTrouble.png
+    Sprite: {fileID: 21300000, guid: b9bf8196b7dbfca4caaa3b1751a27428, type: 3}
+  - Name: DoubleTrouble
+    Collection: SkyStyle [NoPaint]
+    Id: Extensions.SkyStyle [NoPaint].Hair.DoubleTrouble
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SkyStyle
+      [NoPaint]/DoubleTrouble.png
+    Sprite: {fileID: 21300000, guid: ce9d385c67cf46e4d9b65257a6e0de02, type: 3}
+  - Name: DoubleTrouble
+    Collection: Style
+    Id: Extensions.Style.Hair.DoubleTrouble
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/Style/DoubleTrouble.png
+    Sprite: {fileID: 21300000, guid: d0fb33073a57af34485897753a6b97a8, type: 3}
+  - Name: DoubleTrouble
+    Collection: SunStyle [NoPaint]
+    Id: Extensions.SunStyle [NoPaint].Hair.DoubleTrouble
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SunStyle
+      [NoPaint]/DoubleTrouble.png
+    Sprite: {fileID: 21300000, guid: 287fbd2d6638ed6488d8ee66199b99c3, type: 3}
+  - Name: Drooling
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Drooling
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Drooling.png
+    Sprite: {fileID: 21300000, guid: 3b4295ee23cf4146b8d6af26d7c4184a, type: 3}
+  - Name: Drooling
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Drooling
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Drooling.png
+    Sprite: {fileID: 21300000, guid: 7db290eee2db4b8fad79307f4f406933, type: 3}
+  - Name: Eh
+    Collection: Emoji
+    Id: Common.Emoji.Eyebrows.Eh
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Emoji/Eh.png
+    Sprite: {fileID: 21300000, guid: 9109485407b14bb9919ddc2445084808, type: 3}
+  - Name: Eh
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Eh
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Eh.png
+    Sprite: {fileID: 21300000, guid: bae2c32c7633446eb6aaaa15421a34e8, type: 3}
+  - Name: Eh
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Eh
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Eh.png
+    Sprite: {fileID: 21300000, guid: c77b2a8a9537434b81237b83c2445fbc, type: 3}
+  - Name: ElfEar
+    Collection: Basic
+    Id: Common.Basic.Ears.ElfEar
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Ears/Basic/ElfEar.png
+    Sprite: {fileID: 21300000, guid: 1411f8e5ab1847c191b4f34aec7f0d6d, type: 3}
+  - Name: Emma [HideEars]
+    Collection: MoonStyle [NoPaint]
+    Id: Extensions.MoonStyle [NoPaint].Hair.Emma [HideEars]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/MoonStyle
+      [NoPaint]/Emma [HideEars].png
+    Sprite: {fileID: 21300000, guid: fa2bb8d0f0c92f645954e7b24b0531f8, type: 3}
+  - Name: Emma [HideEars]
+    Collection: SkyStyle [NoPaint]
+    Id: Extensions.SkyStyle [NoPaint].Hair.Emma [HideEars]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SkyStyle
+      [NoPaint]/Emma [HideEars].png
+    Sprite: {fileID: 21300000, guid: 7e8b3fddb0bf60a4c87ebd5ebefae4b1, type: 3}
+  - Name: Emma [HideEars]
+    Collection: Style
+    Id: Extensions.Style.Hair.Emma [HideEars]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/Style/Emma
+      [HideEars].png
+    Sprite: {fileID: 21300000, guid: c1ab9b06d4813e146ab8c763b8457686, type: 3}
+  - Name: Emma [HideEars]
+    Collection: SunStyle [NoPaint]
+    Id: Extensions.SunStyle [NoPaint].Hair.Emma [HideEars]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SunStyle
+      [NoPaint]/Emma [HideEars].png
+    Sprite: {fileID: 21300000, guid: faf6f1b04c1f59241ade7d6c97e6019f, type: 3}
+  - Name: Enrage
+    Collection: Emoji
+    Id: Common.Emoji.Eyebrows.Enrage
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Emoji/Enrage.png
+    Sprite: {fileID: 21300000, guid: 8711483d16a24c27a17a57b43dad1960, type: 3}
+  - Name: Enrage
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Enrage
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Enrage.png
+    Sprite: {fileID: 21300000, guid: 164be418724b4c8ca642d5e698ab9c64, type: 3}
+  - Name: Enrage
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Enrage
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Enrage.png
+    Sprite: {fileID: 21300000, guid: 45c6ee3b39ff45b59cd768e121556722, type: 3}
+  - Name: Executioner [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Armor.Executioner [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Pro/Executioner
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 0a66531d3d48488896e6b1d25faf058e, type: 3}
+  - Name: Executioner [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Belt.Executioner [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Pro/Executioner
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: f608bff27a9943e4d9be2d849ffce539, type: 3}
+  - Name: Executioner [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Boots.Executioner [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Pro/Executioner
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 2485ddb5783ecbb4a8ca5554c3e005a4, type: 3}
+  - Name: Executioner [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Gloves.Executioner [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Pro/Executioner
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 2c6185a53b616e44083f139debc2db79, type: 3}
+  - Name: Executioner [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Pauldrons.Executioner [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Pro/Executioner
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 036609d2a8d3d154099941865bc1ba40, type: 3}
+  - Name: Executioner [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Vest.Executioner [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Pro/Executioner
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 410bcf3d7b1985d4eaab4a6f7c4efc0b, type: 3}
+  - Name: Eyebrows1
+    Collection: Basic
+    Id: Common.Basic.Eyebrows.Eyebrows1
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Basic/Eyebrows1.png
+    Sprite: {fileID: 21300000, guid: a27be9a7334043d4be137d8ae26d2ec5, type: 3}
+  - Name: Eyebrows2
+    Collection: Basic
+    Id: Common.Basic.Eyebrows.Eyebrows2
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Basic/Eyebrows2.png
+    Sprite: {fileID: 21300000, guid: e2101217b8174a12a48ff7f95518b8a3, type: 3}
+  - Name: Eyebrows3
+    Collection: Basic
+    Id: Common.Basic.Eyebrows.Eyebrows3
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Basic/Eyebrows3.png
+    Sprite: {fileID: 21300000, guid: def0b9cfd0cc4135b4ad429f43deaf22, type: 3}
+  - Name: Eyebrows4
+    Collection: Basic
+    Id: Common.Basic.Eyebrows.Eyebrows4
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Basic/Eyebrows4.png
+    Sprite: {fileID: 21300000, guid: 3d7ec0d9214e4224b3d09c755f1dd32c, type: 3}
+  - Name: Eyebrows6
+    Collection: Basic
+    Id: Common.Basic.Eyebrows.Eyebrows6
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Basic/Eyebrows6.png
+    Sprite: {fileID: 21300000, guid: 346d8148e598404b8385a4e4e65c8753, type: 3}
+  - Name: Eyes1
+    Collection: Bonus
+    Id: Common.Bonus.Eyes.Eyes1
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Bonus/Eyes1.png
+    Sprite: {fileID: 21300000, guid: 8f0951dbc18c43bd8c3f3688838fbc1c, type: 3}
+  - Name: Eyes10
+    Collection: Bonus
+    Id: Common.Bonus.Eyes.Eyes10
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Bonus/Eyes10.png
+    Sprite: {fileID: 21300000, guid: 0c638ccf14624cb49c60fcedc97bc20e, type: 3}
+  - Name: Eyes11
+    Collection: Bonus
+    Id: Common.Bonus.Eyes.Eyes11
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Bonus/Eyes11.png
+    Sprite: {fileID: 21300000, guid: 29c790bb54f849a4a13ec8cc442b269c, type: 3}
+  - Name: Eyes12
+    Collection: Bonus
+    Id: Common.Bonus.Eyes.Eyes12
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Bonus/Eyes12.png
+    Sprite: {fileID: 21300000, guid: 59d6f9b02af14c0e9b278d4db4c6a41b, type: 3}
+  - Name: Eyes13
+    Collection: Bonus
+    Id: Common.Bonus.Eyes.Eyes13
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Bonus/Eyes13.png
+    Sprite: {fileID: 21300000, guid: 21b8b3f505874f4f99253de8d29b6cd1, type: 3}
+  - Name: Eyes14
+    Collection: Bonus
+    Id: Common.Bonus.Eyes.Eyes14
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Bonus/Eyes14.png
+    Sprite: {fileID: 21300000, guid: fe4a2baef235452191dc4c94f7804421, type: 3}
+  - Name: Eyes15
+    Collection: Bonus
+    Id: Common.Bonus.Eyes.Eyes15
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Bonus/Eyes15.png
+    Sprite: {fileID: 21300000, guid: cfb2eb41ed1645d8a955899c03befc3a, type: 3}
+  - Name: Eyes2
+    Collection: Bonus
+    Id: Common.Bonus.Eyes.Eyes2
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Bonus/Eyes2.png
+    Sprite: {fileID: 21300000, guid: 0e111d27a09e44aca67a4ebce811f497, type: 3}
+  - Name: Eyes3
+    Collection: Bonus
+    Id: Common.Bonus.Eyes.Eyes3
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Bonus/Eyes3.png
+    Sprite: {fileID: 21300000, guid: 17bc8548056a4f1ea2046102b1c06650, type: 3}
+  - Name: Eyes4
+    Collection: Bonus
+    Id: Common.Bonus.Eyes.Eyes4
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Bonus/Eyes4.png
+    Sprite: {fileID: 21300000, guid: 75e17929b2bf4ee0b682d47b1bc5da2c, type: 3}
+  - Name: Eyes5
+    Collection: Bonus
+    Id: Common.Bonus.Eyes.Eyes5
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Bonus/Eyes5.png
+    Sprite: {fileID: 21300000, guid: 0353210d65ca455888ba36c4a2b570b6, type: 3}
+  - Name: Eyes6
+    Collection: Bonus
+    Id: Common.Bonus.Eyes.Eyes6
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Bonus/Eyes6.png
+    Sprite: {fileID: 21300000, guid: 5415b9d74e5043548e4b1c5c76003d0b, type: 3}
+  - Name: Eyes7
+    Collection: Bonus
+    Id: Common.Bonus.Eyes.Eyes7
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Bonus/Eyes7.png
+    Sprite: {fileID: 21300000, guid: deb4d5dff9424aa3aff25b31d29df330, type: 3}
+  - Name: Eyes8
+    Collection: Bonus
+    Id: Common.Bonus.Eyes.Eyes8
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Bonus/Eyes8.png
+    Sprite: {fileID: 21300000, guid: 3a80338d4bb94a649afa864462e3bfde, type: 3}
+  - Name: Eyes9
+    Collection: Bonus
+    Id: Common.Bonus.Eyes.Eyes9
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Bonus/Eyes9.png
+    Sprite: {fileID: 21300000, guid: 6d6a8704d97a44aa8471e3126175a331, type: 3}
+  - Name: FauxHawk
+    Collection: Bonus
+    Id: Common.Bonus.Hair.FauxHawk
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Bonus/FauxHawk.png
+    Sprite: {fileID: 21300000, guid: da271a9d62044862a3342b2178799996, type: 3}
+  - Name: Female
+    Collection: Basic
+    Id: Common.Basic.Eyes.Female
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Basic/Female.png
+    Sprite: {fileID: 21300000, guid: f9cf0a1dac73437f9b803e5437c1c8ea, type: 3}
+  - Name: FireAxe
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.MeleeWeapon2H.FireAxe
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Pro/Axe/FireAxe.png
+    Sprite: {fileID: 21300000, guid: 91001eacdad64bc8a9b26e2d764075a5, type: 3}
+  - Name: Fishy
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Fishy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Fishy.png
+    Sprite: {fileID: 21300000, guid: c445fe5f2f3145dba488cf27533b1254, type: 3}
+  - Name: Fishy
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Fishy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Fishy.png
+    Sprite: {fileID: 21300000, guid: ccc6619324a042adbdcb12229fc3c6cb, type: 3}
+  - Name: FlashGrenade
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Supplies.FlashGrenade
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Pro/Bombs/FlashGrenade.png
+    Sprite: {fileID: 21300000, guid: c84ff316047444bd9eae6247a3b6cef9, type: 3}
+  - Name: Fluffy
+    Collection: MoonStyle [NoPaint]
+    Id: Extensions.MoonStyle [NoPaint].Hair.Fluffy
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/MoonStyle
+      [NoPaint]/Fluffy.png
+    Sprite: {fileID: 21300000, guid: 7bdd3a068d3b80647bb45ddeb5c63a99, type: 3}
+  - Name: Fluffy
+    Collection: SkyStyle [NoPaint]
+    Id: Extensions.SkyStyle [NoPaint].Hair.Fluffy
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SkyStyle
+      [NoPaint]/Fluffy.png
+    Sprite: {fileID: 21300000, guid: 7b809bd3783a6da4b877b5b671522ccf, type: 3}
+  - Name: Fluffy
+    Collection: Style
+    Id: Extensions.Style.Hair.Fluffy
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/Style/Fluffy.png
+    Sprite: {fileID: 21300000, guid: f33214c1b9b4e464189f6b46be6d6bf9, type: 3}
+  - Name: Fluffy
+    Collection: SunStyle [NoPaint]
+    Id: Extensions.SunStyle [NoPaint].Hair.Fluffy
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SunStyle
+      [NoPaint]/Fluffy.png
+    Sprite: {fileID: 21300000, guid: 2061a4c40ea452a45abb6ec67de13deb, type: 3}
+  - Name: FringedUp
+    Collection: Bonus
+    Id: Common.Bonus.Hair.FringedUp
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Bonus/FringedUp.png
+    Sprite: {fileID: 21300000, guid: bd0ef3495a2f4760ba56366a45374c86, type: 3}
+  - Name: GasMask [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Mask.GasMask [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Mask/Pro/GasMask
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 96f5697311d84640838458e25afd53a1, type: 3}
+  - Name: GasMask2 [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Mask.GasMask2 [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Mask/Pro/GasMask2
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 02e8d66e117046f086d8af99dfb133f4, type: 3}
+  - Name: GasMask2Glowing[Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Mask.GasMask2Glowing[Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Mask/Pro/GasMask2Glowing[Paint].png
+    Sprite: {fileID: 21300000, guid: 03a36f1c7381427facc4ed58db37bab6, type: 3}
+  - Name: GasMaskGlowing [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Mask.GasMaskGlowing [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Mask/Pro/GasMaskGlowing
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 35bb8a6d88c54c368dec15b0559ea0a4, type: 3}
+  - Name: GlowingEyes
+    Collection: Undead
+    Id: Common.Undead.Eyes.GlowingEyes
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Undead/GlowingEyes.png
+    Sprite: {fileID: 21300000, guid: 786fc6d897354454b273208d07a2a0a8, type: 3}
+  - Name: GoldenEarring
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Earrings.GoldenEarring
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Earrings/Basic/GoldenEarring.png
+    Sprite: {fileID: 21300000, guid: 1fbcf114ac614865a104d87dec77ba0b, type: 3}
+  - Name: Goth
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Armor.Goth
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Casual/Goth.png
+    Sprite: {fileID: 21300000, guid: 0120f3c27a50494a8ce50abfd423ab2a, type: 3}
+  - Name: Goth
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Belt.Goth
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Casual/Goth.png
+    Sprite: {fileID: 21300000, guid: 2f5d4197ac4cff14f9dc70702c4bb04e, type: 3}
+  - Name: Goth
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Boots.Goth
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Casual/Goth.png
+    Sprite: {fileID: 21300000, guid: 2c9670a56f8fb9e418eee556c0addc26, type: 3}
+  - Name: Goth
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Gloves.Goth
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Casual/Goth.png
+    Sprite: {fileID: 21300000, guid: a76fb184836ac0e4694c2159b0822f17, type: 3}
+  - Name: Goth
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Pauldrons.Goth
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Casual/Goth.png
+    Sprite: {fileID: 21300000, guid: 8022e3ae4048d5449962784927e5fbb8, type: 3}
+  - Name: Goth
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Vest.Goth
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Casual/Goth.png
+    Sprite: {fileID: 21300000, guid: 71d3d4ae7bd2cb64d995c0d3660aebb7, type: 3}
+  - Name: Greedy
+    Collection: Emoji
+    Id: Common.Emoji.Eyebrows.Greedy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Emoji/Greedy.png
+    Sprite: {fileID: 21300000, guid: 5bf28153070c43afb713ee24d6b937bb, type: 3}
+  - Name: Greedy
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Greedy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Greedy.png
+    Sprite: {fileID: 21300000, guid: 018cc4ef12e149498eb26b729fecff48, type: 3}
+  - Name: Greedy
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Greedy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Greedy.png
+    Sprite: {fileID: 21300000, guid: af42c795c3984fe9b0c14b071fbb18ad, type: 3}
+  - Name: Hair1
+    Collection: Thrones
+    Id: Common.Thrones.Hair.Hair1
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Thrones/Hair1.png
+    Sprite: {fileID: 21300000, guid: 1ea1c983245642c490783947fa50db33, type: 3}
+  - Name: Hair2 [HideEars]
+    Collection: Thrones
+    Id: Common.Thrones.Hair.Hair2 [HideEars]
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Thrones/Hair2
+      [HideEars].png
+    Sprite: {fileID: 21300000, guid: 0a81884b87254f5ca6910f41a1f214ed, type: 3}
+  - Name: Hair3
+    Collection: Thrones
+    Id: Common.Thrones.Hair.Hair3
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Thrones/Hair3.png
+    Sprite: {fileID: 21300000, guid: 457a12cd3cb5476b8ec4408e0ab35297, type: 3}
+  - Name: Hair4
+    Collection: Thrones
+    Id: Common.Thrones.Hair.Hair4
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Thrones/Hair4.png
+    Sprite: {fileID: 21300000, guid: 27662f85b2a84cc3ad3671465dc4d18e, type: 3}
+  - Name: Hair5
+    Collection: Thrones
+    Id: Common.Thrones.Hair.Hair5
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Thrones/Hair5.png
+    Sprite: {fileID: 21300000, guid: a125d811ee744a1aa0f720813595b341, type: 3}
+  - Name: Hair6
+    Collection: Thrones
+    Id: Common.Thrones.Hair.Hair6
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Thrones/Hair6.png
+    Sprite: {fileID: 21300000, guid: 1af4ed1d39664fedab081c30ebca579c, type: 3}
+  - Name: Hair7 [HideEars]
+    Collection: Thrones
+    Id: Common.Thrones.Hair.Hair7 [HideEars]
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Thrones/Hair7
+      [HideEars].png
+    Sprite: {fileID: 21300000, guid: 2b8c7b2d38364739b784c7c66d8fbe3a, type: 3}
+  - Name: HandGrenade
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Supplies.HandGrenade
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Pro/Bombs/HandGrenade.png
+    Sprite: {fileID: 21300000, guid: a2da1600d6ff4b77af9ae527b4d005cd, type: 3}
+  - Name: Happy
+    Collection: Emoji
+    Id: Common.Emoji.Eyebrows.Happy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Emoji/Happy.png
+    Sprite: {fileID: 21300000, guid: c0a5d3312c0f495ca8347c52349f4a60, type: 3}
+  - Name: Happy
+    Collection: Expressions
+    Id: Common.Expressions.Eyebrows.Happy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Expressions/Happy.png
+    Sprite: {fileID: 21300000, guid: b25b6762e8584144a72b234b716753eb, type: 3}
+  - Name: Happy
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Happy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Happy.png
+    Sprite: {fileID: 21300000, guid: b506836771dd43928e88bb4aa2904c37, type: 3}
+  - Name: Happy
+    Collection: Expressions
+    Id: Common.Expressions.Eyes.Happy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Expressions/Happy.png
+    Sprite: {fileID: 21300000, guid: 3a008a02f0604963bf0dcf5b80b79956, type: 3}
+  - Name: Happy
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Happy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Happy.png
+    Sprite: {fileID: 21300000, guid: bd7a118ba14d441f93a3c37557459401, type: 3}
+  - Name: Happy
+    Collection: Expressions
+    Id: Common.Expressions.Mouth.Happy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Expressions/Happy.png
+    Sprite: {fileID: 21300000, guid: 8f93ab8e86004273ba62812f6ba6c6b3, type: 3}
+  - Name: Head
+    Collection: Basic
+    Id: Common.Basic.Head.Head
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Head/Basic/Head.png
+    Sprite: {fileID: 21300000, guid: 77b905f1c35b44b2a952512b0aa6dc71, type: 3}
+  - Name: Headband [Paint] [FullHair]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Helmet.Headband [Paint] [FullHair]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Pro/Headband
+      [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: 1fea822202f34a7486d67bc64066c349, type: 3}
+  - Name: HeadScar
+    Collection: Basic
+    Id: Common.Basic.Head.HeadScar
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Head/Basic/HeadScar.png
+    Sprite: {fileID: 21300000, guid: 087fae30975545a386847f331d49a081, type: 3}
+  - Name: HeavyHelmet
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Helmet.HeavyHelmet
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Pro/HeavyHelmet.png
+    Sprite: {fileID: 21300000, guid: ba760df8ca364e9aa66cad1eeba0fb3a, type: 3}
+  - Name: HeavyMask
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Mask.HeavyMask
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Mask/Pro/HeavyMask.png
+    Sprite: {fileID: 21300000, guid: 0ff554be4dec4482827fa588c772c600, type: 3}
+  - Name: HellBlade
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.HellBlade
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/HellBlade.png.png
+    Sprite: {fileID: 21300000, guid: a38bd16f75a1b2c489d028066b1b9637, type: 3}
+  - Name: HMG
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.HMG
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/HMG.png.png
+    Sprite: {fileID: 21300000, guid: 09cf7d0e06e246d4b81e10253e73c5c4, type: 3}
+  - Name: HockeyStick
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.MeleeWeapon2H.HockeyStick
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon2H/Pro/Baton/HockeyStick.png
+    Sprite: {fileID: 21300000, guid: 1cf0c1c84dee4df1967c817019e4975e, type: 3}
+  - Name: Horns1 [Paint] [FullHair]
+    Collection: Horns (Style)
+    Id: Extensions.Horns (Style).Helmet.Horns1 [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Horns
+      (Style)/Horns1 [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: 7d8bc5660e655134e9b8868bf420cb89, type: 3}
+  - Name: Horns10 [Paint] [FullHair]
+    Collection: Horns (Style)
+    Id: Extensions.Horns (Style).Helmet.Horns10 [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Horns
+      (Style)/Horns10 [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: 9ce982dd8d5ba54499ee7dd863d6fe48, type: 3}
+  - Name: Horns11 [Paint] [FullHair]
+    Collection: Horns (Style)
+    Id: Extensions.Horns (Style).Helmet.Horns11 [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Horns
+      (Style)/Horns11 [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: 5d429fd6e3f4b07488841868c90213d1, type: 3}
+  - Name: Horns12 [Paint] [FullHair]
+    Collection: Horns (Style)
+    Id: Extensions.Horns (Style).Helmet.Horns12 [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Horns
+      (Style)/Horns12 [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: 74b865285cd7154429eca64bedd947cb, type: 3}
+  - Name: Horns13 [Paint] [FullHair]
+    Collection: Horns (Style)
+    Id: Extensions.Horns (Style).Helmet.Horns13 [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Horns
+      (Style)/Horns13 [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: 258e9b09e0c3ecf4db8003ff08f955a7, type: 3}
+  - Name: Horns14 [Paint] [FullHair]
+    Collection: Horns (Style)
+    Id: Extensions.Horns (Style).Helmet.Horns14 [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Horns
+      (Style)/Horns14 [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: 7c1fd9cff754a064da7abfbb16f05ff1, type: 3}
+  - Name: Horns15[Paint] [FullHair]
+    Collection: Horns (Style)
+    Id: Extensions.Horns (Style).Helmet.Horns15[Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Horns
+      (Style)/Horns15[Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: 3d824dece19eb8645bef002308cb9caf, type: 3}
+  - Name: Horns2 [Paint] [FullHair]
+    Collection: Horns (Style)
+    Id: Extensions.Horns (Style).Helmet.Horns2 [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Horns
+      (Style)/Horns2 [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: b8d03d8ea49a48247977847e93da50ce, type: 3}
+  - Name: Horns3 [Paint] [FullHair]
+    Collection: Horns (Style)
+    Id: Extensions.Horns (Style).Helmet.Horns3 [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Horns
+      (Style)/Horns3 [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: acf2df46679186848a9d876247c03b3f, type: 3}
+  - Name: Horns4 [Paint] [FullHair]
+    Collection: Horns (Style)
+    Id: Extensions.Horns (Style).Helmet.Horns4 [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Horns
+      (Style)/Horns4 [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: 1d24dec1a164d3b4f894cb140720cf1a, type: 3}
+  - Name: Horns5 [Paint] [FullHair]
+    Collection: Horns (Style)
+    Id: Extensions.Horns (Style).Helmet.Horns5 [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Horns
+      (Style)/Horns5 [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: ad0639dd0a743a443963c94357fd21fb, type: 3}
+  - Name: Horns6 [Paint] [FullHair]
+    Collection: Horns (Style)
+    Id: Extensions.Horns (Style).Helmet.Horns6 [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Horns
+      (Style)/Horns6 [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: 04438edb73ad37842862af4aea478c53, type: 3}
+  - Name: Horns7 [Paint] [FullHair]
+    Collection: Horns (Style)
+    Id: Extensions.Horns (Style).Helmet.Horns7 [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Horns
+      (Style)/Horns7 [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: 5a784bb415475944bbd4ece83ec6f932, type: 3}
+  - Name: Horns8 [Paint] [FullHair]
+    Collection: Horns (Style)
+    Id: Extensions.Horns (Style).Helmet.Horns8 [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Horns
+      (Style)/Horns8 [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: 76b95a0d6cca8764d9cd0923a61bdd6c, type: 3}
+  - Name: Horns9 [Paint] [FullHair]
+    Collection: Horns (Style)
+    Id: Extensions.Horns (Style).Helmet.Horns9 [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Horns
+      (Style)/Horns9 [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: aa6880b3c07c86148a4d12b092cef7c2, type: 3}
+  - Name: Human
+    Collection: Basic
+    Id: Common.Basic.Body.Human
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Body/Basic/Human.png
+    Sprite: {fileID: 21300000, guid: 34bde4d333454c22ac8eaab777772a27, type: 3}
+  - Name: HumanEar
+    Collection: Basic
+    Id: Common.Basic.Ears.HumanEar
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Ears/Basic/HumanEar.png
+    Sprite: {fileID: 21300000, guid: b4f7da0f9cc9470184ba0e4ee43db003, type: 3}
+  - Name: Hunter
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Armor.Hunter
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Pro/Hunter.png
+    Sprite: {fileID: 21300000, guid: f5a2db9c85264803a465889a707ea9f0, type: 3}
+  - Name: Hunter
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Belt.Hunter
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Pro/Hunter.png
+    Sprite: {fileID: 21300000, guid: 457e93677ca38f844aff5c5c9405d141, type: 3}
+  - Name: Hunter
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Boots.Hunter
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Pro/Hunter.png
+    Sprite: {fileID: 21300000, guid: ec335a01f74f6b84b87668503e3781c9, type: 3}
+  - Name: Hunter
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Gloves.Hunter
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Pro/Hunter.png
+    Sprite: {fileID: 21300000, guid: 00471d5242b0ef74bbadd47fe1e6bcd9, type: 3}
+  - Name: Hunter
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Pauldrons.Hunter
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Pro/Hunter.png
+    Sprite: {fileID: 21300000, guid: 862908294bc9788449470b982b51fbbf, type: 3}
+  - Name: Hunter
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Vest.Hunter
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Pro/Hunter.png
+    Sprite: {fileID: 21300000, guid: 507398821e57931469f6e00e44cfe639, type: 3}
+  - Name: HunterMask [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Mask.HunterMask [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Mask/Pro/HunterMask
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 46bdb6a751b4442b9a8f2bc51e997208, type: 3}
+  - Name: Injured
+    Collection: Emoji
+    Id: Common.Emoji.Eyebrows.Injured
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Emoji/Injured.png
+    Sprite: {fileID: 21300000, guid: fee74c8a46b747618d6acc67423d6baf, type: 3}
+  - Name: Injured
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Injured
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Injured.png
+    Sprite: {fileID: 21300000, guid: abaa13ebc90344a7b8b1337cf88d8399, type: 3}
+  - Name: Injured
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Injured
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Injured.png
+    Sprite: {fileID: 21300000, guid: 2122ffe16a784ef4a446539ec2a074c9, type: 3}
+  - Name: InLove
+    Collection: Emoji
+    Id: Common.Emoji.Eyebrows.InLove
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Emoji/InLove.png
+    Sprite: {fileID: 21300000, guid: 8115ca30c2244c33830d1722fa322270, type: 3}
+  - Name: InLove
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.InLove
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/InLove.png
+    Sprite: {fileID: 21300000, guid: ee9c6e9078004f15821e2db331866f06, type: 3}
+  - Name: InLove
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.InLove
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/InLove.png
+    Sprite: {fileID: 21300000, guid: d4f105db664d49f4ac46c64176d7d560, type: 3}
+  - Name: Jackal
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Armor.Jackal
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Basic/Jackal.png
+    Sprite: {fileID: 21300000, guid: 9e5c52c224594dc49c43372c3035a037, type: 3}
+  - Name: Jackal
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Belt.Jackal
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Basic/Jackal.png
+    Sprite: {fileID: 21300000, guid: 2f62b3ff1e87a8c44bf8d2490ac1921d, type: 3}
+  - Name: Jackal
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Boots.Jackal
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Basic/Jackal.png
+    Sprite: {fileID: 21300000, guid: 27583cf54966b544fa15e61dd0c8447e, type: 3}
+  - Name: Jackal
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Gloves.Jackal
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Basic/Jackal.png
+    Sprite: {fileID: 21300000, guid: 6d05d10bba3e15e4ebed21a646f400a2, type: 3}
+  - Name: Jackal
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Pauldrons.Jackal
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Basic/Jackal.png
+    Sprite: {fileID: 21300000, guid: 695a7d9eaaed573429bda9ab8a53b7af, type: 3}
+  - Name: Jackal
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Vest.Jackal
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Basic/Jackal.png
+    Sprite: {fileID: 21300000, guid: 26e7e52715a9c4a4b9281244bf9bf407, type: 3}
+  - Name: Jetpack3
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Back.Jetpack3
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Back/Pro/Jetpack3.png
+    Sprite: {fileID: 21300000, guid: bf3cd259978dee1419b2f31d04a4f721, type: 3}
+  - Name: Jetpack5
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Back.Jetpack5
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Back/Pro/Jetpack5.png
+    Sprite: {fileID: 21300000, guid: 30ba2788a031259439b37393befe0343, type: 3}
+  - Name: Kitty
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Kitty
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Kitty.png
+    Sprite: {fileID: 21300000, guid: 112f80010f704ec095ce644b1f4ba49b, type: 3}
+  - Name: Kitty
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Kitty
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Kitty.png
+    Sprite: {fileID: 21300000, guid: f1a6da7f166b4caeb4b0259e8161c20f, type: 3}
+  - Name: LagreHealing
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Supplies.LagreHealing
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Basic/Potions/LagreHealing.png
+    Sprite: {fileID: 21300000, guid: 46a2bf39fe0d4833b4f18226f5507e3c, type: 3}
+  - Name: Lea [HideEars]
+    Collection: MoonStyle [NoPaint]
+    Id: Extensions.MoonStyle [NoPaint].Hair.Lea [HideEars]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/MoonStyle
+      [NoPaint]/Lea [HideEars].png
+    Sprite: {fileID: 21300000, guid: 484f3ae41af842948a9bbfce078879a9, type: 3}
+  - Name: Lea [HideEars]
+    Collection: SkyStyle [NoPaint]
+    Id: Extensions.SkyStyle [NoPaint].Hair.Lea [HideEars]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SkyStyle
+      [NoPaint]/Lea [HideEars].png
+    Sprite: {fileID: 21300000, guid: 03f3e58553a7e3e4281365a882b817eb, type: 3}
+  - Name: Lea [HideEars]
+    Collection: Style
+    Id: Extensions.Style.Hair.Lea [HideEars]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/Style/Lea
+      [HideEars].png
+    Sprite: {fileID: 21300000, guid: 6e537394b3522e140ab304a77a13c7ad, type: 3}
+  - Name: Lea [HideEars]
+    Collection: SunStyle [NoPaint]
+    Id: Extensions.SunStyle [NoPaint].Hair.Lea [HideEars]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SunStyle
+      [NoPaint]/Lea [HideEars].png
+    Sprite: {fileID: 21300000, guid: adcea9a9b2384c2459ebad3d580f8783, type: 3}
+  - Name: Leaky
+    Collection: Basic
+    Id: Common.Basic.Hair.Leaky
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Basic/Leaky.png
+    Sprite: {fileID: 21300000, guid: 23d868bef7814863aa3e2c88b7137c8c, type: 3}
+  - Name: LongHair
+    Collection: Basic
+    Id: Common.Basic.Hair.LongHair
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Basic/LongHair.png
+    Sprite: {fileID: 21300000, guid: 24fcc5c3c0664b79abb84ac2ae1da6d0, type: 3}
+  - Name: M-16 [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.M-16 [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/M-16
+      [Paint].png.png
+    Sprite: {fileID: 21300000, guid: fa6a31ec04746af44a36dec361d87994, type: 3}
+  - Name: M-249
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.M-249
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/M-249.png.png
+    Sprite: {fileID: 21300000, guid: 6e8d3ad3021413946befe249c86038cb, type: 3}
+  - Name: M-4 [Silencer]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.M-4 [Silencer]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/M-4
+      [Silencer].png.png
+    Sprite: {fileID: 21300000, guid: d144d5e75c737cd429effb5b67ce5d72, type: 3}
+  - Name: M-47
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.M-47
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/M-47.png.png
+    Sprite: {fileID: 21300000, guid: 0ba3b50db77f88a4088ba0e1c35df35c, type: 3}
+  - Name: M-4Collimator
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.M-4Collimator
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/M-4Collimator.png.png
+    Sprite: {fileID: 21300000, guid: 6ac1fc884603d3f41a8b5d228026dac0, type: 3}
+  - Name: M-4Laser
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.M-4Laser
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/M-4Laser.png.png
+    Sprite: {fileID: 21300000, guid: c5b778b7d38a5214595e4d8568e4a5ad, type: 3}
+  - Name: M-4Stich
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.M-4Stich
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/M-4Stich.png.png
+    Sprite: {fileID: 21300000, guid: a7b074623bb593e4da4f061be7977e71, type: 3}
+  - Name: MAC-10
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Firearms1H.MAC-10
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms1H/Basic/MAC-10.png.png
+    Sprite: {fileID: 21300000, guid: e9caf142892c40947b703a29dd19b76f, type: 3}
+  - Name: Male
+    Collection: Basic
+    Id: Common.Basic.Eyes.Male
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Basic/Male.png
+    Sprite: {fileID: 21300000, guid: 05049191fe124b38a6060c8b9f0e5296, type: 3}
+  - Name: Mark-1 [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.Mark-1 [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/Mark-1
+      [Paint].png.png
+    Sprite: {fileID: 21300000, guid: d15197deb5dc0b84fb4eda3dd7b0e65e, type: 3}
+  - Name: Mark-2 [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.Mark-2 [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/Mark-2
+      [Paint].png.png
+    Sprite: {fileID: 21300000, guid: 06064c8ad91fc35499f192712a5002e8, type: 3}
+  - Name: Mark-3
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.Mark-3
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/Mark-3.png.png
+    Sprite: {fileID: 21300000, guid: bc4fff99c987ce846a43dd554ba770f2, type: 3}
+  - Name: Mask1 [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Mask.Mask1 [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Mask/Pro/Mask1
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: be571b6bec914d84aacde3669028ad6e, type: 3}
+  - Name: Mask2 [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Mask.Mask2 [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Mask/Pro/Mask2
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 9960d74549d3488594aa867cd984d900, type: 3}
+  - Name: Medic
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Armor.Medic
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Pro/Medic.png
+    Sprite: {fileID: 21300000, guid: c6b953f4b36b4a5e9ccb780b7f6bbb15, type: 3}
+  - Name: Medic
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Belt.Medic
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Pro/Medic.png
+    Sprite: {fileID: 21300000, guid: 3fcc035e9b47b2747906ddfeaba1e3d1, type: 3}
+  - Name: Medic
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Boots.Medic
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Pro/Medic.png
+    Sprite: {fileID: 21300000, guid: 80770b4a856cacf4aba69af8efdc2d58, type: 3}
+  - Name: Medic
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Gloves.Medic
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Pro/Medic.png
+    Sprite: {fileID: 21300000, guid: 41f3f0f46264ee346820d0308c3d82da, type: 3}
+  - Name: Medic
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Pauldrons.Medic
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Pro/Medic.png
+    Sprite: {fileID: 21300000, guid: dd568ebcc114c944cbc92dd3c6873ffa, type: 3}
+  - Name: Medic
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Vest.Medic
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Pro/Medic.png
+    Sprite: {fileID: 21300000, guid: 83c20442501c3f84ab1ae9e6a099a3e4, type: 3}
+  - Name: MediumHealing
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Supplies.MediumHealing
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Basic/Potions/MediumHealing.png
+    Sprite: {fileID: 21300000, guid: 4e1ec5221f89431791002d3b6f03e99d, type: 3}
+  - Name: MilitaryBeret
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Helmet.MilitaryBeret
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Pro/MilitaryBeret.png
+    Sprite: {fileID: 21300000, guid: e491569762644ebb870bddbb4f5b42f5, type: 3}
+  - Name: MilitaryBeret2
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Helmet.MilitaryBeret2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Pro/MilitaryBeret2.png
+    Sprite: {fileID: 21300000, guid: 71662eb454c241adaa7b774397bd5536, type: 3}
+  - Name: MilitaryHelm
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Helmet.MilitaryHelm
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Pro/MilitaryHelm.png
+    Sprite: {fileID: 21300000, guid: e06e55adc7914068975d0d73dc05b078, type: 3}
+  - Name: MilitaryPanama
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Helmet.MilitaryPanama
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Pro/MilitaryPanama.png
+    Sprite: {fileID: 21300000, guid: 561749efc854418fb61674ff8b40436d, type: 3}
+  - Name: MillitaryCap
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Helmet.MillitaryCap
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Pro/MillitaryCap.png
+    Sprite: {fileID: 21300000, guid: ff4f213e891e43eca1165c5a6965914d, type: 3}
+  - Name: Mine1
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Supplies.Mine1
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Pro/Mines/Mine1.png
+    Sprite: {fileID: 21300000, guid: 39bd4fd7d9314eee9d3c4114c9e4ddb0, type: 3}
+  - Name: Mine2
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Supplies.Mine2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Pro/Mines/Mine2.png
+    Sprite: {fileID: 21300000, guid: 37f0c8ccffe640b9bdddf132d8aef20e, type: 3}
+  - Name: MlitaryBeret3
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Helmet.MlitaryBeret3
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Pro/MlitaryBeret3.png
+    Sprite: {fileID: 21300000, guid: 3ed5e71ec06548aba6396bda8a842df2, type: 3}
+  - Name: Mohawk
+    Collection: Basic
+    Id: Common.Basic.Hair.Mohawk
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Basic/Mohawk.png
+    Sprite: {fileID: 21300000, guid: 1ea6e2a797004979be95885c2f6bd152, type: 3}
+  - Name: MolotovCocktail
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Supplies.MolotovCocktail
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Pro/Bombs/MolotovCocktail.png
+    Sprite: {fileID: 21300000, guid: 1c4fdc5a7e134d7882848b4892e97c83, type: 3}
+  - Name: Moustache1
+    Collection: Basic
+    Id: Common.Basic.Beard.Moustache1
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Beard/Basic/Moustache1.png
+    Sprite: {fileID: 21300000, guid: 53be7a382337ae54ea4ff01b9e9708cc, type: 3}
+  - Name: Moustache2
+    Collection: Basic
+    Id: Common.Basic.Beard.Moustache2
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Beard/Basic/Moustache2.png
+    Sprite: {fileID: 21300000, guid: 1f15c8ece56da4249b20760cd91dfd47, type: 3}
+  - Name: Moustache3
+    Collection: Basic
+    Id: Common.Basic.Beard.Moustache3
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Beard/Basic/Moustache3.png
+    Sprite: {fileID: 21300000, guid: 8e7d99aa092cc014fa6c6218cbdc9b28, type: 3}
+  - Name: Moustache4
+    Collection: Basic
+    Id: Common.Basic.Beard.Moustache4
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Beard/Basic/Moustache4.png
+    Sprite: {fileID: 21300000, guid: 954990fb148ea6e43a89b28de687930f, type: 3}
+  - Name: Moustache5
+    Collection: Basic
+    Id: Common.Basic.Beard.Moustache5
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Beard/Basic/Moustache5.png
+    Sprite: {fileID: 21300000, guid: 925166f68b03f1346b323df88326522d, type: 3}
+  - Name: Moustache6
+    Collection: Basic
+    Id: Common.Basic.Beard.Moustache6
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Beard/Basic/Moustache6.png
+    Sprite: {fileID: 21300000, guid: b615f4f645fcd6c4082c8b4165906119, type: 3}
+  - Name: MP-40
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.MP-40
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/MP-40.png.png
+    Sprite: {fileID: 21300000, guid: a92d4e7eee233d14ba16bde5016b2d1d, type: 3}
+  - Name: MP-5
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.MP-5
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/MP-5.png.png
+    Sprite: {fileID: 21300000, guid: e61a342d277077b4ea192514cfb86e1c, type: 3}
+  - Name: NinjaHeadband
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Helmet.NinjaHeadband
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Pro/NinjaHeadband.png
+    Sprite: {fileID: 21300000, guid: d7e72cc93bc34c749f83369aecc60085, type: 3}
+  - Name: NinjaHeadband [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Helmet.NinjaHeadband [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Pro/NinjaHeadband
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: a2862068a77a41bc8dd0720609e9f329, type: 3}
+  - Name: NNT
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms1H.NNT
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms1H/Pro/NNT.png.png
+    Sprite: {fileID: 21300000, guid: 24ffc59e52d593a4f9b3c9ffbbb65ee2, type: 3}
+  - Name: Normal
+    Collection: Expressions
+    Id: Common.Expressions.Eyes.Normal
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Expressions/Normal.png
+    Sprite: {fileID: 21300000, guid: f0df0bca3e4842b2be48423da0dbcf8e, type: 3}
+  - Name: Normal
+    Collection: Basic
+    Id: Common.Basic.Mouth.Normal
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Basic/Normal.png
+    Sprite: {fileID: 21300000, guid: 228be291be40452daa0e8ecfb07bb63f, type: 3}
+  - Name: Normal
+    Collection: Expressions
+    Id: Common.Expressions.Mouth.Normal
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Expressions/Normal.png
+    Sprite: {fileID: 21300000, guid: 91fb8df004484b1f8eb5b7284f9619f8, type: 3}
+  - Name: OMG
+    Collection: Emoji
+    Id: Common.Emoji.Eyebrows.OMG
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Emoji/OMG.png
+    Sprite: {fileID: 21300000, guid: 7dca732a4bf84125aca871d88ee3c379, type: 3}
+  - Name: OMG
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.OMG
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/OMG.png
+    Sprite: {fileID: 21300000, guid: 538b16b158fc4cfc8f7e7c44856acda5, type: 3}
+  - Name: OMG
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.OMG
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/OMG.png
+    Sprite: {fileID: 21300000, guid: 75272be1c3164cb88e5da83d4626eb6c, type: 3}
+  - Name: Orly
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Orly
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Orly.png
+    Sprite: {fileID: 21300000, guid: 11a0b2aca6774d669a1e184735e3440e, type: 3}
+  - Name: Orly
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Orly
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Orly.png
+    Sprite: {fileID: 21300000, guid: 9109b36f45d14831954ebdb9f93b6d84, type: 3}
+  - Name: PeasantHead
+    Collection: Basic
+    Id: Common.Basic.Head.PeasantHead
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Head/Basic/PeasantHead.png
+    Sprite: {fileID: 21300000, guid: 0f2f910996f342d0990207d2450d332c, type: 3}
+  - Name: Perverted
+    Collection: Emoji
+    Id: Common.Emoji.Eyebrows.Perverted
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Emoji/Perverted.png
+    Sprite: {fileID: 21300000, guid: 89fcf997f7c043a5a4fbe667373c3dab, type: 3}
+  - Name: Perverted
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Perverted
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Perverted.png
+    Sprite: {fileID: 21300000, guid: f9ab08d8db25407ca22065c688c7ae59, type: 3}
+  - Name: Perverted
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Perverted
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Perverted.png
+    Sprite: {fileID: 21300000, guid: 4bd8477129c94af18a5fe88f4854dd60, type: 3}
+  - Name: PinBaseballBat
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.MeleeWeapon1H.PinBaseballBat
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Basic/Baton/PinBaseballBat.png
+    Sprite: {fileID: 21300000, guid: ce0610a942e34e5399f66fd94b6e024a, type: 3}
+  - Name: PineappleGrenade
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Supplies.PineappleGrenade
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Pro/Bombs/PineappleGrenade.png
+    Sprite: {fileID: 21300000, guid: b661010f34ad4393a34de794ad31caec, type: 3}
+  - Name: PinkStar
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Glasses.PinkStar
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Glasses/Pro/PinkStar.png
+    Sprite: {fileID: 21300000, guid: a3325c7d572b4fa3ba83b37e7a16dd05, type: 3}
+  - Name: Policeman
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Armor.Policeman
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Basic/Policeman.png
+    Sprite: {fileID: 21300000, guid: 87517521592c4d1197a05d410adc366f, type: 3}
+  - Name: Policeman
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Belt.Policeman
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Basic/Policeman.png
+    Sprite: {fileID: 21300000, guid: bd42086f06d17d947bcd903db6668da1, type: 3}
+  - Name: Policeman
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Boots.Policeman
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Basic/Policeman.png
+    Sprite: {fileID: 21300000, guid: ecb3084782ad48a4cbb78e4d3a0836b0, type: 3}
+  - Name: Policeman
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Gloves.Policeman
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Basic/Policeman.png
+    Sprite: {fileID: 21300000, guid: 837e2b0a6e76a8b4b9d6f486c3796ead, type: 3}
+  - Name: Policeman
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Pauldrons.Policeman
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Basic/Policeman.png
+    Sprite: {fileID: 21300000, guid: 99750d0c6e5067d42869d5167775c4be, type: 3}
+  - Name: Policeman
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Vest.Policeman
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Basic/Policeman.png
+    Sprite: {fileID: 21300000, guid: 2fe56bc3d73546741946a3c338714298, type: 3}
+  - Name: PolicemanBaton
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.MeleeWeapon1H.PolicemanBaton
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Basic/Baton/PolicemanBaton.png
+    Sprite: {fileID: 21300000, guid: 6730e483f0f842fda0de99d83477df11, type: 3}
+  - Name: PolicemanHat
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Helmet.PolicemanHat
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Basic/PolicemanHat.png
+    Sprite: {fileID: 21300000, guid: 7780b6783ca845308f0a81d4ddec8c39, type: 3}
+  - Name: Princess
+    Collection: MoonStyle [NoPaint]
+    Id: Extensions.MoonStyle [NoPaint].Hair.Princess
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/MoonStyle
+      [NoPaint]/Princess.png
+    Sprite: {fileID: 21300000, guid: 80140f144f8204248b3a6e333e087f0f, type: 3}
+  - Name: Princess
+    Collection: SkyStyle [NoPaint]
+    Id: Extensions.SkyStyle [NoPaint].Hair.Princess
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SkyStyle
+      [NoPaint]/Princess.png
+    Sprite: {fileID: 21300000, guid: d09377eaef21b2846aac182737de2be4, type: 3}
+  - Name: Princess
+    Collection: SunStyle [NoPaint]
+    Id: Extensions.SunStyle [NoPaint].Hair.Princess
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SunStyle
+      [NoPaint]/Princess.png
+    Sprite: {fileID: 21300000, guid: 4f5bbe8c4dcdd684a8cd747b11b397e9, type: 3}
+  - Name: Princess [HideEars]
+    Collection: Style
+    Id: Extensions.Style.Hair.Princess [HideEars]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/Style/Princess
+      [HideEars].png
+    Sprite: {fileID: 21300000, guid: b80531de1b61c4948b628a64f4d82674, type: 3}
+  - Name: PushedBack
+    Collection: Basic
+    Id: Common.Basic.Hair.PushedBack
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Basic/PushedBack.png
+    Sprite: {fileID: 21300000, guid: aea32260de364cd3a16dc9ddc5f0c256, type: 3}
+  - Name: Radio1
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Shield.Radio1
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Shield/Basic/Radio1.png
+    Sprite: {fileID: 21300000, guid: 90c0d8686a5141218741c87fe247f986, type: 3}
+  - Name: Radio1
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Supplies.Radio1
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Pro/Radio/Radio1.png
+    Sprite: {fileID: 21300000, guid: 1f4f87da05a84b73bd5587d3e0e56958, type: 3}
+  - Name: Radio2
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Shield.Radio2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Shield/Basic/Radio2.png
+    Sprite: {fileID: 21300000, guid: 03b8ac2709544e2894cc6bb5f61fbd11, type: 3}
+  - Name: Radio2
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Supplies.Radio2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Pro/Radio/Radio2.png
+    Sprite: {fileID: 21300000, guid: 67fae2ddbd4c4e02a2fe0b899454ef9a, type: 3}
+  - Name: Rebel
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Armor.Rebel
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Pro/Rebel.png
+    Sprite: {fileID: 21300000, guid: 77fa178961da4a2f9cc77c2432b22399, type: 3}
+  - Name: Rebel
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Belt.Rebel
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Pro/Rebel.png
+    Sprite: {fileID: 21300000, guid: 62b772db0e69e17438cdad4b621c7135, type: 3}
+  - Name: Rebel
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Boots.Rebel
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Pro/Rebel.png
+    Sprite: {fileID: 21300000, guid: fcab847ab3f95ee4e897572a71449c33, type: 3}
+  - Name: Rebel
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Gloves.Rebel
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Pro/Rebel.png
+    Sprite: {fileID: 21300000, guid: e8262adc5d058ae40848d9aeb4509451, type: 3}
+  - Name: Rebel
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Pauldrons.Rebel
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Pro/Rebel.png
+    Sprite: {fileID: 21300000, guid: 18ec46d11b282b54f9baf8f8f50b5676, type: 3}
+  - Name: Rebel
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Vest.Rebel
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Pro/Rebel.png
+    Sprite: {fileID: 21300000, guid: 7bf0a4ef075d5554da76a0ca5201a641, type: 3}
+  - Name: Rebel2
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Armor.Rebel2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Pro/Rebel2.png
+    Sprite: {fileID: 21300000, guid: e6faa448e0794961a8ae52fc162cad88, type: 3}
+  - Name: Rebel2
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Belt.Rebel2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Pro/Rebel2.png
+    Sprite: {fileID: 21300000, guid: 771c8088395f4eb4a9f4040ee0489b25, type: 3}
+  - Name: Rebel2
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Boots.Rebel2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Pro/Rebel2.png
+    Sprite: {fileID: 21300000, guid: c8a1533a278138d45856c2f939df160e, type: 3}
+  - Name: Rebel2
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Gloves.Rebel2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Pro/Rebel2.png
+    Sprite: {fileID: 21300000, guid: b9acc104c0d0bbd44a715ee1278c4814, type: 3}
+  - Name: Rebel2
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Pauldrons.Rebel2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Pro/Rebel2.png
+    Sprite: {fileID: 21300000, guid: 2dbfb5b01538c9445a69000352cd16a3, type: 3}
+  - Name: Rebel2
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Vest.Rebel2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Pro/Rebel2.png
+    Sprite: {fileID: 21300000, guid: 90de9720244b72a478e3c88ac38463e0, type: 3}
+  - Name: RebelHood
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Helmet.RebelHood
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Pro/RebelHood.png
+    Sprite: {fileID: 21300000, guid: 9825c3e1022f44538fbdfd75b77c5f8f, type: 3}
+  - Name: RedSoldier
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Armor.RedSoldier
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Pro/RedSoldier.png
+    Sprite: {fileID: 21300000, guid: 09eec344771d4e0f9f8a8be22506c4f1, type: 3}
+  - Name: RedSoldier
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Belt.RedSoldier
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Pro/RedSoldier.png
+    Sprite: {fileID: 21300000, guid: e4a77eb85c139344086e4c7694e35b63, type: 3}
+  - Name: RedSoldier
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Boots.RedSoldier
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Pro/RedSoldier.png
+    Sprite: {fileID: 21300000, guid: 82c44c8ceaab22e46a45c2d0edd45f76, type: 3}
+  - Name: RedSoldier
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Gloves.RedSoldier
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Pro/RedSoldier.png
+    Sprite: {fileID: 21300000, guid: d58b5497926b2f740ba418d8293852b2, type: 3}
+  - Name: RedSoldier
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Pauldrons.RedSoldier
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Pro/RedSoldier.png
+    Sprite: {fileID: 21300000, guid: 6519d2554fb582b43a087d043254dca9, type: 3}
+  - Name: RedSoldier
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Vest.RedSoldier
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Pro/RedSoldier.png
+    Sprite: {fileID: 21300000, guid: 78d9ed92d86207244b4d7f7047ca8455, type: 3}
+  - Name: Revolver
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms1H.Revolver
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms1H/Pro/Revolver.png.png
+    Sprite: {fileID: 21300000, guid: f65311c5aa6e59f46863a2892ed6c7f3, type: 3}
+  - Name: Ribbon1 [FullHair]
+    Collection: Style
+    Id: Extensions.Style.Helmet.Ribbon1 [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Style/Ribbon1
+      [FullHair].png
+    Sprite: {fileID: 21300000, guid: 1d32c5142b63f264abc429e7fcef42b7, type: 3}
+  - Name: Ribbon1 [Paint] [FullHair]
+    Collection: Style
+    Id: Extensions.Style.Helmet.Ribbon1 [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Style/Ribbon1
+      [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: 8eb98112216628940a80c427e5a1c8b7, type: 3}
+  - Name: Ribbon2 [FullHair]
+    Collection: Style
+    Id: Extensions.Style.Helmet.Ribbon2 [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Style/Ribbon2
+      [FullHair].png
+    Sprite: {fileID: 21300000, guid: 0c8747040e5e32d4396165327dfa6aca, type: 3}
+  - Name: Ribbon2 [Paint] [FullHair]
+    Collection: Style
+    Id: Extensions.Style.Helmet.Ribbon2 [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Style/Ribbon2
+      [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: e144fd91a17e91e499399abeab52d7d9, type: 3}
+  - Name: RiotPolice
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Armor.RiotPolice
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Pro/RiotPolice.png
+    Sprite: {fileID: 21300000, guid: 23160ad7e3da4bb8b0bafdac0544b821, type: 3}
+  - Name: RiotPolice
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Belt.RiotPolice
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Pro/RiotPolice.png
+    Sprite: {fileID: 21300000, guid: 7b8d8a8c7831fe34097d7486b630f0a4, type: 3}
+  - Name: RiotPolice
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Boots.RiotPolice
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Pro/RiotPolice.png
+    Sprite: {fileID: 21300000, guid: 74ac748475ea6da459e56a29b4cb5772, type: 3}
+  - Name: RiotPolice
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Gloves.RiotPolice
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Pro/RiotPolice.png
+    Sprite: {fileID: 21300000, guid: 1c2d575655e729a45a357ec50cdbd993, type: 3}
+  - Name: RiotPolice
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Pauldrons.RiotPolice
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Pro/RiotPolice.png
+    Sprite: {fileID: 21300000, guid: 57913de09fcbfc44bbeb3ad53becd83e, type: 3}
+  - Name: RiotPolice
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Vest.RiotPolice
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Pro/RiotPolice.png
+    Sprite: {fileID: 21300000, guid: dcbaab74c07a7684e98917b699eb784b, type: 3}
+  - Name: Rock
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Armor.Rock
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Casual/Rock.png
+    Sprite: {fileID: 21300000, guid: 79bfab44ca79467591d4861cc37a5c91, type: 3}
+  - Name: Rock
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Belt.Rock
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Casual/Rock.png
+    Sprite: {fileID: 21300000, guid: eb08a934729fd1e4287dd05f821ba01a, type: 3}
+  - Name: Rock
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Boots.Rock
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Casual/Rock.png
+    Sprite: {fileID: 21300000, guid: 84577bd065780264ba9871197c4ab249, type: 3}
+  - Name: Rock
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Gloves.Rock
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Casual/Rock.png
+    Sprite: {fileID: 21300000, guid: 194d1c5aeb3104b4aa7607f85bd5e4f4, type: 3}
+  - Name: Rock
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Pauldrons.Rock
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Casual/Rock.png
+    Sprite: {fileID: 21300000, guid: 1fe01330d856c744aa613903d118f394, type: 3}
+  - Name: Rock
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Vest.Rock
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Casual/Rock.png
+    Sprite: {fileID: 21300000, guid: 0e0ca661f997a814dbb2f317f8a2dbed, type: 3}
+  - Name: RockCap
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Helmet.RockCap
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Casual/RockCap.png
+    Sprite: {fileID: 21300000, guid: 6ec72fada3d84e59a55351f9f805e96a, type: 3}
+  - Name: RocketLauncher
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.RocketLauncher
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/RocketLauncher.png.png
+    Sprite: {fileID: 21300000, guid: 467f399590ea3ab45af4e6a4727ef4bd, type: 3}
+  - Name: Rocky
+    Collection: MoonStyle [NoPaint]
+    Id: Extensions.MoonStyle [NoPaint].Hair.Rocky
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/MoonStyle
+      [NoPaint]/Rocky.png
+    Sprite: {fileID: 21300000, guid: ee22fb3cca3a06a409a86460f626c062, type: 3}
+  - Name: Rocky
+    Collection: SkyStyle [NoPaint]
+    Id: Extensions.SkyStyle [NoPaint].Hair.Rocky
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SkyStyle
+      [NoPaint]/Rocky.png
+    Sprite: {fileID: 21300000, guid: 900d60f3de2322d408dd03e5d1c1f086, type: 3}
+  - Name: Rocky
+    Collection: Style
+    Id: Extensions.Style.Hair.Rocky
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/Style/Rocky.png
+    Sprite: {fileID: 21300000, guid: f9bd2962c25ecbf4da7a64f8cf182353, type: 3}
+  - Name: Rocky
+    Collection: SunStyle [NoPaint]
+    Id: Extensions.SunStyle [NoPaint].Hair.Rocky
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SunStyle
+      [NoPaint]/Rocky.png
+    Sprite: {fileID: 21300000, guid: 552d1b3ba48fce24ab54a63c2d3cca74, type: 3}
+  - Name: Rocky [Paint] [FullHair]
+    Collection: Style
+    Id: Extensions.Style.Helmet.Rocky [Paint] [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Style/Rocky
+      [Paint] [FullHair].png
+    Sprite: {fileID: 21300000, guid: 4f5c3734fbd5c274a888fdcf26228aa3, type: 3}
+  - Name: RPG
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.RPG
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/RPG.png.png
+    Sprite: {fileID: 21300000, guid: 897b9d05ca48a2d4f9429961218ae1ee, type: 3}
+  - Name: Sad
+    Collection: Emoji
+    Id: Common.Emoji.Eyebrows.Sad
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Emoji/Sad.png
+    Sprite: {fileID: 21300000, guid: 285841552260408386da2132e7328144, type: 3}
+  - Name: Sad
+    Collection: Expressions
+    Id: Common.Expressions.Eyebrows.Sad
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Expressions/Sad.png
+    Sprite: {fileID: 21300000, guid: fb5f05e919c84eef8f7f486cd49fdd1b, type: 3}
+  - Name: Sad
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Sad
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Sad.png
+    Sprite: {fileID: 21300000, guid: 697fdd4325e742aaaee8ae1f0b68be24, type: 3}
+  - Name: Sad
+    Collection: Expressions
+    Id: Common.Expressions.Eyes.Sad
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Expressions/Sad.png
+    Sprite: {fileID: 21300000, guid: ee41a7b43405487f97491f5b5e934749, type: 3}
+  - Name: Sad
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Sad
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Sad.png
+    Sprite: {fileID: 21300000, guid: 3a11e8092c7f452eb6900050ddcad773, type: 3}
+  - Name: Sad
+    Collection: Expressions
+    Id: Common.Expressions.Mouth.Sad
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Expressions/Sad.png
+    Sprite: {fileID: 21300000, guid: 8ba4da46abfd47f89cfc2c8afb807d8b, type: 3}
+  - Name: SampleCape [Paint]
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Cape.SampleCape [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Cape/Basic/SampleCape
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 2016745883e2400289b316b1ca01b603, type: 3}
+  - Name: SandFalcon
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms1H.SandFalcon
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms1H/Pro/SandFalcon.png.png
+    Sprite: {fileID: 21300000, guid: 846d30a9bf1209a41b0e8bef12019a37, type: 3}
+  - Name: Santa1
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Armor.Santa1
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Christmas/Santa1.png
+    Sprite: {fileID: 21300000, guid: 3258cea4a52a4c4296b737f5c918b7ff, type: 3}
+  - Name: Santa1
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Belt.Santa1
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Christmas/Santa1.png
+    Sprite: {fileID: 21300000, guid: 387d2187dc38a124c816d19e0e6e6a5b, type: 3}
+  - Name: Santa1
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Boots.Santa1
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Christmas/Santa1.png
+    Sprite: {fileID: 21300000, guid: 0728108d1ba1d4947928b184bef42892, type: 3}
+  - Name: Santa1
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Gloves.Santa1
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Christmas/Santa1.png
+    Sprite: {fileID: 21300000, guid: 0becfa4bf7e8dc044aeda8070bc35858, type: 3}
+  - Name: Santa1
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Pauldrons.Santa1
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Christmas/Santa1.png
+    Sprite: {fileID: 21300000, guid: 8486491f8550c5c4c8fa20e7ca1f84f2, type: 3}
+  - Name: Santa1
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Vest.Santa1
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Christmas/Santa1.png
+    Sprite: {fileID: 21300000, guid: f5f904e1e24972743ba636d5b752f47e, type: 3}
+  - Name: Santa2
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Armor.Santa2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Christmas/Santa2.png
+    Sprite: {fileID: 21300000, guid: a5e209d1c494416b936d5e80439dcd8f, type: 3}
+  - Name: Santa2
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Belt.Santa2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Christmas/Santa2.png
+    Sprite: {fileID: 21300000, guid: 7aa5936d7633a9d45917c67b35cd328d, type: 3}
+  - Name: Santa2
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Boots.Santa2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Christmas/Santa2.png
+    Sprite: {fileID: 21300000, guid: e9670b4f93d63bb49bc07a5db3882caf, type: 3}
+  - Name: Santa2
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Gloves.Santa2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Christmas/Santa2.png
+    Sprite: {fileID: 21300000, guid: 91dcdfcc5e8458d4e965d59ecb778935, type: 3}
+  - Name: Santa2
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Pauldrons.Santa2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Christmas/Santa2.png
+    Sprite: {fileID: 21300000, guid: b4544c6b3834b42438631ac794657def, type: 3}
+  - Name: Santa2
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Vest.Santa2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Christmas/Santa2.png
+    Sprite: {fileID: 21300000, guid: 21193db54e54e2e40a6b2ec73d3f41a7, type: 3}
+  - Name: SantaHat
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Helmet.SantaHat
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Christmas/SantaHat.png
+    Sprite: {fileID: 21300000, guid: 13a53a198b5542e1a017a9dc1a4499f7, type: 3}
+  - Name: SantaHelper
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Armor.SantaHelper
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Christmas/SantaHelper.png
+    Sprite: {fileID: 21300000, guid: cd3a638d5d204b37a4816b287c615a74, type: 3}
+  - Name: SantaHelper
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Belt.SantaHelper
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Christmas/SantaHelper.png
+    Sprite: {fileID: 21300000, guid: fd6f53930884ae242aef1e7cc995dfd1, type: 3}
+  - Name: SantaHelper
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Boots.SantaHelper
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Christmas/SantaHelper.png
+    Sprite: {fileID: 21300000, guid: 06d76abb53f1f8b4a869ecbcff0b5686, type: 3}
+  - Name: SantaHelper
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Gloves.SantaHelper
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Christmas/SantaHelper.png
+    Sprite: {fileID: 21300000, guid: 7fac9143d65a0e14abcc7e62a4cb2303, type: 3}
+  - Name: SantaHelper
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Pauldrons.SantaHelper
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Christmas/SantaHelper.png
+    Sprite: {fileID: 21300000, guid: fcaace4a035428e43b813b283236d4cd, type: 3}
+  - Name: SantaHelper
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Vest.SantaHelper
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Christmas/SantaHelper.png
+    Sprite: {fileID: 21300000, guid: 72daaee9ac0345349a79545c0e2ef65c, type: 3}
+  - Name: SantaHelperHat1
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Helmet.SantaHelperHat1
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Christmas/SantaHelperHat1.png
+    Sprite: {fileID: 21300000, guid: 67a1f6d52a024ca3a88bf683bbd8a330, type: 3}
+  - Name: SantaHelperHat2
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Helmet.SantaHelperHat2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Christmas/SantaHelperHat2.png
+    Sprite: {fileID: 21300000, guid: 4ced82e231e74f8f9b8c2840aebedc45, type: 3}
+  - Name: SantaHelperHat3
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.Helmet.SantaHelperHat3
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Christmas/SantaHelperHat3.png
+    Sprite: {fileID: 21300000, guid: 8e3e270e1a224b089d0e48fd4d7e517f, type: 3}
+  - Name: SantaHelperWand
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.MeleeWeapon1H.SantaHelperWand
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Christmas/Wand/SantaHelperWand.png
+    Sprite: {fileID: 21300000, guid: 095c7bc63c7e4bbbb881f4cb56fabc68, type: 3}
+  - Name: SantaWand
+    Collection: Christmas
+    Id: MilitaryHeroes.Christmas.MeleeWeapon1H.SantaWand
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Christmas/Wand/SantaWand.png
+    Sprite: {fileID: 21300000, guid: f288b8b2fcb84f0286a45418edefd154, type: 3}
+  - Name: Scout
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.Scout
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/Scout.png.png
+    Sprite: {fileID: 21300000, guid: d59317c36b3a02f438760cfb59db8beb, type: 3}
+  - Name: ScoutKnife
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.MeleeWeapon1H.ScoutKnife
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/MeleeWeapon1H/Basic/Knife/ScoutKnife.png
+    Sprite: {fileID: 21300000, guid: 5ee5229c938b43fb8518df406da6b16e, type: 3}
+  - Name: Serpent [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Armor.Serpent [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Pro/Serpent
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: fe5aeed47759416ba0855979fd92276e, type: 3}
+  - Name: Serpent [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Belt.Serpent [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Pro/Serpent
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: d32512f76253de24d9c33eb39121a47d, type: 3}
+  - Name: Serpent [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Boots.Serpent [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Pro/Serpent
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 351bb532e69578b4ca15f77cd3f40e3a, type: 3}
+  - Name: Serpent [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Gloves.Serpent [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Pro/Serpent
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 2cbf14a5a5854e34f8fa0da1e6590b3b, type: 3}
+  - Name: Serpent [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Pauldrons.Serpent [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Pro/Serpent
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 1098db1ffcf3c734ab63b93b2ae13ca6, type: 3}
+  - Name: Serpent [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Vest.Serpent [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Pro/Serpent
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: d2de455ee9055eb41b26011dcaf18a16, type: 3}
+  - Name: Shaggy
+    Collection: Basic
+    Id: Common.Basic.Hair.Shaggy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Basic/Shaggy.png
+    Sprite: {fileID: 21300000, guid: 94a373d16bdc4e11b0499830aae8bf7d, type: 3}
+  - Name: Sheperd
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.Sheperd
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/Sheperd.png.png
+    Sprite: {fileID: 21300000, guid: 65b73a3bd49802d4184b2e37f0f053e5, type: 3}
+  - Name: ShortHair
+    Collection: Basic
+    Id: Common.Basic.Hair.ShortHair
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Basic/ShortHair.png
+    Sprite: {fileID: 21300000, guid: 68f424d1953a45bc82255fbf2bc2aa89, type: 3}
+  - Name: ShortPonytail
+    Collection: Basic
+    Id: Common.Basic.Hair.ShortPonytail
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Basic/ShortPonytail.png
+    Sprite: {fileID: 21300000, guid: e9d74ad0f00f414f83d60708cf80b7e3, type: 3}
+  - Name: Shotgun
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Firearms2H.Shotgun
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Basic/Shotgun.png.png
+    Sprite: {fileID: 21300000, guid: b54d548686bedef4cad6215ddc85b254, type: 3}
+  - Name: Shy
+    Collection: Expressions
+    Id: Common.Expressions.Eyebrows.Shy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Expressions/Shy.png
+    Sprite: {fileID: 21300000, guid: bd8bf355236449fb9fb26bf3eef9df26, type: 3}
+  - Name: Shy
+    Collection: Expressions
+    Id: Common.Expressions.Eyes.Shy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Expressions/Shy.png
+    Sprite: {fileID: 21300000, guid: 6d3270306af64a3c822f89c16fa35cc8, type: 3}
+  - Name: Shy
+    Collection: Expressions
+    Id: Common.Expressions.Mouth.Shy
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Expressions/Shy.png
+    Sprite: {fileID: 21300000, guid: 1b6bc203b8b149d1a9e81b6396d1faca, type: 3}
+  - Name: Sick
+    Collection: Emoji
+    Id: Common.Emoji.Eyebrows.Sick
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Emoji/Sick.png
+    Sprite: {fileID: 21300000, guid: 0410ac6add4a4726835c692928f8c5fd, type: 3}
+  - Name: Sick
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Sick
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Sick.png
+    Sprite: {fileID: 21300000, guid: 6e761b9ecd62427986c1f252348740be, type: 3}
+  - Name: Sick
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Sick
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Sick.png
+    Sprite: {fileID: 21300000, guid: 31c530f0a06641eda670b3e1813d725a, type: 3}
+  - Name: SideFringe
+    Collection: Basic
+    Id: Common.Basic.Hair.SideFringe
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Basic/SideFringe.png
+    Sprite: {fileID: 21300000, guid: 393af348758245b097c009339e9353a3, type: 3}
+  - Name: SideFringeDisheveled
+    Collection: Bonus
+    Id: Common.Bonus.Hair.SideFringeDisheveled
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Bonus/SideFringeDisheveled.png
+    Sprite: {fileID: 21300000, guid: 2e20b5873b2a40f189d666bf8d0916dc, type: 3}
+  - Name: Sigh
+    Collection: Emoji
+    Id: Common.Emoji.Eyebrows.Sigh
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Emoji/Sigh.png
+    Sprite: {fileID: 21300000, guid: 23a1fec7e687432f81ffe106046e04b9, type: 3}
+  - Name: Sigh
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Sigh
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Sigh.png
+    Sprite: {fileID: 21300000, guid: bc745ea43b7d4d0fae52c77cf840fb33, type: 3}
+  - Name: Sigh
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Sigh
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Sigh.png
+    Sprite: {fileID: 21300000, guid: 5949025a60244622a4a0a036c07ffa73, type: 3}
+  - Name: SkullPin [FullHair]
+    Collection: Style
+    Id: Extensions.Style.Helmet.SkullPin [FullHair]
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/Equipment/Helmet/Style/SkullPin
+      [FullHair].png
+    Sprite: {fileID: 21300000, guid: bf23ccf89b0ece14ba085031b8c4ea87, type: 3}
+  - Name: Slicked
+    Collection: Basic
+    Id: Common.Basic.Hair.Slicked
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Basic/Slicked.png
+    Sprite: {fileID: 21300000, guid: 682de7787e4245088580aa484053aa5c, type: 3}
+  - Name: SlickedTwintales
+    Collection: Basic
+    Id: Common.Basic.Hair.SlickedTwintales
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Basic/SlickedTwintales.png
+    Sprite: {fileID: 21300000, guid: 88676702a3fc4800a1e6a4d80b032a27, type: 3}
+  - Name: SlickedTwintalesDisheveled
+    Collection: Bonus
+    Id: Common.Bonus.Hair.SlickedTwintalesDisheveled
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Bonus/SlickedTwintalesDisheveled.png
+    Sprite: {fileID: 21300000, guid: 3eae2812251a429e8537012572b287d4, type: 3}
+  - Name: SmallHealing
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Supplies.SmallHealing
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Basic/Potions/SmallHealing.png
+    Sprite: {fileID: 21300000, guid: a1e02f96e81f4966896b924ab66e69b0, type: 3}
+  - Name: Smirk
+    Collection: Basic
+    Id: Common.Basic.Mouth.Smirk
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Basic/Smirk.png
+    Sprite: {fileID: 21300000, guid: dba03f64dff1440ea0163ea04d63d9b3, type: 3}
+  - Name: SmokeGrenade
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Supplies.SmokeGrenade
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Pro/Bombs/SmokeGrenade.png
+    Sprite: {fileID: 21300000, guid: 0e4d43f43ff241beb862e07e243ff382, type: 3}
+  - Name: Sock [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Mask.Sock [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Mask/Pro/Sock
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 721ff3690a504e628cf5da20d620538e, type: 3}
+  - Name: Soldier
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Glasses.Soldier
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Glasses/Pro/Soldier.png
+    Sprite: {fileID: 21300000, guid: 3b26ea0d4d084cde8bb1aa154adad312, type: 3}
+  - Name: Soldier3
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Armor.Soldier3
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Pro/Soldier3.png
+    Sprite: {fileID: 21300000, guid: 92b3387f53e44abbbb26cdd604e562c4, type: 3}
+  - Name: Soldier3
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Belt.Soldier3
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Pro/Soldier3.png
+    Sprite: {fileID: 21300000, guid: c71d9a7b770d2d2459918e0a7663a168, type: 3}
+  - Name: Soldier3
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Boots.Soldier3
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Pro/Soldier3.png
+    Sprite: {fileID: 21300000, guid: c9db8e5158eacec448f645662f96845d, type: 3}
+  - Name: Soldier3
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Gloves.Soldier3
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Pro/Soldier3.png
+    Sprite: {fileID: 21300000, guid: 399f18dd6054209489a30d5b5f34c353, type: 3}
+  - Name: Soldier3
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Pauldrons.Soldier3
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Pro/Soldier3.png
+    Sprite: {fileID: 21300000, guid: 26ec4b4de2888d14192867f962b92a99, type: 3}
+  - Name: Soldier3
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Vest.Soldier3
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Pro/Soldier3.png
+    Sprite: {fileID: 21300000, guid: 48258793964777245ba5223e257f887e, type: 3}
+  - Name: Soldier4
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Armor.Soldier4
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Pro/Soldier4.png
+    Sprite: {fileID: 21300000, guid: 944ecb1a85124961b6f5123f301ca616, type: 3}
+  - Name: Soldier4
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Belt.Soldier4
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Pro/Soldier4.png
+    Sprite: {fileID: 21300000, guid: d8dfa0b33aaed9a42af2d84ab525f3a7, type: 3}
+  - Name: Soldier4
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Boots.Soldier4
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Pro/Soldier4.png
+    Sprite: {fileID: 21300000, guid: 1733e3c67da05f54da6f1a7b30c401ad, type: 3}
+  - Name: Soldier4
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Gloves.Soldier4
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Pro/Soldier4.png
+    Sprite: {fileID: 21300000, guid: 4c0667feee7f399479e3b850d1d5ef65, type: 3}
+  - Name: Soldier4
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Pauldrons.Soldier4
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Pro/Soldier4.png
+    Sprite: {fileID: 21300000, guid: 37be6bf97b1057647b5ea807195d5a50, type: 3}
+  - Name: Soldier4
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Vest.Soldier4
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Pro/Soldier4.png
+    Sprite: {fileID: 21300000, guid: 767baa220fcf9494c91ca91da100b4b0, type: 3}
+  - Name: SoldierHelm
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Helmet.SoldierHelm
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Pro/SoldierHelm.png
+    Sprite: {fileID: 21300000, guid: 463ed22d4bbe4682a4fdb154f5b3190f, type: 3}
+  - Name: SPAS-12
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.SPAS-12
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/SPAS-12.png.png
+    Sprite: {fileID: 21300000, guid: 311a7c575d84b1a458e7f5efbbebd73e, type: 3}
+  - Name: Spiky
+    Collection: MoonStyle [NoPaint]
+    Id: Extensions.MoonStyle [NoPaint].Hair.Spiky
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/MoonStyle
+      [NoPaint]/Spiky.png
+    Sprite: {fileID: 21300000, guid: 70f634c830f33354cb872db7bf9acc6b, type: 3}
+  - Name: Spiky
+    Collection: SkyStyle [NoPaint]
+    Id: Extensions.SkyStyle [NoPaint].Hair.Spiky
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SkyStyle
+      [NoPaint]/Spiky.png
+    Sprite: {fileID: 21300000, guid: 18b323ae770f4fd489c7ce20959385bc, type: 3}
+  - Name: Spiky
+    Collection: Style
+    Id: Extensions.Style.Hair.Spiky
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/Style/Spiky.png
+    Sprite: {fileID: 21300000, guid: ebaf04d958cb1294088b080536385855, type: 3}
+  - Name: Spiky
+    Collection: SunStyle [NoPaint]
+    Id: Extensions.SunStyle [NoPaint].Hair.Spiky
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SunStyle
+      [NoPaint]/Spiky.png
+    Sprite: {fileID: 21300000, guid: 420469254de1cf24797bf45743947883, type: 3}
+  - Name: SRL
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.SRL
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/SRL.png.png
+    Sprite: {fileID: 21300000, guid: 68b9be58cbe3fd3449956fcb1b8a3246, type: 3}
+  - Name: Steampunk1
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Glasses.Steampunk1
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Glasses/Pro/Steampunk1.png
+    Sprite: {fileID: 21300000, guid: 778d16538cfa456cbf37eb2f13f608ff, type: 3}
+  - Name: Steampunk2
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Glasses.Steampunk2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Glasses/Pro/Steampunk2.png
+    Sprite: {fileID: 21300000, guid: e707c7b741d8463e8c11f4b6e2d020b8, type: 3}
+  - Name: Street
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Armor.Street
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Casual/Street.png
+    Sprite: {fileID: 21300000, guid: e00f7968bcb04f4595d7ff9b849aad40, type: 3}
+  - Name: Street
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Belt.Street
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Casual/Street.png
+    Sprite: {fileID: 21300000, guid: 7707b005309ebc64bb0c1aceb0cf6fab, type: 3}
+  - Name: Street
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Boots.Street
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Casual/Street.png
+    Sprite: {fileID: 21300000, guid: 9039ad259054f374cb61860054109b2c, type: 3}
+  - Name: Street
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Gloves.Street
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Casual/Street.png
+    Sprite: {fileID: 21300000, guid: a7664d894ead3174bb12683cc9f3e30a, type: 3}
+  - Name: Street
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Pauldrons.Street
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Casual/Street.png
+    Sprite: {fileID: 21300000, guid: 5187ff2da64719843938256f119618f1, type: 3}
+  - Name: Street
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Vest.Street
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Casual/Street.png
+    Sprite: {fileID: 21300000, guid: 23845608a40c265469d4deb2c589bed9, type: 3}
+  - Name: StreetCap [Paint]
+    Collection: Casual
+    Id: MilitaryHeroes.Casual.Helmet.StreetCap [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Casual/StreetCap
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 6c5e97ec462b4a14b03ba6e673f97fd9, type: 3}
+  - Name: Surprised
+    Collection: Expressions
+    Id: Common.Expressions.Eyebrows.Surprised
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Expressions/Surprised.png
+    Sprite: {fileID: 21300000, guid: bbd0fd375d6344159b4901e077ecab85, type: 3}
+  - Name: Surprised
+    Collection: Expressions
+    Id: Common.Expressions.Eyes.Surprised
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Expressions/Surprised.png
+    Sprite: {fileID: 21300000, guid: 068bd06366dd4ec085cb046caab31e2d, type: 3}
+  - Name: Surprised
+    Collection: Expressions
+    Id: Common.Expressions.Mouth.Surprised
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Expressions/Surprised.png
+    Sprite: {fileID: 21300000, guid: 2e800a4812e04cd2ba55ed7474b042b3, type: 3}
+  - Name: SVD
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Firearms2H.SVD
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Basic/SVD.png.png
+    Sprite: {fileID: 21300000, guid: 393da0e94f691d34db83c45defcf0879, type: 3}
+  - Name: SWAT
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Shield.SWAT
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Shield/Basic/SWAT.png
+    Sprite: {fileID: 21300000, guid: ed29f59547a84b38b7bf300101e8a16c, type: 3}
+  - Name: SWATTransparent [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Shield.SWATTransparent [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Shield/Pro/SWATTransparent
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: f49aa3dfdd3045a5aa383003be57d35c, type: 3}
+  - Name: SweatDrop
+    Collection: Emoji
+    Id: Common.Emoji.Eyebrows.SweatDrop
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Emoji/SweatDrop.png
+    Sprite: {fileID: 21300000, guid: 1da2394c0d5440679db44f4014bba272, type: 3}
+  - Name: SweatDrop
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.SweatDrop
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/SweatDrop.png
+    Sprite: {fileID: 21300000, guid: 4987d66b5c794ce09d3dd8bddd588fa2, type: 3}
+  - Name: SweatDrop
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.SweatDrop
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/SweatDrop.png
+    Sprite: {fileID: 21300000, guid: 33e9d0e25c5e460cbcc17d076304b850, type: 3}
+  - Name: TBody
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Body.TBody
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/BodyParts/Body/Basic/TBody.png
+    Sprite: {fileID: 21300000, guid: 0194a23ae0d14af5b185dfa1faa524a5, type: 3}
+  - Name: TBody2
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Body.TBody2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/BodyParts/Body/Basic/TBody2.png
+    Sprite: {fileID: 21300000, guid: 9925843970e14fb09b254d58bb22ee43, type: 3}
+  - Name: Terminator
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Armor.Terminator
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Pro/Terminator.png
+    Sprite: {fileID: 21300000, guid: cd4a968a3eca48f6bfba863654a49a5a, type: 3}
+  - Name: Terminator
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Belt.Terminator
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Pro/Terminator.png
+    Sprite: {fileID: 21300000, guid: 247a11c7c7808bc4c93356c0cabcffbd, type: 3}
+  - Name: Terminator
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Boots.Terminator
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Pro/Terminator.png
+    Sprite: {fileID: 21300000, guid: 6f17a74f3b8b5a44a879383c62ed93e4, type: 3}
+  - Name: Terminator
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Gloves.Terminator
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Pro/Terminator.png
+    Sprite: {fileID: 21300000, guid: dfb80d738e65c4c40925d042c5e7a1d3, type: 3}
+  - Name: Terminator
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Pauldrons.Terminator
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Pro/Terminator.png
+    Sprite: {fileID: 21300000, guid: ee0b6fd11bb56184882cd4d724ca13d1, type: 3}
+  - Name: Terminator
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Vest.Terminator
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Pro/Terminator.png
+    Sprite: {fileID: 21300000, guid: a6baeed6606106747adebd369d30eb47, type: 3}
+  - Name: Terrorist
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Armor.Terrorist
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Pro/Terrorist.png
+    Sprite: {fileID: 21300000, guid: ab11e39c430b4f4ca21250fc26f858a7, type: 3}
+  - Name: Terrorist
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Belt.Terrorist
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Pro/Terrorist.png
+    Sprite: {fileID: 21300000, guid: a572db6422630504198b9544726ac3a4, type: 3}
+  - Name: Terrorist
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Boots.Terrorist
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Pro/Terrorist.png
+    Sprite: {fileID: 21300000, guid: 6b1f621a09989c24cb00c27f63c3ed3d, type: 3}
+  - Name: Terrorist
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Gloves.Terrorist
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Pro/Terrorist.png
+    Sprite: {fileID: 21300000, guid: 57b1b249a692c8f42b1ad951a48f7895, type: 3}
+  - Name: Terrorist
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Pauldrons.Terrorist
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Pro/Terrorist.png
+    Sprite: {fileID: 21300000, guid: dc0809c389555e34bac3b9bfa9069b82, type: 3}
+  - Name: Terrorist
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Vest.Terrorist
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Pro/Terrorist.png
+    Sprite: {fileID: 21300000, guid: 61fec9a6cc45c064c99662e44feb0943, type: 3}
+  - Name: TFace
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Mask.TFace
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Mask/Pro/TFace.png
+    Sprite: {fileID: 21300000, guid: beb88bd780884aa5b25d362b96c279a8, type: 3}
+  - Name: THead
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Head.THead
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/BodyParts/Head/Basic/THead.png
+    Sprite: {fileID: 21300000, guid: 05be382d03a549d79db9495dec2c14f9, type: 3}
+  - Name: ThrowingStar1
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Supplies.ThrowingStar1
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Pro/Throwing/ThrowingStar1.png
+    Sprite: {fileID: 21300000, guid: 4f2344969fb84d40b8fa2e2b508282bf, type: 3}
+  - Name: ThrowingStar2
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Supplies.ThrowingStar2
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Supplies/Pro/Throwing/ThrowingStar2.png
+    Sprite: {fileID: 21300000, guid: d485e5e39a9d4a128d0299947890fa49, type: 3}
+  - Name: TomG
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms2H.TomG
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms2H/Pro/TomG.png.png
+    Sprite: {fileID: 21300000, guid: 9181c67ec527fe5449fc9770264fb739, type: 3}
+  - Name: Twisty
+    Collection: Bonus
+    Id: Common.Bonus.Hair.Twisty
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Bonus/Twisty.png
+    Sprite: {fileID: 21300000, guid: b93d8a31c1954bfea45e0fc2480421d5, type: 3}
+  - Name: UberSoldier [Paint]
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Armor.UberSoldier [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Armor/Basic/UberSoldier
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: b7dcf036978b4e4393336c70124638e5, type: 3}
+  - Name: UberSoldier [Paint]
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Belt.UberSoldier [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Belt/Basic/UberSoldier
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 5bfaec52db5c1924f9b99a6cbea8688d, type: 3}
+  - Name: UberSoldier [Paint]
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Boots.UberSoldier [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Boots/Basic/UberSoldier
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 51c7e93bfac298c49808a8d3390f091a, type: 3}
+  - Name: UberSoldier [Paint]
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Gloves.UberSoldier [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Gloves/Basic/UberSoldier
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: d7a63b1c0c1fef54f8c4c67fee901d9e, type: 3}
+  - Name: UberSoldier [Paint]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Mask.UberSoldier [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Mask/Pro/UberSoldier
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 66798306bb2d4f0491794ea22e10778f, type: 3}
+  - Name: UberSoldier [Paint]
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Pauldrons.UberSoldier [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Pauldrons/Basic/UberSoldier
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: f9ec2db29dfcfa2428d42d1ff57f05f9, type: 3}
+  - Name: UberSoldier [Paint]
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Vest.UberSoldier [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Vest/Basic/UberSoldier
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 122d57c937fc1674d92a18b656daa680, type: 3}
+  - Name: UberSoldierGlasses
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Glasses.UberSoldierGlasses
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Glasses/Pro/UberSoldierGlasses.png
+    Sprite: {fileID: 21300000, guid: 36ddca4699e64af78decc2450a1bde7c, type: 3}
+  - Name: UbersoldierHelm
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Helmet.UbersoldierHelm
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Pro/UbersoldierHelm.png
+    Sprite: {fileID: 21300000, guid: 6d4a473996e34c19a76cc3bc95fab28b, type: 3}
+  - Name: UberSoldierHelmFull [Paint]
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Helmet.UberSoldierHelmFull [Paint]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Helmet/Basic/UberSoldierHelmFull
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: e0d20d0972f94a13998e471d9018809e, type: 3}
+  - Name: USP
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms1H.USP
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms1H/Pro/USP.png.png
+    Sprite: {fileID: 21300000, guid: efa7e35132d31324793eab1aa07aa8c4, type: 3}
+  - Name: USP [Silencer]
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms1H.USP [Silencer]
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms1H/Pro/USP
+      [Silencer].png.png
+    Sprite: {fileID: 21300000, guid: 450fd80ab7a198441bab9afcc11dd692, type: 3}
+  - Name: UZI
+    Collection: Pro
+    Id: MilitaryHeroes.Pro.Firearms1H.UZI
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Firearms1H/Pro/UZI.png.png
+    Sprite: {fileID: 21300000, guid: e70f14713478e454a9d39aa686073926, type: 3}
+  - Name: VerySurprised
+    Collection: Expressions
+    Id: Common.Expressions.Eyebrows.VerySurprised
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Expressions/VerySurprised.png
+    Sprite: {fileID: 21300000, guid: bbab2c892204478dbc64f03c1108f7ea, type: 3}
+  - Name: VerySurprised
+    Collection: Expressions
+    Id: Common.Expressions.Eyes.VerySurprised
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Expressions/VerySurprised.png
+    Sprite: {fileID: 21300000, guid: 517b849f1b844812b0f629aee40315de, type: 3}
+  - Name: VerySurprised
+    Collection: Expressions
+    Id: Common.Expressions.Mouth.VerySurprised
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Expressions/VerySurprised.png
+    Sprite: {fileID: 21300000, guid: 484eba81d7b149c7a96421df6820868f, type: 3}
+  - Name: VillageGirl
+    Collection: Bonus
+    Id: Common.Bonus.Hair.VillageGirl
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Bonus/VillageGirl.png
+    Sprite: {fileID: 21300000, guid: 21f5279fef3144eeb7578580831aed84, type: 3}
+  - Name: Wanting
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.Wanting
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/Wanting.png
+    Sprite: {fileID: 21300000, guid: 50941a7be95d4a0d9ded931a3b1c1a23, type: 3}
+  - Name: Wanting
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.Wanting
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/Wanting.png
+    Sprite: {fileID: 21300000, guid: 93772a3539d84bbb97bf049bc9be4bd6, type: 3}
+  - Name: Wavy
+    Collection: MoonStyle [NoPaint]
+    Id: Extensions.MoonStyle [NoPaint].Hair.Wavy
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/MoonStyle
+      [NoPaint]/Wavy.png
+    Sprite: {fileID: 21300000, guid: 056864d5abd99c54ebcdfb15b8ac9a2b, type: 3}
+  - Name: Wavy
+    Collection: SkyStyle [NoPaint]
+    Id: Extensions.SkyStyle [NoPaint].Hair.Wavy
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SkyStyle
+      [NoPaint]/Wavy.png
+    Sprite: {fileID: 21300000, guid: 8068765a7334556489b3bc3ab5376a9c, type: 3}
+  - Name: Wavy
+    Collection: Style
+    Id: Extensions.Style.Hair.Wavy
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/Style/Wavy.png
+    Sprite: {fileID: 21300000, guid: 2faef836e9401d847b8b54b1059bf15b, type: 3}
+  - Name: Wavy
+    Collection: SunStyle [NoPaint]
+    Id: Extensions.SunStyle [NoPaint].Hair.Wavy
+    Path: Assets/HeroEditor/Extensions/Style/Icons/WithoutBackground/BodyParts/Hair/SunStyle
+      [NoPaint]/Wavy.png
+    Sprite: {fileID: 21300000, guid: faf1706ec7e9ccb4e9a6ef73bfe15e42, type: 3}
+  - Name: Worm
+    Collection: Basic
+    Id: MilitaryHeroes.Basic.Earrings.Worm
+    Path: Assets/HeroEditor/MilitaryHeroes/Icons/WithoutBackground/Equipment/Earrings/Basic/Worm.png
+    Sprite: {fileID: 21300000, guid: c1734ce33ec34d10b47841ac06f6c450, type: 3}
+  - Name: WTF
+    Collection: Emoji
+    Id: Common.Emoji.Eyebrows.WTF
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyebrows/Emoji/WTF.png
+    Sprite: {fileID: 21300000, guid: 1eca5e64282a4bfda8574a4c81dbd310, type: 3}
+  - Name: WTF
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.WTF
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/WTF.png
+    Sprite: {fileID: 21300000, guid: 38aa515d87b146ee84d9367a24eae04b, type: 3}
+  - Name: WTF
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.WTF
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/WTF.png
+    Sprite: {fileID: 21300000, guid: e16c74f8ffc84f369f11426d9dd4d3d0, type: 3}
+  - Name: XD
+    Collection: Emoji
+    Id: Common.Emoji.Eyes.XD
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Emoji/XD.png
+    Sprite: {fileID: 21300000, guid: c1863e7406754b45a7714dfa7593374e, type: 3}
+  - Name: XD
+    Collection: Emoji
+    Id: Common.Emoji.Mouth.XD
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Emoji/XD.png
+    Sprite: {fileID: 21300000, guid: 5d6fb41fab8145dfb5f3ae8f5aec40b2, type: 3}
+  - Name: Zombie
+    Collection: Basic
+    Id: Common.Basic.Mouth.Zombie
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Mouth/Basic/Zombie.png
+    Sprite: {fileID: 21300000, guid: 675c8ae92c75423cbd29001674c1c048, type: 3}
+  - Name: ZombieEyes1
+    Collection: Undead
+    Id: Common.Undead.Eyes.ZombieEyes1
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Undead/ZombieEyes1.png
+    Sprite: {fileID: 21300000, guid: 06f202b8a50a40d48c327406e1d502a3, type: 3}
+  - Name: ZombieEyes2
+    Collection: Undead
+    Id: Common.Undead.Eyes.ZombieEyes2
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Undead/ZombieEyes2.png
+    Sprite: {fileID: 21300000, guid: 2b32ad02efb640638da2d6cc633ecbad, type: 3}
+  - Name: ZombieEyes3
+    Collection: Undead
+    Id: Common.Undead.Eyes.ZombieEyes3
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Undead/ZombieEyes3.png
+    Sprite: {fileID: 21300000, guid: 0f28ca9cefa64052b437674f80be0764, type: 3}
+  - Name: ZombieEyes4
+    Collection: Undead
+    Id: Common.Undead.Eyes.ZombieEyes4
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Undead/ZombieEyes4.png
+    Sprite: {fileID: 21300000, guid: 826ac49f626640a6b3b92c6f22bb0f2f, type: 3}
+  - Name: ZombieEyes5
+    Collection: Undead
+    Id: Common.Undead.Eyes.ZombieEyes5
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Undead/ZombieEyes5.png
+    Sprite: {fileID: 21300000, guid: bbd862446acf4c9fb9665d8854dcd2a1, type: 3}
+  - Name: ZombieEyes6
+    Collection: Undead
+    Id: Common.Undead.Eyes.ZombieEyes6
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Undead/ZombieEyes6.png
+    Sprite: {fileID: 21300000, guid: 36f91727e2f8427dba91185d1c493418, type: 3}
+  - Name: ZombieEyes7
+    Collection: Undead
+    Id: Common.Undead.Eyes.ZombieEyes7
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Eyes/Undead/ZombieEyes7.png
+    Sprite: {fileID: 21300000, guid: 6ea38748b02042238625d259df1d5952, type: 3}
+  - Name: ZombieShabby
+    Collection: Basic
+    Id: Common.Basic.Hair.ZombieShabby
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Basic/ZombieShabby.png
+    Sprite: {fileID: 21300000, guid: d2e8eed0aaf4497b959a811e81aaa2ba, type: 3}
+  - Name: ZombieSticks
+    Collection: Basic
+    Id: Common.Basic.Hair.ZombieSticks
+    Path: Assets/HeroEditor/Common/Icons/WithoutBackground/BodyParts/Hair/Basic/ZombieSticks.png
+    Sprite: {fileID: 21300000, guid: 07ce667a187b4e0db4d47c725d3e991a, type: 3}
+  DefaultItemIcon: {fileID: 21300000, guid: ae011a2b76094d3d988dc7d5ab9b778d, type: 3}
