@@ -8,6 +8,7 @@ namespace Assets.HeroEditor.Common.ExampleScripts
     /// </summary>
     public class Projectile : MonoBehaviour
     {
+        public int dame = 10;
         public List<Renderer> Renderers;
         public GameObject Trail;
         public GameObject Impact;
@@ -29,6 +30,12 @@ namespace Assets.HeroEditor.Common.ExampleScripts
         public void OnTriggerEnter(Collider other)
         {
             Bang(other.gameObject);
+            if (other.CompareTag("Enemy"))
+            {
+                Enemy enemy = other.GetComponent<Enemy>();
+                enemy.TakeDame(dame);
+            }
+            
         }
 
         public void OnCollisionEnter(Collision other)
