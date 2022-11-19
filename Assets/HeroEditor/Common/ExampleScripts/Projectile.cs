@@ -38,10 +38,10 @@ namespace Assets.HeroEditor.Common.ExampleScripts
             
         }
 
-        public void OnCollisionEnter(Collision other)
+       /* public void OnCollisionEnter(Collision other)
         {
             Bang(other.gameObject);
-        }
+        }*/
 
         private void Bang(GameObject other)
         {

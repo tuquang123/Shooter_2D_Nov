@@ -46,6 +46,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -70,8 +71,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 15
-  m_Sprite: {fileID: -1828946549344447192, guid: f7e40d54dc8314745a4a48b65e4ee9d5,
-    type: 3}
+  m_Sprite: {fileID: -1828946549344447192, guid: f7e40d54dc8314745a4a48b65e4ee9d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -128,6 +128,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -152,8 +153,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 6993031405965254486, guid: f7e40d54dc8314745a4a48b65e4ee9d5,
-    type: 3}
+  m_Sprite: {fileID: 6993031405965254486, guid: f7e40d54dc8314745a4a48b65e4ee9d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -241,6 +241,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -322,6 +323,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -371,10 +373,13 @@ GameObject:
   - component: {fileID: 3535404896899698202}
   - component: {fileID: 4867315556631442157}
   - component: {fileID: 1797487778252940654}
-  - component: {fileID: 4076152042055190876}
+  - component: {fileID: 1408888761}
+  - component: {fileID: 1408888758}
+  - component: {fileID: 1408888759}
+  - component: {fileID: 1408888760}
   m_Layer: 0
   m_Name: Bat
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -484,22 +489,72 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!70 &4076152042055190876
-CapsuleCollider2D:
+--- !u!65 &1408888761
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5923401707093281111}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.6046839, y: 3.5004969, z: 1}
+  m_Center: {x: 0.026046932, y: 4.0372577, z: 0}
+--- !u!114 &1408888758
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5923401707093281111}
   m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 4}
-  m_Size: {x: 5, y: 4}
-  m_Direction: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c4f8d2af8ca34c68885c8d58dbb1884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyFx: 1
+  fx: {fileID: 1489697745616700888, guid: 7faaed264d8b94ad5ba698aa94ad4276, type: 3}
+--- !u!114 &1408888759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5923401707093281111}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 531f263384f18f046af04f83b481f52c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0
+  Period: 0
+  RandomPeriod: 0
+  SaveState: 0
+  From: 0
+  To: 0
+  Dumping: 0
+--- !u!114 &1408888760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5923401707093281111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3837e81d2f4d4bad9d7fbec47a54aa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  target: {fileID: 0}
+  fx: {fileID: 1489697745616700888, guid: 7faaed264d8b94ad5ba698aa94ad4276, type: 3}
+  hp: 100
+  projecttile: {fileID: 1406319089736044158, guid: 8f273c3b57fc574478d13a3fb24ea31d, type: 3}
+  timeBetweenShots: 5
+  minimumDistance: 4
+  enemyShoter: 1
 --- !u!1 &6131182453297221300
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,6 +607,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -576,8 +632,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 5681806813702538305, guid: f7e40d54dc8314745a4a48b65e4ee9d5,
-    type: 3}
+  m_Sprite: {fileID: 5681806813702538305, guid: f7e40d54dc8314745a4a48b65e4ee9d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -635,6 +690,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -746,6 +802,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -770,8 +827,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 30
-  m_Sprite: {fileID: 6993031405965254486, guid: f7e40d54dc8314745a4a48b65e4ee9d5,
-    type: 3}
+  m_Sprite: {fileID: 6993031405965254486, guid: f7e40d54dc8314745a4a48b65e4ee9d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -52,6 +52,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -76,8 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 15
-  m_Sprite: {fileID: -5673618120071735642, guid: f561dea7044b4cf8acb5d0a6edba6b15,
-    type: 3}
+  m_Sprite: {fileID: -5673618120071735642, guid: f561dea7044b4cf8acb5d0a6edba6b15, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -134,6 +134,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -158,8 +159,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 1442240968710923744, guid: f561dea7044b4cf8acb5d0a6edba6b15,
-    type: 3}
+  m_Sprite: {fileID: 1442240968710923744, guid: f561dea7044b4cf8acb5d0a6edba6b15, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -216,6 +216,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -265,7 +266,6 @@ GameObject:
   - component: {fileID: 1211699911956097999}
   - component: {fileID: 1423470163212545532}
   - component: {fileID: 1423470163212545531}
-  - component: {fileID: 8829033274029990554}
   m_Layer: 0
   m_Name: Scarecrow
   m_TagString: Untagged
@@ -374,22 +374,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!70 &8829033274029990554
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1423470163212545534}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 2}
-  m_Size: {x: 1, y: 5}
-  m_Direction: 1
 --- !u!1 &1785783350246851850
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,6 +450,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -490,8 +475,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 8137017750165726945, guid: f561dea7044b4cf8acb5d0a6edba6b15,
-    type: 3}
+  m_Sprite: {fileID: 8137017750165726945, guid: f561dea7044b4cf8acb5d0a6edba6b15, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -549,6 +533,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -573,8 +558,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: -4355840616382916082, guid: f561dea7044b4cf8acb5d0a6edba6b15,
-    type: 3}
+  m_Sprite: {fileID: -4355840616382916082, guid: f561dea7044b4cf8acb5d0a6edba6b15, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -691,6 +675,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -715,8 +700,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 25
-  m_Sprite: {fileID: -8626365529436468613, guid: f561dea7044b4cf8acb5d0a6edba6b15,
-    type: 3}
+  m_Sprite: {fileID: -8626365529436468613, guid: f561dea7044b4cf8acb5d0a6edba6b15, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
