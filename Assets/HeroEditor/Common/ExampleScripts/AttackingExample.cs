@@ -24,6 +24,7 @@ namespace Assets.HeroEditor.Common.ExampleScripts
 
         public void Start()
         {
+            Character.Animator.SetBool("Ready", true);
             if ((Character.WeaponType == WeaponType.Firearms1H || Character.WeaponType == WeaponType.Firearms2H) && Firearm.Params.Type == FirearmType.Unknown)
             {
                 throw new Exception("Firearm params not set.");

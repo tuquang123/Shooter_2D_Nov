@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/New Scene.unity
-    guid: 38e585ed41c204ac19dbc756df50d7a4
+    path: Assets/HeroEditor/Megapack.unity
+    guid: 44e64b29e7a9ff540a198446fc05c595
   m_configObjects: {}

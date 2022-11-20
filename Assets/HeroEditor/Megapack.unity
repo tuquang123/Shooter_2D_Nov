@@ -9691,6 +9691,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -2.9748154
       objectReference: {fileID: 0}
+    - target: {fileID: 4502582051349918, guid: ff726cbf10a6436a8c11071a7641036f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4836314132613722, guid: ff726cbf10a6436a8c11071a7641036f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -2.2311106
@@ -9703,6 +9707,34 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 212358780888824012, guid: ff726cbf10a6436a8c11071a7641036f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212358780888824012, guid: ff726cbf10a6436a8c11071a7641036f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212358780888824012, guid: ff726cbf10a6436a8c11071a7641036f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212358780888824012, guid: ff726cbf10a6436a8c11071a7641036f, type: 3}
+      propertyPath: m_SortingLayer
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212358780888824012, guid: ff726cbf10a6436a8c11071a7641036f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 212358780888824012, guid: ff726cbf10a6436a8c11071a7641036f, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1060331271
+      objectReference: {fileID: 0}
+    - target: {fileID: 212358780888824012, guid: ff726cbf10a6436a8c11071a7641036f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 1793250967599767188, guid: ff726cbf10a6436a8c11071a7641036f, type: 3}
       propertyPath: WidthSlider
       value: 

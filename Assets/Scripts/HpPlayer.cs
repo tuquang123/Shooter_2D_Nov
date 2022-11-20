@@ -14,6 +14,7 @@ public class HpPlayer : MonoBehaviour
     }
     public void TakeDame(int dame)
     {
+        character.Hit();
         character.Spring();
         hp -= dame;
     }

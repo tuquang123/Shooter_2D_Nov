@@ -40,9 +40,9 @@ TagManager:
   - 
   - EnemyBullet
   m_SortingLayers:
-  - name: BG
-    uniqueID: 3234636025
-    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 3234636025
     locked: 0

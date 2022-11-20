@@ -16,7 +16,7 @@ public class Move : MonoBehaviour
     private void Update()
     {
         move.x = Input.GetAxisRaw("Horizontal");
-        move.y = Input.GetAxisRaw("Vertical");
+        move.y = Input.GetAxisRaw("Vertical"); 
     }
     private void FixedUpdate()
     {
@@ -32,4 +32,5 @@ public class Move : MonoBehaviour
         }
   
     }
+   
 }

@@ -10,6 +10,14 @@ namespace Assets.HeroEditor.Common.CharacterScripts
             SetState(CharacterState.Idle);
             UpdateAnimation();
         }
+        public void Hit()
+        {
+            Animator.SetTrigger("Hit");
+        }
+        public void Victory()
+        {
+            Animator.SetBool("Victory",true);
+        }
 
         public void GetReady()
         {

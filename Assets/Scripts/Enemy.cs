@@ -7,11 +7,11 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public int dame;
+
     public float speed;
 
     Transform target;
-
-    public GameObject fx;
 
     public int hp = 100;
 
@@ -30,8 +30,20 @@ public class Enemy : MonoBehaviour
     {
         target = GameObject.FindGameObjectWithTag("Player").gameObject.transform;
     }
+    private void LateUpdate()
+    {
+        if (transform.position.x < target.transform.position.x)
+        {
+            transform.localRotation = Quaternion.Euler(0, 180, 0);
+        }
+        else
+        {
+            transform.localRotation = Quaternion.Euler(0, 0, 0);
+        }
+    }
     private void FixedUpdate()
     {
+        
         if (enemyShoter)
         {
             if (Time.time > nextShotTime)
@@ -76,5 +88,16 @@ public class Enemy : MonoBehaviour
             speed = 0;
         }
     }
-    
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            HpPlayer enemy = other.GetComponent<HpPlayer>();
+            enemy.TakeDame(dame);
+            hp = 0;
+            Die();
+        }
+
+    }
+
 }

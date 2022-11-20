@@ -128,4 +128,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fx: {fileID: 1489697745616700888, guid: 7faaed264d8b94ad5ba698aa94ad4276, type: 3}
   dame: 10
-  speed: 6
+  speed: 4

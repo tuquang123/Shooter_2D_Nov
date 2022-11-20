@@ -77,7 +77,7 @@ namespace Assets.HeroEditor.Common.ExampleScripts
 
         public void Turn(float direction)
         {
-            //Character.transform.localScale = new Vector3(Mathf.Sign(direction), 1, 1);
+            Character.transform.localScale = new Vector3(Mathf.Sign(direction), 1, 1);
         }
     }
 }
