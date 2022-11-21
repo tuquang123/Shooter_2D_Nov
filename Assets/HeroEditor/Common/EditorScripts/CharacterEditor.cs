@@ -49,6 +49,7 @@ namespace Assets.HeroEditor.Common.EditorScripts
         public void Awake()
         {
             RestoreTempCharacter();
+           //Encoding.Default.GetBytes(Character.ToJson());
         }
 
         public new void Start()
@@ -59,6 +60,11 @@ namespace Assets.HeroEditor.Common.EditorScripts
             {
                 Tabs.GetComponentInChildren<Toggle>().isOn = true;
             }
+           
+           
+        }
+        private void OnApplicationQuit()
+        {
         }
 
         /// <summary>

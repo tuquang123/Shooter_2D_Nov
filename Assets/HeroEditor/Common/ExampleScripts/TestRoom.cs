@@ -12,12 +12,12 @@ namespace Assets.HeroEditor.Common.ExampleScripts
         public Character Character;
         public static string ReturnSceneName;
 
-        public void Awake()
+        /*public void Awake()
         {
             Physics.gravity = new Vector3(0, -12.5f, 0);
             Physics.defaultSolverIterations = 8;
             Physics.defaultSolverVelocityIterations = 2;
-        }
+        }*/
 
         public void Start()
         {

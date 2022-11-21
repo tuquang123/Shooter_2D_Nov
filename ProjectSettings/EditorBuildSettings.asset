@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/HeroEditor/Megapack.unity
+    path: Assets/Megapack.unity
     guid: 44e64b29e7a9ff540a198446fc05c595
+  - enabled: 1
+    path: Assets/TestRoom [Megapack].unity
+    guid: 21494f4e4290f604c9776b4aa10ce143
+  - enabled: 1
+    path: Assets/HeroEditor/QUICK START.unity
+    guid: cb276a8ee57340c9a153edf75bd96b62
   m_configObjects: {}
