@@ -4,6 +4,7 @@ using Assets.HeroEditor.Common.CharacterScripts.Firearms;
 using Assets.HeroEditor.Common.CharacterScripts.Firearms.Enums;
 using HeroEditor.Common.Enums;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 namespace Assets.HeroEditor.Common.ExampleScripts
 {
@@ -51,10 +52,14 @@ namespace Assets.HeroEditor.Common.ExampleScripts
                     break;
                 case WeaponType.Firearms1H:
                 case WeaponType.Firearms2H:
-                    Firearm.Fire.FireButtonDown = Input.GetKeyDown(FireButton);
+                    /*Firearm.Fire.FireButtonDown = Input.GetKeyDown(FireButton);
                     Firearm.Fire.FireButtonPressed = Input.GetKey(FireButton);
                     Firearm.Fire.FireButtonUp = Input.GetKeyUp(FireButton);
-                    Firearm.Reload.ReloadButtonDown = Input.GetKeyDown(ReloadButton);
+                    Firearm.Reload.ReloadButtonDown = Input.GetKeyDown(ReloadButton);*/
+                    Firearm.Fire.FireButtonDown = CrossPlatformInputManager.GetButtonDown("Shoot");
+                    Firearm.Fire.FireButtonPressed = CrossPlatformInputManager.GetButton("Shoot");
+                    Firearm.Fire.FireButtonUp = CrossPlatformInputManager.GetButtonUp("Shoot");
+                    Firearm.Reload.ReloadButtonDown = CrossPlatformInputManager.GetButtonDown("Reload");
                     break;
 	            case WeaponType.Supplies:
 		            if (Input.GetKeyDown(FireButton))

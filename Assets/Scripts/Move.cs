@@ -29,7 +29,20 @@ public class Move : MonoBehaviour
         {
             move.x = 0f;
         }
-        move.y = joystick.Vertical;
+        if (joystick.Vertical >= .2f)
+        {
+            move.y = speed;
+        }
+        else if (joystick.Vertical <= -.2f)
+        {
+            move.y = -speed;
+        }
+        else
+        {
+            move.y = 0f;
+        }
+        //move.x = joystick.Horizontal;
+        //move.y = joystick.Vertical;
         //move.y = Input.GetAxisRaw("Vertical"); 
     }
     private void FixedUpdate()
