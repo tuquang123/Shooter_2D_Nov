@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
+    public Joystick joystick;
     public Character Character;
 
     public float speed = 3f;
@@ -15,8 +16,21 @@ public class Move : MonoBehaviour
 
     private void Update()
     {
-        move.x = Input.GetAxisRaw("Horizontal");
-        move.y = Input.GetAxisRaw("Vertical"); 
+        //move.x = Input.GetAxisRaw("Horizontal");
+        if (joystick.Horizontal >= .2f)
+        {
+            move.x = speed;
+        }
+        else if(joystick.Horizontal <= -.2f)
+        {
+            move.x = -speed;
+        }
+        else
+        {
+            move.x = 0f;
+        }
+        move.y = joystick.Vertical;
+        //move.y = Input.GetAxisRaw("Vertical"); 
     }
     private void FixedUpdate()
     {

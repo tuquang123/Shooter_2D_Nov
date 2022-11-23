@@ -5618,6 +5618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b6b7749e5a481409fc70f97f829b8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  joystick: {fileID: 0}
   Character: {fileID: 114665035978887628}
   speed: 3
   rb: {fileID: 862580366}
