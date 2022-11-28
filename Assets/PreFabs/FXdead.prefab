@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1489697745616700884}
   - component: {fileID: 1489697745616700885}
   - component: {fileID: 1489697745616700890}
-  - component: {fileID: 1489697745616700891}
+  - component: {fileID: 3832786766751664414}
   m_Layer: 0
   m_Name: FXdead
   m_TagString: Untagged
@@ -103,7 +103,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1489697745616700891
+--- !u!114 &3832786766751664414
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -112,8 +112,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 1489697745616700888}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c4f8d2af8ca34c68885c8d58dbb1884, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a67d2f475b842b48be1f6588e60b413, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyFx: 0
-  fx: {fileID: 0}
+  poolTag: F
+  isActive: 0

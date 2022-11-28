@@ -13,9 +13,17 @@ namespace Assets.HeroEditor.Common.ExampleScripts
     /// </summary>
     public class AttackingExample : MonoBehaviour
     {
+        public Character character;
+        public Transform target;
+        public float attackRage = 20f;
+        [HideInInspector] public float attackTimer;
+        [HideInInspector] public float targetDis = Mathf.Infinity;
+        [HideInInspector] public Vector3 targetDir;
+
         public Character Character;
         public BowExample BowExample;
         public Firearm Firearm;
+        public FirearmFire fire;
         public Transform ArmL;
         public Transform ArmR;
         public KeyCode FireButton;
@@ -23,6 +31,56 @@ namespace Assets.HeroEditor.Common.ExampleScripts
         [Header("Check to disable arm auto rotation.")]
 	    public bool FixedArm;
 
+        private void Turning()
+        {
+            if (target == null) return;
+            //if (turnOff)
+            {
+                targetDir = target.position - character.transform.position;
+                Transform charTrans = character.transform;
+                charTrans.transform.localScale = new Vector3(Mathf.Sign(targetDir.x), 1, 1);
+            }
+        }
+        /*public void FixedUpdate()
+        {
+            Turning();
+            FindEnemy();
+            IsTargetTooFar();
+        }*/
+        public virtual void FindEnemy()
+        {
+            //if (this.target== null) return;
+
+            if (this.target) return;
+            float dis;
+            foreach (Transform obj in SpawnerEnemy.instance.objects)
+            {
+                dis = Vector3.Distance(transform.position, obj.position);
+                if (dis <= attackRage)
+                {
+                    SetTaget(obj);
+                    return;
+                }
+
+            }
+        }
+        public void SetTaget(Transform target)
+        {
+            this.target = target;
+            return;
+        }
+
+        public void IsTargetTooFar()
+        {
+            if (this.target == null) return;
+            if (!this.target.gameObject.activeSelf)
+            {
+                this.target = null;
+                return;
+            }
+            targetDis = Vector3.Distance(transform.position, this.target.position);
+            if (targetDis > attackRage) target = null;
+        }
         public void Start()
         {
             Character.Animator.SetBool("Ready", true);
@@ -31,9 +89,21 @@ namespace Assets.HeroEditor.Common.ExampleScripts
                 throw new Exception("Firearm params not set.");
             }
         }
+        void AutoFire()
+        {
+            if (target == null) return;
+            if (target != null)
+            {
+                fire.StartCoroutine(fire.Fire());
+            }
+        }
         
         public void Update()
         {
+            AutoFire();
+            Turning();
+            FindEnemy();
+            IsTargetTooFar();
             if (Character.Animator.GetInteger("State") >= (int) CharacterState.DeathB) return;
 
             switch (Character.WeaponType)
@@ -74,6 +144,11 @@ namespace Assets.HeroEditor.Common.ExampleScripts
                 Character.GetReady();
             }
         }
+        private void OnDrawGizmos()
+        {
+            Gizmos.color = Color.white;
+            Gizmos.DrawWireSphere( character.transform.position, attackRage);
+        }
 
         /// <summary>
         /// Called each frame update, weapon to mouse rotation example.
@@ -107,7 +182,10 @@ namespace Assets.HeroEditor.Common.ExampleScripts
 
             if (Character.IsReady())
             {
-                RotateArm(arm, weapon, FixedArm ? arm.position + 1000 * Vector3.right : Camera.main.ScreenToWorldPoint(Input.mousePosition), -40, 40);
+                if ( target== null) return;
+                Vector3 enemyS = target.position;
+                RotateArm(arm, weapon, FixedArm ? arm.position + 1000 * Vector3.right : enemyS, -90, 90);
+                //RotateArm(arm, weapon, FixedArm ? arm.position + 1000 * Vector3.right : Camera.main.ScreenToWorldPoint(Input.mousePosition), -40, 40);
             }
         }
 

@@ -16,10 +16,11 @@ namespace Assets.HeroEditor.Common.ExampleScripts
 
 		public void Start()
         {
+            dame = GameManager.Instance.dame;
             Destroy(gameObject, 5);
         }
 
-	    public void Update()
+	    public void FixedUpdate()
 	    {
 		    if (Rigidbody != null && Rigidbody.useGravity)
 		    {

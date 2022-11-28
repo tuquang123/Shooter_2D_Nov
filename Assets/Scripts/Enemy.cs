@@ -43,7 +43,7 @@ public class Enemy : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        
+        Die();
         if (enemyShoter)
         {
             if (Time.time > nextShotTime)
@@ -73,19 +73,36 @@ public class Enemy : MonoBehaviour
             Die();
         }
     }
+    public string poolTag;
+    public bool isActive = false;
+
+    public void OnRequestedFromPool()
+    {
+        isActive = true;
+        //timeToDestroy = defTimerToDestroy;
+    }
+
+    public void DiscardToPool()
+    {
+        MyPooler.ObjectPooler.Instance.ReturnToPool(poolTag, this.gameObject);
+        //isActive = false;
+        hp = 100;
+        hp += SpawnerEnemy.lv;
+    }
+
     public void TakeDame(int dame)
     {
         ScaleSpring.Begin(this, 1f, 1.1f, 40, 3);
-
-        hp -= dame;
-        
+        hp -= dame;  
     }
     public void Die()
     {
         if (hp <= 0)
         {
-            GetComponent<Monster>().Die();
-            speed = 0;
+            DiscardToPool();
+            MyPooler.ObjectPooler.Instance.GetFromPool("F", transform.position, Quaternion.identity);
+            //GetComponent<Monster>().Die();
+            //speed = 0;
         }
     }
     public void OnTriggerEnter(Collider other)

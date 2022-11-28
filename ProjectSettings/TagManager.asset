@@ -3,9 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Enemy
-  - BulletE
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -15,11 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - Bullet
-  - 
-  - 
+  - player
+  - projectile
   - 
   - 
   - 
@@ -38,11 +33,14 @@ TagManager:
   - 
   - 
   - 
-  - EnemyBullet
+  - 
+  - 
+  - NPC
+  - Camera
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2766579207
+    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: BG
-    uniqueID: 3234636025
     locked: 0

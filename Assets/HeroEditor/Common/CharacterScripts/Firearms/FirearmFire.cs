@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Linq;
 using Assets.HeroEditor.Common.CharacterScripts.Firearms.Enums;
+using Assets.HeroEditor.Common.ExampleScripts;
 using HeroEditor.Common.Enums;
 using UnityEngine;
 
@@ -190,7 +191,7 @@ namespace Assets.HeroEditor.Common.CharacterScripts.Firearms
             for (var i = 0; i < iterations; i++)
             {
                 var bullet = Instantiate(Firearm.Params.ProjectilePrefab, Firearm.FireTransform);
-                var spread = Firearm.FireTransform.up * Random.Range(-1f, 1f) * (1 - Firearm.Params.Accuracy);
+                var spread = Firearm.FireTransform.up * Random.Range(-1f, 1f) * (1 - Firearm.Params.Accuracy);           
 
                 bullet.transform.localPosition = Vector3.zero;
                 bullet.transform.localRotation = Quaternion.identity;

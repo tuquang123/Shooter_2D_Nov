@@ -4885,7 +4885,7 @@ Transform:
   m_GameObject: {fileID: 1121886198620100}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children:
   - {fileID: 4288937044022552}
   - {fileID: 4260968298715020}
@@ -14546,7 +14546,7 @@ GameObject:
   m_Layer: 31
   m_Name: Bullet
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -14559,7 +14559,7 @@ Transform:
   m_GameObject: {fileID: 1681781652526772}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3, y: 1.3, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 4397284148362552}
   - {fileID: 4393839782422742}
@@ -14578,7 +14578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1537e5da497143d0b130cd42fba93074, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dame: 10
+  dame: 20
   Renderers: []
   Trail: {fileID: 1093674060203738}
   Impact: {fileID: 1121886198620100}
@@ -14622,7 +14622,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1000
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

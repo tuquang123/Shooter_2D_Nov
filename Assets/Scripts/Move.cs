@@ -10,9 +10,9 @@ public class Move : MonoBehaviour
 
     public float speed = 3f;
 
-    public Rigidbody2D rb;
+    public Rigidbody rb;
 
-    Vector2 move;
+    Vector3 move;
 
     private void Update()
     {
@@ -47,7 +47,7 @@ public class Move : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (move == Vector2.zero) 
+        if (move == Vector3.zero) 
         {
             Character.SetState(CharacterState.Idle);
         }

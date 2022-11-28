@@ -4,23 +4,61 @@ using UnityEngine;
 
 public class SpawnerEnemy : MonoBehaviour
 {
+    public static int lv;
     public GameObject enemy;
     float randy;
     Vector2 whereToSpawn;
 
+    [Range(0.5f,3f)]
+    public const float minRate = 1f;
     public float spawnRate;
     float nextSpawn = 0.0f;
 
     public int miny, maxY;
 
-    private void Update()
+    public static SpawnerEnemy instance;
+    public List<Transform> objects = new List<Transform>();
+
+    private void Start()
+    {
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
+    void RemoveList()
+    {
+        for (int i = 0; i < objects.Count; i++)
+        {
+            Transform obj = this.objects[i];
+            if (obj.gameObject.activeSelf) continue;
+            objects.Remove(obj);
+        }
+    }
+    private void LateUpdate()
+    {
+        RemoveList();
+    }
+    bool max = true;
+    private void FixedUpdate()
     {
         if (Time.time > nextSpawn)
         {
+            lv++;
+            Debug.Log(lv);
             nextSpawn = Time.time + spawnRate;
             randy = Random.Range(miny, maxY);
             whereToSpawn = new Vector2(transform.position.x, randy);
-            Instantiate(enemy, whereToSpawn, Quaternion.identity);
+            //var enemyPrefab = Instantiate(enemy, whereToSpawn, Quaternion.identity);
+            var enemyPrefab = MyPooler.ObjectPooler.Instance.GetFromPool("E", whereToSpawn, Quaternion.identity);
+            objects.Add(enemyPrefab.transform);
+            if (max)
+            {
+                spawnRate -= 0.1f;
+            }
+            if(spawnRate <= minRate)
+            {
+                spawnRate = minRate;
+                max = false;
+            }
         }
     }
 }
