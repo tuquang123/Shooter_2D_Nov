@@ -43,6 +43,8 @@ public class Enemy : MonoBehaviour
     }
     private void FixedUpdate()
     {
+
+        //transform.position += transform.forwar * speed * Time.deltaTime;
         Die();
         if (enemyShoter)
         {
@@ -60,11 +62,6 @@ public class Enemy : MonoBehaviour
                 Die();
             }
         }
-
-        //rb.AddForce(transform.forward * 2);
-        //rb.velocity = new Vector3(-speed, 0f, 0f);
-
-        //if (Vector2.Distance(transform.position, target.position) > target.position.x)
         else
         {
             if (this.target == null) return;

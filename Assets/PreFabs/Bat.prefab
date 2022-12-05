@@ -376,7 +376,6 @@ GameObject:
   - component: {fileID: 4867315556631442157}
   - component: {fileID: 1797487778252940654}
   - component: {fileID: 1408888761}
-  - component: {fileID: 1408888758}
   - component: {fileID: 1408888759}
   - component: {fileID: 1408888760}
   - component: {fileID: 4072513067874170962}
@@ -503,22 +502,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.6046839, y: 3.5004969, z: 1}
-  m_Center: {x: 0.026046932, y: 4.0372577, z: 0}
---- !u!114 &1408888758
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5923401707093281111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c4f8d2af8ca34c68885c8d58dbb1884, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemyFx: 1
-  fx: {fileID: 1489697745616700888, guid: 7faaed264d8b94ad5ba698aa94ad4276, type: 3}
+  m_Size: {x: 3.6046839, y: 3.217383, z: 1}
+  m_Center: {x: 0.026046932, y: 1.5458586, z: 0}
 --- !u!114 &1408888759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -551,14 +536,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dame: 10
-  speed: 1
+  speed: 2
   hp: 100
   projecttile: {fileID: 1406319089736044158, guid: 8f273c3b57fc574478d13a3fb24ea31d,
     type: 3}
   timeBetweenShots: 7
   minimumDistance: 4
-  enemyShoter: 1
-  poolTag: E
+  enemyShoter: 0
+  poolTag: E2
   isActive: 0
 --- !u!54 &4072513067874170962
 Rigidbody:
@@ -601,7 +586,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6131182453297221300}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 0.71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3563809651229003356}

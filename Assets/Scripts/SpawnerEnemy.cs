@@ -43,13 +43,14 @@ public class SpawnerEnemy : MonoBehaviour
         if (Time.time > nextSpawn)
         {
             lv++;
-            Debug.Log(lv);
             nextSpawn = Time.time + spawnRate;
             randy = Random.Range(miny, maxY);
             whereToSpawn = new Vector2(transform.position.x, randy);
             //var enemyPrefab = Instantiate(enemy, whereToSpawn, Quaternion.identity);
             var enemyPrefab = MyPooler.ObjectPooler.Instance.GetFromPool("E", whereToSpawn, Quaternion.identity);
+            var enemyPrefab2 = MyPooler.ObjectPooler.Instance.GetFromPool("E2", whereToSpawn, Quaternion.identity);
             objects.Add(enemyPrefab.transform);
+            objects.Add(enemyPrefab2.transform);
             if (max)
             {
                 spawnRate -= 0.1f;
