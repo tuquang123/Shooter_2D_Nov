@@ -7,6 +7,7 @@ using Assets.HeroEditor.FantasyInventory.Scripts.Enums;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
 {
@@ -15,6 +16,9 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
     /// </summary>
     public class InventoryItem : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
     {
+        public Text textPrice;
+        public GameObject panel;
+        public bool active;
         public Image Icon;
         public Image Background;
         public Text Count;
@@ -34,8 +38,20 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
             }
         }
 
+        public int price = 0 ;
+        public void Buy()
+        {
+            if (GameManager.Instance.gold >= price)
+            {
+                panel.SetActive(false);
+                GameManager.Instance.gold -= price;
+                active = true;
+                GameManager.Instance.dame += 5;
+            }
+        }
         public void Start()
         {
+            textPrice.text = price.ToString();
             if (Icon != null)
             {
                 var collection = IconCollection.Active ?? IconCollection.Instances.First().Value;
@@ -63,7 +79,8 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
 
         public void OnPointerClick(PointerEventData eventData)
         {
-            StartCoroutine(OnPointerClickDelayed(eventData));
+            
+            if(active)StartCoroutine(OnPointerClickDelayed(eventData));
         }
 
         private IEnumerator OnPointerClickDelayed(PointerEventData eventData) // TODO: A workaround. We should wait for initializing other components.

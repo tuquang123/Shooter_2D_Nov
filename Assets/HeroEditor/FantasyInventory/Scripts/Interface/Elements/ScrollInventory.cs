@@ -15,7 +15,7 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
     /// </summary>
     public class ScrollInventory : ItemContainer
     {
-        public ScrollRect ScrollRect;
+	    public ScrollRect ScrollRect;
         public GridLayoutGroup Grid;
         public InventoryItem ItemPrefab;
 	    public InventoryItem ItemNoSpritesPrefab;
@@ -107,7 +107,7 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
 
         public void Refresh(Item selected, bool force)
 		{
-            if (Items == null) return;
+			if (Items == null) return;
 
             var inventoryItems = new Dictionary<Item, InventoryItem>();
 	        var emptyCells = new List<GameObject>();
@@ -132,11 +132,10 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
 
                 for (var i = 0; i < items.Count; i++)
                 {
-                    var inventoryItem = _inventoryItems.ElementAt(i).Value;
-
-                    inventoryItem.Item = items[i];
-					dict.Add(items[i], inventoryItem);
-				}
+	                var inventoryItem = _inventoryItems.ElementAt(i).Value;
+	                inventoryItem.Item = items[i];
+                    dict.Add(items[i], inventoryItem);
+                }
 
                 _inventoryItems = dict;
 
@@ -145,24 +144,25 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
 
             foreach (var item in items)
             {
-                InventoryItem inventoryItem;
-                
-                if (_inventoryItems.ContainsKey(item))
+	            InventoryItem inventoryItem;
+	            if (_inventoryItems.ContainsKey(item))
 	            {
-                    inventoryItem = _inventoryItems[item];
+		            inventoryItem = _inventoryItems[item];
 		            inventoryItem.transform.SetAsLastSibling();
 					inventoryItems.Add(item, inventoryItem);
-		            _inventoryItems.Remove(item);
-				}
+					_inventoryItems.Remove(item);
+	            }
 	            else
 	            {
-                    inventoryItem = Instantiate(ItemPrefab, Grid.transform);
-                    inventoryItem.Container = this;
+		            inventoryItem = Instantiate(ItemPrefab, Grid.transform);
+		            //var s = ItemPrefab.price++;
+		            inventoryItem.Container = this;
                     inventoryItem.Item = item;
                     inventoryItems.Add(item, inventoryItem);
-                }
-
-                inventoryItem.Count.text = item.Count.ToString();
+		            //var s = ItemPrefab.Item.Count++;
+	            }
+	            
+	            inventoryItem.Count.text = item.Count.ToString();
                 inventoryItem.Count.enabled = !HideCountLabels;
 
                 if (SelectOnRefresh) inventoryItem.Select(item == selected);

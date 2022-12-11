@@ -127,7 +127,7 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
             }
             else
             {
-                Price.text = trader ? $"Buy price: {price}G" : $"Sell price: {price}G";
+                Price.text = trader ? $"Buy price : {price}G" : $"Sell price : {price}G";
             }
         }
     }
