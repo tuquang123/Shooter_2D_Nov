@@ -141,7 +141,7 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
 
                 return;
             }
-
+            bool check1Time= false;
             foreach (var item in items)
             {
 	            InventoryItem inventoryItem;
@@ -154,12 +154,17 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
 	            }
 	            else
 	            {
+		            if (!check1Time)
+		            {
+			            check1Time = true;
+			            continue;
+		            }
+		            
 		            inventoryItem = Instantiate(ItemPrefab, Grid.transform);
-		            //var s = ItemPrefab.price++;
+		            var s = ItemPrefab.price+=1000;
 		            inventoryItem.Container = this;
-                    inventoryItem.Item = item;
-                    inventoryItems.Add(item, inventoryItem);
-		            //var s = ItemPrefab.Item.Count++;
+		            inventoryItem.Item = item;
+		            inventoryItems.Add(item, inventoryItem);
 	            }
 	            
 	            inventoryItem.Count.text = item.Count.ToString();
@@ -241,6 +246,10 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
         {
             if (ScrollRect.horizontal) ScrollRect.horizontalNormalizedPosition = 0;
             if (ScrollRect.vertical) ScrollRect.verticalNormalizedPosition = 1;
+        }
+        public void OnDestroy()
+        {
+	        ItemPrefab.price = 100;
         }
     }
 }

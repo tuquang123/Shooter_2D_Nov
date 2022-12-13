@@ -1352,6 +1352,18 @@ MonoBehaviour:
     Hash: 10017b4d24bff4e9957674cc2a5e2a86
     Meta: 
     Tags: []
+  - Name: NemeanHair
+    Collection: Bonus
+    Edition: Common
+    Id: Common.Bonus.Hair.NemeanHair
+    Path: Assets/HeroEditor/Common/Sprites/BodyParts/Hair/Bonus/NemeanHair.png
+    Sprite: {fileID: 21300000, guid: 9b34884577998104599852e53dfc78f3, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 9b34884577998104599852e53dfc78f3, type: 3}
+    Multiple: 1
+    Hash: cb8103f265e3744c3c97fd22f4879abf
+    Meta: 
+    Tags: []
   - Name: Princess
     Collection: MoonStyle [NoPaint]
     Edition: Extensions
@@ -1625,6 +1637,18 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 2e842cd7daba41a392f535774e8096b3, type: 3}
     Multiple: 1
     Hash: d0bc3d77fa2f171aec1eb56b52eb00a1
+    Meta: 
+    Tags: []
+  - Name: UncleSamHair
+    Collection: Bonus
+    Edition: Common
+    Id: Common.Bonus.Hair.UncleSamHair
+    Path: Assets/HeroEditor/Common/Sprites/BodyParts/Hair/Bonus/UncleSamHair.png
+    Sprite: {fileID: 21300000, guid: 94232167536b64142a10e6599e3d28d0, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 94232167536b64142a10e6599e3d28d0, type: 3}
+    Multiple: 1
+    Hash: b82e5370de1bfeada547e315f17428a2
     Meta: 
     Tags: []
   - Name: VillageGirl
@@ -3962,6 +3986,42 @@ MonoBehaviour:
     Hash: 34f9e0a72895fb9f57098dc4ae7809ce
     Meta: 
     Tags: []
+  - Name: NemeanBeard
+    Collection: Basic
+    Edition: Common
+    Id: Common.Basic.Beard.NemeanBeard
+    Path: Assets/HeroEditor/Common/Sprites/BodyParts/Beard/Basic/NemeanBeard.png
+    Sprite: {fileID: 21300000, guid: 24206486f425cc54aa99fbd3850d5df4, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 24206486f425cc54aa99fbd3850d5df4, type: 3}
+    Multiple: 1
+    Hash: 5feeb451d210dfb329b36f0adf014b47
+    Meta: 
+    Tags: []
+  - Name: NemeanBeard2
+    Collection: Basic
+    Edition: Common
+    Id: Common.Basic.Beard.NemeanBeard2
+    Path: Assets/HeroEditor/Common/Sprites/BodyParts/Beard/Basic/NemeanBeard2.png
+    Sprite: {fileID: 21300000, guid: c9140dffc05266d49916034db92eabff, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: c9140dffc05266d49916034db92eabff, type: 3}
+    Multiple: 1
+    Hash: 3faa23b62d6be958cde69e2f54193bee
+    Meta: 
+    Tags: []
+  - Name: UncleSamBeard
+    Collection: Basic
+    Edition: Common
+    Id: Common.Basic.Beard.UncleSamBeard
+    Path: Assets/HeroEditor/Common/Sprites/BodyParts/Beard/Basic/UncleSamBeard.png
+    Sprite: {fileID: 21300000, guid: d5a2dc512d3c9af4bb871a4c9caffaae, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: d5a2dc512d3c9af4bb871a4c9caffaae, type: 3}
+    Multiple: 1
+    Hash: 1cc355fc4cec2402314b707463eb9d31
+    Meta: 
+    Tags: []
   Body:
   - Name: Demon1
     Collection: Demon
@@ -4397,7 +4457,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 96361bdcb7e04686a62241f5092bb50d, type: 3}
     - {fileID: 21300000, guid: 96361bdcb7e04686a62241f5092bb50d, type: 3}
     Multiple: 1
-    Hash: 93266495fec0fa1f9eb9923b4c320ca1
+    Hash: a15a46fbbd445f33648dba54096f586f
     Meta: 
     Tags: []
   - Name: TBody
@@ -4420,7 +4480,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 6a73e48aefe44c728868c63a9dd8addf, type: 3}
     - {fileID: 21300000, guid: 6a73e48aefe44c728868c63a9dd8addf, type: 3}
     Multiple: 1
-    Hash: 93266495fec0fa1f9eb9923b4c320ca1
+    Hash: a15a46fbbd445f33648dba54096f586f
     Meta: 
     Tags: []
   - Name: TBody2
@@ -4443,7 +4503,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 071f4f6972904d5f9c1867478ade1b2a, type: 3}
     - {fileID: 21300000, guid: 071f4f6972904d5f9c1867478ade1b2a, type: 3}
     Multiple: 1
-    Hash: cf34945bf7075b7df8baf4b7c6e5188d
+    Hash: 9cc5073a6e76b5a2a4467fa5e03d87e2
     Meta: 
     Tags: []
   - Name: TBody2
@@ -4466,7 +4526,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: a380aab72848444487113c1d8637e3e7, type: 3}
     - {fileID: 21300000, guid: a380aab72848444487113c1d8637e3e7, type: 3}
     Multiple: 1
-    Hash: cf34945bf7075b7df8baf4b7c6e5188d
+    Hash: 9cc5073a6e76b5a2a4467fa5e03d87e2
     Meta: 
     Tags: []
   - Name: ZombieBody1
@@ -5142,6 +5202,18 @@ MonoBehaviour:
     Meta: 
     Tags:
     - FullHair
+  - Name: DarkJusticeHelmet
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Helmet.DarkJusticeHelmet
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/DarkJusticeHelmet.png
+    Sprite: {fileID: 21300000, guid: 0c40c45e2f34f1c4ea89f435b5d7ff49, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 0c40c45e2f34f1c4ea89f435b5d7ff49, type: 3}
+    Multiple: 1
+    Hash: 1230c55a476a605d338b39a5472e4357
+    Meta: 
+    Tags: []
   - Name: DarkLordHelmet
     Collection: Legendary
     Edition: Extensions
@@ -5496,6 +5568,30 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 4e5bc733a363408abc5939ec9c90b130, type: 3}
     Multiple: 1
     Hash: 7145d50263bb39dca83d22b6338d4d17
+    Meta: 
+    Tags: []
+  - Name: FrozenDragonMask
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Helmet.FrozenDragonMask
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/FrozenDragonMask.png
+    Sprite: {fileID: 21300000, guid: 047e662dd4a3e414792308f17c5894cd, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 047e662dd4a3e414792308f17c5894cd, type: 3}
+    Multiple: 1
+    Hash: 9879cf91443dd75a9b4b5566f564faca
+    Meta: 
+    Tags: []
+  - Name: FrozenDragonMask2
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Helmet.FrozenDragonMask2
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/FrozenDragonMask2.png
+    Sprite: {fileID: 21300000, guid: e2f26a08104dffd41882cbbdf84ad7f2, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: e2f26a08104dffd41882cbbdf84ad7f2, type: 3}
+    Multiple: 1
+    Hash: 4524d006ba854422786c54c2f8a77812
     Meta: 
     Tags: []
   - Name: FrozenMightHat
@@ -6070,6 +6166,18 @@ MonoBehaviour:
     Meta: 
     Tags:
     - FullHair
+  - Name: HelmOfEternalLight
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Helmet.HelmOfEternalLight
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/HelmOfEternalLight.png
+    Sprite: {fileID: 21300000, guid: bbe6c3aa8a8bcf74092994911b76dcd2, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: bbe6c3aa8a8bcf74092994911b76dcd2, type: 3}
+    Multiple: 1
+    Hash: 4bf4d4165dde59f04977e4aaba30bc85
+    Meta: 
+    Tags: []
   - Name: HermitHat
     Collection: Basic
     Edition: FantasyHeroes
@@ -7052,6 +7160,18 @@ MonoBehaviour:
     Hash: 3c0586e4b7b46bc2ea9c375c46b52bec
     Meta: 
     Tags: []
+  - Name: NemeanHelmet
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Helmet.NemeanHelmet
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/NemeanHelmet.png
+    Sprite: {fileID: 21300000, guid: 723cf6fc53050bc46948929703354112, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 723cf6fc53050bc46948929703354112, type: 3}
+    Multiple: 1
+    Hash: 9fd4e7e475862f0d3da41cce1d3eb01c
+    Meta: 
+    Tags: []
   - Name: NinjaHeadband
     Collection: Pro
     Edition: MilitaryHeroes
@@ -7959,6 +8079,20 @@ MonoBehaviour:
     Hash: 6206dd04d34c37de0b00f628c6d09d69
     Meta: 
     Tags: []
+  - Name: SeraphimHalo [FullHair]
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Helmet.SeraphimHalo [FullHair]
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/SeraphimHalo
+      [FullHair].png
+    Sprite: {fileID: 21300000, guid: 8591b01ee3176f94b865a4f3aa7259d6, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 8591b01ee3176f94b865a4f3aa7259d6, type: 3}
+    Multiple: 1
+    Hash: 0500d7ccfb647b96dbf385284c928af4
+    Meta: 
+    Tags:
+    - FullHair
   - Name: ShamanHelm [FullHair]
     Collection: Basic
     Edition: FantasyHeroes
@@ -8368,6 +8502,20 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 1254172aeffa00541afb3664a9572530, type: 3}
     Multiple: 1
     Hash: bf0d84704e326189afeff4f7caee1076
+    Meta: 
+    Tags:
+    - FullHair
+  - Name: UncleSamHat [FullHair]
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Helmet.UncleSamHat [FullHair]
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/UncleSamHat
+      [FullHair].png
+    Sprite: {fileID: 21300000, guid: 9a2caf72dd70bfc4494b99d4054d083b, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 9a2caf72dd70bfc4494b99d4054d083b, type: 3}
+    Multiple: 1
+    Hash: 4c1c94a915c4b2c25cf261f788014c7c
     Meta: 
     Tags:
     - FullHair
@@ -9754,6 +9902,29 @@ MonoBehaviour:
     Hash: 4602d85d82ba1045c37acde4bc107b3d
     Meta: 
     Tags: []
+  - Name: ArmorOfEternalLight
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Armor.ArmorOfEternalLight
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/ArmorOfEternalLight.png
+    Sprite: {fileID: 21300024, guid: eaa889df66469984689d9e3e411ec675, type: 3}
+    Sprites:
+    - {fileID: 21300024, guid: eaa889df66469984689d9e3e411ec675, type: 3}
+    - {fileID: 21300022, guid: eaa889df66469984689d9e3e411ec675, type: 3}
+    - {fileID: 21300040, guid: eaa889df66469984689d9e3e411ec675, type: 3}
+    - {fileID: 21300028, guid: eaa889df66469984689d9e3e411ec675, type: 3}
+    - {fileID: 21300026, guid: eaa889df66469984689d9e3e411ec675, type: 3}
+    - {fileID: 21300034, guid: eaa889df66469984689d9e3e411ec675, type: 3}
+    - {fileID: 21300036, guid: eaa889df66469984689d9e3e411ec675, type: 3}
+    - {fileID: 21300030, guid: eaa889df66469984689d9e3e411ec675, type: 3}
+    - {fileID: 21300006, guid: eaa889df66469984689d9e3e411ec675, type: 3}
+    - {fileID: 21300032, guid: eaa889df66469984689d9e3e411ec675, type: 3}
+    - {fileID: 21300038, guid: eaa889df66469984689d9e3e411ec675, type: 3}
+    - {fileID: 21300000, guid: eaa889df66469984689d9e3e411ec675, type: 3}
+    Multiple: 1
+    Hash: 927bd7b25f1437fbb62cd559b0d1cd3f
+    Meta: 
+    Tags: []
   - Name: ArmorOfFadedHeavens
     Collection: Epic
     Edition: Extensions
@@ -10500,7 +10671,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: e2940dad8faa493aad3d9ac9c364111d, type: 3}
     - {fileID: 21300000, guid: e2940dad8faa493aad3d9ac9c364111d, type: 3}
     Multiple: 1
-    Hash: fb43b83e00038bf577d45ec1ea5c3ddb
+    Hash: a0080c1770bdc2ce559b8ac1a8f838d7
     Meta: 
     Tags:
     - Paint
@@ -10552,6 +10723,29 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
+  - Name: DarkJusticeArmor
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Armor.DarkJusticeArmor
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/DarkJusticeArmor.png
+    Sprite: {fileID: 21300024, guid: e5e6a516529fb1844b28d78ece7c4865, type: 3}
+    Sprites:
+    - {fileID: 21300024, guid: e5e6a516529fb1844b28d78ece7c4865, type: 3}
+    - {fileID: 21300022, guid: e5e6a516529fb1844b28d78ece7c4865, type: 3}
+    - {fileID: 21300040, guid: e5e6a516529fb1844b28d78ece7c4865, type: 3}
+    - {fileID: 21300028, guid: e5e6a516529fb1844b28d78ece7c4865, type: 3}
+    - {fileID: 21300026, guid: e5e6a516529fb1844b28d78ece7c4865, type: 3}
+    - {fileID: 21300034, guid: e5e6a516529fb1844b28d78ece7c4865, type: 3}
+    - {fileID: 21300036, guid: e5e6a516529fb1844b28d78ece7c4865, type: 3}
+    - {fileID: 21300030, guid: e5e6a516529fb1844b28d78ece7c4865, type: 3}
+    - {fileID: 21300006, guid: e5e6a516529fb1844b28d78ece7c4865, type: 3}
+    - {fileID: 21300032, guid: e5e6a516529fb1844b28d78ece7c4865, type: 3}
+    - {fileID: 21300038, guid: e5e6a516529fb1844b28d78ece7c4865, type: 3}
+    - {fileID: 21300000, guid: e5e6a516529fb1844b28d78ece7c4865, type: 3}
+    Multiple: 1
+    Hash: 8cb012da573a7828cf9c2b7a43373b18
+    Meta: 
+    Tags: []
   - Name: DarkKnight
     Collection: Basic
     Edition: FantasyHeroes
@@ -10642,7 +10836,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 0556c9854f5646e4ae0707772ab3ffca, type: 3}
     - {fileID: 21300000, guid: 0556c9854f5646e4ae0707772ab3ffca, type: 3}
     Multiple: 1
-    Hash: 29f88fea5ddd88debf4bf7b4c0c392ef
+    Hash: 6e8a388e7392db08e4233ac0634d3df1
     Meta: 
     Tags: []
   - Name: DestroyerArmor [Paint]
@@ -11306,6 +11500,29 @@ MonoBehaviour:
     Hash: fb3e1345a655f2b8288a168f1935ce0c
     Meta: 
     Tags: []
+  - Name: FrozenDragonArmor
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Armor.FrozenDragonArmor
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/FrozenDragonArmor.png
+    Sprite: {fileID: 21300024, guid: e3f589005dd43c34385486289741b462, type: 3}
+    Sprites:
+    - {fileID: 21300024, guid: e3f589005dd43c34385486289741b462, type: 3}
+    - {fileID: 21300022, guid: e3f589005dd43c34385486289741b462, type: 3}
+    - {fileID: 21300040, guid: e3f589005dd43c34385486289741b462, type: 3}
+    - {fileID: 21300028, guid: e3f589005dd43c34385486289741b462, type: 3}
+    - {fileID: 21300026, guid: e3f589005dd43c34385486289741b462, type: 3}
+    - {fileID: 21300034, guid: e3f589005dd43c34385486289741b462, type: 3}
+    - {fileID: 21300036, guid: e3f589005dd43c34385486289741b462, type: 3}
+    - {fileID: 21300030, guid: e3f589005dd43c34385486289741b462, type: 3}
+    - {fileID: 21300006, guid: e3f589005dd43c34385486289741b462, type: 3}
+    - {fileID: 21300032, guid: e3f589005dd43c34385486289741b462, type: 3}
+    - {fileID: 21300038, guid: e3f589005dd43c34385486289741b462, type: 3}
+    - {fileID: 21300000, guid: e3f589005dd43c34385486289741b462, type: 3}
+    Multiple: 1
+    Hash: 6c19f46df889476af088036962b79125
+    Meta: 
+    Tags: []
   - Name: FrozenMightRobe
     Collection: AbandonedWorkshop
     Edition: Extensions
@@ -11656,7 +11873,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 41ad2c1d10e74e6eae919687457ae41c, type: 3}
     - {fileID: 21300000, guid: 41ad2c1d10e74e6eae919687457ae41c, type: 3}
     Multiple: 1
-    Hash: 780753c77483c6ee51ecfbcef692fdbc
+    Hash: 9aadad97b0c0b7b603fff35dcbe39dee
     Meta: 
     Tags: []
   - Name: HighCrusaderArmor
@@ -11748,7 +11965,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 826dd529b47a488b922eb5ed3c044fce, type: 3}
     - {fileID: 21300000, guid: 826dd529b47a488b922eb5ed3c044fce, type: 3}
     Multiple: 1
-    Hash: bffac376e6e2909501b40c651af079af
+    Hash: c3f55129412cf13eaadc06d018c31628
     Meta: 
     Tags: []
   - Name: Hunter
@@ -12455,7 +12672,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 5826038429d04708bd03702da5ba1f99, type: 3}
     - {fileID: 21300000, guid: 5826038429d04708bd03702da5ba1f99, type: 3}
     Multiple: 1
-    Hash: 287609e7fa2a746b40afa18ffaeac100
+    Hash: 1004eb8ed010f91f6efa4f1b95548af8
     Meta: 
     Tags:
     - Paint
@@ -12480,7 +12697,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: fe0d8b62a4dd4a1db6e0e8101109f391, type: 3}
     - {fileID: 21300000, guid: fe0d8b62a4dd4a1db6e0e8101109f391, type: 3}
     Multiple: 1
-    Hash: cc7d58bb7a7fd2c9763dee2f03145a7a
+    Hash: 1f350085925722d78650bcaae418b5ff
     Meta: 
     Tags:
     - Paint
@@ -12554,7 +12771,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 57656411bb8f41f4a00cf0ea2af5aca3, type: 3}
     - {fileID: 21300000, guid: 57656411bb8f41f4a00cf0ea2af5aca3, type: 3}
     Multiple: 1
-    Hash: af82044cec5a323c55cf420060c6cb17
+    Hash: d91ea29983b0e81f9a7ab7e58eb3f4d7
     Meta: 
     Tags:
     - Paint
@@ -12579,7 +12796,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 9db6a24522d8412e81a390c5011940cd, type: 3}
     - {fileID: 21300000, guid: 9db6a24522d8412e81a390c5011940cd, type: 3}
     Multiple: 1
-    Hash: 0a8dd62f4058d06bf85b93551395a165
+    Hash: 10b2ac7acc2f93ddd07ebd2ec08415ae
     Meta: 
     Tags:
     - Paint
@@ -12604,7 +12821,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: c82f321717384048bb6dde6b91f298d6, type: 3}
     - {fileID: 21300000, guid: c82f321717384048bb6dde6b91f298d6, type: 3}
     Multiple: 1
-    Hash: 7cd348eae2fb09c180e40f3c2b9b1e37
+    Hash: 5f6f46d1f0ddbd8da3897893ca1a6112
     Meta: 
     Tags:
     - Paint
@@ -12914,7 +13131,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 9d3317b393c246e3bc46b37e9f67ad9f, type: 3}
     - {fileID: 21300000, guid: 9d3317b393c246e3bc46b37e9f67ad9f, type: 3}
     Multiple: 1
-    Hash: d4044a411454eab7887d89c33ec82d01
+    Hash: 02b3660cf09b1e8a2887218574d5903d
     Meta: 
     Tags: []
   - Name: Mountain [Paint]
@@ -13080,6 +13297,52 @@ MonoBehaviour:
     Hash: 66af45e70045ccbb7547b56ea0e2dad3
     Meta: 
     Tags: []
+  - Name: NemeanArmor1
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Armor.NemeanArmor1
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/NemeanArmor1.png
+    Sprite: {fileID: 21300024, guid: 6ab126c7d59977f4f83482588005e337, type: 3}
+    Sprites:
+    - {fileID: 21300024, guid: 6ab126c7d59977f4f83482588005e337, type: 3}
+    - {fileID: 21300022, guid: 6ab126c7d59977f4f83482588005e337, type: 3}
+    - {fileID: 21300040, guid: 6ab126c7d59977f4f83482588005e337, type: 3}
+    - {fileID: 21300028, guid: 6ab126c7d59977f4f83482588005e337, type: 3}
+    - {fileID: 21300026, guid: 6ab126c7d59977f4f83482588005e337, type: 3}
+    - {fileID: 21300034, guid: 6ab126c7d59977f4f83482588005e337, type: 3}
+    - {fileID: 21300036, guid: 6ab126c7d59977f4f83482588005e337, type: 3}
+    - {fileID: 21300030, guid: 6ab126c7d59977f4f83482588005e337, type: 3}
+    - {fileID: 21300006, guid: 6ab126c7d59977f4f83482588005e337, type: 3}
+    - {fileID: 21300032, guid: 6ab126c7d59977f4f83482588005e337, type: 3}
+    - {fileID: 21300038, guid: 6ab126c7d59977f4f83482588005e337, type: 3}
+    - {fileID: 21300000, guid: 6ab126c7d59977f4f83482588005e337, type: 3}
+    Multiple: 1
+    Hash: b8fdb03d9cc51cc4a469b49614244507
+    Meta: 
+    Tags: []
+  - Name: NemeanArmor2
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Armor.NemeanArmor2
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/NemeanArmor2.png
+    Sprite: {fileID: 21300024, guid: 1c07875b184d33a44b7c7a3e469a316a, type: 3}
+    Sprites:
+    - {fileID: 21300024, guid: 1c07875b184d33a44b7c7a3e469a316a, type: 3}
+    - {fileID: 21300022, guid: 1c07875b184d33a44b7c7a3e469a316a, type: 3}
+    - {fileID: 21300040, guid: 1c07875b184d33a44b7c7a3e469a316a, type: 3}
+    - {fileID: 21300028, guid: 1c07875b184d33a44b7c7a3e469a316a, type: 3}
+    - {fileID: 21300026, guid: 1c07875b184d33a44b7c7a3e469a316a, type: 3}
+    - {fileID: 21300034, guid: 1c07875b184d33a44b7c7a3e469a316a, type: 3}
+    - {fileID: 21300036, guid: 1c07875b184d33a44b7c7a3e469a316a, type: 3}
+    - {fileID: 21300030, guid: 1c07875b184d33a44b7c7a3e469a316a, type: 3}
+    - {fileID: 21300006, guid: 1c07875b184d33a44b7c7a3e469a316a, type: 3}
+    - {fileID: 21300032, guid: 1c07875b184d33a44b7c7a3e469a316a, type: 3}
+    - {fileID: 21300038, guid: 1c07875b184d33a44b7c7a3e469a316a, type: 3}
+    - {fileID: 21300000, guid: 1c07875b184d33a44b7c7a3e469a316a, type: 3}
+    Multiple: 1
+    Hash: fdec6dae00f3799d9d068ee8fcafde31
+    Meta: 
+    Tags: []
   - Name: NightsWatch [Paint]
     Collection: Thrones
     Edition: FantasyHeroes
@@ -13126,7 +13389,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 6f0ced5410494bd8834cf34265bcb1d6, type: 3}
     - {fileID: 21300000, guid: 6f0ced5410494bd8834cf34265bcb1d6, type: 3}
     Multiple: 1
-    Hash: b5616246eba179de2f86fd14d9d8c27e
+    Hash: d332668846f5cc296e029c75b44aa320
     Meta: 
     Tags:
     - Paint
@@ -13151,7 +13414,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 757bc77008d7439097dc306ece797f0a, type: 3}
     - {fileID: 21300000, guid: 757bc77008d7439097dc306ece797f0a, type: 3}
     Multiple: 1
-    Hash: 24c3baa64c2ccb4de921b27eb11221a0
+    Hash: 373bf702b972cd67ec23b44555dd41d4
     Meta: 
     Tags:
     - Paint
@@ -13175,7 +13438,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 7e8e33f94d174a7a8192cc2b07f57d8e, type: 3}
     - {fileID: 21300000, guid: 7e8e33f94d174a7a8192cc2b07f57d8e, type: 3}
     Multiple: 1
-    Hash: 22995ef3fc347df393e0b9f8a2ac9189
+    Hash: cf50162bc28bd2401d832d9c800cac2b
     Meta: 
     Tags: []
   - Name: Nomad
@@ -13548,7 +13811,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 8a0b47fa86dc4538a289a672f407e6bf, type: 3}
     - {fileID: 21300000, guid: 8a0b47fa86dc4538a289a672f407e6bf, type: 3}
     Multiple: 1
-    Hash: 0d4301c7863d8b108ac46da36755b646
+    Hash: 0c229b701009831ceaca4cc5a9b9730f
     Meta: 
     Tags: []
   - Name: Rags2
@@ -13571,7 +13834,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 25cd4e93c4ec47738125edbcab54a621, type: 3}
     - {fileID: 21300000, guid: 25cd4e93c4ec47738125edbcab54a621, type: 3}
     Multiple: 1
-    Hash: 1d044a7f9e358bed81778aeca97284bf
+    Hash: 355e54cf3d101f90489adacd330fa177
     Meta: 
     Tags: []
   - Name: Rags3
@@ -13594,7 +13857,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 07234f2944ca47899bc98d3db3687702, type: 3}
     - {fileID: 21300000, guid: 07234f2944ca47899bc98d3db3687702, type: 3}
     Multiple: 1
-    Hash: ae64459a0ced766a74765d6c76b84a72
+    Hash: 85f89e77a91737a288f390a553033c4f
     Meta: 
     Tags: []
   - Name: RangerArmor
@@ -14077,7 +14340,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: fa0a3972c10b479cb9b130218fedcd77, type: 3}
     - {fileID: 21300000, guid: fa0a3972c10b479cb9b130218fedcd77, type: 3}
     Multiple: 1
-    Hash: acb9da1e07b99133e7ac65a48f14851f
+    Hash: 4a7fc7a268e160fab43f3ccf4c46aeba
     Meta: 
     Tags: []
   - Name: SamuraiHeavy2
@@ -14100,7 +14363,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 933d217a032d4f76b77c6b3e8f73c880, type: 3}
     - {fileID: 21300000, guid: 933d217a032d4f76b77c6b3e8f73c880, type: 3}
     Multiple: 1
-    Hash: 24f35ae0d3f12330717faf7d9f98690b
+    Hash: 8370c93cf555af16fb51dc297df5d7ad
     Meta: 
     Tags: []
   - Name: SamuraiHeavy3
@@ -14123,7 +14386,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 0e5efe27d0d54858b0371c61c47b911b, type: 3}
     - {fileID: 21300000, guid: 0e5efe27d0d54858b0371c61c47b911b, type: 3}
     Multiple: 1
-    Hash: e00c0933fd9623ffac61c50eb2590f3a
+    Hash: 7468b3e2923d61bf7002d106437d7426
     Meta: 
     Tags: []
   - Name: SamuraiLight1
@@ -14146,7 +14409,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 660f0722fc8040c3bc60c6ecbda39117, type: 3}
     - {fileID: 21300000, guid: 660f0722fc8040c3bc60c6ecbda39117, type: 3}
     Multiple: 1
-    Hash: 92b829809a6d559fe634fe0926f105aa
+    Hash: e84a47e992fb4d3a9ca96264ad410d36
     Meta: 
     Tags: []
   - Name: SamuraiLight2
@@ -14169,7 +14432,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: f284a42af597454482a1afb62e896b28, type: 3}
     - {fileID: 21300000, guid: f284a42af597454482a1afb62e896b28, type: 3}
     Multiple: 1
-    Hash: c168bda18c8592a937889970418e829a
+    Hash: 5d9b99535261c76e18816fb72257fc6f
     Meta: 
     Tags: []
   - Name: SamuraiLight3
@@ -14192,7 +14455,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 10fed484c625484cbd935647d7b2440f, type: 3}
     - {fileID: 21300000, guid: 10fed484c625484cbd935647d7b2440f, type: 3}
     Multiple: 1
-    Hash: 6a2f6fa94bb1fd1a11d38e4e521c1306
+    Hash: d9647d1449478ab3a373b0d55bf0081a
     Meta: 
     Tags: []
   - Name: SandElder
@@ -14817,6 +15080,29 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
+  - Name: SeraphimMail
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Armor.SeraphimMail
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/SeraphimMail.png
+    Sprite: {fileID: 21300024, guid: 0aceaea9b8d0b9245a15d6a73f1f8766, type: 3}
+    Sprites:
+    - {fileID: 21300024, guid: 0aceaea9b8d0b9245a15d6a73f1f8766, type: 3}
+    - {fileID: 21300022, guid: 0aceaea9b8d0b9245a15d6a73f1f8766, type: 3}
+    - {fileID: 21300040, guid: 0aceaea9b8d0b9245a15d6a73f1f8766, type: 3}
+    - {fileID: 21300028, guid: 0aceaea9b8d0b9245a15d6a73f1f8766, type: 3}
+    - {fileID: 21300026, guid: 0aceaea9b8d0b9245a15d6a73f1f8766, type: 3}
+    - {fileID: 21300034, guid: 0aceaea9b8d0b9245a15d6a73f1f8766, type: 3}
+    - {fileID: 21300036, guid: 0aceaea9b8d0b9245a15d6a73f1f8766, type: 3}
+    - {fileID: 21300030, guid: 0aceaea9b8d0b9245a15d6a73f1f8766, type: 3}
+    - {fileID: 21300006, guid: 0aceaea9b8d0b9245a15d6a73f1f8766, type: 3}
+    - {fileID: 21300032, guid: 0aceaea9b8d0b9245a15d6a73f1f8766, type: 3}
+    - {fileID: 21300038, guid: 0aceaea9b8d0b9245a15d6a73f1f8766, type: 3}
+    - {fileID: 21300000, guid: 0aceaea9b8d0b9245a15d6a73f1f8766, type: 3}
+    Multiple: 1
+    Hash: 3b3c2d06494851b3d463c8c50becfa45
+    Meta: 
+    Tags: []
   - Name: Serpent [Paint]
     Collection: Pro
     Edition: MilitaryHeroes
@@ -15720,6 +16006,29 @@ MonoBehaviour:
     Hash: 9cc14faf6c0f9e0c4e598de8a55a9ac5
     Meta: 
     Tags: []
+  - Name: UncleSamOutfit
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Armor.UncleSamOutfit
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/UncleSamOutfit.png
+    Sprite: {fileID: 21300024, guid: 89ff7a88ccf842243b9dcd6d082744fd, type: 3}
+    Sprites:
+    - {fileID: 21300024, guid: 89ff7a88ccf842243b9dcd6d082744fd, type: 3}
+    - {fileID: 21300022, guid: 89ff7a88ccf842243b9dcd6d082744fd, type: 3}
+    - {fileID: 21300040, guid: 89ff7a88ccf842243b9dcd6d082744fd, type: 3}
+    - {fileID: 21300028, guid: 89ff7a88ccf842243b9dcd6d082744fd, type: 3}
+    - {fileID: 21300026, guid: 89ff7a88ccf842243b9dcd6d082744fd, type: 3}
+    - {fileID: 21300034, guid: 89ff7a88ccf842243b9dcd6d082744fd, type: 3}
+    - {fileID: 21300036, guid: 89ff7a88ccf842243b9dcd6d082744fd, type: 3}
+    - {fileID: 21300030, guid: 89ff7a88ccf842243b9dcd6d082744fd, type: 3}
+    - {fileID: 21300006, guid: 89ff7a88ccf842243b9dcd6d082744fd, type: 3}
+    - {fileID: 21300032, guid: 89ff7a88ccf842243b9dcd6d082744fd, type: 3}
+    - {fileID: 21300038, guid: 89ff7a88ccf842243b9dcd6d082744fd, type: 3}
+    - {fileID: 21300000, guid: 89ff7a88ccf842243b9dcd6d082744fd, type: 3}
+    Multiple: 1
+    Hash: d9d9a2328541164bca2a2d90d9297d90
+    Meta: 
+    Tags: []
   - Name: UnderlordGarb
     Collection: Legendary
     Edition: Extensions
@@ -16297,7 +16606,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 19bf9f803ee045c5804c7510d4a87eed, type: 3}
     - {fileID: 21300000, guid: 19bf9f803ee045c5804c7510d4a87eed, type: 3}
     Multiple: 1
-    Hash: a4fd9697143c14e519569138825deb8e
+    Hash: 9adfd29ab38e2189965399ce098ca8ab
     Meta: 
     Tags: []
   - Name: WaterWizardArmor
@@ -16690,6 +16999,18 @@ MonoBehaviour:
     Hash: 4bf9230f9cfca8a54954906fbf569698
     Meta: 
     Tags: []
+  - Name: CapeOfEternalLight
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Cape.CapeOfEternalLight
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Cape/Legendary/CapeOfEternalLight.png
+    Sprite: {fileID: 21300000, guid: 2e3782338e87e594ca8cf132ac306629, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 2e3782338e87e594ca8cf132ac306629, type: 3}
+    Multiple: 1
+    Hash: e4bfa14e11d7ce23e6c2c6834c1bf32f
+    Meta: 
+    Tags: []
   - Name: CapeOfRagingCrux
     Collection: Epic
     Edition: Extensions
@@ -16790,6 +17111,18 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
+  - Name: DarkJusticeCape
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Cape.DarkJusticeCape
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Cape/Legendary/DarkJusticeCape.png
+    Sprite: {fileID: 21300000, guid: 223a85d633ec1314e8eb6fa882eca9a2, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 223a85d633ec1314e8eb6fa882eca9a2, type: 3}
+    Multiple: 1
+    Hash: 6a53c2e529e858b69e7cb440e3396ad8
+    Meta: 
+    Tags: []
   - Name: DragonTempestBack
     Collection: Legendary
     Edition: Extensions
@@ -16812,6 +17145,18 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 0aeb946e539a3174fa474f8cde9cabc4, type: 3}
     Multiple: 1
     Hash: 7ea354db7092fb37174761a0adf0fdec
+    Meta: 
+    Tags: []
+  - Name: FrozenDragonBack
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Cape.FrozenDragonBack
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Cape/Legendary/FrozenDragonBack.png
+    Sprite: {fileID: 21300000, guid: 1d99314b90c4e0a43bb77a1c6b1b4089, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 1d99314b90c4e0a43bb77a1c6b1b4089, type: 3}
+    Multiple: 1
+    Hash: 55d98f82f134db1f958fe28e610a1f41
     Meta: 
     Tags: []
   - Name: GrandmaCape [Paint]
@@ -16902,6 +17247,18 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 1b6433e6f21aeb94f87aea3e05ea0961, type: 3}
     Multiple: 1
     Hash: a200c9fffc5d926c18533774366c28e0
+    Meta: 
+    Tags: []
+  - Name: NemeanCape
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Cape.NemeanCape
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Cape/Legendary/NemeanCape.png
+    Sprite: {fileID: 21300000, guid: 836e5db1d3495ea4bb4788094db9a359, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 836e5db1d3495ea4bb4788094db9a359, type: 3}
+    Multiple: 1
+    Hash: 568ee29fc26142ecc1959fe51865959e
     Meta: 
     Tags: []
   - Name: OldCape [Paint]
@@ -17022,6 +17379,18 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
+  - Name: SeraphimBack
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Cape.SeraphimBack
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Cape/Legendary/SeraphimBack.png
+    Sprite: {fileID: 21300000, guid: d3b6d092619fe704b9e5fcb33f84a3fe, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: d3b6d092619fe704b9e5fcb33f84a3fe, type: 3}
+    Multiple: 1
+    Hash: dd2529e8ee6e0a83c0488c0579ae1d70
+    Meta: 
+    Tags: []
   - Name: SpikesOfDecay
     Collection: Legendary
     Edition: Extensions
@@ -17154,7 +17523,7 @@ MonoBehaviour:
     Sprites:
     - {fileID: 21300000, guid: 822a646aba6a4967bb7ade4cb47c8fa0, type: 3}
     Multiple: 1
-    Hash: 7ff9236c553e46f3416ef40e4005786c
+    Hash: 1382d9609c09e9aa2004dd32a43eaf6f
     Meta: 
     Tags: []
   - Name: ArrowQuiver1 [Paint]
@@ -17282,7 +17651,7 @@ MonoBehaviour:
     Sprites:
     - {fileID: 21300000, guid: ac12880069409b94d9586893426b8fe7, type: 3}
     Multiple: 1
-    Hash: 165bf6bc55ae602d171c79d660d23d8e
+    Hash: 47bf02201a3d004ca29f14d4b3ed73ca
     Meta: 
     Tags: []
   - Name: Jetpack3
@@ -17318,7 +17687,7 @@ MonoBehaviour:
     Sprites:
     - {fileID: 21300000, guid: ad9fcfffc0c099d419cc2c373cc39312, type: 3}
     Multiple: 1
-    Hash: 20db373b5e3d64dedf0945228cd99c7e
+    Hash: 87640b889166ef24ce7bf45b897eed59
     Meta: 
     Tags: []
   - Name: Jetpack5
@@ -19258,6 +19627,30 @@ MonoBehaviour:
     Hash: 01309e63dfb110fbc2b11fc1d9c5e571
     Meta: 
     Tags: []
+  - Name: ObsidianEdge
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.MeleeWeapon1H.ObsidianEdge
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/MeleeWeapon1H/Legendary/Sword/ObsidianEdge.png
+    Sprite: {fileID: 21300000, guid: 9b6a3c367f1e158488c475923799640e, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 9b6a3c367f1e158488c475923799640e, type: 3}
+    Multiple: 1
+    Hash: b77a31e5de39ec0c9dcbde0f1dfe3362
+    Meta: 
+    Tags: []
+  - Name: ObsidianSword
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.MeleeWeapon1H.ObsidianSword
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/MeleeWeapon1H/Legendary/Sword/ObsidianSword.png
+    Sprite: {fileID: 21300000, guid: 818ac02db41cc2e46b05c7c539deceab, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 818ac02db41cc2e46b05c7c539deceab, type: 3}
+    Multiple: 1
+    Hash: 799904a6e192c7636f4cc798c8f8ca55
+    Meta: 
+    Tags: []
   - Name: OldBattleAxe
     Collection: Undead
     Edition: UndeadHeroes
@@ -20302,6 +20695,18 @@ MonoBehaviour:
     Hash: 717bc2a3743b441dc15543b1c3fa4bec
     Meta: 
     Tags: []
+  - Name: SwordOfDemise
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.MeleeWeapon1H.SwordOfDemise
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/MeleeWeapon1H/Legendary/Sword/SwordOfDemise.png
+    Sprite: {fileID: 21300000, guid: 8cd3c4186925f3b45b9f930af2ef60de, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 8cd3c4186925f3b45b9f930af2ef60de, type: 3}
+    Multiple: 1
+    Hash: cb9dd1303edc5945ec8db1d9b975d5d5
+    Meta: 
+    Tags: []
   - Name: SwordOfEndingLight
     Collection: Epic
     Edition: Extensions
@@ -21141,6 +21546,18 @@ MonoBehaviour:
     Hash: fb5a5ea808e033e409206d87392f39c5
     Meta: 
     Tags: []
+  - Name: FrozenDragonAxe
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.MeleeWeapon2H.FrozenDragonAxe
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/MeleeWeapon2H/Legendary/Axe/FrozenDragonAxe.png
+    Sprite: {fileID: 21300000, guid: a3f9f30ff75d1334c91252f6e57eeaac, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: a3f9f30ff75d1334c91252f6e57eeaac, type: 3}
+    Multiple: 1
+    Hash: 6df4b99c35f0d3ace7103c4aa8c03396
+    Meta: 
+    Tags: []
   - Name: GateCrusher
     Collection: Basic
     Edition: FantasyHeroes
@@ -21393,6 +21810,18 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
+  - Name: NemeanMace
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.MeleeWeapon2H.NemeanMace
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/MeleeWeapon2H/Legendary/Hammer/NemeanMace.png
+    Sprite: {fileID: 21300000, guid: 895c4e4f9ba47fa419e5019b33237078, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 895c4e4f9ba47fa419e5019b33237078, type: 3}
+    Multiple: 1
+    Hash: 3fa6a864dc71939c1def50e215d39434
+    Meta: 
+    Tags: []
   - Name: OldPoleaxe
     Collection: Basic
     Edition: FantasyHeroes
@@ -21949,7 +22378,7 @@ MonoBehaviour:
     - {fileID: 21300002, guid: 60fed01603254fd88d5883cb33b9742c, type: 3}
     - {fileID: 21300000, guid: 60fed01603254fd88d5883cb33b9742c, type: 3}
     Multiple: 1
-    Hash: cee92a3e4ada8a8f0f9e5d9cfb52984e
+    Hash: 933835f16e2d316bf706fbbada46db31
     Meta: 
     Tags: []
   - Name: BladeBow
@@ -21991,7 +22420,7 @@ MonoBehaviour:
     - {fileID: 21300002, guid: 584cb86da2cf481887a29d5ed3304b4c, type: 3}
     - {fileID: 21300000, guid: 584cb86da2cf481887a29d5ed3304b4c, type: 3}
     Multiple: 1
-    Hash: 795b67c61e3c09085462a06285fad6b7
+    Hash: 6d57b5d638d557aae84953281a6dff1d
     Meta: 
     Tags: []
   - Name: Bow2
@@ -22005,7 +22434,7 @@ MonoBehaviour:
     - {fileID: 21300002, guid: 4fa637c6ab7b49f19c8396a03ac3caef, type: 3}
     - {fileID: 21300000, guid: 4fa637c6ab7b49f19c8396a03ac3caef, type: 3}
     Multiple: 1
-    Hash: e90143be9c39e5dc963a494f9bcc4eba
+    Hash: 861c6f63d31fd2fcaec78d86444f0589
     Meta: 
     Tags: []
   - Name: Bow3 [Paint]
@@ -22019,7 +22448,7 @@ MonoBehaviour:
     - {fileID: 21300002, guid: fb1888f356334d30a4bf382fd6adff5b, type: 3}
     - {fileID: 21300000, guid: fb1888f356334d30a4bf382fd6adff5b, type: 3}
     Multiple: 1
-    Hash: a4a29edf93037af319f651cc629833fa
+    Hash: 65bc3bc324574562dc38429913e465a8
     Meta: 
     Tags:
     - Paint
@@ -22034,7 +22463,7 @@ MonoBehaviour:
     - {fileID: 21300002, guid: 7bcebad915a442249e2f97bab1434ad6, type: 3}
     - {fileID: 21300000, guid: 7bcebad915a442249e2f97bab1434ad6, type: 3}
     Multiple: 1
-    Hash: a3d4173fe8f2a0baca59f1113969238e
+    Hash: e5d074aa4e52858de066c9c9ac0a54e6
     Meta: 
     Tags: []
   - Name: BowOfCompassion
@@ -22092,7 +22521,7 @@ MonoBehaviour:
     - {fileID: 21300002, guid: afcd69ebddf648118e3b57b3fa819a04, type: 3}
     - {fileID: 21300000, guid: afcd69ebddf648118e3b57b3fa819a04, type: 3}
     Multiple: 1
-    Hash: 828252bab480d670234212ae085dd063
+    Hash: 013c15d343a84228c6344f4ece01c5f5
     Meta: 
     Tags: []
   - Name: CurvedBow
@@ -22263,7 +22692,7 @@ MonoBehaviour:
     - {fileID: 21300002, guid: abc213fc5c884a29b9ef2e2ea7f12828, type: 3}
     - {fileID: 21300000, guid: abc213fc5c884a29b9ef2e2ea7f12828, type: 3}
     Multiple: 1
-    Hash: 1d7ee1e8852472190a71ec944fc0b92b
+    Hash: 9bdaf9ecf7c1b731a306db7ff4272dc0
     Meta: 
     Tags: []
   - Name: LakeDragonBow
@@ -22393,7 +22822,7 @@ MonoBehaviour:
     - {fileID: 21300002, guid: d414084c07d141c28f447cb2d0acaad6, type: 3}
     - {fileID: 21300000, guid: d414084c07d141c28f447cb2d0acaad6, type: 3}
     Multiple: 1
-    Hash: 76a2164d9c568d0e5172dac347a87f40
+    Hash: 2571104270812d97355496131d1c12f7
     Meta: 
     Tags: []
   - Name: PathFinderBow
@@ -22506,7 +22935,7 @@ MonoBehaviour:
     - {fileID: 21300002, guid: cbea51cfd445493cb1869ebe3bc652b9, type: 3}
     - {fileID: 21300000, guid: cbea51cfd445493cb1869ebe3bc652b9, type: 3}
     Multiple: 1
-    Hash: 03eeec112ed224b1cd6891a056bd105b
+    Hash: 427964ae77156773cda48152858362b8
     Meta: 
     Tags: []
   - Name: SamuraiBow2
@@ -22520,7 +22949,7 @@ MonoBehaviour:
     - {fileID: 21300002, guid: 263125bb02994859aaa9434569435f81, type: 3}
     - {fileID: 21300000, guid: 263125bb02994859aaa9434569435f81, type: 3}
     Multiple: 1
-    Hash: 95b85dd8d67be2fa045aee2b990fd080
+    Hash: 8ed4a9e8d1a3059dbba3efe60f3165ad
     Meta: 
     Tags: []
   - Name: SamuraiBow3
@@ -22534,7 +22963,7 @@ MonoBehaviour:
     - {fileID: 21300002, guid: 2d84bce006a541afaefbb7ef67065faf, type: 3}
     - {fileID: 21300000, guid: 2d84bce006a541afaefbb7ef67065faf, type: 3}
     Multiple: 1
-    Hash: 716e74d2e27f45cd4394156df0fc0cfd
+    Hash: dae9c63897ee615e49a84c152f15c4a1
     Meta: 
     Tags: []
   - Name: SandShooterBow1
@@ -22590,7 +23019,7 @@ MonoBehaviour:
     - {fileID: 21300002, guid: b8ade797dc3441cc83ade7836f94bcc3, type: 3}
     - {fileID: 21300000, guid: b8ade797dc3441cc83ade7836f94bcc3, type: 3}
     Multiple: 1
-    Hash: 137777db6aeec0ff676329a9ee9f4cee
+    Hash: 7ce71463e521843746f16c1d8a74af69
     Meta: 
     Tags: []
   - Name: SkeletonBow
@@ -22905,7 +23334,7 @@ MonoBehaviour:
     - {fileID: 21300010, guid: deed0a1987d24c8fa508e5bbed670407, type: 3}
     - {fileID: 21300006, guid: deed0a1987d24c8fa508e5bbed670407, type: 3}
     Multiple: 1
-    Hash: 4fa6fead2c26a0ca83e0a5de7eead4b9
+    Hash: 8eb115b460d9efd8ae1ade61b18231ca
     Meta: 
     Tags: []
   - Name: Lawgiver
@@ -22942,7 +23371,7 @@ MonoBehaviour:
     - {fileID: 21300010, guid: 66f819c8cdbc4e2c8120b90a43a4f8e8, type: 3}
     - {fileID: 21300006, guid: 66f819c8cdbc4e2c8120b90a43a4f8e8, type: 3}
     Multiple: 1
-    Hash: 5c64234c84408c2d08549e02fb787b37
+    Hash: 7f7cb3cdae438b9c566645440c97c4c0
     Meta: 
     Tags: []
   - Name: LB-600
@@ -22960,7 +23389,7 @@ MonoBehaviour:
     - {fileID: 21300010, guid: 1369945b365c496a9e7e9cf2917db08f, type: 3}
     - {fileID: 21300006, guid: 1369945b365c496a9e7e9cf2917db08f, type: 3}
     Multiple: 1
-    Hash: 3b2d983b1b6f05334de65a0a3647e373
+    Hash: dab83b25fbb10b4894acefa89c672ca7
     Meta: 
     Tags: []
   - Name: LightHandBlaster
@@ -22978,7 +23407,7 @@ MonoBehaviour:
     - {fileID: 21300010, guid: cc2d8d87c56a48d68abd87570e43a2e0, type: 3}
     - {fileID: 21300006, guid: cc2d8d87c56a48d68abd87570e43a2e0, type: 3}
     Multiple: 1
-    Hash: 51b91cbfb5223dbd0b588311211a3fc4
+    Hash: 8b0c7dfe084875e18d64aecd1150ca05
     Meta: 
     Tags: []
   - Name: LongBarrelRevolver
@@ -23051,7 +23480,7 @@ MonoBehaviour:
     - {fileID: 21300010, guid: e4ed54cc13f34534bb457d2cc839ccb2, type: 3}
     - {fileID: 21300006, guid: e4ed54cc13f34534bb457d2cc839ccb2, type: 3}
     Multiple: 1
-    Hash: 7f03e9844c29be6911984409cd4fca5f
+    Hash: b42e8204795227bf50f1fe50495a87ad
     Meta: 
     Tags: []
   - Name: PulsePistol
@@ -23069,7 +23498,7 @@ MonoBehaviour:
     - {fileID: 21300010, guid: a7ecdb46a00d4058bf90eabe6be82fd7, type: 3}
     - {fileID: 21300006, guid: a7ecdb46a00d4058bf90eabe6be82fd7, type: 3}
     Multiple: 1
-    Hash: ecba747ae8d8c9f4d54628d134b1eef7
+    Hash: e1a833e27fd8aa71eb3ef1358288cc0c
     Meta: 
     Tags: []
   - Name: Quickshot
@@ -23364,7 +23793,7 @@ MonoBehaviour:
     - {fileID: 21300012, guid: 9efec27cbf2d4cc5bda354d1caf77144, type: 3}
     - {fileID: 21300018, guid: 9efec27cbf2d4cc5bda354d1caf77144, type: 3}
     Multiple: 1
-    Hash: 996534d2a652299dd16769ca110a0d25
+    Hash: 2c1baa6426ad0e731131159decef45fd
     Meta: 
     Tags: []
   - Name: HellBlade
@@ -23472,7 +23901,7 @@ MonoBehaviour:
     - {fileID: 21300012, guid: 16d1c69831f546fabd3ce205f32503b7, type: 3}
     - {fileID: 21300018, guid: 16d1c69831f546fabd3ce205f32503b7, type: 3}
     Multiple: 1
-    Hash: df1838ea782354d97f76a5ff3dfafadf
+    Hash: 462324a7ffd460e1343facfeefb6cd66
     Meta: 
     Tags: []
   - Name: LR-300RX
@@ -23490,7 +23919,7 @@ MonoBehaviour:
     - {fileID: 21300012, guid: 418ab483bc88423b913545022231ba96, type: 3}
     - {fileID: 21300018, guid: 418ab483bc88423b913545022231ba96, type: 3}
     Multiple: 1
-    Hash: 3af9b81108111f719ffd0fedc94545f3
+    Hash: 4014bd5c6f40fbf796564749df62598b
     Meta: 
     Tags: []
   - Name: LR-500
@@ -23508,7 +23937,7 @@ MonoBehaviour:
     - {fileID: 21300012, guid: 4c31739d765e412a8c68ae4c11c0128f, type: 3}
     - {fileID: 21300018, guid: 4c31739d765e412a8c68ae4c11c0128f, type: 3}
     Multiple: 1
-    Hash: 8d7c2e0ac3f57382d4d11bbd9244706b
+    Hash: 2f31f7ddc47cc536eb4f71e9d4fd1eac
     Meta: 
     Tags: []
   - Name: M-16 [Paint]
@@ -23749,7 +24178,7 @@ MonoBehaviour:
     - {fileID: 21300012, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
     - {fileID: 21300018, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
     Multiple: 1
-    Hash: 399655bd64e60e768876820880b296c7
+    Hash: fd73b734f50ea7b8baa629cd5b9cec99
     Meta: 
     Tags: []
   - Name: PR-5000
@@ -23767,7 +24196,7 @@ MonoBehaviour:
     - {fileID: 21300012, guid: 99c4e00480a44195b43c9be1900529c4, type: 3}
     - {fileID: 21300018, guid: 99c4e00480a44195b43c9be1900529c4, type: 3}
     Multiple: 1
-    Hash: ab5444b0d148b3270bc40bc87c80c791
+    Hash: ad52d86c156708a04d38342678ec3957
     Meta: 
     Tags: []
   - Name: PR-9000
@@ -23785,7 +24214,7 @@ MonoBehaviour:
     - {fileID: 21300010, guid: 6788e2a5462b4209bf76eab710f601d2, type: 3}
     - {fileID: 21300006, guid: 6788e2a5462b4209bf76eab710f601d2, type: 3}
     Multiple: 1
-    Hash: add8957f0a281b08070123508de78c15
+    Hash: 31c5d535f8a3c841a387d08ad1993a1f
     Meta: 
     Tags: []
   - Name: RL-800
@@ -23803,7 +24232,7 @@ MonoBehaviour:
     - {fileID: 21300012, guid: 9c6813c492b84c3cab130801b341ca93, type: 3}
     - {fileID: 21300018, guid: 9c6813c492b84c3cab130801b341ca93, type: 3}
     Multiple: 1
-    Hash: b38b9b2e5cd772b75ba0ede06121b990
+    Hash: 742862d29e3f8bf0abf56e3b1c52877e
     Meta: 
     Tags: []
   - Name: RL-DIY200
@@ -23821,7 +24250,7 @@ MonoBehaviour:
     - {fileID: 21300012, guid: bba8fef31bc5490481c63b5298c7cad8, type: 3}
     - {fileID: 21300018, guid: bba8fef31bc5490481c63b5298c7cad8, type: 3}
     Multiple: 1
-    Hash: 90f8b16d5d7e6f6e8feee715b9de412a
+    Hash: 29f2dd5ff18dc9192c0787dcc0695f9f
     Meta: 
     Tags: []
   - Name: RocketLauncher
@@ -23875,7 +24304,7 @@ MonoBehaviour:
     - {fileID: 21300012, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
     - {fileID: 21300018, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
     Multiple: 1
-    Hash: c62fdf432e10ef72b7710c9d976a1a1d
+    Hash: 199118c9f1dbe05a69020f8e35cf2787
     Meta: 
     Tags: []
   - Name: Scout
@@ -23911,7 +24340,7 @@ MonoBehaviour:
     - {fileID: 21300012, guid: 3733ba84ce824933aa034ce80c5d2048, type: 3}
     - {fileID: 21300018, guid: 3733ba84ce824933aa034ce80c5d2048, type: 3}
     Multiple: 1
-    Hash: d91135e9bc44053296c47b05f50400c0
+    Hash: bc9a65f82fac2b23e2c2bfe4e1ddcfdd
     Meta: 
     Tags: []
   - Name: Sheperd
@@ -23983,7 +24412,7 @@ MonoBehaviour:
     - {fileID: 21300012, guid: 9a9da2f42d724de7a46d1445dbd469f4, type: 3}
     - {fileID: 21300018, guid: 9a9da2f42d724de7a46d1445dbd469f4, type: 3}
     Multiple: 1
-    Hash: 548f3905e9aa9984eb4ce0518ee70b92
+    Hash: 91dc41ab557844f1504734d2c35897bb
     Meta: 
     Tags: []
   - Name: SR-25
@@ -24001,7 +24430,7 @@ MonoBehaviour:
     - {fileID: 21300012, guid: e3be069aa0814d89b56b92c50bc32f66, type: 3}
     - {fileID: 21300018, guid: e3be069aa0814d89b56b92c50bc32f66, type: 3}
     Multiple: 1
-    Hash: d2619f9c96f3d453fcb711774d5b00db
+    Hash: c1401190ac415542fb11440e0d3c6213
     Meta: 
     Tags: []
   - Name: SRL
@@ -24037,7 +24466,7 @@ MonoBehaviour:
     - {fileID: 21300012, guid: fcaf2c30695f48868c6a34bc4fd1c4d7, type: 3}
     - {fileID: 21300018, guid: fcaf2c30695f48868c6a34bc4fd1c4d7, type: 3}
     Multiple: 1
-    Hash: 910f57f2af3cad8ececa82109eb9e35e
+    Hash: bb3f18c028be0315ecda24c459ccd716
     Meta: 
     Tags: []
   - Name: SVD
@@ -24112,7 +24541,37 @@ MonoBehaviour:
     Hash: 5e02b243da622fa1665d1101fb0647a9
     Meta: 
     Tags: []
+  - Name: UZI
+    Collection: Pro
+    Edition: MilitaryHeroes
+    Id: MilitaryHeroes.Pro.Firearms1H.UZI
+    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms1H/Pro/UZI.png
+    Sprite: {fileID: 21300004, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
+    - {fileID: 21300014, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
+    - {fileID: 21300008, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
+    - {fileID: 21300002, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
+    - {fileID: 21300000, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
+    - {fileID: 21300020, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
+    - {fileID: 21300018, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
+    Multiple: 1
+    Hash: 102d78484daa02b06f3f26f455756376
+    Meta: 
+    Tags: []
   Shield:
+  - Name: AbsoluteShieldSP
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Shield.AbsoluteShieldSP
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Shield/Legendary/AbsoluteShieldSP.png
+    Sprite: {fileID: 21300000, guid: 3d7a90534a31ad547b88e3d11a8fe8c9, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 3d7a90534a31ad547b88e3d11a8fe8c9, type: 3}
+    Multiple: 1
+    Hash: 287d4a4d4ddc13b9417217d9b9c36457
+    Meta: 
+    Tags: []
   - Name: AdvancedGladiatorShield
     Collection: Basic
     Edition: FantasyHeroes
@@ -24899,6 +25358,18 @@ MonoBehaviour:
     Hash: 5cdc7170e1506298cdbdce7944c1e5e4
     Meta: 
     Tags: []
+  - Name: ObsidianShield
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Shield.ObsidianShield
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Shield/Legendary/ObsidianShield.png
+    Sprite: {fileID: 21300000, guid: f2283f460427f9140834b2247bc44eda, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: f2283f460427f9140834b2247bc44eda, type: 3}
+    Multiple: 1
+    Hash: dc9d6e3347f9e79befd78a067a69d73c
+    Meta: 
+    Tags: []
   - Name: OldHeavyShield
     Collection: Basic
     Edition: FantasyHeroes
@@ -25299,6 +25770,18 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 6513dca3b23d4fc5b1ff3d461184bf62, type: 3}
     Multiple: 1
     Hash: 0009fe3b100f60fa9396ff5c9bae5ed6
+    Meta: 
+    Tags: []
+  - Name: TomeOfDemise
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Shield.TomeOfDemise
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Shield/Legendary/TomeOfDemise.png
+    Sprite: {fileID: 21300000, guid: 7780427ccc9bd8948aeb903a58bc4141, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 7780427ccc9bd8948aeb903a58bc4141, type: 3}
+    Multiple: 1
+    Hash: 037e51142d617a1768f6e23bb0b2d2db
     Meta: 
     Tags: []
   - Name: TowerShield
