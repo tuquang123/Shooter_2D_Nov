@@ -950,6 +950,18 @@ MonoBehaviour:
     Hash: 10017b4d24bff4e9957674cc2a5e2a86
     Meta: 
     Tags: []
+  - Name: NemeanHair
+    Collection: Bonus
+    Edition: Common
+    Id: Common.Bonus.Hair.NemeanHair
+    Path: Assets/HeroEditor/Common/Sprites/BodyParts/Hair/Bonus/NemeanHair.png
+    Sprite: {fileID: 21300000, guid: 9b34884577998104599852e53dfc78f3, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 9b34884577998104599852e53dfc78f3, type: 3}
+    Multiple: 1
+    Hash: cb8103f265e3744c3c97fd22f4879abf
+    Meta: 
+    Tags: []
   - Name: Princess
     Collection: MoonStyle [NoPaint]
     Edition: Extensions
@@ -1223,6 +1235,18 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 2e842cd7daba41a392f535774e8096b3, type: 3}
     Multiple: 1
     Hash: d0bc3d77fa2f171aec1eb56b52eb00a1
+    Meta: 
+    Tags: []
+  - Name: UncleSamHair
+    Collection: Bonus
+    Edition: Common
+    Id: Common.Bonus.Hair.UncleSamHair
+    Path: Assets/HeroEditor/Common/Sprites/BodyParts/Hair/Bonus/UncleSamHair.png
+    Sprite: {fileID: 21300000, guid: 94232167536b64142a10e6599e3d28d0, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 94232167536b64142a10e6599e3d28d0, type: 3}
+    Multiple: 1
+    Hash: b82e5370de1bfeada547e315f17428a2
     Meta: 
     Tags: []
   - Name: VillageGirl
@@ -3176,6 +3200,42 @@ MonoBehaviour:
     Hash: 34f9e0a72895fb9f57098dc4ae7809ce
     Meta: 
     Tags: []
+  - Name: NemeanBeard
+    Collection: Basic
+    Edition: Common
+    Id: Common.Basic.Beard.NemeanBeard
+    Path: Assets/HeroEditor/Common/Sprites/BodyParts/Beard/Basic/NemeanBeard.png
+    Sprite: {fileID: 21300000, guid: 24206486f425cc54aa99fbd3850d5df4, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 24206486f425cc54aa99fbd3850d5df4, type: 3}
+    Multiple: 1
+    Hash: 5feeb451d210dfb329b36f0adf014b47
+    Meta: 
+    Tags: []
+  - Name: NemeanBeard2
+    Collection: Basic
+    Edition: Common
+    Id: Common.Basic.Beard.NemeanBeard2
+    Path: Assets/HeroEditor/Common/Sprites/BodyParts/Beard/Basic/NemeanBeard2.png
+    Sprite: {fileID: 21300000, guid: c9140dffc05266d49916034db92eabff, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: c9140dffc05266d49916034db92eabff, type: 3}
+    Multiple: 1
+    Hash: 3faa23b62d6be958cde69e2f54193bee
+    Meta: 
+    Tags: []
+  - Name: UncleSamBeard
+    Collection: Basic
+    Edition: Common
+    Id: Common.Basic.Beard.UncleSamBeard
+    Path: Assets/HeroEditor/Common/Sprites/BodyParts/Beard/Basic/UncleSamBeard.png
+    Sprite: {fileID: 21300000, guid: d5a2dc512d3c9af4bb871a4c9caffaae, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: d5a2dc512d3c9af4bb871a4c9caffaae, type: 3}
+    Multiple: 1
+    Hash: 1cc355fc4cec2402314b707463eb9d31
+    Meta: 
+    Tags: []
   Body:
   - Name: Human
     Collection: Basic
@@ -3220,7 +3280,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 96361bdcb7e04686a62241f5092bb50d, type: 3}
     - {fileID: 21300000, guid: 96361bdcb7e04686a62241f5092bb50d, type: 3}
     Multiple: 1
-    Hash: 93266495fec0fa1f9eb9923b4c320ca1
+    Hash: a15a46fbbd445f33648dba54096f586f
     Meta: 
     Tags: []
   - Name: TBody2
@@ -3243,7 +3303,7 @@ MonoBehaviour:
     - {fileID: 21300020, guid: 071f4f6972904d5f9c1867478ade1b2a, type: 3}
     - {fileID: 21300000, guid: 071f4f6972904d5f9c1867478ade1b2a, type: 3}
     Multiple: 1
-    Hash: cf34945bf7075b7df8baf4b7c6e5188d
+    Hash: 9cc5073a6e76b5a2a4467fa5e03d87e2
     Meta: 
     Tags: []
   Helmet:
@@ -5008,7 +5068,7 @@ MonoBehaviour:
     Sprites:
     - {fileID: 21300000, guid: 822a646aba6a4967bb7ade4cb47c8fa0, type: 3}
     Multiple: 1
-    Hash: 7ff9236c553e46f3416ef40e4005786c
+    Hash: 1382d9609c09e9aa2004dd32a43eaf6f
     Meta: 
     Tags: []
   - Name: Jetpack3
@@ -5020,7 +5080,7 @@ MonoBehaviour:
     Sprites:
     - {fileID: 21300000, guid: ac12880069409b94d9586893426b8fe7, type: 3}
     Multiple: 1
-    Hash: 165bf6bc55ae602d171c79d660d23d8e
+    Hash: 47bf02201a3d004ca29f14d4b3ed73ca
     Meta: 
     Tags: []
   - Name: Jetpack5
@@ -5032,7 +5092,7 @@ MonoBehaviour:
     Sprites:
     - {fileID: 21300000, guid: ad9fcfffc0c099d419cc2c373cc39312, type: 3}
     Multiple: 1
-    Hash: 20db373b5e3d64dedf0945228cd99c7e
+    Hash: 87640b889166ef24ce7bf45b897eed59
     Meta: 
     Tags: []
   MeleeWeapon1H:
@@ -5157,7 +5217,7 @@ MonoBehaviour:
     - {fileID: 21300002, guid: 60fed01603254fd88d5883cb33b9742c, type: 3}
     - {fileID: 21300000, guid: 60fed01603254fd88d5883cb33b9742c, type: 3}
     Multiple: 1
-    Hash: cee92a3e4ada8a8f0f9e5d9cfb52984e
+    Hash: 933835f16e2d316bf706fbbada46db31
     Meta: 
     Tags: []
   - Name: CompositeBow
@@ -5171,7 +5231,7 @@ MonoBehaviour:
     - {fileID: 21300002, guid: afcd69ebddf648118e3b57b3fa819a04, type: 3}
     - {fileID: 21300000, guid: afcd69ebddf648118e3b57b3fa819a04, type: 3}
     Multiple: 1
-    Hash: 828252bab480d670234212ae085dd063
+    Hash: 013c15d343a84228c6344f4ece01c5f5
     Meta: 
     Tags: []
   Firearms1H:

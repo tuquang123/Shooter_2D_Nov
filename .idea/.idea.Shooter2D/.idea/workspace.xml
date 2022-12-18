@@ -16,6 +16,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/23/62b7fce2/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82c503977c5347cf82f44677f633fcf613be00/79/302957c0/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HeroEditor/Common/EditorScripts/CharacterEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Editor/TMP_BaseEditorPanel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/PointerEventData.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -104,6 +105,11 @@
       <workItem from="1670756282717" duration="205000" />
       <workItem from="1670762176879" duration="10744000" />
       <workItem from="1670950708599" duration="176000" />
+      <workItem from="1671299378682" duration="414000" />
+      <workItem from="1671299978777" duration="1631000" />
+      <workItem from="1671377670269" duration="331000" />
+      <workItem from="1671379051470" duration="3208000" />
+      <workItem from="1671386875146" duration="1343000" />
     </task>
     <servers />
   </component>

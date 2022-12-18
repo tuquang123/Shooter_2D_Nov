@@ -2,11 +2,17 @@ using Assets.FantasyMonsters.Scripts;
 using Assets.FantasyMonsters.Scripts.Tweens;
 using System.Collections;
 using System.Collections.Generic;
+using DamageNumbersPro;
 using Unity.Mathematics;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour
 {
+    //Assign prefab in inspector.
+    public DamageNumber numberPrefab;
+    public Transform rectParent;
+    
     public int dame;
 
     public float speed;
@@ -28,6 +34,7 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
+        rectParent = transform;
         target = GameObject.FindGameObjectWithTag("Player").gameObject.transform;
     }
     private void LateUpdate()
@@ -71,14 +78,7 @@ public class Enemy : MonoBehaviour
         }
     }
     public string poolTag;
-    public bool isActive = false;
-
-    public void OnRequestedFromPool()
-    {
-        isActive = true;
-        //timeToDestroy = defTimerToDestroy;
-    }
-
+    
     public void DiscardToPool()
     {
         MyPooler.ObjectPooler.Instance.ReturnToPool(poolTag, this.gameObject);
@@ -89,8 +89,16 @@ public class Enemy : MonoBehaviour
 
     public void TakeDame(int dame)
     {
+        //Spawn new popup with a random number between 0 and 100.
+        DamageNumber damageNumber = numberPrefab.Spawn(Vector3.zero, -dame);
+
+      
+        //Set the rect parent and anchored position.
+        var pos = transform.position;
+        damageNumber.SetAnchoredPosition(rectParent,pos );
+        
         ScaleSpring.Begin(this, 1f, 1.1f, 40, 3);
-        hp -= dame;  
+        hp -= dame;
     }
     public void Die()
     {

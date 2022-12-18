@@ -24541,24 +24541,6 @@ MonoBehaviour:
     Hash: 5e02b243da622fa1665d1101fb0647a9
     Meta: 
     Tags: []
-  - Name: UZI
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Firearms1H.UZI
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms1H/Pro/UZI.png
-    Sprite: {fileID: 21300004, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
-    - {fileID: 21300014, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
-    - {fileID: 21300008, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
-    - {fileID: 21300002, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
-    - {fileID: 21300000, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
-    - {fileID: 21300020, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
-    - {fileID: 21300018, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
-    Multiple: 1
-    Hash: 102d78484daa02b06f3f26f455756376
-    Meta: 
-    Tags: []
   Shield:
   - Name: AbsoluteShieldSP
     Collection: Legendary

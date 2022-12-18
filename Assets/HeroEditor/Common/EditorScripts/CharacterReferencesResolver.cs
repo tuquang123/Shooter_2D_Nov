@@ -22,32 +22,12 @@ namespace Assets.HeroEditor.Common.EditorScripts
 
         public void OnValidate()
         {
-            var character = FindObjectOfType<Character>();
-
-            CharacterEditor.Character = character;
-            AnimationManager.Character = character;
-            AttackingExample.Character = character;
-            BowExample.Character = character;
+           
         }
 
         public void Awake()
         {
-            var sculptor = CharacterEditor.Character.GetComponent<CharacterBodySculptor>();
-
-            sculptor.WidthSlider = WidthSlider;
-            sculptor.HeightSlider = HeightSlider;
-
-            WidthSlider.onValueChanged.RemoveAllListeners();
-            WidthSlider.onValueChanged.AddListener(sculptor.OnWidthChanged);
-
-            HeightSlider.onValueChanged.RemoveAllListeners();
-            HeightSlider.onValueChanged.AddListener(sculptor.OnHeightChanged);
-
-            WidthReset.onClick.RemoveAllListeners();
-            WidthReset.onClick.AddListener(sculptor.ResetWidth);
-
-            HeightReset.onClick.RemoveAllListeners();
-            HeightReset.onClick.AddListener(sculptor.ResetHeight);
+           
         }
     }
 }
