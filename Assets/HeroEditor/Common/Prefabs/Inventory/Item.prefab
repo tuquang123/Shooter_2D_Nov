@@ -55,6 +55,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a0d4d1a493640f68b6438b176bc7906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textNoEnoughGold: {fileID: 8683487174912951484, guid: 5df66ae9034235045bde7e6c950b1f94,
+    type: 3}
   textPrice: {fileID: 7009410119211036738}
   panel: {fileID: 6223397684696195219}
   active: 0

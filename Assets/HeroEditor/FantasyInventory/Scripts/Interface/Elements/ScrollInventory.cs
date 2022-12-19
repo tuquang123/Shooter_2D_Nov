@@ -15,6 +15,7 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
     /// </summary>
     public class ScrollInventory : ItemContainer
     {
+	    public Text textNoEnoughGold;
 	    public ScrollRect ScrollRect;
         public GridLayoutGroup Grid;
         public InventoryItem ItemPrefab;

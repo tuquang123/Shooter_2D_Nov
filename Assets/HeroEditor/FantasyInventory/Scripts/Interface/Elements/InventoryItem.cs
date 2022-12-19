@@ -16,6 +16,8 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
     /// </summary>
     public class InventoryItem : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
     {
+        //public GameObject textNoEnoughGold;
+        
         public Text textPrice;
         public GameObject panel;
         public bool active;
@@ -47,10 +49,16 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
                 GameManager.Instance.gold -= price;
                 active = true;
                 GameManager.Instance.dame += 5;
+                Toggle.interactable = true;
+            }
+            else
+            {
+                //no enough
             }
         }
         public void Start()
         {
+            Toggle.interactable = false;
             textPrice.text = price.ToString();
             if (Icon != null)
             {
@@ -79,8 +87,18 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
 
         public void OnPointerClick(PointerEventData eventData)
         {
+
+            if (active)
+            {
+                StartCoroutine(OnPointerClickDelayed(eventData));
+                Invoke("ActiveFalse",0.25f);
+            }
             
-            if(active)StartCoroutine(OnPointerClickDelayed(eventData));
+        }
+
+        void ActiveFalse()
+        {
+            gameObject.SetActive(false);
         }
 
         private IEnumerator OnPointerClickDelayed(PointerEventData eventData) // TODO: A workaround. We should wait for initializing other components.

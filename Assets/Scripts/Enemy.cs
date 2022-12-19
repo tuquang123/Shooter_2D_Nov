@@ -90,7 +90,7 @@ public class Enemy : MonoBehaviour
     public void TakeDame(int dame)
     {
         //Spawn new popup with a random number between 0 and 100.
-        DamageNumber damageNumber = numberPrefab.Spawn(Vector3.zero, -dame);
+        DamageNumber damageNumber = numberPrefab.Spawn(Vector3.zero, - dame);
 
       
         //Set the rect parent and anchored position.
@@ -104,6 +104,7 @@ public class Enemy : MonoBehaviour
     {
         if (hp <= 0)
         {
+            GameManager.Instance.gold+= Random.Range(5,12);
             DiscardToPool();
             MyPooler.ObjectPooler.Instance.GetFromPool("F", transform.position, Quaternion.identity);
             //GetComponent<Monster>().Die();
