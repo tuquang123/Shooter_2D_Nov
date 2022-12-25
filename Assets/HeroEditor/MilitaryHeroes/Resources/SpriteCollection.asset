@@ -3553,186 +3553,6 @@ MonoBehaviour:
     Hash: af4cd83757d288ea73ffe63d1c801404
     Meta: 
     Tags: []
-  - Name: Horns1 [Paint] [FullHair]
-    Collection: Horns (Style)
-    Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns1 [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns1
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: 63c2481abb8543b2a0c51bf003ef22f1, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 63c2481abb8543b2a0c51bf003ef22f1, type: 3}
-    Multiple: 1
-    Hash: 9ed43aea5b3183c18887bdde5f67e71c
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: Horns10 [Paint] [FullHair]
-    Collection: Horns (Style)
-    Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns10 [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns10
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: 855aa1e5a0cd4593a9b273a0e702b817, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 855aa1e5a0cd4593a9b273a0e702b817, type: 3}
-    Multiple: 1
-    Hash: b31fafb4a966fd1dd3461002399747b8
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: Horns11 [Paint] [FullHair]
-    Collection: Horns (Style)
-    Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns11 [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns11
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: 587eacbc314a4b8987a85e3c7ca25e76, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 587eacbc314a4b8987a85e3c7ca25e76, type: 3}
-    Multiple: 1
-    Hash: 5e982287d5851cc517566e68ea109a00
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: Horns12 [Paint] [FullHair]
-    Collection: Horns (Style)
-    Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns12 [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns12
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: 77406e8446924e9ca790c6f03cc243b2, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 77406e8446924e9ca790c6f03cc243b2, type: 3}
-    Multiple: 1
-    Hash: a2fbaec5935bfbc56e7bf6dd08628ecf
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: Horns13 [Paint] [FullHair]
-    Collection: Horns (Style)
-    Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns13 [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns13
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: e5b5747e422b4a1f88449cd3f1ee0350, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: e5b5747e422b4a1f88449cd3f1ee0350, type: 3}
-    Multiple: 1
-    Hash: 910670e7d065b2d8e6289290cf20afb3
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: Horns14 [Paint] [FullHair]
-    Collection: Horns (Style)
-    Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns14 [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns14
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: a957d25935a0437981cb1d7f90d6597c, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: a957d25935a0437981cb1d7f90d6597c, type: 3}
-    Multiple: 1
-    Hash: 4d78e84e63bca84ad0c62390741f0857
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: Horns15[Paint] [FullHair]
-    Collection: Horns (Style)
-    Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns15[Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns15[Paint]
-      [FullHair].png
-    Sprite: {fileID: 21300000, guid: 9f34aff186bb48718f4153a1ac7c141b, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 9f34aff186bb48718f4153a1ac7c141b, type: 3}
-    Multiple: 1
-    Hash: 56caa6c8d0aacee11899dc8462d1e2f2
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: Horns2 [Paint] [FullHair]
-    Collection: Horns (Style)
-    Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns2 [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns2
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: b0f00dc724ac4b92995fe6942cf37202, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: b0f00dc724ac4b92995fe6942cf37202, type: 3}
-    Multiple: 1
-    Hash: f9ebe48f8c75a537ff12bdd628d9285d
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: Horns3 [Paint] [FullHair]
-    Collection: Horns (Style)
-    Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns3 [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns3
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: dfde533e23384117be07a98017d25f32, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: dfde533e23384117be07a98017d25f32, type: 3}
-    Multiple: 1
-    Hash: ea9613ad23590883cab21f6cebeb8d45
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: Horns4 [Paint] [FullHair]
-    Collection: Horns (Style)
-    Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns4 [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns4
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: 0a0fb40d36d44bb7a9b490a0de3e6b3d, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 0a0fb40d36d44bb7a9b490a0de3e6b3d, type: 3}
-    Multiple: 1
-    Hash: a87785f60e3988acb61cf9b055a7eaca
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: Horns5 [Paint] [FullHair]
-    Collection: Horns (Style)
-    Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns5 [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns5
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: c1ac12c39de64f009ecea909f4a6b81b, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: c1ac12c39de64f009ecea909f4a6b81b, type: 3}
-    Multiple: 1
-    Hash: 82cc9b92b87f9b4ced08347b01077915
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: Horns6 [Paint] [FullHair]
-    Collection: Horns (Style)
-    Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns6 [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns6
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: 1fa53b6d7f874cf2b148aadf06f07d67, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 1fa53b6d7f874cf2b148aadf06f07d67, type: 3}
-    Multiple: 1
-    Hash: 790cd16540ce26bb8c19f537c7e25fe8
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
   - Name: Horns7 [Paint] [FullHair]
     Collection: Horns (Style)
     Edition: Extensions
@@ -3763,276 +3583,6 @@ MonoBehaviour:
     Tags:
     - Paint
     - FullHair
-  - Name: Horns9 [Paint] [FullHair]
-    Collection: Horns (Style)
-    Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns9 [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns9
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: b4f3a910c8494cfaa2a21825a105fd33, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: b4f3a910c8494cfaa2a21825a105fd33, type: 3}
-    Multiple: 1
-    Hash: 65ad6fb30e39696d2b4a0f80e302bc14
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: MilitaryBeret
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Helmet.MilitaryBeret
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Helmet/Pro/MilitaryBeret.png
-    Sprite: {fileID: 21300000, guid: 0afc7a41a69e4d77b2c53b7458c8bced, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 0afc7a41a69e4d77b2c53b7458c8bced, type: 3}
-    Multiple: 1
-    Hash: 57d93377c0ca7a86083ad9ec38b5b185
-    Meta: 
-    Tags: []
-  - Name: MilitaryBeret2
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Helmet.MilitaryBeret2
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Helmet/Pro/MilitaryBeret2.png
-    Sprite: {fileID: 21300000, guid: 5395b644739048bb8070ed39865fbfa4, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 5395b644739048bb8070ed39865fbfa4, type: 3}
-    Multiple: 1
-    Hash: 47f92ce77c159af4acbeca4eeaa15f04
-    Meta: 
-    Tags: []
-  - Name: MilitaryHelm
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Helmet.MilitaryHelm
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Helmet/Pro/MilitaryHelm.png
-    Sprite: {fileID: 21300000, guid: 4799291d0a01498dbce384b087bf2395, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 4799291d0a01498dbce384b087bf2395, type: 3}
-    Multiple: 1
-    Hash: 07b8d0d5d7e899381a601d7337dc2250
-    Meta: 
-    Tags: []
-  - Name: MilitaryPanama
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Helmet.MilitaryPanama
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Helmet/Pro/MilitaryPanama.png
-    Sprite: {fileID: 21300000, guid: 7441a1f873e04a5da7d3c57b07cee104, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 7441a1f873e04a5da7d3c57b07cee104, type: 3}
-    Multiple: 1
-    Hash: 2617752c1d578ea0312d9481cf71ac49
-    Meta: 
-    Tags: []
-  - Name: MillitaryCap
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Helmet.MillitaryCap
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Helmet/Pro/MillitaryCap.png
-    Sprite: {fileID: 21300000, guid: d697ab19e06c4c7fb791a989c3dc14e0, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: d697ab19e06c4c7fb791a989c3dc14e0, type: 3}
-    Multiple: 1
-    Hash: 15833c1787f9c321f5aa668143885c84
-    Meta: 
-    Tags: []
-  - Name: MlitaryBeret3
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Helmet.MlitaryBeret3
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Helmet/Pro/MlitaryBeret3.png
-    Sprite: {fileID: 21300000, guid: c86b7e1cfa814a3f903a35ac56b1b48b, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: c86b7e1cfa814a3f903a35ac56b1b48b, type: 3}
-    Multiple: 1
-    Hash: 893cc152fea138b9909d338f680ec348
-    Meta: 
-    Tags: []
-  - Name: NinjaHeadband
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Helmet.NinjaHeadband
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Helmet/Pro/NinjaHeadband.png
-    Sprite: {fileID: 21300000, guid: 8e314644363047fa80c698d98ebdc733, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 8e314644363047fa80c698d98ebdc733, type: 3}
-    Multiple: 1
-    Hash: 44818a5ad74c4f900ce000e2858bef7f
-    Meta: 
-    Tags: []
-  - Name: NinjaHeadband [Paint]
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Helmet.NinjaHeadband [Paint]
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Helmet/Pro/NinjaHeadband
-      [Paint].png
-    Sprite: {fileID: 21300000, guid: 8b6d880f5db94110ab469f89827af55d, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 8b6d880f5db94110ab469f89827af55d, type: 3}
-    Multiple: 1
-    Hash: 44818a5ad74c4f900ce000e2858bef7f
-    Meta: 
-    Tags:
-    - Paint
-  - Name: PolicemanHat
-    Collection: Basic
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Basic.Helmet.PolicemanHat
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Helmet/Basic/PolicemanHat.png
-    Sprite: {fileID: 21300000, guid: d12d70b8800d439fbabffac0c1cc5ee0, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: d12d70b8800d439fbabffac0c1cc5ee0, type: 3}
-    Multiple: 1
-    Hash: 8968693b0e29d4ee758ecd5467879d51
-    Meta: 
-    Tags: []
-  - Name: RebelHood
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Helmet.RebelHood
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Helmet/Pro/RebelHood.png
-    Sprite: {fileID: 21300000, guid: bf78c02a1d784ce78991aaa9c3d99c99, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: bf78c02a1d784ce78991aaa9c3d99c99, type: 3}
-    Multiple: 1
-    Hash: 7bedc2126de359c4319a67d54a071cc2
-    Meta: 
-    Tags: []
-  - Name: Ribbon1 [FullHair]
-    Collection: Style
-    Edition: Extensions
-    Id: Extensions.Style.Helmet.Ribbon1 [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/Ribbon1
-      [FullHair].png
-    Sprite: {fileID: 21300000, guid: e1082789a9104bc884327a6a1e8efe85, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: e1082789a9104bc884327a6a1e8efe85, type: 3}
-    Multiple: 1
-    Hash: c2cdc4a723672eeec3ae382857299cdd
-    Meta: 
-    Tags:
-    - FullHair
-  - Name: Ribbon1 [Paint] [FullHair]
-    Collection: Style
-    Edition: Extensions
-    Id: Extensions.Style.Helmet.Ribbon1 [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/Ribbon1
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: 042f9da101714e3e8c2d8783e2391e06, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 042f9da101714e3e8c2d8783e2391e06, type: 3}
-    Multiple: 1
-    Hash: 42ab7da3b54ad9ad435f40dd821886e4
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: Ribbon2 [FullHair]
-    Collection: Style
-    Edition: Extensions
-    Id: Extensions.Style.Helmet.Ribbon2 [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/Ribbon2
-      [FullHair].png
-    Sprite: {fileID: 21300000, guid: 2d3b975b973d45a8b452dcea1ef1fa58, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 2d3b975b973d45a8b452dcea1ef1fa58, type: 3}
-    Multiple: 1
-    Hash: 49793055cce8aa06a788d1b3c9c089bf
-    Meta: 
-    Tags:
-    - FullHair
-  - Name: Ribbon2 [Paint] [FullHair]
-    Collection: Style
-    Edition: Extensions
-    Id: Extensions.Style.Helmet.Ribbon2 [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/Ribbon2
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: 044224b86fcd4c43b781cf031ad2ffb6, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 044224b86fcd4c43b781cf031ad2ffb6, type: 3}
-    Multiple: 1
-    Hash: 3c2e251e100274f808d5822ccb1f3255
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: RockCap
-    Collection: Casual
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Casual.Helmet.RockCap
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Helmet/Casual/RockCap.png
-    Sprite: {fileID: 21300000, guid: 80b52c88e850438aaad84308ffe51e38, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 80b52c88e850438aaad84308ffe51e38, type: 3}
-    Multiple: 1
-    Hash: 6f5f27430244eb97f127e003b6a6b696
-    Meta: 
-    Tags: []
-  - Name: Rocky [Paint] [FullHair]
-    Collection: Style
-    Edition: Extensions
-    Id: Extensions.Style.Helmet.Rocky [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/Rocky
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: a996170d52124d12909376dbc509dab8, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: a996170d52124d12909376dbc509dab8, type: 3}
-    Multiple: 1
-    Hash: 3bcbf69b1f87a275024d704162e79a1a
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: SantaHat
-    Collection: Christmas
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Christmas.Helmet.SantaHat
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Helmet/Christmas/SantaHat.png
-    Sprite: {fileID: 21300000, guid: 99e6780fc7bb40c997d64f579f0c108b, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 99e6780fc7bb40c997d64f579f0c108b, type: 3}
-    Multiple: 1
-    Hash: d7c182cb5fb7645e4b2c34d173558023
-    Meta: 
-    Tags: []
-  - Name: SantaHelperHat1
-    Collection: Christmas
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Christmas.Helmet.SantaHelperHat1
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Helmet/Christmas/SantaHelperHat1.png
-    Sprite: {fileID: 21300000, guid: 241c5f578f2b413fa1541a127f94d010, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 241c5f578f2b413fa1541a127f94d010, type: 3}
-    Multiple: 1
-    Hash: 6573be19fe455a1721274e9d435b0e50
-    Meta: 
-    Tags: []
-  - Name: SantaHelperHat2
-    Collection: Christmas
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Christmas.Helmet.SantaHelperHat2
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Helmet/Christmas/SantaHelperHat2.png
-    Sprite: {fileID: 21300000, guid: 5b9c03591b494d55a6f91a5f380fd2a1, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 5b9c03591b494d55a6f91a5f380fd2a1, type: 3}
-    Multiple: 1
-    Hash: 1fca1159321cd028c08d8143fbd2c8f4
-    Meta: 
-    Tags: []
-  - Name: SantaHelperHat3
-    Collection: Christmas
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Christmas.Helmet.SantaHelperHat3
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Helmet/Christmas/SantaHelperHat3.png
-    Sprite: {fileID: 21300000, guid: 3b2abbac711d40da899186b115f796e1, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 3b2abbac711d40da899186b115f796e1, type: 3}
-    Multiple: 1
-    Hash: 10f29bba95ec7a9357009c6dbff676fc
-    Meta: 
-    Tags: []
   - Name: SkullPin [FullHair]
     Collection: Style
     Edition: Extensions
@@ -4810,75 +4360,6 @@ MonoBehaviour:
     Hash: 59971f4fd9c3f3802d3d08d70e622e46
     Meta: 
     Tags: []
-  - Name: Santa1
-    Collection: Christmas
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Christmas.Armor.Santa1
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Armor/Christmas/Santa1.png
-    Sprite: {fileID: 21300004, guid: 9b1009e95bc74c71818aea79aad54720, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: 9b1009e95bc74c71818aea79aad54720, type: 3}
-    - {fileID: 21300002, guid: 9b1009e95bc74c71818aea79aad54720, type: 3}
-    - {fileID: 21300022, guid: 9b1009e95bc74c71818aea79aad54720, type: 3}
-    - {fileID: 21300010, guid: 9b1009e95bc74c71818aea79aad54720, type: 3}
-    - {fileID: 21300008, guid: 9b1009e95bc74c71818aea79aad54720, type: 3}
-    - {fileID: 21300016, guid: 9b1009e95bc74c71818aea79aad54720, type: 3}
-    - {fileID: 21300018, guid: 9b1009e95bc74c71818aea79aad54720, type: 3}
-    - {fileID: 21300012, guid: 9b1009e95bc74c71818aea79aad54720, type: 3}
-    - {fileID: 21300006, guid: 9b1009e95bc74c71818aea79aad54720, type: 3}
-    - {fileID: 21300014, guid: 9b1009e95bc74c71818aea79aad54720, type: 3}
-    - {fileID: 21300020, guid: 9b1009e95bc74c71818aea79aad54720, type: 3}
-    - {fileID: 21300000, guid: 9b1009e95bc74c71818aea79aad54720, type: 3}
-    Multiple: 1
-    Hash: e720f745fb55210a3dba7bad23b25b98
-    Meta: 
-    Tags: []
-  - Name: Santa2
-    Collection: Christmas
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Christmas.Armor.Santa2
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Armor/Christmas/Santa2.png
-    Sprite: {fileID: 21300004, guid: a06e75a179c04d9c89486d0fd2ebc43f, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: a06e75a179c04d9c89486d0fd2ebc43f, type: 3}
-    - {fileID: 21300002, guid: a06e75a179c04d9c89486d0fd2ebc43f, type: 3}
-    - {fileID: 21300022, guid: a06e75a179c04d9c89486d0fd2ebc43f, type: 3}
-    - {fileID: 21300010, guid: a06e75a179c04d9c89486d0fd2ebc43f, type: 3}
-    - {fileID: 21300008, guid: a06e75a179c04d9c89486d0fd2ebc43f, type: 3}
-    - {fileID: 21300016, guid: a06e75a179c04d9c89486d0fd2ebc43f, type: 3}
-    - {fileID: 21300018, guid: a06e75a179c04d9c89486d0fd2ebc43f, type: 3}
-    - {fileID: 21300012, guid: a06e75a179c04d9c89486d0fd2ebc43f, type: 3}
-    - {fileID: 21300006, guid: a06e75a179c04d9c89486d0fd2ebc43f, type: 3}
-    - {fileID: 21300014, guid: a06e75a179c04d9c89486d0fd2ebc43f, type: 3}
-    - {fileID: 21300020, guid: a06e75a179c04d9c89486d0fd2ebc43f, type: 3}
-    - {fileID: 21300000, guid: a06e75a179c04d9c89486d0fd2ebc43f, type: 3}
-    Multiple: 1
-    Hash: 76e4d2d2717aca7b811c92d65bffa8bb
-    Meta: 
-    Tags: []
-  - Name: SantaHelper
-    Collection: Christmas
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Christmas.Armor.SantaHelper
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Armor/Christmas/SantaHelper.png
-    Sprite: {fileID: 21300004, guid: 1d114e183b004af8a9a306a3b69cb5b1, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: 1d114e183b004af8a9a306a3b69cb5b1, type: 3}
-    - {fileID: 21300002, guid: 1d114e183b004af8a9a306a3b69cb5b1, type: 3}
-    - {fileID: 21300022, guid: 1d114e183b004af8a9a306a3b69cb5b1, type: 3}
-    - {fileID: 21300010, guid: 1d114e183b004af8a9a306a3b69cb5b1, type: 3}
-    - {fileID: 21300008, guid: 1d114e183b004af8a9a306a3b69cb5b1, type: 3}
-    - {fileID: 21300016, guid: 1d114e183b004af8a9a306a3b69cb5b1, type: 3}
-    - {fileID: 21300018, guid: 1d114e183b004af8a9a306a3b69cb5b1, type: 3}
-    - {fileID: 21300012, guid: 1d114e183b004af8a9a306a3b69cb5b1, type: 3}
-    - {fileID: 21300006, guid: 1d114e183b004af8a9a306a3b69cb5b1, type: 3}
-    - {fileID: 21300014, guid: 1d114e183b004af8a9a306a3b69cb5b1, type: 3}
-    - {fileID: 21300020, guid: 1d114e183b004af8a9a306a3b69cb5b1, type: 3}
-    - {fileID: 21300000, guid: 1d114e183b004af8a9a306a3b69cb5b1, type: 3}
-    Multiple: 1
-    Hash: 027ff3c0976a46ae0262c7c2c245aee2
-    Meta: 
-    Tags: []
   - Name: Serpent [Paint]
     Collection: Pro
     Edition: MilitaryHeroes
@@ -5382,6 +4863,134 @@ MonoBehaviour:
     Meta: 
     Tags: []
   Firearms2H:
+  - Name: Revolver
+    Collection: Pro
+    Edition: MilitaryHeroes
+    Id: MilitaryHeroes.Pro.Firearms1H.Revolver
+    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms1H/Pro/Revolver.png
+    Sprite: {fileID: 21300004, guid: f416df239bfe4aadb454cfa560683280, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: f416df239bfe4aadb454cfa560683280, type: 3}
+    - {fileID: 21300014, guid: f416df239bfe4aadb454cfa560683280, type: 3}
+    - {fileID: 21300008, guid: f416df239bfe4aadb454cfa560683280, type: 3}
+    - {fileID: 21300002, guid: f416df239bfe4aadb454cfa560683280, type: 3}
+    - {fileID: 21300000, guid: f416df239bfe4aadb454cfa560683280, type: 3}
+    - {fileID: 21300012, guid: f416df239bfe4aadb454cfa560683280, type: 3}
+    - {fileID: 21300018, guid: f416df239bfe4aadb454cfa560683280, type: 3}
+    - {fileID: 21300020, guid: f416df239bfe4aadb454cfa560683280, type: 3}
+    Multiple: 1
+    Hash: 74ca03dda8c20f6fd4226f2c6b11a517
+    Meta: 
+    Tags: []
+  - Name: USP
+    Collection: Pro
+    Edition: MilitaryHeroes
+    Id: MilitaryHeroes.Pro.Firearms1H.USP
+    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms1H/Pro/USP.png
+    Sprite: {fileID: 21300004, guid: bb3803357b664fa09178fb5f1222bb67, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: bb3803357b664fa09178fb5f1222bb67, type: 3}
+    - {fileID: 21300012, guid: bb3803357b664fa09178fb5f1222bb67, type: 3}
+    - {fileID: 21300008, guid: bb3803357b664fa09178fb5f1222bb67, type: 3}
+    - {fileID: 21300002, guid: bb3803357b664fa09178fb5f1222bb67, type: 3}
+    - {fileID: 21300000, guid: bb3803357b664fa09178fb5f1222bb67, type: 3}
+    - {fileID: 21300014, guid: bb3803357b664fa09178fb5f1222bb67, type: 3}
+    - {fileID: 21300006, guid: bb3803357b664fa09178fb5f1222bb67, type: 3}
+    Multiple: 1
+    Hash: 3e4e532d84f76efa136e10956f20a263
+    Meta: 
+    Tags: []
+  - Name: NNT
+    Collection: Pro
+    Edition: MilitaryHeroes
+    Id: MilitaryHeroes.Pro.Firearms1H.NNT
+    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms1H/Pro/NNT.png
+    Sprite: {fileID: 21300004, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    - {fileID: 21300014, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    - {fileID: 21300008, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    - {fileID: 21300002, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    - {fileID: 21300000, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    - {fileID: 21300020, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    - {fileID: 21300018, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    Multiple: 1
+    Hash: 50a5beba41da516df4b7d99149aacd0d
+    Meta: 
+    Tags: []
+  - Name: SandFalcon
+    Collection: Pro
+    Edition: MilitaryHeroes
+    Id: MilitaryHeroes.Pro.Firearms1H.SandFalcon
+    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms1H/Pro/SandFalcon.png
+    Sprite: {fileID: 21300004, guid: 0426d48212804e209b602bc5e9f020fe, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 0426d48212804e209b602bc5e9f020fe, type: 3}
+    - {fileID: 21300012, guid: 0426d48212804e209b602bc5e9f020fe, type: 3}
+    - {fileID: 21300008, guid: 0426d48212804e209b602bc5e9f020fe, type: 3}
+    - {fileID: 21300002, guid: 0426d48212804e209b602bc5e9f020fe, type: 3}
+    - {fileID: 21300000, guid: 0426d48212804e209b602bc5e9f020fe, type: 3}
+    - {fileID: 21300014, guid: 0426d48212804e209b602bc5e9f020fe, type: 3}
+    - {fileID: 21300006, guid: 0426d48212804e209b602bc5e9f020fe, type: 3}
+    Multiple: 1
+    Hash: 21e463c8b39c8adc2b6aea044f65eb43
+    Meta: 
+    Tags: []
+  - Name: USP [Silencer]
+    Collection: Pro
+    Edition: MilitaryHeroes
+    Id: MilitaryHeroes.Pro.Firearms1H.USP [Silencer]
+    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms1H/Pro/USP [Silencer].png
+    Sprite: {fileID: 21300004, guid: 34b72bed3943480b9de3d0a52d109410, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 34b72bed3943480b9de3d0a52d109410, type: 3}
+    - {fileID: 21300012, guid: 34b72bed3943480b9de3d0a52d109410, type: 3}
+    - {fileID: 21300008, guid: 34b72bed3943480b9de3d0a52d109410, type: 3}
+    - {fileID: 21300002, guid: 34b72bed3943480b9de3d0a52d109410, type: 3}
+    - {fileID: 21300000, guid: 34b72bed3943480b9de3d0a52d109410, type: 3}
+    - {fileID: 21300014, guid: 34b72bed3943480b9de3d0a52d109410, type: 3}
+    - {fileID: 21300006, guid: 34b72bed3943480b9de3d0a52d109410, type: 3}
+    Multiple: 1
+    Hash: f661c104b2b3f605973ecfe0cc4b8783
+    Meta: 
+    Tags:
+    - Silencer
+  - Name: MAC-10
+    Collection: Basic
+    Edition: MilitaryHeroes
+    Id: MilitaryHeroes.Basic.Firearms1H.MAC-10
+    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms1H/Basic/MAC-10.png
+    Sprite: {fileID: 21300004, guid: 47c94ca2087b42b5a39f7fdce913d98f, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 47c94ca2087b42b5a39f7fdce913d98f, type: 3}
+    - {fileID: 21300014, guid: 47c94ca2087b42b5a39f7fdce913d98f, type: 3}
+    - {fileID: 21300008, guid: 47c94ca2087b42b5a39f7fdce913d98f, type: 3}
+    - {fileID: 21300002, guid: 47c94ca2087b42b5a39f7fdce913d98f, type: 3}
+    - {fileID: 21300000, guid: 47c94ca2087b42b5a39f7fdce913d98f, type: 3}
+    - {fileID: 21300020, guid: 47c94ca2087b42b5a39f7fdce913d98f, type: 3}
+    - {fileID: 21300018, guid: 47c94ca2087b42b5a39f7fdce913d98f, type: 3}
+    Multiple: 1
+    Hash: 9e065cfea62db173f26c979290b7dc6a
+    Meta: 
+    Tags: []
+  - Name: UZI
+    Collection: Pro
+    Edition: MilitaryHeroes
+    Id: MilitaryHeroes.Pro.Firearms1H.UZI
+    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms1H/Pro/UZI.png
+    Sprite: {fileID: 21300004, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
+    - {fileID: 21300014, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
+    - {fileID: 21300008, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
+    - {fileID: 21300002, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
+    - {fileID: 21300000, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
+    - {fileID: 21300020, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
+    - {fileID: 21300018, guid: 6b4057cb012d47b98201d345a870b631, type: 3}
+    Multiple: 1
+    Hash: 102d78484daa02b06f3f26f455756376
+    Meta: 
+    Tags: []
   - Name: AK-47
     Collection: Basic
     Edition: MilitaryHeroes
@@ -5400,26 +5009,6 @@ MonoBehaviour:
     Hash: 1f0bf7e5db0ecd6b222287acbde934c9
     Meta: 
     Tags: []
-  - Name: AK-47 [Golden]
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Firearms2H.AK-47 [Golden]
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms2H/Pro/AK-47
-      [Golden].png
-    Sprite: {fileID: 21300004, guid: 2b35395acee94eab830f6f4118e05d13, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: 2b35395acee94eab830f6f4118e05d13, type: 3}
-    - {fileID: 21300010, guid: 2b35395acee94eab830f6f4118e05d13, type: 3}
-    - {fileID: 21300014, guid: 2b35395acee94eab830f6f4118e05d13, type: 3}
-    - {fileID: 21300002, guid: 2b35395acee94eab830f6f4118e05d13, type: 3}
-    - {fileID: 21300000, guid: 2b35395acee94eab830f6f4118e05d13, type: 3}
-    - {fileID: 21300016, guid: 2b35395acee94eab830f6f4118e05d13, type: 3}
-    - {fileID: 21300012, guid: 2b35395acee94eab830f6f4118e05d13, type: 3}
-    Multiple: 1
-    Hash: 2f74d13a8ee83aab3f65ad2f00c5778c
-    Meta: 
-    Tags:
-    - Golden
   - Name: AR-25
     Collection: Pro
     Edition: MilitaryHeroes
@@ -5436,42 +5025,6 @@ MonoBehaviour:
     - {fileID: 21300012, guid: 696ec530cf224447a7afa1a2a9e953da, type: 3}
     Multiple: 1
     Hash: e03ae7903760a9c9a710573f0aaedc37
-    Meta: 
-    Tags: []
-  - Name: HellBlade
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Firearms2H.HellBlade
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms2H/Pro/HellBlade.png
-    Sprite: {fileID: 21300004, guid: 1f54e0e23713456ebe87997cca221f1c, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: 1f54e0e23713456ebe87997cca221f1c, type: 3}
-    - {fileID: 21300010, guid: 1f54e0e23713456ebe87997cca221f1c, type: 3}
-    - {fileID: 21300014, guid: 1f54e0e23713456ebe87997cca221f1c, type: 3}
-    - {fileID: 21300002, guid: 1f54e0e23713456ebe87997cca221f1c, type: 3}
-    - {fileID: 21300000, guid: 1f54e0e23713456ebe87997cca221f1c, type: 3}
-    - {fileID: 21300016, guid: 1f54e0e23713456ebe87997cca221f1c, type: 3}
-    - {fileID: 21300012, guid: 1f54e0e23713456ebe87997cca221f1c, type: 3}
-    Multiple: 1
-    Hash: 832608c5e86408650d7a5998b9e5fedb
-    Meta: 
-    Tags: []
-  - Name: HMG
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Firearms2H.HMG
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms2H/Pro/HMG.png
-    Sprite: {fileID: 21300004, guid: cfe8274e988445fe83b7a4e2a1eb5f48, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: cfe8274e988445fe83b7a4e2a1eb5f48, type: 3}
-    - {fileID: 21300010, guid: cfe8274e988445fe83b7a4e2a1eb5f48, type: 3}
-    - {fileID: 21300014, guid: cfe8274e988445fe83b7a4e2a1eb5f48, type: 3}
-    - {fileID: 21300002, guid: cfe8274e988445fe83b7a4e2a1eb5f48, type: 3}
-    - {fileID: 21300000, guid: cfe8274e988445fe83b7a4e2a1eb5f48, type: 3}
-    - {fileID: 21300016, guid: cfe8274e988445fe83b7a4e2a1eb5f48, type: 3}
-    - {fileID: 21300012, guid: cfe8274e988445fe83b7a4e2a1eb5f48, type: 3}
-    Multiple: 1
-    Hash: 1398051ca831fb24e3af2105022a7d1d
     Meta: 
     Tags: []
   - Name: M-16 [Paint]
@@ -5494,24 +5047,6 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: M-249
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Firearms2H.M-249
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms2H/Pro/M-249.png
-    Sprite: {fileID: 21300004, guid: a7f20664db4b402f93f7d4b782ad854a, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: a7f20664db4b402f93f7d4b782ad854a, type: 3}
-    - {fileID: 21300012, guid: a7f20664db4b402f93f7d4b782ad854a, type: 3}
-    - {fileID: 21300008, guid: a7f20664db4b402f93f7d4b782ad854a, type: 3}
-    - {fileID: 21300002, guid: a7f20664db4b402f93f7d4b782ad854a, type: 3}
-    - {fileID: 21300000, guid: a7f20664db4b402f93f7d4b782ad854a, type: 3}
-    - {fileID: 21300014, guid: a7f20664db4b402f93f7d4b782ad854a, type: 3}
-    - {fileID: 21300006, guid: a7f20664db4b402f93f7d4b782ad854a, type: 3}
-    Multiple: 1
-    Hash: 97d68f925332cfac5fd9fbbbe82b73f2
-    Meta: 
-    Tags: []
   - Name: M-4 [Silencer]
     Collection: Pro
     Edition: MilitaryHeroes
@@ -5697,150 +5232,6 @@ MonoBehaviour:
     Hash: b287caf37c6d914fb4d77a7fb629cef5
     Meta: 
     Tags: []
-  - Name: RocketLauncher
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Firearms2H.RocketLauncher
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms2H/Pro/RocketLauncher.png
-    Sprite: {fileID: 21300004, guid: 82209a0e141b436da216e1316a03081b, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: 82209a0e141b436da216e1316a03081b, type: 3}
-    - {fileID: 21300012, guid: 82209a0e141b436da216e1316a03081b, type: 3}
-    - {fileID: 21300008, guid: 82209a0e141b436da216e1316a03081b, type: 3}
-    - {fileID: 21300002, guid: 82209a0e141b436da216e1316a03081b, type: 3}
-    - {fileID: 21300000, guid: 82209a0e141b436da216e1316a03081b, type: 3}
-    - {fileID: 21300014, guid: 82209a0e141b436da216e1316a03081b, type: 3}
-    - {fileID: 21300006, guid: 82209a0e141b436da216e1316a03081b, type: 3}
-    Multiple: 1
-    Hash: 661bf2f48e729541b5fab4d59ef113a9
-    Meta: 
-    Tags: []
-  - Name: RPG
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Firearms2H.RPG
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms2H/Pro/RPG.png
-    Sprite: {fileID: 21300004, guid: 5fdc0fd6ecbe4ac8850dd1bdf1b138c4, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: 5fdc0fd6ecbe4ac8850dd1bdf1b138c4, type: 3}
-    - {fileID: 21300012, guid: 5fdc0fd6ecbe4ac8850dd1bdf1b138c4, type: 3}
-    - {fileID: 21300008, guid: 5fdc0fd6ecbe4ac8850dd1bdf1b138c4, type: 3}
-    - {fileID: 21300002, guid: 5fdc0fd6ecbe4ac8850dd1bdf1b138c4, type: 3}
-    - {fileID: 21300000, guid: 5fdc0fd6ecbe4ac8850dd1bdf1b138c4, type: 3}
-    - {fileID: 21300014, guid: 5fdc0fd6ecbe4ac8850dd1bdf1b138c4, type: 3}
-    - {fileID: 21300006, guid: 5fdc0fd6ecbe4ac8850dd1bdf1b138c4, type: 3}
-    Multiple: 1
-    Hash: 56cada57b62d6914b55e411ddaa33137
-    Meta: 
-    Tags: []
-  - Name: Scout
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Firearms2H.Scout
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms2H/Pro/Scout.png
-    Sprite: {fileID: 21300004, guid: bfc63468d2a7419482760f9618f37b0b, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: bfc63468d2a7419482760f9618f37b0b, type: 3}
-    - {fileID: 21300010, guid: bfc63468d2a7419482760f9618f37b0b, type: 3}
-    - {fileID: 21300014, guid: bfc63468d2a7419482760f9618f37b0b, type: 3}
-    - {fileID: 21300002, guid: bfc63468d2a7419482760f9618f37b0b, type: 3}
-    - {fileID: 21300000, guid: bfc63468d2a7419482760f9618f37b0b, type: 3}
-    - {fileID: 21300016, guid: bfc63468d2a7419482760f9618f37b0b, type: 3}
-    - {fileID: 21300012, guid: bfc63468d2a7419482760f9618f37b0b, type: 3}
-    Multiple: 1
-    Hash: a6d2cf63488962abd926d1524fe45cdb
-    Meta: 
-    Tags: []
-  - Name: Sheperd
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Firearms2H.Sheperd
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms2H/Pro/Sheperd.png
-    Sprite: {fileID: 21300004, guid: 64ec9ab404b247fba0a4c0e6f69e2037, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: 64ec9ab404b247fba0a4c0e6f69e2037, type: 3}
-    - {fileID: 21300010, guid: 64ec9ab404b247fba0a4c0e6f69e2037, type: 3}
-    - {fileID: 21300014, guid: 64ec9ab404b247fba0a4c0e6f69e2037, type: 3}
-    - {fileID: 21300002, guid: 64ec9ab404b247fba0a4c0e6f69e2037, type: 3}
-    - {fileID: 21300000, guid: 64ec9ab404b247fba0a4c0e6f69e2037, type: 3}
-    - {fileID: 21300016, guid: 64ec9ab404b247fba0a4c0e6f69e2037, type: 3}
-    - {fileID: 21300012, guid: 64ec9ab404b247fba0a4c0e6f69e2037, type: 3}
-    Multiple: 1
-    Hash: 6fde87ca1bb93bf839d3c745cc2db3a0
-    Meta: 
-    Tags: []
-  - Name: Shotgun
-    Collection: Basic
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Basic.Firearms2H.Shotgun
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms2H/Basic/Shotgun.png
-    Sprite: {fileID: 21300004, guid: 096ed7cd8afa47aaaee1546f3bb62c0b, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: 096ed7cd8afa47aaaee1546f3bb62c0b, type: 3}
-    - {fileID: 21300014, guid: 096ed7cd8afa47aaaee1546f3bb62c0b, type: 3}
-    - {fileID: 21300008, guid: 096ed7cd8afa47aaaee1546f3bb62c0b, type: 3}
-    - {fileID: 21300002, guid: 096ed7cd8afa47aaaee1546f3bb62c0b, type: 3}
-    - {fileID: 21300000, guid: 096ed7cd8afa47aaaee1546f3bb62c0b, type: 3}
-    - {fileID: 21300012, guid: 096ed7cd8afa47aaaee1546f3bb62c0b, type: 3}
-    - {fileID: 21300018, guid: 096ed7cd8afa47aaaee1546f3bb62c0b, type: 3}
-    Multiple: 1
-    Hash: e575c08f8ba9ce4a0bacf02b97982bfd
-    Meta: 
-    Tags: []
-  - Name: SPAS-12
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Firearms2H.SPAS-12
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms2H/Pro/SPAS-12.png
-    Sprite: {fileID: 21300004, guid: 2578444aa53c4ae4a8dfc2fb623971dc, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: 2578444aa53c4ae4a8dfc2fb623971dc, type: 3}
-    - {fileID: 21300012, guid: 2578444aa53c4ae4a8dfc2fb623971dc, type: 3}
-    - {fileID: 21300008, guid: 2578444aa53c4ae4a8dfc2fb623971dc, type: 3}
-    - {fileID: 21300002, guid: 2578444aa53c4ae4a8dfc2fb623971dc, type: 3}
-    - {fileID: 21300000, guid: 2578444aa53c4ae4a8dfc2fb623971dc, type: 3}
-    - {fileID: 21300014, guid: 2578444aa53c4ae4a8dfc2fb623971dc, type: 3}
-    - {fileID: 21300006, guid: 2578444aa53c4ae4a8dfc2fb623971dc, type: 3}
-    Multiple: 1
-    Hash: f8054a6b7f94ae4cafddfd23ba728f60
-    Meta: 
-    Tags: []
-  - Name: SRL
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Firearms2H.SRL
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms2H/Pro/SRL.png
-    Sprite: {fileID: 21300004, guid: 975ace50ba154b21b52377864fe4b448, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: 975ace50ba154b21b52377864fe4b448, type: 3}
-    - {fileID: 21300012, guid: 975ace50ba154b21b52377864fe4b448, type: 3}
-    - {fileID: 21300008, guid: 975ace50ba154b21b52377864fe4b448, type: 3}
-    - {fileID: 21300002, guid: 975ace50ba154b21b52377864fe4b448, type: 3}
-    - {fileID: 21300000, guid: 975ace50ba154b21b52377864fe4b448, type: 3}
-    - {fileID: 21300014, guid: 975ace50ba154b21b52377864fe4b448, type: 3}
-    - {fileID: 21300006, guid: 975ace50ba154b21b52377864fe4b448, type: 3}
-    Multiple: 1
-    Hash: 7f3507e210fac1e6f3804cd244f930d7
-    Meta: 
-    Tags: []
-  - Name: SVD
-    Collection: Basic
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Basic.Firearms2H.SVD
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms2H/Basic/SVD.png
-    Sprite: {fileID: 21300004, guid: 9f76412129e84572a8572296c8e8c8e1, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: 9f76412129e84572a8572296c8e8c8e1, type: 3}
-    - {fileID: 21300010, guid: 9f76412129e84572a8572296c8e8c8e1, type: 3}
-    - {fileID: 21300014, guid: 9f76412129e84572a8572296c8e8c8e1, type: 3}
-    - {fileID: 21300002, guid: 9f76412129e84572a8572296c8e8c8e1, type: 3}
-    - {fileID: 21300000, guid: 9f76412129e84572a8572296c8e8c8e1, type: 3}
-    - {fileID: 21300016, guid: 9f76412129e84572a8572296c8e8c8e1, type: 3}
-    - {fileID: 21300012, guid: 9f76412129e84572a8572296c8e8c8e1, type: 3}
-    Multiple: 1
-    Hash: 0caf2f178434cd7064b916b9cbeccb59
-    Meta: 
-    Tags: []
   - Name: TomG
     Collection: Pro
     Edition: MilitaryHeroes
@@ -5857,6 +5248,117 @@ MonoBehaviour:
     - {fileID: 21300012, guid: fc19fe14758c4c8a9aa927d52ebf3728, type: 3}
     Multiple: 1
     Hash: 86960c6b8713c26b060ee06bf9b6888e
+    Meta: 
+    Tags: []
+  - Name: HMG
+    Collection: Pro
+    Edition: MilitaryHeroes
+    Id: MilitaryHeroes.Pro.Firearms2H.HMG
+    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms2H/Pro/HMG.png
+    Sprite: {fileID: 21300004, guid: cfe8274e988445fe83b7a4e2a1eb5f48, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: cfe8274e988445fe83b7a4e2a1eb5f48, type: 3}
+    - {fileID: 21300010, guid: cfe8274e988445fe83b7a4e2a1eb5f48, type: 3}
+    - {fileID: 21300014, guid: cfe8274e988445fe83b7a4e2a1eb5f48, type: 3}
+    - {fileID: 21300002, guid: cfe8274e988445fe83b7a4e2a1eb5f48, type: 3}
+    - {fileID: 21300000, guid: cfe8274e988445fe83b7a4e2a1eb5f48, type: 3}
+    - {fileID: 21300016, guid: cfe8274e988445fe83b7a4e2a1eb5f48, type: 3}
+    - {fileID: 21300012, guid: cfe8274e988445fe83b7a4e2a1eb5f48, type: 3}
+    Multiple: 1
+    Hash: 1398051ca831fb24e3af2105022a7d1d
+    Meta: 
+    Tags: []
+  - Name: HellBlade
+    Collection: Pro
+    Edition: MilitaryHeroes
+    Id: MilitaryHeroes.Pro.Firearms2H.HellBlade
+    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms2H/Pro/HellBlade.png
+    Sprite: {fileID: 21300004, guid: 1f54e0e23713456ebe87997cca221f1c, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 1f54e0e23713456ebe87997cca221f1c, type: 3}
+    - {fileID: 21300010, guid: 1f54e0e23713456ebe87997cca221f1c, type: 3}
+    - {fileID: 21300014, guid: 1f54e0e23713456ebe87997cca221f1c, type: 3}
+    - {fileID: 21300002, guid: 1f54e0e23713456ebe87997cca221f1c, type: 3}
+    - {fileID: 21300000, guid: 1f54e0e23713456ebe87997cca221f1c, type: 3}
+    - {fileID: 21300016, guid: 1f54e0e23713456ebe87997cca221f1c, type: 3}
+    - {fileID: 21300012, guid: 1f54e0e23713456ebe87997cca221f1c, type: 3}
+    Multiple: 1
+    Hash: 832608c5e86408650d7a5998b9e5fedb
+    Meta: 
+    Tags: []
+  - Name: M-249
+    Collection: Pro
+    Edition: MilitaryHeroes
+    Id: MilitaryHeroes.Pro.Firearms2H.M-249
+    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms2H/Pro/M-249.png
+    Sprite: {fileID: 21300004, guid: a7f20664db4b402f93f7d4b782ad854a, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: a7f20664db4b402f93f7d4b782ad854a, type: 3}
+    - {fileID: 21300012, guid: a7f20664db4b402f93f7d4b782ad854a, type: 3}
+    - {fileID: 21300008, guid: a7f20664db4b402f93f7d4b782ad854a, type: 3}
+    - {fileID: 21300002, guid: a7f20664db4b402f93f7d4b782ad854a, type: 3}
+    - {fileID: 21300000, guid: a7f20664db4b402f93f7d4b782ad854a, type: 3}
+    - {fileID: 21300014, guid: a7f20664db4b402f93f7d4b782ad854a, type: 3}
+    - {fileID: 21300006, guid: a7f20664db4b402f93f7d4b782ad854a, type: 3}
+    Multiple: 1
+    Hash: 97d68f925332cfac5fd9fbbbe82b73f2
+    Meta: 
+    Tags: []
+  - Name: AK-47 [Golden]
+    Collection: Pro
+    Edition: MilitaryHeroes
+    Id: MilitaryHeroes.Pro.Firearms2H.AK-47 [Golden]
+    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms2H/Pro/AK-47
+      [Golden].png
+    Sprite: {fileID: 21300004, guid: 2b35395acee94eab830f6f4118e05d13, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 2b35395acee94eab830f6f4118e05d13, type: 3}
+    - {fileID: 21300010, guid: 2b35395acee94eab830f6f4118e05d13, type: 3}
+    - {fileID: 21300014, guid: 2b35395acee94eab830f6f4118e05d13, type: 3}
+    - {fileID: 21300002, guid: 2b35395acee94eab830f6f4118e05d13, type: 3}
+    - {fileID: 21300000, guid: 2b35395acee94eab830f6f4118e05d13, type: 3}
+    - {fileID: 21300016, guid: 2b35395acee94eab830f6f4118e05d13, type: 3}
+    - {fileID: 21300012, guid: 2b35395acee94eab830f6f4118e05d13, type: 3}
+    Multiple: 1
+    Hash: 2f74d13a8ee83aab3f65ad2f00c5778c
+    Meta: 
+    Tags:
+    - Golden
+  - Name: RRII
+    Collection: Pro
+    Edition: MilitaryHeroes
+    Id: CyberpunkHeroes.Pro.Firearms2H.RRII
+    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms2H/Pro/AK-47
+      [Golden].png
+    Sprite: {fileID: 21300004, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    - {fileID: 21300014, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    - {fileID: 21300008, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    - {fileID: 21300002, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    - {fileID: 21300000, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    - {fileID: 21300012, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    - {fileID: 21300018, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    Multiple: 1
+    Hash: 199118c9f1dbe05a69020f8e35cf2787
+    Meta: 
+    Tags: []
+  - Name: LR-100
+    Collection: Basic
+    Edition: MilitaryHeroes
+    Id: CyberpunkHeroes.Basic.Firearms2H.LR-100
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms2H/Basic/LR-100.png
+    Sprite: {fileID: 21300004, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
+    - {fileID: 21300014, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
+    - {fileID: 21300008, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
+    - {fileID: 21300002, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
+    - {fileID: 21300000, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
+    - {fileID: 21300012, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
+    - {fileID: 21300018, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
+    Multiple: 1
+    Hash: 425b10cc0442023f34ba1346a8c37c4f
     Meta: 
     Tags: []
   Shield:

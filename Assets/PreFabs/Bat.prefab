@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1066592425084262262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1585496057233960989}
+  m_Layer: 0
+  m_Name: TextPopUp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1585496057233960989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066592425084262262}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.7, y: 2.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7901925505112223870}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2619950081755863336
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,7 +334,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5477587768442789758}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -1.45, z: 0}
   m_LocalScale: {x: 2, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7901925505112223870}
@@ -399,6 +429,7 @@ Transform:
   m_Children:
   - {fileID: 7154414994000981240}
   - {fileID: 5111974077957097998}
+  - {fileID: 1585496057233960989}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -502,8 +533,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.6046839, y: 3.217383, z: 1}
-  m_Center: {x: 0.026046932, y: 1.5458586, z: 0}
+  m_Size: {x: 1.9821124, y: 1.9400396, z: 1}
+  m_Center: {x: -0.54357886, y: 1.4595518, z: 0}
 --- !u!114 &1408888759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -537,10 +568,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numberPrefab: {fileID: 3515927367195170040, guid: 95f78784893360848957b141a72b4b02,
     type: 3}
-  rectParent: {fileID: 0}
+  rectParent: {fileID: 1585496057233960989}
   dame: 10
-  speed: 2
-  hp: 100
+  speed: 1
+  hp: 200
   projecttile: {fileID: 1406319089736044158, guid: 8f273c3b57fc574478d13a3fb24ea31d,
     type: 3}
   timeBetweenShots: 7

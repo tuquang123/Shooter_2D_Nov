@@ -2,10 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnerEnemy : MonoBehaviour
+public class SpawnerEnemy : Singleton<SpawnerEnemy>
 {
     public static int lv;
-    public GameObject enemy;
     float randy;
     Vector2 whereToSpawn;
 
@@ -15,15 +14,9 @@ public class SpawnerEnemy : MonoBehaviour
     float nextSpawn = 0.0f;
 
     public int miny, maxY;
-
-    public static SpawnerEnemy instance;
+    
     public List<Transform> objects = new List<Transform>();
-
-    private void Start()
-    {
-        instance = this;
-        DontDestroyOnLoad(gameObject);
-    }
+    
     void RemoveList()
     {
         for (int i = 0; i < objects.Count; i++)
@@ -47,10 +40,31 @@ public class SpawnerEnemy : MonoBehaviour
             randy = Random.Range(miny, maxY);
             whereToSpawn = new Vector2(transform.position.x, randy);
             //var enemyPrefab = Instantiate(enemy, whereToSpawn, Quaternion.identity);
-            var enemyPrefab = MyPooler.ObjectPooler.Instance.GetFromPool("E", whereToSpawn, Quaternion.identity);
-            var enemyPrefab2 = MyPooler.ObjectPooler.Instance.GetFromPool("E2", whereToSpawn, Quaternion.identity);
-            objects.Add(enemyPrefab.transform);
-            objects.Add(enemyPrefab2.transform);
+            int randomIndex = Random.Range(1,5);
+            Debug.Log(randomIndex);
+            switch (randomIndex)
+            {
+                case 1:
+                    var enemyPrefab = MyPooler.ObjectPooler.Instance.GetFromPool("E", whereToSpawn, Quaternion.identity);
+                    objects.Add(enemyPrefab.transform);
+                    break;
+                case 2:
+                    var enemyPrefab2 = MyPooler.ObjectPooler.Instance.GetFromPool("E2", whereToSpawn, Quaternion.identity);
+                    objects.Add(enemyPrefab2.transform);
+                    break;
+                case 3:
+                    var enemyPrefab3 = MyPooler.ObjectPooler.Instance.GetFromPool("E3", whereToSpawn, Quaternion.identity);
+                    objects.Add(enemyPrefab3.transform);
+                    break;
+                case 4:
+                    var enemyPrefab4 = MyPooler.ObjectPooler.Instance.GetFromPool("E4", whereToSpawn, Quaternion.identity);
+                    objects.Add(enemyPrefab4.transform);
+                    break;
+                case 5:
+                    var enemyPrefab5 = MyPooler.ObjectPooler.Instance.GetFromPool("E5", whereToSpawn, Quaternion.identity);
+                    objects.Add(enemyPrefab5.transform);
+                    break;
+            }
             if (max)
             {
                 spawnRate -= 0.1f;

@@ -34,7 +34,7 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
-        rectParent = transform;
+        //rectParent = transform;
         target = GameObject.FindGameObjectWithTag("Player").gameObject.transform;
     }
     private void LateUpdate()
@@ -94,8 +94,8 @@ public class Enemy : MonoBehaviour
 
       
         //Set the rect parent and anchored position.
-        var pos = transform.position;
-        damageNumber.SetAnchoredPosition(rectParent,pos );
+        //var pos = transform.position;
+        damageNumber.SetAnchoredPosition(rectParent,rectParent.position );
         
         ScaleSpring.Begin(this, 1f, 1.1f, 40, 3);
         hp -= dame;

@@ -75,6 +75,7 @@ namespace Assets.HeroEditor.Common.EditorScripts
             if (value)
             {
                 Refresh();
+                Inventory.OnReset();
             }
         }
 

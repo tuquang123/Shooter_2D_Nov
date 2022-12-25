@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2077984099
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2077984100}
+  m_Layer: 0
+  m_Name: TextPopUp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2077984100
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077984099}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.67, y: 2.15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 117150395161187362}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &117150393779553011
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,6 +655,7 @@ Transform:
   m_Children:
   - {fileID: 117150393779553010}
   - {fileID: 4492558580760855041}
+  - {fileID: 2077984100}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -762,7 +793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numberPrefab: {fileID: 3515927367195170040, guid: 95f78784893360848957b141a72b4b02,
     type: 3}
-  rectParent: {fileID: 0}
+  rectParent: {fileID: 2077984100}
   dame: 10
   speed: 1
   hp: 100
@@ -770,8 +801,7 @@ MonoBehaviour:
   timeBetweenShots: 0
   minimumDistance: 0
   enemyShoter: 0
-  poolTag: E
-  isActive: 0
+  poolTag: E4
 --- !u!1 &188064519148664878
 GameObject:
   m_ObjectHideFlags: 0

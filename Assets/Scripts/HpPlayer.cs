@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class HpPlayer : MonoBehaviour
 {
+    public GameObject panelLoss;
     public Character character;
     public int hp = 100;
 
@@ -26,7 +27,14 @@ public class HpPlayer : MonoBehaviour
         if (hp <= 0)
         {
             character.SetState(CharacterState.DeathB);
-            Time.timeScale = 0;
+            StartCoroutine(Wait());
         }
+    }
+
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(0.68f);
+        Time.timeScale = 0;
+        panelLoss.SetActive(true);
     }
 }

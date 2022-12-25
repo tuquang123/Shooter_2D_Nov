@@ -250,7 +250,11 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
         }
         public void OnDestroy()
         {
-	        ItemPrefab.price = 100;
+	        ItemPrefab.price = 0;
+        }
+        public void OnReset()
+        {
+	        ItemPrefab.price = 0;
         }
     }
 }

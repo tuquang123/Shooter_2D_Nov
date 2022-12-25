@@ -13,7 +13,7 @@ namespace Assets.HeroEditor.Common.ExampleScripts
     /// </summary>
     public class AttackingExample : MonoBehaviour
     {
-        public Character character;
+        //public Character character;
         public Transform target;
         public float attackRage = 20f;
         [HideInInspector] public float attackTimer;
@@ -36,8 +36,8 @@ namespace Assets.HeroEditor.Common.ExampleScripts
             if (target == null) return;
             //if (turnOff)
             {
-                targetDir = target.position - character.transform.position;
-                Transform charTrans = character.transform;
+                targetDir = target.position - Character.transform.position;
+                Transform charTrans = Character.transform;
                 charTrans.transform.localScale = new Vector3(Mathf.Sign(targetDir.x), 1, 1);
             }
         }
@@ -53,7 +53,7 @@ namespace Assets.HeroEditor.Common.ExampleScripts
 
             if (this.target) return;
             float dis;
-            foreach (Transform obj in SpawnerEnemy.instance.objects)
+            foreach (Transform obj in SpawnerEnemy.Instance.objects)
             {
                 dis = Vector3.Distance(transform.position, obj.position);
                 if (dis <= attackRage)
@@ -146,8 +146,8 @@ namespace Assets.HeroEditor.Common.ExampleScripts
         }
         private void OnDrawGizmos()
         {
-            Gizmos.color = Color.white;
-            Gizmos.DrawWireSphere( character.transform.position, attackRage);
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere( Character.transform.position, attackRage);
         }
 
         /// <summary>
