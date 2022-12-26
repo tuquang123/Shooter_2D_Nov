@@ -72,7 +72,8 @@ public class Enemy : MonoBehaviour
         else
         {
             if (this.target == null) return;
-            transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            //transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+            transform.position += Vector3.left * speed * Time.deltaTime;
             GetComponent<Monster>().SetState(MonsterState.Run);
             Die();
         }
@@ -85,6 +86,7 @@ public class Enemy : MonoBehaviour
         //isActive = false;
         hp = 100;
         hp += SpawnerEnemy.lv;
+        speed += 0.1f;
     }
 
     public void TakeDame(int dame)

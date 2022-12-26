@@ -570,7 +570,7 @@ MonoBehaviour:
     type: 3}
   rectParent: {fileID: 1585496057233960989}
   dame: 10
-  speed: 1
+  speed: 0.4
   hp: 200
   projecttile: {fileID: 1406319089736044158, guid: 8f273c3b57fc574478d13a3fb24ea31d,
     type: 3}

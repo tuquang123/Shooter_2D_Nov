@@ -3332,21 +3332,6 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: Blossom [Paint] [FullHair]
-    Collection: Style
-    Edition: Extensions
-    Id: Extensions.Style.Helmet.Blossom [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/Blossom
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: 9916249a1d8b47638247f08152e8e700, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 9916249a1d8b47638247f08152e8e700, type: 3}
-    Multiple: 1
-    Hash: f6d5a51a9a6a6dd1fa9b61ac46efdd18
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
   - Name: BoomBoxCap [Paint]
     Collection: Casual
     Edition: MilitaryHeroes
@@ -3361,78 +3346,6 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: BunnyEars [FullHair]
-    Collection: Style
-    Edition: Extensions
-    Id: Extensions.Style.Helmet.BunnyEars [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/BunnyEars
-      [FullHair].png
-    Sprite: {fileID: 21300000, guid: 9bb7139920184e3ea211030bbbd32164, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 9bb7139920184e3ea211030bbbd32164, type: 3}
-    Multiple: 1
-    Hash: 385540afa8df6b736310add77e4375f9
-    Meta: 
-    Tags:
-    - FullHair
-  - Name: BunnyEars1 [Paint] [FullHair]
-    Collection: Style
-    Edition: Extensions
-    Id: Extensions.Style.Helmet.BunnyEars1 [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/BunnyEars1
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: 6a6731fa01074fc1a92d205751241318, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 6a6731fa01074fc1a92d205751241318, type: 3}
-    Multiple: 1
-    Hash: 68fffe1191bf119e63aae4cadb6c0c98
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: BunnyEars2 [FullHair]
-    Collection: Style
-    Edition: Extensions
-    Id: Extensions.Style.Helmet.BunnyEars2 [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/BunnyEars2
-      [FullHair].png
-    Sprite: {fileID: 21300000, guid: d77ba76cfd3e46d68e5b220301f121ba, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: d77ba76cfd3e46d68e5b220301f121ba, type: 3}
-    Multiple: 1
-    Hash: 819f1f12cd75cf7949893074f5037e49
-    Meta: 
-    Tags:
-    - FullHair
-  - Name: BunnyEars2 [Paint] [FullHair]
-    Collection: Style
-    Edition: Extensions
-    Id: Extensions.Style.Helmet.BunnyEars2 [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/BunnyEars2
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: 0f338c65a9ff48b2963c0a6c01b85261, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 0f338c65a9ff48b2963c0a6c01b85261, type: 3}
-    Multiple: 1
-    Hash: 01ea71503741c8d96aa8bf526c19a32d
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: BunnyPin [FullHair]
-    Collection: Style
-    Edition: Extensions
-    Id: Extensions.Style.Helmet.BunnyPin [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/BunnyPin
-      [FullHair].png
-    Sprite: {fileID: 21300000, guid: eaee0e9b5ed644b2b521c8334d246ccc, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: eaee0e9b5ed644b2b521c8334d246ccc, type: 3}
-    Multiple: 1
-    Hash: 72396e0ba6da51796ef1ef00d65f7f98
-    Meta: 
-    Tags:
-    - FullHair
   - Name: Cap
     Collection: Basic
     Edition: MilitaryHeroes
@@ -3445,21 +3358,6 @@ MonoBehaviour:
     Hash: 80416ba10c05f543595d2141d8c85142
     Meta: 
     Tags: []
-  - Name: CatEars [Paint] [FullHair]
-    Collection: Style
-    Edition: Extensions
-    Id: Extensions.Style.Helmet.CatEars [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/CatEars
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: 70a01f38caba4bef91435b8b055f5142, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 70a01f38caba4bef91435b8b055f5142, type: 3}
-    Multiple: 1
-    Hash: fc49d50cbf95d0ccc2ed77b440c93d94
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
   - Name: CommanderHat
     Collection: Pro
     Edition: MilitaryHeroes
@@ -3484,20 +3382,6 @@ MonoBehaviour:
     Hash: b70b2d1e7a4f016a6a15afd97e3c44fa
     Meta: 
     Tags: []
-  - Name: Crown [FullHair]
-    Collection: Style
-    Edition: Extensions
-    Id: Extensions.Style.Helmet.Crown [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/Crown
-      [FullHair].png
-    Sprite: {fileID: 21300000, guid: 63fd4433cb974b099999fdfc03935a62, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 63fd4433cb974b099999fdfc03935a62, type: 3}
-    Multiple: 1
-    Hash: 1870af4c2fad30ef0bcb57322385f8cf
-    Meta: 
-    Tags:
-    - FullHair
   - Name: DeutschenHat [Paint]
     Collection: Pro
     Edition: MilitaryHeroes
@@ -3512,35 +3396,6 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
-  - Name: Diadem [FullHair]
-    Collection: Style
-    Edition: Extensions
-    Id: Extensions.Style.Helmet.Diadem [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/Diadem
-      [FullHair].png
-    Sprite: {fileID: 21300000, guid: 9cd020f68c9047118001993fe8411e64, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 9cd020f68c9047118001993fe8411e64, type: 3}
-    Multiple: 1
-    Hash: 3012ffbbc4cfa43b9ad77531a2cfc978
-    Meta: 
-    Tags:
-    - FullHair
-  - Name: Headband [Paint] [FullHair]
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Helmet.Headband [Paint] [FullHair]
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Helmet/Pro/Headband
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: ecd0d5ffd4c44342b0815b95bfea887e, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: ecd0d5ffd4c44342b0815b95bfea887e, type: 3}
-    Multiple: 1
-    Hash: 5da525b8a557038c36222ca4d29a5f33
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
   - Name: HeavyHelmet
     Collection: Pro
     Edition: MilitaryHeroes
@@ -3553,50 +3408,6 @@ MonoBehaviour:
     Hash: af4cd83757d288ea73ffe63d1c801404
     Meta: 
     Tags: []
-  - Name: Horns7 [Paint] [FullHair]
-    Collection: Horns (Style)
-    Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns7 [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns7
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: 141240e0842d45a7be771c944d786cae, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 141240e0842d45a7be771c944d786cae, type: 3}
-    Multiple: 1
-    Hash: 7da5153bd6d9147ca993dc15d73040af
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: Horns8 [Paint] [FullHair]
-    Collection: Horns (Style)
-    Edition: Extensions
-    Id: Extensions.Horns (Style).Helmet.Horns8 [Paint] [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Horns (Style)/Horns8
-      [Paint] [FullHair].png
-    Sprite: {fileID: 21300000, guid: 3a54c2cbc4f741b0bf2e4208a83e7929, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 3a54c2cbc4f741b0bf2e4208a83e7929, type: 3}
-    Multiple: 1
-    Hash: c39b03f16b16387f4940da7b3b6bc258
-    Meta: 
-    Tags:
-    - Paint
-    - FullHair
-  - Name: SkullPin [FullHair]
-    Collection: Style
-    Edition: Extensions
-    Id: Extensions.Style.Helmet.SkullPin [FullHair]
-    Path: Assets/HeroEditor/Extensions/Style/Sprites/Equipment/Helmet/Style/SkullPin
-      [FullHair].png
-    Sprite: {fileID: 21300000, guid: 96c8510dd0874f92b8a4f695b2c4aad1, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: 96c8510dd0874f92b8a4f695b2c4aad1, type: 3}
-    Multiple: 1
-    Hash: 45b7e088a103c4d9666626ba350b2f71
-    Meta: 
-    Tags:
-    - FullHair
   - Name: SoldierHelm
     Collection: Pro
     Edition: MilitaryHeroes
@@ -3609,20 +3420,6 @@ MonoBehaviour:
     Hash: 1b3369b1972833bed832c7d25a474b3e
     Meta: 
     Tags: []
-  - Name: StreetCap [Paint]
-    Collection: Casual
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Casual.Helmet.StreetCap [Paint]
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Helmet/Casual/StreetCap
-      [Paint].png
-    Sprite: {fileID: 21300000, guid: ac8ab77d775a4cfe87eca70cf393d7e9, type: 3}
-    Sprites:
-    - {fileID: 21300000, guid: ac8ab77d775a4cfe87eca70cf393d7e9, type: 3}
-    Multiple: 1
-    Hash: d5f10f21abb5956d8d2a1cf3db2c46d3
-    Meta: 
-    Tags:
-    - Paint
   - Name: UbersoldierHelm
     Collection: Pro
     Edition: MilitaryHeroes
@@ -3649,6 +3446,18 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
+  - Name: LakeDragonHelmet
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Helmet.LakeDragonHelmet
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Helmet/Legendary/LakeDragonHelmet.png
+    Sprite: {fileID: 21300000, guid: 37e533829008c19448413a71eff02c2e, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 37e533829008c19448413a71eff02c2e, type: 3}
+    Multiple: 1
+    Hash: c975f923420d3a40a19ac00b5931e424
+    Meta: 
+    Tags: []
   Glasses:
   - Name: Black
     Collection: Pro
@@ -3942,29 +3751,6 @@ MonoBehaviour:
     Meta: 
     Tags: []
   Armor:
-  - Name: Adventurer
-    Collection: Casual
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Casual.Armor.Adventurer
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Armor/Casual/Adventurer.png
-    Sprite: {fileID: 21300004, guid: 81d5394ccf164420b10188c2ed2bbe5e, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: 81d5394ccf164420b10188c2ed2bbe5e, type: 3}
-    - {fileID: 21300002, guid: 81d5394ccf164420b10188c2ed2bbe5e, type: 3}
-    - {fileID: 21300022, guid: 81d5394ccf164420b10188c2ed2bbe5e, type: 3}
-    - {fileID: 21300010, guid: 81d5394ccf164420b10188c2ed2bbe5e, type: 3}
-    - {fileID: 21300008, guid: 81d5394ccf164420b10188c2ed2bbe5e, type: 3}
-    - {fileID: 21300016, guid: 81d5394ccf164420b10188c2ed2bbe5e, type: 3}
-    - {fileID: 21300018, guid: 81d5394ccf164420b10188c2ed2bbe5e, type: 3}
-    - {fileID: 21300012, guid: 81d5394ccf164420b10188c2ed2bbe5e, type: 3}
-    - {fileID: 21300006, guid: 81d5394ccf164420b10188c2ed2bbe5e, type: 3}
-    - {fileID: 21300014, guid: 81d5394ccf164420b10188c2ed2bbe5e, type: 3}
-    - {fileID: 21300020, guid: 81d5394ccf164420b10188c2ed2bbe5e, type: 3}
-    - {fileID: 21300000, guid: 81d5394ccf164420b10188c2ed2bbe5e, type: 3}
-    Multiple: 1
-    Hash: 0a0d3c7c49ca42eb4777c8ac9ee97c8d
-    Meta: 
-    Tags: []
   - Name: ArmyMan
     Collection: Pro
     Edition: MilitaryHeroes
@@ -4430,75 +4216,6 @@ MonoBehaviour:
     Hash: 2d09b68b0121350f0d3d55b809fc5e82
     Meta: 
     Tags: []
-  - Name: Street
-    Collection: Casual
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Casual.Armor.Street
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Armor/Casual/Street.png
-    Sprite: {fileID: 21300004, guid: e5707fd31911440ab4d3bdd19b3e348f, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: e5707fd31911440ab4d3bdd19b3e348f, type: 3}
-    - {fileID: 21300002, guid: e5707fd31911440ab4d3bdd19b3e348f, type: 3}
-    - {fileID: 21300022, guid: e5707fd31911440ab4d3bdd19b3e348f, type: 3}
-    - {fileID: 21300010, guid: e5707fd31911440ab4d3bdd19b3e348f, type: 3}
-    - {fileID: 21300008, guid: e5707fd31911440ab4d3bdd19b3e348f, type: 3}
-    - {fileID: 21300016, guid: e5707fd31911440ab4d3bdd19b3e348f, type: 3}
-    - {fileID: 21300018, guid: e5707fd31911440ab4d3bdd19b3e348f, type: 3}
-    - {fileID: 21300012, guid: e5707fd31911440ab4d3bdd19b3e348f, type: 3}
-    - {fileID: 21300006, guid: e5707fd31911440ab4d3bdd19b3e348f, type: 3}
-    - {fileID: 21300014, guid: e5707fd31911440ab4d3bdd19b3e348f, type: 3}
-    - {fileID: 21300020, guid: e5707fd31911440ab4d3bdd19b3e348f, type: 3}
-    - {fileID: 21300000, guid: e5707fd31911440ab4d3bdd19b3e348f, type: 3}
-    Multiple: 1
-    Hash: dc823043181de75e084ae513b1a0736e
-    Meta: 
-    Tags: []
-  - Name: Terminator
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Armor.Terminator
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Armor/Pro/Terminator.png
-    Sprite: {fileID: 21300004, guid: b24fa1e203fb4f51a37960faa9cdb6a9, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: b24fa1e203fb4f51a37960faa9cdb6a9, type: 3}
-    - {fileID: 21300002, guid: b24fa1e203fb4f51a37960faa9cdb6a9, type: 3}
-    - {fileID: 21300022, guid: b24fa1e203fb4f51a37960faa9cdb6a9, type: 3}
-    - {fileID: 21300010, guid: b24fa1e203fb4f51a37960faa9cdb6a9, type: 3}
-    - {fileID: 21300008, guid: b24fa1e203fb4f51a37960faa9cdb6a9, type: 3}
-    - {fileID: 21300016, guid: b24fa1e203fb4f51a37960faa9cdb6a9, type: 3}
-    - {fileID: 21300018, guid: b24fa1e203fb4f51a37960faa9cdb6a9, type: 3}
-    - {fileID: 21300012, guid: b24fa1e203fb4f51a37960faa9cdb6a9, type: 3}
-    - {fileID: 21300006, guid: b24fa1e203fb4f51a37960faa9cdb6a9, type: 3}
-    - {fileID: 21300014, guid: b24fa1e203fb4f51a37960faa9cdb6a9, type: 3}
-    - {fileID: 21300020, guid: b24fa1e203fb4f51a37960faa9cdb6a9, type: 3}
-    - {fileID: 21300000, guid: b24fa1e203fb4f51a37960faa9cdb6a9, type: 3}
-    Multiple: 1
-    Hash: bcb6759d9ab698b03e77b58c5d607077
-    Meta: 
-    Tags: []
-  - Name: Terrorist
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Armor.Terrorist
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Armor/Pro/Terrorist.png
-    Sprite: {fileID: 21300004, guid: db0029a07f964e1e9d2c4fb0d778f3da, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: db0029a07f964e1e9d2c4fb0d778f3da, type: 3}
-    - {fileID: 21300002, guid: db0029a07f964e1e9d2c4fb0d778f3da, type: 3}
-    - {fileID: 21300022, guid: db0029a07f964e1e9d2c4fb0d778f3da, type: 3}
-    - {fileID: 21300010, guid: db0029a07f964e1e9d2c4fb0d778f3da, type: 3}
-    - {fileID: 21300008, guid: db0029a07f964e1e9d2c4fb0d778f3da, type: 3}
-    - {fileID: 21300016, guid: db0029a07f964e1e9d2c4fb0d778f3da, type: 3}
-    - {fileID: 21300018, guid: db0029a07f964e1e9d2c4fb0d778f3da, type: 3}
-    - {fileID: 21300012, guid: db0029a07f964e1e9d2c4fb0d778f3da, type: 3}
-    - {fileID: 21300006, guid: db0029a07f964e1e9d2c4fb0d778f3da, type: 3}
-    - {fileID: 21300014, guid: db0029a07f964e1e9d2c4fb0d778f3da, type: 3}
-    - {fileID: 21300020, guid: db0029a07f964e1e9d2c4fb0d778f3da, type: 3}
-    - {fileID: 21300000, guid: db0029a07f964e1e9d2c4fb0d778f3da, type: 3}
-    Multiple: 1
-    Hash: 34b73b571661c3eb00bacc3934e23182
-    Meta: 
-    Tags: []
   - Name: UberSoldier [Paint]
     Collection: Basic
     Edition: MilitaryHeroes
@@ -4524,6 +4241,30 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Paint
+  - Name: LakeDragonArmor
+    Collection: Legendary
+    Edition: Extensions
+    Id: Extensions.Legendary.Armor.LakeDragonArmor
+    Path: Assets/HeroEditor/Extensions/EpicHeroes/Sprites/Equipment/Armor/Legendary/LakeDragonArmor.png
+    Sprite: {fileID: -4550084578846169200, guid: 88cef6ae65ff39a41ac16df3e61359d1,
+      type: 3}
+    Sprites:
+    - {fileID: -4550084578846169200, guid: 88cef6ae65ff39a41ac16df3e61359d1, type: 3}
+    - {fileID: 624974917677838921, guid: 88cef6ae65ff39a41ac16df3e61359d1, type: 3}
+    - {fileID: 878777441990743753, guid: 88cef6ae65ff39a41ac16df3e61359d1, type: 3}
+    - {fileID: 8477010410430503746, guid: 88cef6ae65ff39a41ac16df3e61359d1, type: 3}
+    - {fileID: 9212712091511837395, guid: 88cef6ae65ff39a41ac16df3e61359d1, type: 3}
+    - {fileID: 6787936197531259123, guid: 88cef6ae65ff39a41ac16df3e61359d1, type: 3}
+    - {fileID: 9055856234324719921, guid: 88cef6ae65ff39a41ac16df3e61359d1, type: 3}
+    - {fileID: -524195514793821918, guid: 88cef6ae65ff39a41ac16df3e61359d1, type: 3}
+    - {fileID: -5036632884329809443, guid: 88cef6ae65ff39a41ac16df3e61359d1, type: 3}
+    - {fileID: 5278265719106483438, guid: 88cef6ae65ff39a41ac16df3e61359d1, type: 3}
+    - {fileID: -5895514436886505396, guid: 88cef6ae65ff39a41ac16df3e61359d1, type: 3}
+    - {fileID: -2912605832241475739, guid: 88cef6ae65ff39a41ac16df3e61359d1, type: 3}
+    Multiple: 1
+    Hash: 448c501240809167c84f60892832566b
+    Meta: 
+    Tags: []
   Cape:
   - Name: SampleCape [Paint]
     Collection: Basic
@@ -5324,43 +5065,6 @@ MonoBehaviour:
     Meta: 
     Tags:
     - Golden
-  - Name: RRII
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: CyberpunkHeroes.Pro.Firearms2H.RRII
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms2H/Pro/AK-47
-      [Golden].png
-    Sprite: {fileID: 21300004, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
-    - {fileID: 21300014, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
-    - {fileID: 21300008, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
-    - {fileID: 21300002, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
-    - {fileID: 21300000, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
-    - {fileID: 21300012, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
-    - {fileID: 21300018, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
-    Multiple: 1
-    Hash: 199118c9f1dbe05a69020f8e35cf2787
-    Meta: 
-    Tags: []
-  - Name: LR-100
-    Collection: Basic
-    Edition: MilitaryHeroes
-    Id: CyberpunkHeroes.Basic.Firearms2H.LR-100
-    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms2H/Basic/LR-100.png
-    Sprite: {fileID: 21300004, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
-    - {fileID: 21300014, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
-    - {fileID: 21300008, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
-    - {fileID: 21300002, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
-    - {fileID: 21300000, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
-    - {fileID: 21300012, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
-    - {fileID: 21300018, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
-    Multiple: 1
-    Hash: 425b10cc0442023f34ba1346a8c37c4f
-    Meta: 
-    Tags: []
   Shield:
   - Name: Radio1
     Collection: Basic

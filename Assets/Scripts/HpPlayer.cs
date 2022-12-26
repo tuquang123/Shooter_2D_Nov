@@ -21,6 +21,7 @@ public class HpPlayer : MonoBehaviour
         character.Hit();
         character.Spring();
         hp -= dame;
+        textHp.text = hp.ToString();
     }
     public void Die()
     {
