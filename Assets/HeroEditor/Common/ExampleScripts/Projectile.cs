@@ -13,11 +13,12 @@ namespace Assets.HeroEditor.Common.ExampleScripts
         public GameObject Trail;
         public GameObject Impact;
 	    public Rigidbody Rigidbody;
-
+        
 		public void Start()
         {
             dame = GameManager.Instance.dame;
-            Destroy(gameObject, 5);
+            //Destroy(gameObject, 5);
+            //Invoke("DiscardToPool",3);
         }
 
 	    public void FixedUpdate()
@@ -38,31 +39,49 @@ namespace Assets.HeroEditor.Common.ExampleScripts
             }
             
         }
-
-       /* public void OnCollisionEnter(Collision other)
+        /*public void OnCollisionEnter(Collision other)
         {
             Bang(other.gameObject);
+            if (other.gameObject.CompareTag("Enemy"))
+            {
+                Enemy enemy = other.gameObject.GetComponent<Enemy>();
+                enemy.TakeDame(dame);
+            }
         }*/
 
         private void Bang(GameObject other)
         {
             ReplaceImpactSound(other);
             Impact.SetActive(true);
-            Destroy(GetComponent<SpriteRenderer>());
-            Destroy(GetComponent<Rigidbody>());
-            Destroy(GetComponent<Collider>());
-            Destroy(gameObject, 1);
+            
+            //Destroy(GetComponent<SpriteRenderer>());
+            //Destroy(GetComponent<Rigidbody>());
+            //Destroy(GetComponent<Collider>());
+            //Destroy(gameObject, 1);
+            //Invoke("DiscardToPool",0.1f);
+            //DiscardToPool();
+            //ReSetBullet();
 
             foreach (var ps in Trail.GetComponentsInChildren<ParticleSystem>())
             {
-                ps.Stop();
+                //ps.Stop();
             }
 
 	        foreach (var tr in Trail.GetComponentsInChildren<TrailRenderer>())
 	        {
-		        tr.enabled = false;
+		        //tr.enabled = false;
 			}
 		}
+
+        public void ReSetBullet()
+        {
+            Invoke("DiscardToPool",0.05f);
+        }
+        public void DiscardToPool()
+        {
+            MyPooler.ObjectPooler.Instance.ReturnToPool("B", this.gameObject);
+            Impact.SetActive(false);
+        }
 
         private void ReplaceImpactSound(GameObject other)
         {

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpawnerEnemy : Singleton<SpawnerEnemy>
 {
-    public static int lv;
+    public int lv;
     float randy;
     Vector2 whereToSpawn;
 
@@ -44,7 +44,6 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
         if (Time.time > nextSpawn)
         {
             lv++;
-            Debug.Log(lv);
             nextSpawn = Time.time + spawnRate;
             //int randomNumber = Random.Range(0, 2) == 0 ? -10 : 31;
             //Debug.LogWarning(randomNumber);

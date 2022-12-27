@@ -190,22 +190,23 @@ namespace Assets.HeroEditor.Common.CharacterScripts.Firearms
 
             for (var i = 0; i < iterations; i++)
             {
-                var bullet = Instantiate(Firearm.Params.ProjectilePrefab, Firearm.FireTransform);
+                var bullet = MyPooler.ObjectPooler.Instance.GetFromPool("B", Firearm.FireTransform.position, Quaternion.identity);
+                //var bullet = Instantiate(Firearm.Params.ProjectilePrefab, Firearm.FireTransform);
                 var spread = Firearm.FireTransform.up * Random.Range(-1f, 1f) * (1 - Firearm.Params.Accuracy);           
 
-                bullet.transform.localPosition = Vector3.zero;
-                bullet.transform.localRotation = Quaternion.identity;
-                bullet.transform.SetParent(null);
+                //bullet.transform.localPosition = Vector3.zero;
+                //bullet.transform.localRotation = Quaternion.identity;
+                //bullet.transform.SetParent(null);
                 bullet.GetComponent<SpriteRenderer>().sprite = Character.Firearms.Single(j => j.name == "Bullet");
                 bullet.GetComponent<Rigidbody>().velocity = Firearm.Params.MuzzleVelocity * (Firearm.FireTransform.right + spread)
                     * Mathf.Sign(Character.transform.lossyScale.x) * Random.Range(0.85f, 1.15f);
 
                 var sortingOrder = Character.FirearmsRenderers.Single(j => j.name == "Rifle").sortingOrder;
-
-                foreach (var r in bullet.Renderers)
+                
+                /*foreach (var r in bullet.Renderers)
                 {
                     r.sortingOrder = sortingOrder;
-                }
+                }*/
 
                 var ignoreCollider = Character.GetComponent<Collider>();
 

@@ -9,6 +9,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/351e49e2a5bf4fd6beabb458ce2255f3ff600/2c/02cb3ea7/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50fb0851389d483bad476aa05ecca5f424000/ea/b7e23911/ParticleSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5d2c6930dc4245bd9e8752ecbd6f1a014800/07/6e2127b8/SpriteCollection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5d2c6930dc4245bd9e8752ecbd6f1a014800/14/cef4b4f3/CharacterBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5d2c6930dc4245bd9e8752ecbd6f1a014800/8e/daf0b90e/CharacterEditorBase.cs" root0="SKIP_HIGHLIGHTING" />
@@ -123,6 +124,7 @@
       <workItem from="1671980692932" duration="1893000" />
       <workItem from="1671987427951" duration="1584000" />
       <workItem from="1672067178304" duration="5522000" />
+      <workItem from="1672151246582" duration="4800000" />
     </task>
     <servers />
   </component>

@@ -85,7 +85,7 @@ public class Enemy : MonoBehaviour
         MyPooler.ObjectPooler.Instance.ReturnToPool(poolTag, this.gameObject);
         //isActive = false;
         hp = 100;
-        hp += SpawnerEnemy.lv;
+        hp += SpawnerEnemy.Instance.lv;
         speed += 0.1f;
     }
 
