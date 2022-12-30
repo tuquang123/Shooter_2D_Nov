@@ -829,8 +829,8 @@ MonoBehaviour:
     type: 3}
   rectParent: {fileID: 7152137683808105846}
   dame: 20
-  speed: 0.5
-  hp: 100
+  speed: 0
+  hp: 1000000000
   projecttile: {fileID: 0}
   timeBetweenShots: 0
   minimumDistance: 0

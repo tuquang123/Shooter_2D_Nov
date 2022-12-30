@@ -81,6 +81,7 @@ namespace Assets.HeroEditor.Common.ExampleScripts
         {
             MyPooler.ObjectPooler.Instance.ReturnToPool("B", this.gameObject);
             Impact.SetActive(false);
+            dame = GameManager.Instance.dame;
         }
 
         private void ReplaceImpactSound(GameObject other)

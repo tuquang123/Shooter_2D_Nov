@@ -4908,25 +4908,6 @@ MonoBehaviour:
     Meta: 
     Tags: []
   Firearms2H:
-  - Name: Revolver
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Firearms1H.Revolver
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms1H/Pro/Revolver.png
-    Sprite: {fileID: 21300004, guid: f416df239bfe4aadb454cfa560683280, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: f416df239bfe4aadb454cfa560683280, type: 3}
-    - {fileID: 21300014, guid: f416df239bfe4aadb454cfa560683280, type: 3}
-    - {fileID: 21300008, guid: f416df239bfe4aadb454cfa560683280, type: 3}
-    - {fileID: 21300002, guid: f416df239bfe4aadb454cfa560683280, type: 3}
-    - {fileID: 21300000, guid: f416df239bfe4aadb454cfa560683280, type: 3}
-    - {fileID: 21300012, guid: f416df239bfe4aadb454cfa560683280, type: 3}
-    - {fileID: 21300018, guid: f416df239bfe4aadb454cfa560683280, type: 3}
-    - {fileID: 21300020, guid: f416df239bfe4aadb454cfa560683280, type: 3}
-    Multiple: 1
-    Hash: 74ca03dda8c20f6fd4226f2c6b11a517
-    Meta: 
-    Tags: []
   - Name: USP
     Collection: Pro
     Edition: MilitaryHeroes
