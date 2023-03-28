@@ -36,6 +36,7 @@ namespace Assets.HeroEditor.Common.ExampleScripts
             {
                 Enemy enemy = other.GetComponent<Enemy>();
                 enemy.TakeDame(dame);
+                DiscardToPool();
             }
             
         }
@@ -75,7 +76,7 @@ namespace Assets.HeroEditor.Common.ExampleScripts
 
         public void ReSetBullet()
         {
-            Invoke("DiscardToPool",0.05f);
+            Invoke("DiscardToPool",0.08f);
         }
         public void DiscardToPool()
         {

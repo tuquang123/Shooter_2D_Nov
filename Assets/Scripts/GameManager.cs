@@ -32,6 +32,8 @@ public class GameManager : Singleton<GameManager>
     private bool i;
     private bool i2;
     private bool i3;
+    
+    public GameObject paneLoss;
     private void Start()
     {
         gold = PlayerPrefs.GetInt("gold", 0);
@@ -111,7 +113,10 @@ public class GameManager : Singleton<GameManager>
 
     public void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        Time.timeScale = 1;
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //Time.timeScale = 1;
+        gold -= 1000;
+        paneLoss.SetActive(false);
+        // - 50& so tien
     }
 }

@@ -10,7 +10,6 @@ public class HpPlayer : MonoBehaviour
 {
     public QuantityBhv qt;
     public GameObject panelLoss;
-    public Character character;
     public float hp = 100;
 
     public Text textHp;
@@ -20,17 +19,10 @@ public class HpPlayer : MonoBehaviour
         qt.Amount = hp;
     }
 
-    /*private void Update()
-    {
-        textHp.text = hp.ToString();
-        Die();
-    }*/
     public void TakeDame(int dame)
     {
         qt.Amount -= dame;
         textHp.text = hp.ToString();
-        character.Hit();
-        character.Spring();
         hp -= dame;
         textHp.text = hp.ToString();
         hp = qt.FillAmount;
@@ -40,15 +32,8 @@ public class HpPlayer : MonoBehaviour
     {
         if (hp <= 0)
         {
-            character.SetState(CharacterState.DeathB);
-            StartCoroutine(Wait());
+            panelLoss.SetActive(true);
         }
     }
 
-    IEnumerator Wait()
-    {
-        yield return new WaitForSeconds(0.68f);
-        Time.timeScale = 0;
-        panelLoss.SetActive(true);
-    }
 }

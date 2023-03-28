@@ -31,6 +31,8 @@ namespace Assets.HeroEditor.Common.ExampleScripts
         [Header("Check to disable arm auto rotation.")]
 	    public bool FixedArm;
 
+        public bool Auto;
+
         private void Turning()
         {
             if (target == null) return;
@@ -100,10 +102,10 @@ namespace Assets.HeroEditor.Common.ExampleScripts
         
         public void Update()
         {
-            AutoFire();
-            Turning();
-            FindEnemy();
-            IsTargetTooFar();
+            if(Auto)AutoFire();
+            //Turning();
+            //FindEnemy();
+            //IsTargetTooFar();
             if (Character.Animator.GetInteger("State") >= (int) CharacterState.DeathB) return;
 
             switch (Character.WeaponType)

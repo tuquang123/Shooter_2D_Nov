@@ -6186,6 +6186,7 @@ MonoBehaviour:
   FireButton: 324
   ReloadButton: 114
   FixedArm: 0
+  Auto: 0
 --- !u!1 &3205550566305605805
 GameObject:
   m_ObjectHideFlags: 0

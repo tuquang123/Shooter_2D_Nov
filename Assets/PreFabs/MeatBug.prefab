@@ -190,7 +190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6696680063884970732
 Transform:
   m_ObjectHideFlags: 0
@@ -200,7 +200,7 @@ Transform:
   m_GameObject: {fileID: 1702065876420668456}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.74, y: -2.05, z: -3.05}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
+  m_LocalScale: {x: 0.65, y: 0.65, z: 1}
   m_Children:
   - {fileID: 8524055373740233381}
   - {fileID: 2390588612391340484}
@@ -327,7 +327,7 @@ MonoBehaviour:
     type: 3}
   rectParent: {fileID: 4021515042516417127}
   dame: 10
-  speed: 0.3
+  speed: 1.3
   hp: 100
   projecttile: {fileID: 0}
   timeBetweenShots: 0
