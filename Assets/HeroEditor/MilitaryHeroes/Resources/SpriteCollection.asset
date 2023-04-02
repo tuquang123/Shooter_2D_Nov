@@ -4797,24 +4797,6 @@ MonoBehaviour:
     Hash: 9e065cfea62db173f26c979290b7dc6a
     Meta: 
     Tags: []
-  - Name: NNT
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Firearms1H.NNT
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms1H/Pro/NNT.png
-    Sprite: {fileID: 21300004, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
-    - {fileID: 21300014, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
-    - {fileID: 21300008, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
-    - {fileID: 21300002, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
-    - {fileID: 21300000, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
-    - {fileID: 21300020, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
-    - {fileID: 21300018, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
-    Multiple: 1
-    Hash: 50a5beba41da516df4b7d99149aacd0d
-    Meta: 
-    Tags: []
   - Name: Revolver
     Collection: Pro
     Edition: MilitaryHeroes
@@ -4850,6 +4832,24 @@ MonoBehaviour:
     - {fileID: 21300006, guid: 0426d48212804e209b602bc5e9f020fe, type: 3}
     Multiple: 1
     Hash: 21e463c8b39c8adc2b6aea044f65eb43
+    Meta: 
+    Tags: []
+  - Name: NNT
+    Collection: Pro
+    Edition: MilitaryHeroes
+    Id: MilitaryHeroes.Pro.Firearms1H.NNT
+    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms1H/Pro/NNT.png
+    Sprite: {fileID: 21300004, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    - {fileID: 21300014, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    - {fileID: 21300008, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    - {fileID: 21300002, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    - {fileID: 21300000, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    - {fileID: 21300020, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    - {fileID: 21300018, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    Multiple: 1
+    Hash: 50a5beba41da516df4b7d99149aacd0d
     Meta: 
     Tags: []
   - Name: USP
@@ -4926,24 +4926,6 @@ MonoBehaviour:
     Hash: 3e4e532d84f76efa136e10956f20a263
     Meta: 
     Tags: []
-  - Name: NNT
-    Collection: Pro
-    Edition: MilitaryHeroes
-    Id: MilitaryHeroes.Pro.Firearms1H.NNT
-    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms1H/Pro/NNT.png
-    Sprite: {fileID: 21300004, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
-    - {fileID: 21300014, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
-    - {fileID: 21300008, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
-    - {fileID: 21300002, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
-    - {fileID: 21300000, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
-    - {fileID: 21300020, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
-    - {fileID: 21300018, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
-    Multiple: 1
-    Hash: 50a5beba41da516df4b7d99149aacd0d
-    Meta: 
-    Tags: []
   - Name: SandFalcon
     Collection: Pro
     Edition: MilitaryHeroes
@@ -4997,6 +4979,24 @@ MonoBehaviour:
     - {fileID: 21300018, guid: 47c94ca2087b42b5a39f7fdce913d98f, type: 3}
     Multiple: 1
     Hash: 9e065cfea62db173f26c979290b7dc6a
+    Meta: 
+    Tags: []
+  - Name: NNT
+    Collection: Pro
+    Edition: MilitaryHeroes
+    Id: MilitaryHeroes.Pro.Firearms1H.NNT
+    Path: Assets/HeroEditor/MilitaryHeroes/Sprites/Equipment/Firearms1H/Pro/NNT.png
+    Sprite: {fileID: 21300004, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    - {fileID: 21300014, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    - {fileID: 21300008, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    - {fileID: 21300002, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    - {fileID: 21300000, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    - {fileID: 21300020, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    - {fileID: 21300018, guid: 73427d4fb7044a50b17aee2e81661733, type: 3}
+    Multiple: 1
+    Hash: 50a5beba41da516df4b7d99149aacd0d
     Meta: 
     Tags: []
   - Name: UZI

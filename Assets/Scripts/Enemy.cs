@@ -1,14 +1,13 @@
 using Assets.FantasyMonsters.Scripts;
 using Assets.FantasyMonsters.Scripts.Tweens;
-using System.Collections;
-using System.Collections.Generic;
 using DamageNumbersPro;
-using Unity.Mathematics;
+using Minimalist.Bar.Quantity;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour
 {
+    public QuantityBhv qt;
     //Assign prefab in inspector.
     public DamageNumber numberPrefab;
     public Transform rectParent;
@@ -19,7 +18,7 @@ public class Enemy : MonoBehaviour
 
     Transform target;
 
-    public int hp = 100;
+    public float hp = 100;
 
     public GameObject projecttile;
 
@@ -34,6 +33,8 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
+        qt.MaximumAmount = hp;
+        qt.Amount = hp;
         //rectParent = transform;
         target = GameObject.FindGameObjectWithTag("Player").gameObject.transform;
     }
@@ -86,11 +87,15 @@ public class Enemy : MonoBehaviour
         //isActive = false;
         hp = 100;
         hp += SpawnerEnemy.Instance.lv;
+        qt.MaximumAmount = SpawnerEnemy.Instance.lv;
+        qt.Amount = hp;
         speed += 0.1f;
+        
     }
 
     public void TakeDame(int dame)
     {
+        qt.Amount -= dame;
         //Spawn new popup with a random number between 0 and 100.
         DamageNumber damageNumber = numberPrefab.Spawn(Vector3.zero, - dame);
 
@@ -99,16 +104,17 @@ public class Enemy : MonoBehaviour
         //var pos = transform.position;
         damageNumber.SetAnchoredPosition(rectParent,rectParent.position );
         
-        ScaleSpring.Begin(this, 1f, 1.1f, 40, 3);
+        ScaleSpring.Begin(this, 1f, 1.1f, 50, 5);
         hp -= dame;
+        //hp = qt.FillAmount;
     }
     public void Die()
     {
         if (hp <= 0)
         {
-            GameManager.Instance.gold+= Random.Range(5,12);
-            DiscardToPool();
+            GameManager.Instance.gold+= Random.Range(10,40);
             MyPooler.ObjectPooler.Instance.GetFromPool("F", transform.position, Quaternion.identity);
+            DiscardToPool();
             //GetComponent<Monster>().Die();
             //speed = 0;
         }

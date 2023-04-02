@@ -1,7 +1,4 @@
-using System;
-using Assets.HeroEditor.Common.CharacterScripts;
-using System.Collections;
-using System.Collections.Generic;
+using System.Globalization;
 using Minimalist.Bar.Quantity;
 using UnityEngine;
 using UnityEngine.UI;
@@ -22,9 +19,9 @@ public class HpPlayer : MonoBehaviour
     public void TakeDame(int dame)
     {
         qt.Amount -= dame;
-        textHp.text = hp.ToString();
+        textHp.text = hp.ToString(CultureInfo.InvariantCulture);
         hp -= dame;
-        textHp.text = hp.ToString();
+        textHp.text = hp.ToString(CultureInfo.InvariantCulture);
         hp = qt.FillAmount;
         Die();
     }

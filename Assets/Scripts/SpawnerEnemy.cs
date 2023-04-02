@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SpawnerEnemy : Singleton<SpawnerEnemy>
 {
+    public float timeNextSpawn = 0.02f;
     public int lv;
     float randy;
     Vector2 whereToSpawn;
@@ -52,7 +53,6 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
             whereToSpawn = new Vector2(34, randy);
             //var enemyPrefab = Instantiate(enemy, whereToSpawn, Quaternion.identity);
             int randomIndex = Random.Range(1,6);
-            Debug.Log(randomIndex);
             switch (randomIndex)
             {
                 case 1:
@@ -89,7 +89,7 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
             }
             if (max)
             {
-                spawnRate -= 0.1f;
+                spawnRate -= timeNextSpawn;
             }
             if(spawnRate <= minRate)
             {

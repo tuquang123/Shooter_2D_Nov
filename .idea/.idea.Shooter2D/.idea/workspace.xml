@@ -130,6 +130,7 @@
       <workItem from="1672581778055" duration="3592000" />
       <workItem from="1680014023298" duration="6081000" />
       <workItem from="1680021384991" duration="44000" />
+      <workItem from="1680453743573" duration="5921000" />
     </task>
     <servers />
   </component>
@@ -141,5 +142,24 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs</url>
+          <line>91</line>
+          <properties documentPath="C:\Users\OS\Desktop\Shooter2D\Assets\Scripts\Enemy.cs" initialLine="92" containingFunctionPresentation="method 'DiscardToPool'">
+            <startOffsets>
+              <option value="2643" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2657" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

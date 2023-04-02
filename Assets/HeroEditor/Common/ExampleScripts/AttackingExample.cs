@@ -103,9 +103,9 @@ namespace Assets.HeroEditor.Common.ExampleScripts
         public void Update()
         {
             if(Auto)AutoFire();
-            //Turning();
-            //FindEnemy();
-            //IsTargetTooFar();
+            Turning();
+            FindEnemy();
+            IsTargetTooFar();
             if (Character.Animator.GetInteger("State") >= (int) CharacterState.DeathB) return;
 
             switch (Character.WeaponType)
