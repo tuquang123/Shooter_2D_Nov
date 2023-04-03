@@ -12261,6 +12261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3837e81d2f4d4bad9d7fbec47a54aa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hpBar: {fileID: 1686644949}
   qt: {fileID: 1282117216}
   numberPrefab: {fileID: 3515927367195170040, guid: 95f78784893360848957b141a72b4b02,
     type: 3}

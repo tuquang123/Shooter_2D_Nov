@@ -2,11 +2,13 @@ using Assets.FantasyMonsters.Scripts;
 using Assets.FantasyMonsters.Scripts.Tweens;
 using DamageNumbersPro;
 using Minimalist.Bar.Quantity;
+using Minimalist.Bar.UI;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour
 {
+    public GameObject hpBar;
     public QuantityBhv qt;
     //Assign prefab in inspector.
     public DamageNumber numberPrefab;
@@ -33,6 +35,7 @@ public class Enemy : MonoBehaviour
 
     private void Start()
     {
+        hpBar.SetActive(false);
         qt.MaximumAmount = hp;
         qt.Amount = hp;
         //rectParent = transform;
@@ -51,7 +54,6 @@ public class Enemy : MonoBehaviour
     }
     private void FixedUpdate()
     {
-
         //transform.position += transform.forwar * speed * Time.deltaTime;
         Die();
         if (enemyShoter)
@@ -67,7 +69,6 @@ public class Enemy : MonoBehaviour
                 if (this.target == null) return;
                 transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
                 GetComponent<Monster>().SetState(MonsterState.Run);
-                Die();
             }
         }
         else
@@ -76,25 +77,29 @@ public class Enemy : MonoBehaviour
             //transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
             transform.position += Vector3.left * speed * Time.deltaTime;
             GetComponent<Monster>().SetState(MonsterState.Run);
-            Die();
         }
     }
     public string poolTag;
     
     public void DiscardToPool()
     {
+        var a = 0;
         MyPooler.ObjectPooler.Instance.ReturnToPool(poolTag, this.gameObject);
         //isActive = false;
-        hp = 100;
-        hp += SpawnerEnemy.Instance.lv;
-        qt.MaximumAmount = SpawnerEnemy.Instance.lv;
-        qt.Amount = hp;
+        a = 100;
+        a += SpawnerEnemy.Instance.lv;
+
+        hp = a;
+
+        qt.MaximumAmount = a;
+        qt.Amount += a;
+        qt.FillAmount = 1;
         speed += 0.1f;
-        
     }
 
     public void TakeDame(int dame)
     {
+        hpBar.SetActive(true);
         qt.Amount -= dame;
         //Spawn new popup with a random number between 0 and 100.
         DamageNumber damageNumber = numberPrefab.Spawn(Vector3.zero, - dame);
@@ -107,6 +112,12 @@ public class Enemy : MonoBehaviour
         ScaleSpring.Begin(this, 1f, 1.1f, 50, 5);
         hp -= dame;
         //hp = qt.FillAmount;
+        Invoke(nameof(OffHpBar),.5f);
+    }
+
+    public void OffHpBar()
+    {
+        hpBar.SetActive(false);
     }
     public void Die()
     {

@@ -192,7 +192,7 @@ namespace Assets.HeroEditor.Common.CharacterScripts.Firearms
             {
                 var bullet = MyPooler.ObjectPooler.Instance.GetFromPool("B", Firearm.FireTransform.position, Quaternion.identity);
                 //var bullet = Instantiate(Firearm.Params.ProjectilePrefab, Firearm.FireTransform);
-                var spread = Firearm.FireTransform.up * Random.Range(-.3f, .3f) * (1 - Firearm.Params.Accuracy);           
+                var spread = Firearm.FireTransform.up * Random.Range(-.5f, .5f) * (1 - Firearm.Params.Accuracy);           
 
                 //bullet.transform.localPosition = Vector3.zero;
                 //bullet.transform.localRotation = Quaternion.identity;

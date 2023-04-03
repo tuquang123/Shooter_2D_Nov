@@ -73,6 +73,7 @@ namespace Minimalist.Bar.Quantity
         {
             get
             {
+                //_onAmountChanged.Invoke();
                 return _currentAmount;
             }
 
