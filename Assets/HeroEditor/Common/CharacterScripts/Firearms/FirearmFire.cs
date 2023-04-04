@@ -190,13 +190,15 @@ namespace Assets.HeroEditor.Common.CharacterScripts.Firearms
 
             for (var i = 0; i < iterations; i++)
             {
-                var bullet = MyPooler.ObjectPooler.Instance.GetFromPool("B", Firearm.FireTransform.position, Quaternion.identity);
+                var bullet = MyPooler.ObjectPooler.Instance.GetFromPool("B", Firearm.FireTransform.position, Firearm.FireTransform.rotation);
                 //var bullet = Instantiate(Firearm.Params.ProjectilePrefab, Firearm.FireTransform);
+                //bullet.transform.SetParent(Firearm.FireTransform);
                 var spread = Firearm.FireTransform.up * Random.Range(-.5f, .5f) * (1 - Firearm.Params.Accuracy);           
 
                 //bullet.transform.localPosition = Vector3.zero;
                 //bullet.transform.localRotation = Quaternion.identity;
                 //bullet.transform.SetParent(null);
+                
                 bullet.GetComponent<SpriteRenderer>().sprite = Character.Firearms.Single(j => j.name == "Bullet");
                 bullet.GetComponent<Rigidbody>().velocity = Firearm.Params.MuzzleVelocity * (Firearm.FireTransform.right + spread)
                     * Mathf.Sign(Character.transform.lossyScale.x) * Random.Range(0.85f, 1.15f);

@@ -33,22 +33,25 @@ namespace Assets.HeroEditor.Common.ExampleScripts
 
         public bool Auto;
 
+        public Vector3 mouseToChar = Vector3.zero;
+        
         private void Turning()
         {
-            if (target == null) return;
+            /*if (target == null) return;
             //if (turnOff)
             {
                 targetDir = target.position - Character.transform.position;
                 Transform charTrans = Character.transform;
                 charTrans.transform.localScale = new Vector3(Mathf.Sign(targetDir.x), 1, 1);
-            }
+            }*/
+            Vector3 mouse = Input.mousePosition;
+            Vector3 vec4 = new Vector3(mouse.x, mouse.y, Character.transform.position.y);
+            Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(vec4);
+            
+            mouseToChar = mouseWorld - Character.transform.position;
+            //Character.transform.localScale = new Vector3(Mathf.Sign(mouseToChar.x), 1, 1);
         }
-        /*public void FixedUpdate()
-        {
-            Turning();
-            FindEnemy();
-            IsTargetTooFar();
-        }*/
+       
         public virtual void FindEnemy()
         {
             //if (this.target== null) return;
@@ -74,10 +77,10 @@ namespace Assets.HeroEditor.Common.ExampleScripts
 
         public void IsTargetTooFar()
         {
-            if (this.target == null) return;
-            if (!this.target.gameObject.activeSelf)
+            if (target == null) return;
+            if (!target.gameObject.activeSelf)
             {
-                this.target = null;
+                target = null;
                 return;
             }
             targetDis = Vector3.Distance(transform.position, this.target.position);
@@ -103,9 +106,11 @@ namespace Assets.HeroEditor.Common.ExampleScripts
         public void Update()
         {
             if(Auto)AutoFire();
+            
             Turning();
             FindEnemy();
             IsTargetTooFar();
+            
             if (Character.Animator.GetInteger("State") >= (int) CharacterState.DeathB) return;
 
             switch (Character.WeaponType)
@@ -186,8 +191,8 @@ namespace Assets.HeroEditor.Common.ExampleScripts
             {
                 if ( target== null) return;
                 Vector3 enemyS = target.position;
-                RotateArm(arm, weapon, FixedArm ? arm.position + 1000 * Vector3.right : enemyS, -90, 90);
-                //RotateArm(arm, weapon, FixedArm ? arm.position + 1000 * Vector3.right : Camera.main.ScreenToWorldPoint(Input.mousePosition), -40, 40);
+                //RotateArm(arm, weapon, FixedArm ? arm.position + 1000 * Vector3.right : enemyS, -90, 90);
+                RotateArm(arm, weapon, FixedArm ? arm.position + 1000 * Vector3.right : Camera.main.ScreenToWorldPoint(Input.mousePosition), -40, 40);
             }
         }
 
