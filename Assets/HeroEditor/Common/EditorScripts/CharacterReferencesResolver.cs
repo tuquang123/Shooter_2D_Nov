@@ -1,5 +1,6 @@
 ﻿using Assets.HeroEditor.Common.CharacterScripts;
 using Assets.HeroEditor.Common.ExampleScripts;
+using HeroEditor.Common.ExampleScripts;
 using UnityEngine;
 using UnityEngine.UI;
 

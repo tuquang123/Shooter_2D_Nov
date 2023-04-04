@@ -6,37 +6,44 @@ using HeroEditor.Common.Enums;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-namespace Assets.HeroEditor.Common.ExampleScripts
+namespace HeroEditor.Common.ExampleScripts
 {
     /// <summary>
     /// Rotates arms and passes input events to child components like FirearmFire and BowExample.
     /// </summary>
-    public class AttackingExample : MonoBehaviour
+    public sealed class AttackingExample : MonoBehaviour
     {
-        //public Character character;
-        public Transform target;
+        Transform _target;
+        Vector3 _mouseToChar = Vector3.zero;
+
+        [Header("Public variable")] 
         public float attackRage = 20f;
-        [HideInInspector] public float attackTimer;
         [HideInInspector] public float targetDis = Mathf.Infinity;
         [HideInInspector] public Vector3 targetDir;
-
-        public Character Character;
-        public BowExample BowExample;
-        public Firearm Firearm;
-        public FirearmFire fire;
-        public Transform ArmL;
-        public Transform ArmR;
-        public KeyCode FireButton;
-        public KeyCode ReloadButton;
-        [Header("Check to disable arm auto rotation.")]
-	    public bool FixedArm;
-
-        public bool Auto;
-
-        public Vector3 mouseToChar = Vector3.zero;
         
+        public Character character;
+        public Firearm firearm;
+        public FirearmFire fire;
+        public Transform armL;
+        public Transform armR;
+        public KeyCode fireButton;
+
+        [Header("Disable arm auto rotation , auto shoot")]
+        public bool fixedArm;
+
+        public bool auto;
+
+        private static readonly int Ready = Animator.StringToHash("Ready");
+        private static readonly int State = Animator.StringToHash("State");
+
+        #region Turn , Find , Set , Remove : Target
+
+        /// <summary>
+        /// Turning Player
+        /// </summary>
         private void Turning()
         {
+            // Rotation Fl enemy
             /*if (target == null) return;
             //if (turnOff)
             {
@@ -44,88 +51,106 @@ namespace Assets.HeroEditor.Common.ExampleScripts
                 Transform charTrans = Character.transform;
                 charTrans.transform.localScale = new Vector3(Mathf.Sign(targetDir.x), 1, 1);
             }*/
-            Vector3 mouse = Input.mousePosition;
-            Vector3 vec4 = new Vector3(mouse.x, mouse.y, Character.transform.position.y);
-            Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(vec4);
-            
-            mouseToChar = mouseWorld - Character.transform.position;
-            //Character.transform.localScale = new Vector3(Mathf.Sign(mouseToChar.x), 1, 1);
-        }
-       
-        public virtual void FindEnemy()
-        {
-            //if (this.target== null) return;
 
-            if (this.target) return;
-            float dis;
+            // Rotation Fl mouse
+            Vector3 mouse = Input.mousePosition;
+            var position = character.transform.position;
+            Vector3 vec4 = new Vector3(mouse.x, mouse.y, position.y);
+            if (Camera.main != null)
+            {
+                Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(vec4);
+
+                _mouseToChar = mouseWorld - position;
+            }
+            character.transform.localScale = new Vector3(Mathf.Sign(_mouseToChar.x), 1, 1);
+        }
+
+        /// <summary>
+        /// Find Enemy in List SpawnerEnemy
+        /// </summary>
+        private void FindEnemy()
+        {
+            if (_target) return;
             foreach (Transform obj in SpawnerEnemy.Instance.objects)
             {
-                dis = Vector3.Distance(transform.position, obj.position);
+                var dis = Vector3.Distance(transform.position, obj.position);
                 if (dis <= attackRage)
                 {
-                    SetTaget(obj);
+                    SetTarget(obj);
                     return;
                 }
-
             }
         }
-        public void SetTaget(Transform target)
+
+        /// <summary>
+        /// Set enemy for player
+        /// </summary>
+        /// <param name="targetEnemy"></param>
+        private void SetTarget(Transform targetEnemy)
         {
-            this.target = target;
-            return;
+            _target = targetEnemy;
         }
 
-        public void IsTargetTooFar()
+        /// <summary>
+        /// if target to Far with Player
+        /// </summary>
+        private void IsTargetTooFar()
         {
-            if (target == null) return;
-            if (!target.gameObject.activeSelf)
+            if (_target == null) return;
+            if (!_target.gameObject.activeSelf)
             {
-                target = null;
+                _target = null;
                 return;
             }
-            targetDis = Vector3.Distance(transform.position, this.target.position);
-            if (targetDis > attackRage) target = null;
+
+            targetDis = Vector3.Distance(transform.position, this._target.position);
+            if (targetDis > attackRage) _target = null;
         }
-        public void Start()
-        {
-            Character.Animator.SetBool("Ready", true);
-            if ((Character.WeaponType == WeaponType.Firearms1H || Character.WeaponType == WeaponType.Firearms2H) && Firearm.Params.Type == FirearmType.Unknown)
-            {
-                throw new Exception("Firearm params not set.");
-            }
-        }
+
+        /// <summary>
+        /// Auto Fire Bullet no click
+        /// </summary>
         void AutoFire()
         {
-            if (target == null) return;
-            if (target != null)
+            if (_target == null) return;
+            if (_target != null)
             {
                 fire.StartCoroutine(fire.Fire());
             }
         }
-        
+
+        #endregion
+        public void Start()
+        {
+            character.Animator.SetBool(Ready, true);
+            if ((character.WeaponType == WeaponType.Firearms1H || character.WeaponType == WeaponType.Firearms2H) &&
+                firearm.Params.Type == FirearmType.Unknown)
+            {
+                throw new Exception("Firearm params not set.");
+            }
+        }
         public void Update()
         {
-            if(Auto)AutoFire();
-            
+            if (auto) AutoFire();
             Turning();
             FindEnemy();
             IsTargetTooFar();
-            
-            if (Character.Animator.GetInteger("State") >= (int) CharacterState.DeathB) return;
 
-            switch (Character.WeaponType)
+            if (character.Animator.GetInteger(State) >= (int)CharacterState.DeathB) return;
+
+            switch (character.WeaponType)
             {
                 case WeaponType.Melee1H:
                 case WeaponType.Melee2H:
                 case WeaponType.MeleePaired:
-                    if (Input.GetKeyDown(FireButton))
+                    if (Input.GetKeyDown(fireButton))
                     {
-                        Character.Slash();
+                        character.Slash();
                     }
                     break;
                 case WeaponType.Bow:
-                    BowExample.ChargeButtonDown = Input.GetKeyDown(FireButton);
-                    BowExample.ChargeButtonUp = Input.GetKeyUp(FireButton);
+                    //BowExample.ChargeButtonDown = Input.GetKeyDown(fireButton);
+                    //BowExample.ChargeButtonUp = Input.GetKeyUp(fireButton);
                     break;
                 case WeaponType.Firearms1H:
                 case WeaponType.Firearms2H:
@@ -133,28 +158,23 @@ namespace Assets.HeroEditor.Common.ExampleScripts
                     Firearm.Fire.FireButtonPressed = Input.GetKey(FireButton);
                     Firearm.Fire.FireButtonUp = Input.GetKeyUp(FireButton);
                     Firearm.Reload.ReloadButtonDown = Input.GetKeyDown(ReloadButton);*/
-                    Firearm.Fire.FireButtonDown = CrossPlatformInputManager.GetButtonDown("Shoot");
-                    Firearm.Fire.FireButtonPressed = CrossPlatformInputManager.GetButton("Shoot");
-                    Firearm.Fire.FireButtonUp = CrossPlatformInputManager.GetButtonUp("Shoot");
-                    Firearm.Reload.ReloadButtonDown = CrossPlatformInputManager.GetButtonDown("Reload");
+                    firearm.Fire.FireButtonDown = CrossPlatformInputManager.GetButtonDown("Shoot");
+                    firearm.Fire.FireButtonPressed = CrossPlatformInputManager.GetButton("Shoot");
+                    firearm.Fire.FireButtonUp = CrossPlatformInputManager.GetButtonUp("Shoot");
+                    firearm.Reload.ReloadButtonDown = CrossPlatformInputManager.GetButtonDown("Reload");
                     break;
-	            case WeaponType.Supplies:
-		            if (Input.GetKeyDown(FireButton))
-		            {
-			            Character.Animator.Play(Time.frameCount % 2 == 0 ? "UseSupply" : "ThrowSupply", 0); // Play animation randomly.
-		            }
-		            break;
-			}
-
-            if (Input.GetKeyDown(FireButton))
-            {
-                Character.GetReady();
+                case WeaponType.Supplies:
+                    if (Input.GetKeyDown(fireButton))
+                    {
+                        character.Animator.Play(Time.frameCount % 2 == 0 ? "UseSupply" : "ThrowSupply",
+                            0); // Play animation randomly.
+                    }
+                    break;
             }
-        }
-        private void OnDrawGizmos()
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere( Character.transform.position, attackRage);
+            if (Input.GetKeyDown(fireButton))
+            {
+                character.GetReady();
+            }
         }
 
         /// <summary>
@@ -162,7 +182,8 @@ namespace Assets.HeroEditor.Common.ExampleScripts
         /// </summary>
         public void LateUpdate()
         {
-            switch (Character.GetState())
+            #region Sealed Fuction
+            switch (character.GetState())
             {
                 case CharacterState.DeathB:
                 case CharacterState.DeathF:
@@ -172,39 +193,56 @@ namespace Assets.HeroEditor.Common.ExampleScripts
             Transform arm;
             Transform weapon;
 
-            switch (Character.WeaponType)
+            switch (character.WeaponType)
             {
                 case WeaponType.Bow:
-                    arm = ArmL;
-                    weapon = Character.BowRenderers[3].transform;
+                    arm = armL;
+                    weapon = character.BowRenderers[3].transform;
                     break;
                 case WeaponType.Firearms1H:
                 case WeaponType.Firearms2H:
-                    arm = ArmR;
-                    weapon = Firearm.FireTransform;
+                    arm = armR;
+                    weapon = firearm.FireTransform;
                     break;
                 default:
                     return;
             }
-
-            if (Character.IsReady())
+            #endregion
+            if (character.IsReady())
             {
-                if ( target== null) return;
-                Vector3 enemyS = target.position;
+                if (_target == null) return;
+                Vector3 enemyS = _target.position;
+                //Rotate target is Enemy 
                 //RotateArm(arm, weapon, FixedArm ? arm.position + 1000 * Vector3.right : enemyS, -90, 90);
-                RotateArm(arm, weapon, FixedArm ? arm.position + 1000 * Vector3.right : Camera.main.ScreenToWorldPoint(Input.mousePosition), -40, 40);
+
+                //Rotate target input mouse
+                if (Camera.main != null)
+                    RotateArm(arm, weapon,
+                        fixedArm
+                            ? arm.position + 1000 * Vector3.right
+                            : Camera.main.ScreenToWorldPoint(Input.mousePosition), -40, 40);
             }
+        }
+
+        /// <summary>
+        /// Draw Attack Rage
+        /// </summary>
+        private void OnDrawGizmos()
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(character.transform.position, attackRage);
         }
 
         /// <summary>
         /// Selected arm to position (world space) rotation, with limits.
         /// </summary>
-        public void RotateArm(Transform arm, Transform weapon, Vector2 target, float angleMin, float angleMax) // TODO: Very hard to understand logic.
+        private void RotateArm(Transform arm, Transform weapon, Vector2 target, float angleMin, float angleMax) // TODO: Very hard to understand logic.
         {
             target = arm.transform.InverseTransformPoint(target);
-            
+
             var angleToTarget = Vector2.SignedAngle(Vector2.right, target);
-            var angleToFirearm = Vector2.SignedAngle(weapon.right, arm.transform.right) * Math.Sign(weapon.lossyScale.x);
+            var angleToFirearm =
+                Vector2.SignedAngle(weapon.right, arm.transform.right) * Math.Sign(weapon.lossyScale.x);
             var fix = weapon.InverseTransformPoint(arm.transform.position).y / target.magnitude;
 
             if (fix < -1) fix = -1;

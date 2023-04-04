@@ -6172,22 +6172,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54fb20a22c0b4ade8ed65a122758aa30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
   attackRage: 9
-  attackTimer: 0
   targetDis: Infinity
   targetDir: {x: 0, y: 0, z: 0}
-  Character: {fileID: 3205550567504055261}
-  BowExample: {fileID: 0}
-  Firearm: {fileID: 3205550567829049199}
+  character: {fileID: 0}
+  firearm: {fileID: 0}
   fire: {fileID: 3205550567829049198}
-  ArmL: {fileID: 3205550566975843638}
-  ArmR: {fileID: 3205550567474047728}
-  FireButton: 324
-  ReloadButton: 114
-  FixedArm: 0
-  Auto: 0
-  mouseToChar: {x: 0, y: 0, z: 0}
+  armL: {fileID: 0}
+  armR: {fileID: 0}
+  fireButton: 0
+  fixedArm: 0
+  auto: 0
 --- !u!1 &3205550566305605805
 GameObject:
   m_ObjectHideFlags: 0

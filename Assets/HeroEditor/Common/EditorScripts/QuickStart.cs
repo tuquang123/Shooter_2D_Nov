@@ -2,6 +2,7 @@
 using System.Linq;
 using Assets.HeroEditor.Common.CharacterScripts;
 using Assets.HeroEditor.Common.ExampleScripts;
+using HeroEditor.Common.ExampleScripts;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -27,11 +28,11 @@ namespace Assets.HeroEditor.Common.EditorScripts
             character.transform.position = Vector2.zero;
 
             MovementExample.Character = character;
-            AttackingExample.Character = character;
+            AttackingExample.character = character;
             BowExample.Character = character;
-            AttackingExample.Firearm = character.Firearm;
-            AttackingExample.ArmL = character.BodyRenderers.First(i => i.name == "ArmL").transform;
-            AttackingExample.ArmR = character.BodyRenderers.First(i => i.name == "ArmR[1]").transform;
+            AttackingExample.firearm = character.Firearm;
+            AttackingExample.armL = character.BodyRenderers.First(i => i.name == "ArmL").transform;
+            AttackingExample.armR = character.BodyRenderers.First(i => i.name == "ArmR[1]").transform;
             EquipmentExample.Character = character;
         }
 
