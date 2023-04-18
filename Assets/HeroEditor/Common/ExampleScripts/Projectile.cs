@@ -21,7 +21,7 @@ namespace Assets.HeroEditor.Common.ExampleScripts
             //Invoke("DiscardToPool",3);
         }
 
-	    public void FixedUpdate()
+	    public void Update()
 	    {
 		    if (Rigidbody != null && Rigidbody.useGravity)
 		    {
@@ -32,7 +32,7 @@ namespace Assets.HeroEditor.Common.ExampleScripts
         public void OnTriggerEnter(Collider other)
         {
             Bang(other.gameObject);
-            if (other.CompareTag("Enemy"))
+            if (other.CompareTag($"Enemy"))
             {
                 Enemy enemy = other.GetComponent<Enemy>();
                 enemy.TakeDame(dame);
@@ -52,27 +52,24 @@ namespace Assets.HeroEditor.Common.ExampleScripts
 
         private void Bang(GameObject other)
         {
-            ReplaceImpactSound(other);
-            Impact.SetActive(true);
             
+            ReplaceImpactSound(other);
             //Destroy(GetComponent<SpriteRenderer>());
             //Destroy(GetComponent<Rigidbody>());
             //Destroy(GetComponent<Collider>());
             //Destroy(gameObject, 1);
-            //Invoke("DiscardToPool",0.1f);
-            //DiscardToPool();
-            //ReSetBullet();
-
+            Impact.SetActive(true);
             foreach (var ps in Trail.GetComponentsInChildren<ParticleSystem>())
             {
-                //ps.Stop();
+                ps.Stop();
             }
 
 	        foreach (var tr in Trail.GetComponentsInChildren<TrailRenderer>())
 	        {
-		        //tr.enabled = false;
+		        tr.enabled = false;
 			}
-		}
+            MyPooler.ObjectPooler.Instance.GetFromPool("F2", transform.position, Quaternion.identity);
+        }
 
         public void ReSetBullet()
         {
@@ -80,9 +77,19 @@ namespace Assets.HeroEditor.Common.ExampleScripts
         }
         public void DiscardToPool()
         {
-            MyPooler.ObjectPooler.Instance.ReturnToPool("B", this.gameObject);
             Impact.SetActive(false);
+            
             dame = GameManager.Instance.dame;
+            foreach (var ps in Trail.GetComponentsInChildren<ParticleSystem>())
+            {
+                ps.Play();
+            }
+
+            foreach (var tr in Trail.GetComponentsInChildren<TrailRenderer>())
+            {
+                tr.enabled = true;
+            }
+            MyPooler.ObjectPooler.Instance.ReturnToPool("B", gameObject);
         }
 
         private void ReplaceImpactSound(GameObject other)

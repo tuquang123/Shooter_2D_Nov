@@ -4,12 +4,15 @@ using DamageNumbersPro;
 using Minimalist.Bar.Quantity;
 using Minimalist.Bar.UI;
 using UnityEngine;
+using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour
 {
     public GameObject hpBar;
-    public QuantityBhv qt;
+    
+    public QuantityBhv quantityBhv;
+    
     //Assign prefab in inspector.
     public DamageNumber numberPrefab;
     public Transform rectParent;
@@ -25,23 +28,21 @@ public class Enemy : MonoBehaviour
     public GameObject projecttile;
 
     public float timeBetweenShots;
+    
     float nextShotTime;
 
     public float minimumDistance;
 
     public bool enemyShoter;
-
-    //public Rigidbody rb;
-
+    
     private void Start()
     {
         hpBar.SetActive(false);
-        qt.MaximumAmount = hp;
-        qt.Amount = hp;
-        //rectParent = transform;
+        quantityBhv.MaximumAmount = hp;
+        quantityBhv.Amount = hp;
         target = GameObject.FindGameObjectWithTag("Player").gameObject.transform;
     }
-    private void LateUpdate()
+    /*private void LateUpdate()
     {
         if (transform.position.x < target.transform.position.x)
         {
@@ -51,7 +52,7 @@ public class Enemy : MonoBehaviour
         {
             transform.localRotation = Quaternion.Euler(0, 0, 0);
         }
-    }
+    }*/
     private void FixedUpdate()
     {
         //transform.position += transform.forwar * speed * Time.deltaTime;
@@ -83,24 +84,26 @@ public class Enemy : MonoBehaviour
     
     public void DiscardToPool()
     {
-        var a = 0;
+        hpBar.SetActive(false);
+        var currentHp = 0;
         MyPooler.ObjectPooler.Instance.ReturnToPool(poolTag, this.gameObject);
         //isActive = false;
-        a = 100;
-        a += SpawnerEnemy.Instance.lv;
+        currentHp = 100;
+        currentHp += SpawnerEnemy.Instance.lv;
 
-        hp = a;
+        hp = currentHp;
 
-        qt.MaximumAmount = a;
-        qt.Amount += a;
-        qt.FillAmount = 1;
+        quantityBhv.MaximumAmount = currentHp;
+        quantityBhv.Amount += currentHp;
+        quantityBhv.FillAmount = 1;
         speed += 0.1f;
     }
 
     public void TakeDame(int dame)
     {
+        //ShakeCamera.instance.Shake(1f,.1f);
         hpBar.SetActive(true);
-        qt.Amount -= dame;
+        quantityBhv.Amount -= dame;
         //Spawn new popup with a random number between 0 and 100.
         DamageNumber damageNumber = numberPrefab.Spawn(Vector3.zero, - dame);
 
@@ -109,10 +112,10 @@ public class Enemy : MonoBehaviour
         //var pos = transform.position;
         damageNumber.SetAnchoredPosition(rectParent,rectParent.position );
         
-        ScaleSpring.Begin(this, 1f, 1.1f, 50, 5);
+        ScaleSpring.Begin(this, 1f, 1.1f, 50, 6);
         hp -= dame;
-        //hp = qt.FillAmount;
-        Invoke(nameof(OffHpBar),.5f);
+        //if(hpBar.activeSelf) {return;}
+        //Invoke(nameof(OffHpBar),1.2f);
     }
 
     public void OffHpBar()
@@ -123,7 +126,7 @@ public class Enemy : MonoBehaviour
     {
         if (hp <= 0)
         {
-            GameManager.Instance.gold+= Random.Range(10,40);
+            GameManager.Instance.gold+= Random.Range(SpawnerEnemy.Instance.lv,40);
             MyPooler.ObjectPooler.Instance.GetFromPool("F", transform.position, Quaternion.identity);
             DiscardToPool();
             //GetComponent<Monster>().Die();

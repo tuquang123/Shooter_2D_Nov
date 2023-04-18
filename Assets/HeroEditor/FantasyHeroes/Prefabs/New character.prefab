@@ -5357,7 +5357,8 @@ MonoBehaviour:
   - {fileID: 212294529632118400}
   DefaultMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   EyesPaintMaterial: {fileID: 2100000, guid: 76c39f1b79f94a6093d87b9b386ee91c, type: 2}
-  EquipmentPaintMaterial: {fileID: 2100000, guid: 422f5f2ea71549499f154becb259725a, type: 2}
+  EquipmentPaintMaterial: {fileID: 2100000, guid: 422f5f2ea71549499f154becb259725a,
+    type: 2}
   Animator: {fileID: 95570844872250018}
   WeaponType: 1
   MeleeWeapon: {fileID: 4167466494787575452}

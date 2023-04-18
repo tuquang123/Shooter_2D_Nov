@@ -11855,7 +11855,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3043416829513117002}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.6, z: 0}
+  m_LocalPosition: {x: 0, y: 0.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 133446287769888928}
@@ -12139,7 +12139,7 @@ GameObject:
   m_Layer: 0
   m_Name: PurpleScarab
   m_TagString: Enemy
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -12279,10 +12279,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.74204063
-  m_Height: 2.9681625
+  m_Radius: 0.9330148
+  m_Height: 4.0565863
   m_Direction: 1
-  m_Center: {x: -0.33, y: 1.35, z: 0}
+  m_Center: {x: 0.08516117, y: 1.3500001, z: 0}
 --- !u!114 &704121090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12296,7 +12296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hpBar: {fileID: 1836543209}
-  qt: {fileID: 1724235883}
+  quantityBhv: {fileID: 1724235883}
   numberPrefab: {fileID: 3515927367195170040, guid: 95f78784893360848957b141a72b4b02,
     type: 3}
   rectParent: {fileID: 7152137683808105846}

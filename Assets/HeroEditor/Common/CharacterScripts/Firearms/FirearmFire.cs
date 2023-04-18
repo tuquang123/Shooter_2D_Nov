@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Linq;
 using Assets.HeroEditor.Common.CharacterScripts.Firearms.Enums;
+using Assets.HeroEditor.Common.CommonScripts;
 using Assets.HeroEditor.Common.ExampleScripts;
 using HeroEditor.Common.Enums;
 using UnityEngine;
@@ -198,10 +199,11 @@ namespace Assets.HeroEditor.Common.CharacterScripts.Firearms
                 //bullet.transform.localPosition = Vector3.zero;
                 //bullet.transform.localRotation = Quaternion.identity;
                 //bullet.transform.SetParent(null);
-                
+
                 bullet.GetComponent<SpriteRenderer>().sprite = Character.Firearms.Single(j => j.name == "Bullet");
                 bullet.GetComponent<Rigidbody>().velocity = Firearm.Params.MuzzleVelocity * (Firearm.FireTransform.right + spread)
                     * Mathf.Sign(Character.transform.lossyScale.x) * Random.Range(0.85f, 1.15f);
+                //bullet.GetComponent<TrailRenderer>().SetActive(true);
 
                 var sortingOrder = Character.FirearmsRenderers.Single(j => j.name == "Rifle").sortingOrder;
                 

@@ -11523,7 +11523,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 117150393779553011}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 1, z: 0}
+  m_LocalPosition: {x: 0.12, y: 0.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 117150394045550823}
@@ -12106,7 +12106,7 @@ GameObject:
   m_Layer: 0
   m_Name: CaveRat
   m_TagString: Enemy
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -12245,10 +12245,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.5847428
-  m_Height: 2.3389711
+  m_Radius: 0.751523
+  m_Height: 3.2674913
   m_Direction: 1
-  m_Center: {x: -0.18, y: 0.94, z: 0}
+  m_Center: {x: -0.101182766, y: 0.93999994, z: 0}
 --- !u!114 &623983254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12262,7 +12262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hpBar: {fileID: 1686644949}
-  qt: {fileID: 1282117216}
+  quantityBhv: {fileID: 1282117216}
   numberPrefab: {fileID: 3515927367195170040, guid: 95f78784893360848957b141a72b4b02,
     type: 3}
   rectParent: {fileID: 2077984100}

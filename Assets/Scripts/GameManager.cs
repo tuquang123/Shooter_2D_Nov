@@ -1,11 +1,7 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using Assets.HeroEditor.Common.EditorScripts;
 using Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class GameManager : Singleton<GameManager>
@@ -26,7 +22,6 @@ public class GameManager : Singleton<GameManager>
     public CharacterEditor characterEditor;
     public CharacterEditor characterEditor2;
     public CharacterEditor characterEditor3;
-    //public GameObject panel;
     public int dame = 10;
     public int gold = 1000;
     private bool i;
@@ -111,12 +106,11 @@ public class GameManager : Singleton<GameManager>
         scrollInventory.OnReset();
     }
 
-    public void Restart()
+    private void Restart()
     {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        //Time.timeScale = 1;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Time.timeScale = 1;
         gold -= 1000;
         paneLoss.SetActive(false);
-        // - 50& so tien
     }
 }

@@ -44,16 +44,16 @@ namespace HeroEditor.Common.ExampleScripts
         private void Turning()
         {
             // Rotation Fl enemy
-            /*if (target == null) return;
+            if (_target == null) return;
             //if (turnOff)
             {
-                targetDir = target.position - Character.transform.position;
-                Transform charTrans = Character.transform;
+                targetDir = _target.position - character.transform.position;
+                Transform charTrans = character.transform;
                 charTrans.transform.localScale = new Vector3(Mathf.Sign(targetDir.x), 1, 1);
-            }*/
+            }
 
             // Rotation Fl mouse
-            Vector3 mouse = Input.mousePosition;
+            /*Vector3 mouse = Input.mousePosition;
             var position = character.transform.position;
             Vector3 vec4 = new Vector3(mouse.x, mouse.y, position.y);
             if (Camera.main != null)
@@ -62,7 +62,7 @@ namespace HeroEditor.Common.ExampleScripts
 
                 _mouseToChar = mouseWorld - position;
             }
-            character.transform.localScale = new Vector3(Mathf.Sign(_mouseToChar.x), 1, 1);
+            character.transform.localScale = new Vector3(Mathf.Sign(_mouseToChar.x), 1, 1);*/
         }
 
         /// <summary>
@@ -213,14 +213,14 @@ namespace HeroEditor.Common.ExampleScripts
                 if (_target == null) return;
                 Vector3 enemyS = _target.position;
                 //Rotate target is Enemy 
-                //RotateArm(arm, weapon, FixedArm ? arm.position + 1000 * Vector3.right : enemyS, -90, 90);
+                RotateArm(arm, weapon, fixedArm ? arm.position + 1000 * Vector3.right : enemyS, -90, 90);
 
                 //Rotate target input mouse
-                if (Camera.main != null)
+                /*if (Camera.main != null)
                     RotateArm(arm, weapon,
                         fixedArm
                             ? arm.position + 1000 * Vector3.right
-                            : Camera.main.ScreenToWorldPoint(Input.mousePosition), -40, 40);
+                            : Camera.main.ScreenToWorldPoint(Input.mousePosition), -40, 40);*/
             }
         }
 

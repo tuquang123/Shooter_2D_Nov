@@ -11880,7 +11880,7 @@ GameObject:
   m_Layer: 0
   m_Name: Bat
   m_TagString: Enemy
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -12003,8 +12003,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.9821124, y: 1.9400396, z: 1}
-  m_Center: {x: -0.54357886, y: 1.4595518, z: 0}
+  m_Size: {x: 3.2359984, y: 3.4249086, z: 1}
+  m_Center: {x: 0.08336409, y: 1.6410356, z: 0}
 --- !u!114 &1408888759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12037,7 +12037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hpBar: {fileID: 1800938438}
-  qt: {fileID: 1844022834}
+  quantityBhv: {fileID: 1844022834}
   numberPrefab: {fileID: 3515927367195170040, guid: 95f78784893360848957b141a72b4b02,
     type: 3}
   rectParent: {fileID: 1585496057233960989}
@@ -12091,7 +12091,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6131182453297221300}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.71, z: 0}
+  m_LocalPosition: {x: 0, y: -0.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3563809651229003356}
