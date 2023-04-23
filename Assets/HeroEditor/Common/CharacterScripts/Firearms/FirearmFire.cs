@@ -6,6 +6,7 @@ using Assets.HeroEditor.Common.ExampleScripts;
 using HeroEditor.Common.Enums;
 using UnityEngine;
 
+
 namespace Assets.HeroEditor.Common.CharacterScripts.Firearms
 {
     /// <summary>

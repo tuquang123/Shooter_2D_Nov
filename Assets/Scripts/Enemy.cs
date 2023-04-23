@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour
     
     //Assign prefab in inspector.
     public DamageNumber numberPrefab;
+    
     public Transform rectParent;
     
     public int dame;
@@ -24,16 +25,8 @@ public class Enemy : MonoBehaviour
     Transform target;
 
     public float hp = 100;
-
-    public GameObject projecttile;
-
-    public float timeBetweenShots;
     
-    float nextShotTime;
-
-    public float minimumDistance;
-
-    public bool enemyShoter;
+    public string poolTag;
     
     private void Start()
     {
@@ -42,46 +35,17 @@ public class Enemy : MonoBehaviour
         quantityBhv.Amount = hp;
         target = GameObject.FindGameObjectWithTag("Player").gameObject.transform;
     }
-    /*private void LateUpdate()
-    {
-        if (transform.position.x < target.transform.position.x)
-        {
-            transform.localRotation = Quaternion.Euler(0, 180, 0);
-        }
-        else
-        {
-            transform.localRotation = Quaternion.Euler(0, 0, 0);
-        }
-    }*/
+    
     private void FixedUpdate()
     {
         //transform.position += transform.forwar * speed * Time.deltaTime;
         Die();
-        if (enemyShoter)
-        {
-            if (Time.time > nextShotTime)
-            {
-                GetComponent<Monster>().Attack();
-                Instantiate(projecttile, transform.position, Quaternion.identity);
-                nextShotTime = Time.time + timeBetweenShots;
-            }
-            if (Vector2.Distance(transform.position, target.position) > minimumDistance)
-            {
-                if (this.target == null) return;
-                transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-                GetComponent<Monster>().SetState(MonsterState.Run);
-            }
-        }
-        else
-        {
-            if (this.target == null) return;
-            //transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-            transform.position += Vector3.left * speed * Time.deltaTime;
-            GetComponent<Monster>().SetState(MonsterState.Run);
-        }
+        if (target == null) return;
+        //transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+        transform.position += Vector3.left * speed * Time.deltaTime;
+        GetComponent<Monster>().SetState(MonsterState.Run);
     }
-    public string poolTag;
-    
+
     public void DiscardToPool()
     {
         hpBar.SetActive(false);
@@ -111,6 +75,7 @@ public class Enemy : MonoBehaviour
         //Set the rect parent and anchored position.
         //var pos = transform.position;
         damageNumber.SetAnchoredPosition(rectParent,rectParent.position );
+        damageNumber.transform.parent = null;
         
         ScaleSpring.Begin(this, 1f, 1.1f, 50, 6);
         hp -= dame;

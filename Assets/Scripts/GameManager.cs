@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class GameManager : Singleton<GameManager>
 {
+    public float attackSpeed = 1;
     public ScrollInventory scrollInventory;
     public Button restart;
     public Text goldText;

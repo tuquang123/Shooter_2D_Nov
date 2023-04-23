@@ -48,6 +48,8 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
                 GameManager.Instance.gold -= price;
                 active = true;
                 GameManager.Instance.dame += 5;
+                GameManager.Instance.attackSpeed -= 0.05f;
+                
                 Toggle.interactable = true;
                 GameManager.Instance.goldText.text = GameManager.Instance.gold.ToString();
             }

@@ -13,4 +13,9 @@ public class Cheat : MonoBehaviour
     {
         GameManager.Instance.dame += 10;
     }
+
+    public void AddAttackSpeed()
+    {
+        GameManager.Instance.attackSpeed += .1f;
+    }
 }

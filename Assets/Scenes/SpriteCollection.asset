@@ -1,0 +1,1851 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -501458331, guid: 37c5e9f1bad94b3398ad4f3c326513e9, type: 3}
+  m_Name: SpriteCollection
+  m_EditorClassIdentifier: 
+  Id: CyberpunkHeroes
+  SpriteFolders:
+  - {fileID: 102900000, guid: cfc7a1b44310eec419c988a3528b1765, type: 3}
+  - {fileID: 102900000, guid: 5155cb9b3a77436aa6d9eec1e5700517, type: 3}
+  - {fileID: 102900000, guid: be761057a0844228844b816f63762da7, type: 3}
+  CollectionFilter: []
+  CollectionFilterIgnore: []
+  Head: []
+  Ears: []
+  Hair: []
+  Eyebrows: []
+  Eyes: []
+  Mouth: []
+  Beard: []
+  Body:
+  - Name: Human
+    Collection: Basic
+    Edition: Common
+    Id: Common.Basic.Body.Human
+    Path: Assets/HeroEditor/Common/Sprites/BodyParts/Body/Basic/Human.png
+    Sprite: {fileID: 21300004, guid: 7f049dfc29eb4a27a35fe07f89e20e2a, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 7f049dfc29eb4a27a35fe07f89e20e2a, type: 3}
+    - {fileID: 21300002, guid: 7f049dfc29eb4a27a35fe07f89e20e2a, type: 3}
+    - {fileID: 21300022, guid: 7f049dfc29eb4a27a35fe07f89e20e2a, type: 3}
+    - {fileID: 21300010, guid: 7f049dfc29eb4a27a35fe07f89e20e2a, type: 3}
+    - {fileID: 21300008, guid: 7f049dfc29eb4a27a35fe07f89e20e2a, type: 3}
+    - {fileID: 21300016, guid: 7f049dfc29eb4a27a35fe07f89e20e2a, type: 3}
+    - {fileID: 21300018, guid: 7f049dfc29eb4a27a35fe07f89e20e2a, type: 3}
+    - {fileID: 21300012, guid: 7f049dfc29eb4a27a35fe07f89e20e2a, type: 3}
+    - {fileID: 21300006, guid: 7f049dfc29eb4a27a35fe07f89e20e2a, type: 3}
+    - {fileID: 21300014, guid: 7f049dfc29eb4a27a35fe07f89e20e2a, type: 3}
+    - {fileID: 21300020, guid: 7f049dfc29eb4a27a35fe07f89e20e2a, type: 3}
+    - {fileID: 21300000, guid: 7f049dfc29eb4a27a35fe07f89e20e2a, type: 3}
+    Multiple: 1
+    Hash: 6f72da148b9cbf1866a9ceb4244ebacc
+    Meta: 
+    Tags: []
+  - Name: TBody
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Body.TBody
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/BodyParts/Body/Basic/TBody.png
+    Sprite: {fileID: 21300004, guid: 6a73e48aefe44c728868c63a9dd8addf, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 6a73e48aefe44c728868c63a9dd8addf, type: 3}
+    - {fileID: 21300002, guid: 6a73e48aefe44c728868c63a9dd8addf, type: 3}
+    - {fileID: 21300022, guid: 6a73e48aefe44c728868c63a9dd8addf, type: 3}
+    - {fileID: 21300010, guid: 6a73e48aefe44c728868c63a9dd8addf, type: 3}
+    - {fileID: 21300008, guid: 6a73e48aefe44c728868c63a9dd8addf, type: 3}
+    - {fileID: 21300016, guid: 6a73e48aefe44c728868c63a9dd8addf, type: 3}
+    - {fileID: 21300018, guid: 6a73e48aefe44c728868c63a9dd8addf, type: 3}
+    - {fileID: 21300012, guid: 6a73e48aefe44c728868c63a9dd8addf, type: 3}
+    - {fileID: 21300006, guid: 6a73e48aefe44c728868c63a9dd8addf, type: 3}
+    - {fileID: 21300014, guid: 6a73e48aefe44c728868c63a9dd8addf, type: 3}
+    - {fileID: 21300020, guid: 6a73e48aefe44c728868c63a9dd8addf, type: 3}
+    - {fileID: 21300000, guid: 6a73e48aefe44c728868c63a9dd8addf, type: 3}
+    Multiple: 1
+    Hash: a15a46fbbd445f33648dba54096f586f
+    Meta: 
+    Tags: []
+  - Name: TBody2
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Body.TBody2
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/BodyParts/Body/Basic/TBody2.png
+    Sprite: {fileID: 21300004, guid: a380aab72848444487113c1d8637e3e7, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: a380aab72848444487113c1d8637e3e7, type: 3}
+    - {fileID: 21300002, guid: a380aab72848444487113c1d8637e3e7, type: 3}
+    - {fileID: 21300022, guid: a380aab72848444487113c1d8637e3e7, type: 3}
+    - {fileID: 21300010, guid: a380aab72848444487113c1d8637e3e7, type: 3}
+    - {fileID: 21300008, guid: a380aab72848444487113c1d8637e3e7, type: 3}
+    - {fileID: 21300016, guid: a380aab72848444487113c1d8637e3e7, type: 3}
+    - {fileID: 21300018, guid: a380aab72848444487113c1d8637e3e7, type: 3}
+    - {fileID: 21300012, guid: a380aab72848444487113c1d8637e3e7, type: 3}
+    - {fileID: 21300006, guid: a380aab72848444487113c1d8637e3e7, type: 3}
+    - {fileID: 21300014, guid: a380aab72848444487113c1d8637e3e7, type: 3}
+    - {fileID: 21300020, guid: a380aab72848444487113c1d8637e3e7, type: 3}
+    - {fileID: 21300000, guid: a380aab72848444487113c1d8637e3e7, type: 3}
+    Multiple: 1
+    Hash: 9cc5073a6e76b5a2a4467fa5e03d87e2
+    Meta: 
+    Tags: []
+  Helmet:
+  - Name: Helm1 [Paint]
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Helmet.Helm1 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Helmet/Basic/Helm1
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: e2d8017e626340d5af518e7c854e7c5f, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: e2d8017e626340d5af518e7c854e7c5f, type: 3}
+    Multiple: 1
+    Hash: 87413bc5674ca491d75286fcb8bf491c
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Helm1a [Paint]
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Helmet.Helm1a [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Helmet/Basic/Helm1a
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: a1348751cd1f420087466ce30494ff15, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: a1348751cd1f420087466ce30494ff15, type: 3}
+    Multiple: 1
+    Hash: 3bf425d80ea2dc816cb96203094747ff
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Helm2 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Helmet.Helm2 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Helmet/Pro/Helm2 [Paint].png
+    Sprite: {fileID: 21300000, guid: d29153e5e5154dc4b71714154eabf6c7, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: d29153e5e5154dc4b71714154eabf6c7, type: 3}
+    Multiple: 1
+    Hash: 2920931c214883389a32fe2503ec00ae
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Helm2a [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Helmet.Helm2a [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Helmet/Pro/Helm2a [Paint].png
+    Sprite: {fileID: 21300000, guid: 00968356db1443679a7fa6b45de3ecfc, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 00968356db1443679a7fa6b45de3ecfc, type: 3}
+    Multiple: 1
+    Hash: 2008234e8e8e8d73cb3b2d02c4de925d
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Helm3 [Paint]
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Helmet.Helm3 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Helmet/Basic/Helm3
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: d37378dc9d1842c9a28864d0cf96d2a3, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: d37378dc9d1842c9a28864d0cf96d2a3, type: 3}
+    Multiple: 1
+    Hash: 6a8565d191cec4f4a3e1016917948881
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Helm3a [Paint]
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Helmet.Helm3a [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Helmet/Basic/Helm3a
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: d63ba4fc7be64d34b6be198054f3363d, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: d63ba4fc7be64d34b6be198054f3363d, type: 3}
+    Multiple: 1
+    Hash: ce306b2c2c2fb2c2e235143f7da9ceed
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Helm3b
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Helmet.Helm3b
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Helmet/Basic/Helm3b.png
+    Sprite: {fileID: 21300000, guid: 50f2d8e44165485e85c0fae4e8b66015, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 50f2d8e44165485e85c0fae4e8b66015, type: 3}
+    Multiple: 1
+    Hash: 5f0a378965e19771aa54efc7aac88172
+    Meta: 
+    Tags: []
+  - Name: Helm4 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Helmet.Helm4 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Helmet/Pro/Helm4 [Paint].png
+    Sprite: {fileID: 21300000, guid: 83c9cdcb66f54ab6946c1af5fef576ba, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 83c9cdcb66f54ab6946c1af5fef576ba, type: 3}
+    Multiple: 1
+    Hash: 0a7f02c0fe53c3b337e4e9291f54c630
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Helm4a [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Helmet.Helm4a [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Helmet/Pro/Helm4a [Paint].png
+    Sprite: {fileID: 21300000, guid: 28d171dd27c24218b69e96eec5985676, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 28d171dd27c24218b69e96eec5985676, type: 3}
+    Multiple: 1
+    Hash: 18974d45eb622781d4dbea845825c8d0
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Helm5 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Helmet.Helm5 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Helmet/Pro/Helm5 [Paint].png
+    Sprite: {fileID: 21300000, guid: bd8f4b75141b4660bb2d6b98764eff02, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: bd8f4b75141b4660bb2d6b98764eff02, type: 3}
+    Multiple: 1
+    Hash: 312af64fd366bf34b096f4a200752829
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Helm6 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Helmet.Helm6 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Helmet/Pro/Helm6 [Paint].png
+    Sprite: {fileID: 21300000, guid: ed7f654c84e54d968a3322fb48994491, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: ed7f654c84e54d968a3322fb48994491, type: 3}
+    Multiple: 1
+    Hash: 402fd9b96e5456339360c01971360ede
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Helm7 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Helmet.Helm7 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Helmet/Pro/Helm7 [Paint].png
+    Sprite: {fileID: 21300000, guid: df27f7640d984a7db6388d9a06bf106b, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: df27f7640d984a7db6388d9a06bf106b, type: 3}
+    Multiple: 1
+    Hash: 488eee2707cab4317eef8c7767a5e730
+    Meta: 
+    Tags:
+    - Paint
+  Glasses:
+  - Name: Glasses1 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Glasses.Glasses1 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Glasses/Pro/Glasses1
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: bdb9f4579a6447b39a32cee5f2c38fb7, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: bdb9f4579a6447b39a32cee5f2c38fb7, type: 3}
+    Multiple: 1
+    Hash: 091780308cc340b7c827c825b73df99e
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Glasses2 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Glasses.Glasses2 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Glasses/Pro/Glasses2
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 7f1a37a2fe584e959aca1b589b28da7d, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 7f1a37a2fe584e959aca1b589b28da7d, type: 3}
+    Multiple: 1
+    Hash: 31cdaef81304356ff6fbc8bf0749b28e
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Glasses3 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Glasses.Glasses3 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Glasses/Pro/Glasses3
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 2b1ff30d3ee74a229884f1797172cee7, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 2b1ff30d3ee74a229884f1797172cee7, type: 3}
+    Multiple: 1
+    Hash: 305225a5eeda0e406ea53c1e133f5c06
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Glasses4 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Glasses.Glasses4 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Glasses/Pro/Glasses4
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: c5bd38715de6431f99dac2f4ee181d58, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: c5bd38715de6431f99dac2f4ee181d58, type: 3}
+    Multiple: 1
+    Hash: 4a11de4150fedd1371cc06426f8363cd
+    Meta: 
+    Tags:
+    - Paint
+  - Name: SpaceTrooperVisor [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Glasses.SpaceTrooperVisor [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Glasses/Pro/SpaceTrooperVisor
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 0ddcac3bfef64c1087464622577824ca, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 0ddcac3bfef64c1087464622577824ca, type: 3}
+    Multiple: 1
+    Hash: d04ed8fbc914e00409fc3beef0b3eec4
+    Meta: 
+    Tags:
+    - Paint
+  Mask:
+  - Name: Mask1 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Mask.Mask1 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Mask/Pro/Mask1 [Paint].png
+    Sprite: {fileID: 21300000, guid: 07ae2b8f9c104292a27c4626a8771de8, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 07ae2b8f9c104292a27c4626a8771de8, type: 3}
+    Multiple: 1
+    Hash: 0dfbf7d029f39559f70bb8bf8c18c95c
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Mask2 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Mask.Mask2 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Mask/Pro/Mask2 [Paint].png
+    Sprite: {fileID: 21300000, guid: c636ea2eafc84839a8ba07452fd21425, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: c636ea2eafc84839a8ba07452fd21425, type: 3}
+    Multiple: 1
+    Hash: 21c3d0a878fa99849bac8fffe289114b
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Mask3 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Mask.Mask3 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Mask/Pro/Mask3 [Paint].png
+    Sprite: {fileID: 21300000, guid: e30abefe3bc94697a17fa4ed9ea9e6a8, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: e30abefe3bc94697a17fa4ed9ea9e6a8, type: 3}
+    Multiple: 1
+    Hash: 9824097f25757c4c3c5716a893b9d166
+    Meta: 
+    Tags:
+    - Paint
+  Earrings:
+  - Name: Banan
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Earrings.Banan
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Earrings/Basic/Banan.png
+    Sprite: {fileID: 21300000, guid: 3791264e058e45bc802d6d0ecb7b1bfb, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 3791264e058e45bc802d6d0ecb7b1bfb, type: 3}
+    Multiple: 1
+    Hash: 4b26b1435377a7e9b38b5c6f099d590c
+    Meta: 
+    Tags: []
+  - Name: GoldenEarring
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Earrings.GoldenEarring
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Earrings/Basic/GoldenEarring.png
+    Sprite: {fileID: 21300000, guid: 2913df47c35e4e7eadc8cdb502f93046, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 2913df47c35e4e7eadc8cdb502f93046, type: 3}
+    Multiple: 1
+    Hash: 25c33adbab0dd5044da75be53a96845b
+    Meta: 
+    Tags: []
+  - Name: Worm
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Earrings.Worm
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Earrings/Basic/Worm.png
+    Sprite: {fileID: 21300000, guid: 02d9b5c307eb432c9ce7c4258a5941e9, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 02d9b5c307eb432c9ce7c4258a5941e9, type: 3}
+    Multiple: 1
+    Hash: d5dee78da85abd5fec5389f9781f3604
+    Meta: 
+    Tags: []
+  Armor:
+  - Name: MARK-H1 [Paint]
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Armor.MARK-H1 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Armor/Basic/MARK-H1
+      [Paint].png
+    Sprite: {fileID: 21300004, guid: 5826038429d04708bd03702da5ba1f99, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 5826038429d04708bd03702da5ba1f99, type: 3}
+    - {fileID: 21300002, guid: 5826038429d04708bd03702da5ba1f99, type: 3}
+    - {fileID: 21300022, guid: 5826038429d04708bd03702da5ba1f99, type: 3}
+    - {fileID: 21300010, guid: 5826038429d04708bd03702da5ba1f99, type: 3}
+    - {fileID: 21300008, guid: 5826038429d04708bd03702da5ba1f99, type: 3}
+    - {fileID: 21300016, guid: 5826038429d04708bd03702da5ba1f99, type: 3}
+    - {fileID: 21300018, guid: 5826038429d04708bd03702da5ba1f99, type: 3}
+    - {fileID: 21300012, guid: 5826038429d04708bd03702da5ba1f99, type: 3}
+    - {fileID: 21300006, guid: 5826038429d04708bd03702da5ba1f99, type: 3}
+    - {fileID: 21300014, guid: 5826038429d04708bd03702da5ba1f99, type: 3}
+    - {fileID: 21300020, guid: 5826038429d04708bd03702da5ba1f99, type: 3}
+    - {fileID: 21300000, guid: 5826038429d04708bd03702da5ba1f99, type: 3}
+    Multiple: 1
+    Hash: 1004eb8ed010f91f6efa4f1b95548af8
+    Meta: 
+    Tags:
+    - Paint
+  - Name: MARK-H2 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Armor.MARK-H2 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Armor/Pro/MARK-H2 [Paint].png
+    Sprite: {fileID: 21300004, guid: 272272b84b794392a5dc5851755a9faf, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 272272b84b794392a5dc5851755a9faf, type: 3}
+    - {fileID: 21300002, guid: 272272b84b794392a5dc5851755a9faf, type: 3}
+    - {fileID: 21300022, guid: 272272b84b794392a5dc5851755a9faf, type: 3}
+    - {fileID: 21300010, guid: 272272b84b794392a5dc5851755a9faf, type: 3}
+    - {fileID: 21300008, guid: 272272b84b794392a5dc5851755a9faf, type: 3}
+    - {fileID: 21300016, guid: 272272b84b794392a5dc5851755a9faf, type: 3}
+    - {fileID: 21300018, guid: 272272b84b794392a5dc5851755a9faf, type: 3}
+    - {fileID: 21300012, guid: 272272b84b794392a5dc5851755a9faf, type: 3}
+    - {fileID: 21300006, guid: 272272b84b794392a5dc5851755a9faf, type: 3}
+    - {fileID: 21300014, guid: 272272b84b794392a5dc5851755a9faf, type: 3}
+    - {fileID: 21300020, guid: 272272b84b794392a5dc5851755a9faf, type: 3}
+    - {fileID: 21300000, guid: 272272b84b794392a5dc5851755a9faf, type: 3}
+    Multiple: 1
+    Hash: 0ba2b3989db0c51c101c736f4b92e154
+    Meta: 
+    Tags:
+    - Paint
+  - Name: MARK-H2B [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Armor.MARK-H2B [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Armor/Pro/MARK-H2B
+      [Paint].png
+    Sprite: {fileID: 21300004, guid: a8b7248d458e4c0683cc70955cd90079, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: a8b7248d458e4c0683cc70955cd90079, type: 3}
+    - {fileID: 21300002, guid: a8b7248d458e4c0683cc70955cd90079, type: 3}
+    - {fileID: 21300022, guid: a8b7248d458e4c0683cc70955cd90079, type: 3}
+    - {fileID: 21300010, guid: a8b7248d458e4c0683cc70955cd90079, type: 3}
+    - {fileID: 21300008, guid: a8b7248d458e4c0683cc70955cd90079, type: 3}
+    - {fileID: 21300016, guid: a8b7248d458e4c0683cc70955cd90079, type: 3}
+    - {fileID: 21300018, guid: a8b7248d458e4c0683cc70955cd90079, type: 3}
+    - {fileID: 21300012, guid: a8b7248d458e4c0683cc70955cd90079, type: 3}
+    - {fileID: 21300006, guid: a8b7248d458e4c0683cc70955cd90079, type: 3}
+    - {fileID: 21300014, guid: a8b7248d458e4c0683cc70955cd90079, type: 3}
+    - {fileID: 21300020, guid: a8b7248d458e4c0683cc70955cd90079, type: 3}
+    - {fileID: 21300000, guid: a8b7248d458e4c0683cc70955cd90079, type: 3}
+    Multiple: 1
+    Hash: 05ea787a08a2e12b4b441a732310b082
+    Meta: 
+    Tags:
+    - Paint
+  - Name: MARK-H3 [Paint]
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Armor.MARK-H3 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Armor/Basic/MARK-H3
+      [Paint].png
+    Sprite: {fileID: 21300004, guid: 57656411bb8f41f4a00cf0ea2af5aca3, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 57656411bb8f41f4a00cf0ea2af5aca3, type: 3}
+    - {fileID: 21300002, guid: 57656411bb8f41f4a00cf0ea2af5aca3, type: 3}
+    - {fileID: 21300022, guid: 57656411bb8f41f4a00cf0ea2af5aca3, type: 3}
+    - {fileID: 21300010, guid: 57656411bb8f41f4a00cf0ea2af5aca3, type: 3}
+    - {fileID: 21300008, guid: 57656411bb8f41f4a00cf0ea2af5aca3, type: 3}
+    - {fileID: 21300016, guid: 57656411bb8f41f4a00cf0ea2af5aca3, type: 3}
+    - {fileID: 21300018, guid: 57656411bb8f41f4a00cf0ea2af5aca3, type: 3}
+    - {fileID: 21300012, guid: 57656411bb8f41f4a00cf0ea2af5aca3, type: 3}
+    - {fileID: 21300006, guid: 57656411bb8f41f4a00cf0ea2af5aca3, type: 3}
+    - {fileID: 21300014, guid: 57656411bb8f41f4a00cf0ea2af5aca3, type: 3}
+    - {fileID: 21300020, guid: 57656411bb8f41f4a00cf0ea2af5aca3, type: 3}
+    - {fileID: 21300000, guid: 57656411bb8f41f4a00cf0ea2af5aca3, type: 3}
+    Multiple: 1
+    Hash: d91ea29983b0e81f9a7ab7e58eb3f4d7
+    Meta: 
+    Tags:
+    - Paint
+  - Name: MARK-H3B [Paint]
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Armor.MARK-H3B [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Armor/Basic/MARK-H3B
+      [Paint].png
+    Sprite: {fileID: 21300004, guid: 9db6a24522d8412e81a390c5011940cd, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 9db6a24522d8412e81a390c5011940cd, type: 3}
+    - {fileID: 21300002, guid: 9db6a24522d8412e81a390c5011940cd, type: 3}
+    - {fileID: 21300022, guid: 9db6a24522d8412e81a390c5011940cd, type: 3}
+    - {fileID: 21300010, guid: 9db6a24522d8412e81a390c5011940cd, type: 3}
+    - {fileID: 21300008, guid: 9db6a24522d8412e81a390c5011940cd, type: 3}
+    - {fileID: 21300016, guid: 9db6a24522d8412e81a390c5011940cd, type: 3}
+    - {fileID: 21300018, guid: 9db6a24522d8412e81a390c5011940cd, type: 3}
+    - {fileID: 21300012, guid: 9db6a24522d8412e81a390c5011940cd, type: 3}
+    - {fileID: 21300006, guid: 9db6a24522d8412e81a390c5011940cd, type: 3}
+    - {fileID: 21300014, guid: 9db6a24522d8412e81a390c5011940cd, type: 3}
+    - {fileID: 21300020, guid: 9db6a24522d8412e81a390c5011940cd, type: 3}
+    - {fileID: 21300000, guid: 9db6a24522d8412e81a390c5011940cd, type: 3}
+    Multiple: 1
+    Hash: 10b2ac7acc2f93ddd07ebd2ec08415ae
+    Meta: 
+    Tags:
+    - Paint
+  - Name: MARK-H4 [Paint]
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Armor.MARK-H4 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Armor/Basic/MARK-H4
+      [Paint].png
+    Sprite: {fileID: 21300004, guid: c82f321717384048bb6dde6b91f298d6, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: c82f321717384048bb6dde6b91f298d6, type: 3}
+    - {fileID: 21300002, guid: c82f321717384048bb6dde6b91f298d6, type: 3}
+    - {fileID: 21300022, guid: c82f321717384048bb6dde6b91f298d6, type: 3}
+    - {fileID: 21300010, guid: c82f321717384048bb6dde6b91f298d6, type: 3}
+    - {fileID: 21300008, guid: c82f321717384048bb6dde6b91f298d6, type: 3}
+    - {fileID: 21300016, guid: c82f321717384048bb6dde6b91f298d6, type: 3}
+    - {fileID: 21300018, guid: c82f321717384048bb6dde6b91f298d6, type: 3}
+    - {fileID: 21300012, guid: c82f321717384048bb6dde6b91f298d6, type: 3}
+    - {fileID: 21300006, guid: c82f321717384048bb6dde6b91f298d6, type: 3}
+    - {fileID: 21300014, guid: c82f321717384048bb6dde6b91f298d6, type: 3}
+    - {fileID: 21300020, guid: c82f321717384048bb6dde6b91f298d6, type: 3}
+    - {fileID: 21300000, guid: c82f321717384048bb6dde6b91f298d6, type: 3}
+    Multiple: 1
+    Hash: 5f6f46d1f0ddbd8da3897893ca1a6112
+    Meta: 
+    Tags:
+    - Paint
+  - Name: MARK-H4B [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Armor.MARK-H4B [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Armor/Pro/MARK-H4B
+      [Paint].png
+    Sprite: {fileID: 21300004, guid: d8c9473473a74aad8c53a5b980b51cf1, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: d8c9473473a74aad8c53a5b980b51cf1, type: 3}
+    - {fileID: 21300002, guid: d8c9473473a74aad8c53a5b980b51cf1, type: 3}
+    - {fileID: 21300022, guid: d8c9473473a74aad8c53a5b980b51cf1, type: 3}
+    - {fileID: 21300010, guid: d8c9473473a74aad8c53a5b980b51cf1, type: 3}
+    - {fileID: 21300008, guid: d8c9473473a74aad8c53a5b980b51cf1, type: 3}
+    - {fileID: 21300016, guid: d8c9473473a74aad8c53a5b980b51cf1, type: 3}
+    - {fileID: 21300018, guid: d8c9473473a74aad8c53a5b980b51cf1, type: 3}
+    - {fileID: 21300012, guid: d8c9473473a74aad8c53a5b980b51cf1, type: 3}
+    - {fileID: 21300006, guid: d8c9473473a74aad8c53a5b980b51cf1, type: 3}
+    - {fileID: 21300014, guid: d8c9473473a74aad8c53a5b980b51cf1, type: 3}
+    - {fileID: 21300020, guid: d8c9473473a74aad8c53a5b980b51cf1, type: 3}
+    - {fileID: 21300000, guid: d8c9473473a74aad8c53a5b980b51cf1, type: 3}
+    Multiple: 1
+    Hash: f980feea4d9231c08ec3fb59416f2fb5
+    Meta: 
+    Tags:
+    - Paint
+  - Name: MARK-H5
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Armor.MARK-H5
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Armor/Pro/MARK-H5.png
+    Sprite: {fileID: 21300004, guid: f17b7c556cde4a08af9721f23a13ec4b, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: f17b7c556cde4a08af9721f23a13ec4b, type: 3}
+    - {fileID: 21300002, guid: f17b7c556cde4a08af9721f23a13ec4b, type: 3}
+    - {fileID: 21300022, guid: f17b7c556cde4a08af9721f23a13ec4b, type: 3}
+    - {fileID: 21300010, guid: f17b7c556cde4a08af9721f23a13ec4b, type: 3}
+    - {fileID: 21300008, guid: f17b7c556cde4a08af9721f23a13ec4b, type: 3}
+    - {fileID: 21300016, guid: f17b7c556cde4a08af9721f23a13ec4b, type: 3}
+    - {fileID: 21300018, guid: f17b7c556cde4a08af9721f23a13ec4b, type: 3}
+    - {fileID: 21300012, guid: f17b7c556cde4a08af9721f23a13ec4b, type: 3}
+    - {fileID: 21300006, guid: f17b7c556cde4a08af9721f23a13ec4b, type: 3}
+    - {fileID: 21300014, guid: f17b7c556cde4a08af9721f23a13ec4b, type: 3}
+    - {fileID: 21300020, guid: f17b7c556cde4a08af9721f23a13ec4b, type: 3}
+    - {fileID: 21300000, guid: f17b7c556cde4a08af9721f23a13ec4b, type: 3}
+    Multiple: 1
+    Hash: 7d647a50a61587eb5a87a904ef946564
+    Meta: 
+    Tags: []
+  - Name: MARK-L1 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Armor.MARK-L1 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Armor/Pro/MARK-L1 [Paint].png
+    Sprite: {fileID: 21300004, guid: 0c8d0e310c4245e08d8b270ea21468a5, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 0c8d0e310c4245e08d8b270ea21468a5, type: 3}
+    - {fileID: 21300002, guid: 0c8d0e310c4245e08d8b270ea21468a5, type: 3}
+    - {fileID: 21300022, guid: 0c8d0e310c4245e08d8b270ea21468a5, type: 3}
+    - {fileID: 21300010, guid: 0c8d0e310c4245e08d8b270ea21468a5, type: 3}
+    - {fileID: 21300008, guid: 0c8d0e310c4245e08d8b270ea21468a5, type: 3}
+    - {fileID: 21300016, guid: 0c8d0e310c4245e08d8b270ea21468a5, type: 3}
+    - {fileID: 21300018, guid: 0c8d0e310c4245e08d8b270ea21468a5, type: 3}
+    - {fileID: 21300012, guid: 0c8d0e310c4245e08d8b270ea21468a5, type: 3}
+    - {fileID: 21300006, guid: 0c8d0e310c4245e08d8b270ea21468a5, type: 3}
+    - {fileID: 21300014, guid: 0c8d0e310c4245e08d8b270ea21468a5, type: 3}
+    - {fileID: 21300020, guid: 0c8d0e310c4245e08d8b270ea21468a5, type: 3}
+    - {fileID: 21300000, guid: 0c8d0e310c4245e08d8b270ea21468a5, type: 3}
+    Multiple: 1
+    Hash: 71076d40043eda55766887227ce0770b
+    Meta: 
+    Tags:
+    - Paint
+  - Name: MARK-L2 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Armor.MARK-L2 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Armor/Pro/MARK-L2 [Paint].png
+    Sprite: {fileID: 21300004, guid: bc73e5841fde4cc1b26cf7177f419e90, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: bc73e5841fde4cc1b26cf7177f419e90, type: 3}
+    - {fileID: 21300002, guid: bc73e5841fde4cc1b26cf7177f419e90, type: 3}
+    - {fileID: 21300022, guid: bc73e5841fde4cc1b26cf7177f419e90, type: 3}
+    - {fileID: 21300010, guid: bc73e5841fde4cc1b26cf7177f419e90, type: 3}
+    - {fileID: 21300008, guid: bc73e5841fde4cc1b26cf7177f419e90, type: 3}
+    - {fileID: 21300016, guid: bc73e5841fde4cc1b26cf7177f419e90, type: 3}
+    - {fileID: 21300018, guid: bc73e5841fde4cc1b26cf7177f419e90, type: 3}
+    - {fileID: 21300012, guid: bc73e5841fde4cc1b26cf7177f419e90, type: 3}
+    - {fileID: 21300006, guid: bc73e5841fde4cc1b26cf7177f419e90, type: 3}
+    - {fileID: 21300014, guid: bc73e5841fde4cc1b26cf7177f419e90, type: 3}
+    - {fileID: 21300020, guid: bc73e5841fde4cc1b26cf7177f419e90, type: 3}
+    - {fileID: 21300000, guid: bc73e5841fde4cc1b26cf7177f419e90, type: 3}
+    Multiple: 1
+    Hash: c3fa7f114f1c437a254aca0138eea390
+    Meta: 
+    Tags:
+    - Paint
+  - Name: MARK-L5 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Armor.MARK-L5 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Armor/Pro/MARK-L5 [Paint].png
+    Sprite: {fileID: 21300004, guid: 31898bc04e9b470fa3f697ab17b0fcef, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 31898bc04e9b470fa3f697ab17b0fcef, type: 3}
+    - {fileID: 21300002, guid: 31898bc04e9b470fa3f697ab17b0fcef, type: 3}
+    - {fileID: 21300022, guid: 31898bc04e9b470fa3f697ab17b0fcef, type: 3}
+    - {fileID: 21300010, guid: 31898bc04e9b470fa3f697ab17b0fcef, type: 3}
+    - {fileID: 21300008, guid: 31898bc04e9b470fa3f697ab17b0fcef, type: 3}
+    - {fileID: 21300016, guid: 31898bc04e9b470fa3f697ab17b0fcef, type: 3}
+    - {fileID: 21300018, guid: 31898bc04e9b470fa3f697ab17b0fcef, type: 3}
+    - {fileID: 21300012, guid: 31898bc04e9b470fa3f697ab17b0fcef, type: 3}
+    - {fileID: 21300006, guid: 31898bc04e9b470fa3f697ab17b0fcef, type: 3}
+    - {fileID: 21300014, guid: 31898bc04e9b470fa3f697ab17b0fcef, type: 3}
+    - {fileID: 21300020, guid: 31898bc04e9b470fa3f697ab17b0fcef, type: 3}
+    - {fileID: 21300000, guid: 31898bc04e9b470fa3f697ab17b0fcef, type: 3}
+    Multiple: 1
+    Hash: 13763b91e5bfda6136b0f7ccb9b325cb
+    Meta: 
+    Tags:
+    - Paint
+  - Name: MARK-L6 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Armor.MARK-L6 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Armor/Pro/MARK-L6 [Paint].png
+    Sprite: {fileID: 21300004, guid: 9f436136a9de4ce68b4738f4158ca91f, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 9f436136a9de4ce68b4738f4158ca91f, type: 3}
+    - {fileID: 21300002, guid: 9f436136a9de4ce68b4738f4158ca91f, type: 3}
+    - {fileID: 21300022, guid: 9f436136a9de4ce68b4738f4158ca91f, type: 3}
+    - {fileID: 21300010, guid: 9f436136a9de4ce68b4738f4158ca91f, type: 3}
+    - {fileID: 21300008, guid: 9f436136a9de4ce68b4738f4158ca91f, type: 3}
+    - {fileID: 21300016, guid: 9f436136a9de4ce68b4738f4158ca91f, type: 3}
+    - {fileID: 21300018, guid: 9f436136a9de4ce68b4738f4158ca91f, type: 3}
+    - {fileID: 21300012, guid: 9f436136a9de4ce68b4738f4158ca91f, type: 3}
+    - {fileID: 21300006, guid: 9f436136a9de4ce68b4738f4158ca91f, type: 3}
+    - {fileID: 21300014, guid: 9f436136a9de4ce68b4738f4158ca91f, type: 3}
+    - {fileID: 21300020, guid: 9f436136a9de4ce68b4738f4158ca91f, type: 3}
+    - {fileID: 21300000, guid: 9f436136a9de4ce68b4738f4158ca91f, type: 3}
+    Multiple: 1
+    Hash: 826083711f7bfe84bf2aa2317e0518fa
+    Meta: 
+    Tags:
+    - Paint
+  Cape:
+  - Name: Cape1
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Cape.Cape1
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Cape/Pro/Cape1.png
+    Sprite: {fileID: 21300000, guid: 701b05b8aae746eb9ee8bfc6d4e5828a, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 701b05b8aae746eb9ee8bfc6d4e5828a, type: 3}
+    Multiple: 1
+    Hash: 2af0c263c42a381c4bc944e055c4cca3
+    Meta: 
+    Tags: []
+  - Name: Cape2
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Cape.Cape2
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Cape/Pro/Cape2.png
+    Sprite: {fileID: 21300000, guid: 9a7201ca21b94c818c195d515623661b, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 9a7201ca21b94c818c195d515623661b, type: 3}
+    Multiple: 1
+    Hash: a70bae2d51d5cb8f181caba63e320c2f
+    Meta: 
+    Tags: []
+  - Name: Cape3
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Cape.Cape3
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Cape/Pro/Cape3.png
+    Sprite: {fileID: 21300000, guid: 27937242f9cc42b3a25b0c167b3e6126, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 27937242f9cc42b3a25b0c167b3e6126, type: 3}
+    Multiple: 1
+    Hash: 51dc30251f29911f827cf40a2330eacd
+    Meta: 
+    Tags: []
+  - Name: Cape4
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Cape.Cape4
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Cape/Pro/Cape4.png
+    Sprite: {fileID: 21300000, guid: 682b9ad999eb4bff8f8dbf77180a33ac, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 682b9ad999eb4bff8f8dbf77180a33ac, type: 3}
+    Multiple: 1
+    Hash: 3b69957b81267f2976420705f7ed274f
+    Meta: 
+    Tags: []
+  - Name: SampleCape [Paint]
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Cape.SampleCape [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Cape/Basic/SampleCape
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 843ab050d3ae4b1cb44873c79f8c97db, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 843ab050d3ae4b1cb44873c79f8c97db, type: 3}
+    Multiple: 1
+    Hash: a5a73142671c5b0499a7b13d15ebf6a9
+    Meta: 
+    Tags:
+    - Paint
+  Back:
+  - Name: ArrowQuiver1 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Back.ArrowQuiver1 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Back/Pro/ArrowQuiver1
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: e63645a82dd9478b91c702e42fb1bd77, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: e63645a82dd9478b91c702e42fb1bd77, type: 3}
+    Multiple: 1
+    Hash: ae425f4a9ea7c8fa0fe6fbdafe74b979
+    Meta: 
+    Tags:
+    - Paint
+  - Name: ArrowQuiver2 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Back.ArrowQuiver2 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Back/Pro/ArrowQuiver2
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 1cad6e71cf28413d8706a5122bc8bccb, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 1cad6e71cf28413d8706a5122bc8bccb, type: 3}
+    Multiple: 1
+    Hash: 3375fd8f7348d1ec72f60bb687c48276
+    Meta: 
+    Tags:
+    - Paint
+  - Name: ArrowQuiver3 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Back.ArrowQuiver3 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Back/Pro/ArrowQuiver3
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 4acc29418f4b463a95667e28eeb60a2f, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 4acc29418f4b463a95667e28eeb60a2f, type: 3}
+    Multiple: 1
+    Hash: 07da1261e925be6fc3c3f62fb5dca9bf
+    Meta: 
+    Tags:
+    - Paint
+  - Name: ArrowQuiver4  [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Back.ArrowQuiver4  [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Back/Pro/ArrowQuiver4 
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 416d629db5554b379a03b93feaa675ce, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 416d629db5554b379a03b93feaa675ce, type: 3}
+    Multiple: 1
+    Hash: c7f185ad679938228a64904ce92f2bac
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Jetpack
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Back.Jetpack
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Back/Pro/Jetpack.png
+    Sprite: {fileID: 21300000, guid: c0697c433a7e4d0c87f3e0fac3e8ce14, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: c0697c433a7e4d0c87f3e0fac3e8ce14, type: 3}
+    Multiple: 1
+    Hash: f7e343cebc43f6a3ce8ce3b6f9a55566
+    Meta: 
+    Tags: []
+  - Name: Jetpack2
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Back.Jetpack2
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Back/Pro/Jetpack2.png
+    Sprite: {fileID: 21300000, guid: ddaaa40d94b44211832afe65b14ad9e3, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: ddaaa40d94b44211832afe65b14ad9e3, type: 3}
+    Multiple: 1
+    Hash: caec3142175109fd712d7d8714600eb4
+    Meta: 
+    Tags: []
+  - Name: Jetpack3
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Back.Jetpack3
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Back/Pro/Jetpack3.png
+    Sprite: {fileID: 21300000, guid: dfbe4dc9ea1592e4fb4b339f9039cb6d, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: dfbe4dc9ea1592e4fb4b339f9039cb6d, type: 3}
+    Multiple: 1
+    Hash: aa46ed53b00d6885b7ec6618af4825c2
+    Meta: 
+    Tags: []
+  - Name: Jetpack4
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Back.Jetpack4
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Back/Pro/Jetpack4.png
+    Sprite: {fileID: 21300000, guid: 040229525e1a1b84d8344f400feb08a0, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 040229525e1a1b84d8344f400feb08a0, type: 3}
+    Multiple: 1
+    Hash: 6d923c5c397685e4efc818e36a30c447
+    Meta: 
+    Tags: []
+  - Name: Jetpack5
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Back.Jetpack5
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Back/Pro/Jetpack5.png
+    Sprite: {fileID: 21300000, guid: 517cd818c042b1b4fa7d0cde4d3b8e1e, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 517cd818c042b1b4fa7d0cde4d3b8e1e, type: 3}
+    Multiple: 1
+    Hash: a281de398c36aede7223a6d3f2c1f7fd
+    Meta: 
+    Tags: []
+  - Name: Jetpack6
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Back.Jetpack6
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Back/Pro/Jetpack6.png
+    Sprite: {fileID: 21300000, guid: ad69d9d04701f344aac469b3b70c689d, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: ad69d9d04701f344aac469b3b70c689d, type: 3}
+    Multiple: 1
+    Hash: 6b9e5ce2f40bc44e182e6d18e2fbe190
+    Meta: 
+    Tags: []
+  - Name: Jetpack7
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Back.Jetpack7
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Back/Pro/Jetpack7.png
+    Sprite: {fileID: 21300000, guid: 0bb5a7be8d1c1f3469b847f7cfbe12a8, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 0bb5a7be8d1c1f3469b847f7cfbe12a8, type: 3}
+    Multiple: 1
+    Hash: ca8a0b0ca4bb92c9da4116ba2fd4827e
+    Meta: 
+    Tags: []
+  - Name: Jetpack8
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Back.Jetpack8
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Back/Pro/Jetpack8.png
+    Sprite: {fileID: 21300000, guid: 84a300ff03aa1eb4eb5070f0adc9a1a0, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 84a300ff03aa1eb4eb5070f0adc9a1a0, type: 3}
+    Multiple: 1
+    Hash: 61c9ac23e5efb57d0192557330d59d68
+    Meta: 
+    Tags: []
+  - Name: Jetpack9
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Back.Jetpack9
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Back/Pro/Jetpack9.png
+    Sprite: {fileID: 21300000, guid: 1c5167917c1faf74a8309cdef8a1bc96, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 1c5167917c1faf74a8309cdef8a1bc96, type: 3}
+    Multiple: 1
+    Hash: 2eda7f8a534da3f331992b0cb4f6613a
+    Meta: 
+    Tags: []
+  MeleeWeapon1H:
+  - Name: DragonTooth
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.MeleeWeapon1H.DragonTooth
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/DragonTooth.png
+    Sprite: {fileID: 21300000, guid: c82b7f4cdadb420893565fedb608d6f9, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: c82b7f4cdadb420893565fedb608d6f9, type: 3}
+    Multiple: 1
+    Hash: 639aeaee1519571c6fada200d792ebfb
+    Meta: 
+    Tags: []
+  - Name: EnergyKnife
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.MeleeWeapon1H.EnergyKnife
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/EnergyKnife.png
+    Sprite: {fileID: 21300000, guid: cafe9b4e9dbc4b8cb6e654003fa72d33, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: cafe9b4e9dbc4b8cb6e654003fa72d33, type: 3}
+    Multiple: 1
+    Hash: 609fcc417d8c2e638f5503d4d53aa82e
+    Meta: 
+    Tags: []
+  - Name: EnergyKnife [Paint]
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.MeleeWeapon1H.EnergyKnife [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/EnergyKnife
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 1018f873427344199a0dba32ba040536, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 1018f873427344199a0dba32ba040536, type: 3}
+    Multiple: 1
+    Hash: d73e048840f936cc1f8229856bbfc0a4
+    Meta: 
+    Tags:
+    - Paint
+  - Name: EnergySword
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.MeleeWeapon1H.EnergySword
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/EnergySword.png
+    Sprite: {fileID: 21300000, guid: 406f298457df437f9d2ebbee92bfaf27, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 406f298457df437f9d2ebbee92bfaf27, type: 3}
+    Multiple: 1
+    Hash: 675851e8f9b14eee8b6ab2ad2eb95452
+    Meta: 
+    Tags: []
+  - Name: EnergySword [Paint]
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.MeleeWeapon1H.EnergySword [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/EnergySword
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: a50e8c5737ac420d87aa321b7e04e09d, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: a50e8c5737ac420d87aa321b7e04e09d, type: 3}
+    Multiple: 1
+    Hash: 58ec336cbc0bf2a019948117a50adb31
+    Meta: 
+    Tags:
+    - Paint
+  - Name: LightSword
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.MeleeWeapon1H.LightSword
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/LightSword.png
+    Sprite: {fileID: 21300000, guid: 9d799c1917234d5b91c86c8c707303fb, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 9d799c1917234d5b91c86c8c707303fb, type: 3}
+    Multiple: 1
+    Hash: e4f7befac47107dc3850239b8bcdb1cd
+    Meta: 
+    Tags: []
+  - Name: LightSword2
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.MeleeWeapon1H.LightSword2
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/MeleeWeapon1H/Basic/Sword/LightSword2.png
+    Sprite: {fileID: 21300000, guid: 4289cca0ed724d0f9e3f97b8856b0f40, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 4289cca0ed724d0f9e3f97b8856b0f40, type: 3}
+    Multiple: 1
+    Hash: f72ba1f407df20cb13b9c7973a60a8b3
+    Meta: 
+    Tags: []
+  - Name: SantaHelperWand
+    Collection: Christmas
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Christmas.MeleeWeapon1H.SantaHelperWand
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/MeleeWeapon1H/Christmas/Wand/SantaHelperWand.png
+    Sprite: {fileID: 21300000, guid: e2e8f5e873464623add830b0139077d5, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: e2e8f5e873464623add830b0139077d5, type: 3}
+    Multiple: 1
+    Hash: 4d6392ca0878a543202a752c042206f0
+    Meta: 
+    Tags: []
+  - Name: SantaWand
+    Collection: Christmas
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Christmas.MeleeWeapon1H.SantaWand
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/MeleeWeapon1H/Christmas/Wand/SantaWand.png
+    Sprite: {fileID: 21300000, guid: f60366ff0c584e5382cad2ffbd2fc7e0, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: f60366ff0c584e5382cad2ffbd2fc7e0, type: 3}
+    Multiple: 1
+    Hash: 160bc423f0ddb2a6ee4b48ad4b097c52
+    Meta: 
+    Tags: []
+  MeleeWeapon2H:
+  - Name: HeavySword [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.MeleeWeapon2H.HeavySword [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/MeleeWeapon2H/Pro/Sword/HeavySword
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: e3bb89a8ba6440e58c4e64fc91125e07, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: e3bb89a8ba6440e58c4e64fc91125e07, type: 3}
+    Multiple: 1
+    Hash: 34c3c1d95454bfe4a23d8ed56fe4f0d4
+    Meta: 
+    Tags:
+    - Paint
+  - Name: HeavySword2 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.MeleeWeapon2H.HeavySword2 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/MeleeWeapon2H/Pro/Sword/HeavySword2
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: c87e9f90e7074cbdab80436670dc864b, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: c87e9f90e7074cbdab80436670dc864b, type: 3}
+    Multiple: 1
+    Hash: 0ef1b1bd7ef46116dcf80d6fc4b5cae2
+    Meta: 
+    Tags:
+    - Paint
+  Bow:
+  - Name: Bow1
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Bow.Bow1
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Bow/Pro/Bow1.png
+    Sprite: {fileID: 21300004, guid: 584cb86da2cf481887a29d5ed3304b4c, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 584cb86da2cf481887a29d5ed3304b4c, type: 3}
+    - {fileID: 21300002, guid: 584cb86da2cf481887a29d5ed3304b4c, type: 3}
+    - {fileID: 21300000, guid: 584cb86da2cf481887a29d5ed3304b4c, type: 3}
+    Multiple: 1
+    Hash: 6d57b5d638d557aae84953281a6dff1d
+    Meta: 
+    Tags: []
+  - Name: Bow2
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Bow.Bow2
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Bow/Pro/Bow2.png
+    Sprite: {fileID: 21300004, guid: 4fa637c6ab7b49f19c8396a03ac3caef, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 4fa637c6ab7b49f19c8396a03ac3caef, type: 3}
+    - {fileID: 21300002, guid: 4fa637c6ab7b49f19c8396a03ac3caef, type: 3}
+    - {fileID: 21300000, guid: 4fa637c6ab7b49f19c8396a03ac3caef, type: 3}
+    Multiple: 1
+    Hash: 861c6f63d31fd2fcaec78d86444f0589
+    Meta: 
+    Tags: []
+  - Name: Bow3 [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Bow.Bow3 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Bow/Pro/Bow3 [Paint].png
+    Sprite: {fileID: 21300004, guid: fb1888f356334d30a4bf382fd6adff5b, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: fb1888f356334d30a4bf382fd6adff5b, type: 3}
+    - {fileID: 21300002, guid: fb1888f356334d30a4bf382fd6adff5b, type: 3}
+    - {fileID: 21300000, guid: fb1888f356334d30a4bf382fd6adff5b, type: 3}
+    Multiple: 1
+    Hash: 65bc3bc324574562dc38429913e465a8
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Bow4
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Bow.Bow4
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Bow/Pro/Bow4.png
+    Sprite: {fileID: 21300004, guid: 7bcebad915a442249e2f97bab1434ad6, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 7bcebad915a442249e2f97bab1434ad6, type: 3}
+    - {fileID: 21300002, guid: 7bcebad915a442249e2f97bab1434ad6, type: 3}
+    - {fileID: 21300000, guid: 7bcebad915a442249e2f97bab1434ad6, type: 3}
+    Multiple: 1
+    Hash: e5d074aa4e52858de066c9c9ac0a54e6
+    Meta: 
+    Tags: []
+  Firearms1H:
+  - Name: FirestormFusionBlaster
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Firearms1H.FirestormFusionBlaster
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms1H/Pro/FirestormFusionBlaster.png
+    Sprite: {fileID: 21300004, guid: deed0a1987d24c8fa508e5bbed670407, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: deed0a1987d24c8fa508e5bbed670407, type: 3}
+    - {fileID: 21300012, guid: deed0a1987d24c8fa508e5bbed670407, type: 3}
+    - {fileID: 21300008, guid: deed0a1987d24c8fa508e5bbed670407, type: 3}
+    - {fileID: 21300002, guid: deed0a1987d24c8fa508e5bbed670407, type: 3}
+    - {fileID: 21300000, guid: deed0a1987d24c8fa508e5bbed670407, type: 3}
+    - {fileID: 21300010, guid: deed0a1987d24c8fa508e5bbed670407, type: 3}
+    - {fileID: 21300006, guid: deed0a1987d24c8fa508e5bbed670407, type: 3}
+    Multiple: 1
+    Hash: 8eb115b460d9efd8ae1ade61b18231ca
+    Meta: 
+    Tags: []
+  - Name: LB-200
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Firearms1H.LB-200
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms1H/Basic/LB-200.png
+    Sprite: {fileID: 21300004, guid: 66f819c8cdbc4e2c8120b90a43a4f8e8, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 66f819c8cdbc4e2c8120b90a43a4f8e8, type: 3}
+    - {fileID: 21300012, guid: 66f819c8cdbc4e2c8120b90a43a4f8e8, type: 3}
+    - {fileID: 21300008, guid: 66f819c8cdbc4e2c8120b90a43a4f8e8, type: 3}
+    - {fileID: 21300002, guid: 66f819c8cdbc4e2c8120b90a43a4f8e8, type: 3}
+    - {fileID: 21300000, guid: 66f819c8cdbc4e2c8120b90a43a4f8e8, type: 3}
+    - {fileID: 21300010, guid: 66f819c8cdbc4e2c8120b90a43a4f8e8, type: 3}
+    - {fileID: 21300006, guid: 66f819c8cdbc4e2c8120b90a43a4f8e8, type: 3}
+    Multiple: 1
+    Hash: 7f7cb3cdae438b9c566645440c97c4c0
+    Meta: 
+    Tags: []
+  - Name: LB-600
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Firearms1H.LB-600
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms1H/Pro/LB-600.png
+    Sprite: {fileID: 21300004, guid: 1369945b365c496a9e7e9cf2917db08f, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 1369945b365c496a9e7e9cf2917db08f, type: 3}
+    - {fileID: 21300012, guid: 1369945b365c496a9e7e9cf2917db08f, type: 3}
+    - {fileID: 21300008, guid: 1369945b365c496a9e7e9cf2917db08f, type: 3}
+    - {fileID: 21300002, guid: 1369945b365c496a9e7e9cf2917db08f, type: 3}
+    - {fileID: 21300000, guid: 1369945b365c496a9e7e9cf2917db08f, type: 3}
+    - {fileID: 21300010, guid: 1369945b365c496a9e7e9cf2917db08f, type: 3}
+    - {fileID: 21300006, guid: 1369945b365c496a9e7e9cf2917db08f, type: 3}
+    Multiple: 1
+    Hash: dab83b25fbb10b4894acefa89c672ca7
+    Meta: 
+    Tags: []
+  - Name: LightHandBlaster
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Firearms1H.LightHandBlaster
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms1H/Basic/LightHandBlaster.png
+    Sprite: {fileID: 21300004, guid: cc2d8d87c56a48d68abd87570e43a2e0, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: cc2d8d87c56a48d68abd87570e43a2e0, type: 3}
+    - {fileID: 21300012, guid: cc2d8d87c56a48d68abd87570e43a2e0, type: 3}
+    - {fileID: 21300008, guid: cc2d8d87c56a48d68abd87570e43a2e0, type: 3}
+    - {fileID: 21300002, guid: cc2d8d87c56a48d68abd87570e43a2e0, type: 3}
+    - {fileID: 21300000, guid: cc2d8d87c56a48d68abd87570e43a2e0, type: 3}
+    - {fileID: 21300010, guid: cc2d8d87c56a48d68abd87570e43a2e0, type: 3}
+    - {fileID: 21300006, guid: cc2d8d87c56a48d68abd87570e43a2e0, type: 3}
+    Multiple: 1
+    Hash: 8b0c7dfe084875e18d64aecd1150ca05
+    Meta: 
+    Tags: []
+  - Name: PP-RX
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Firearms1H.PP-RX
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms1H/Pro/PP-RX.png
+    Sprite: {fileID: 21300004, guid: e4ed54cc13f34534bb457d2cc839ccb2, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: e4ed54cc13f34534bb457d2cc839ccb2, type: 3}
+    - {fileID: 21300012, guid: e4ed54cc13f34534bb457d2cc839ccb2, type: 3}
+    - {fileID: 21300008, guid: e4ed54cc13f34534bb457d2cc839ccb2, type: 3}
+    - {fileID: 21300002, guid: e4ed54cc13f34534bb457d2cc839ccb2, type: 3}
+    - {fileID: 21300000, guid: e4ed54cc13f34534bb457d2cc839ccb2, type: 3}
+    - {fileID: 21300010, guid: e4ed54cc13f34534bb457d2cc839ccb2, type: 3}
+    - {fileID: 21300006, guid: e4ed54cc13f34534bb457d2cc839ccb2, type: 3}
+    Multiple: 1
+    Hash: b42e8204795227bf50f1fe50495a87ad
+    Meta: 
+    Tags: []
+  - Name: PulsePistol
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Firearms1H.PulsePistol
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms1H/Pro/PulsePistol.png
+    Sprite: {fileID: 21300004, guid: a7ecdb46a00d4058bf90eabe6be82fd7, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: a7ecdb46a00d4058bf90eabe6be82fd7, type: 3}
+    - {fileID: 21300012, guid: a7ecdb46a00d4058bf90eabe6be82fd7, type: 3}
+    - {fileID: 21300008, guid: a7ecdb46a00d4058bf90eabe6be82fd7, type: 3}
+    - {fileID: 21300002, guid: a7ecdb46a00d4058bf90eabe6be82fd7, type: 3}
+    - {fileID: 21300000, guid: a7ecdb46a00d4058bf90eabe6be82fd7, type: 3}
+    - {fileID: 21300010, guid: a7ecdb46a00d4058bf90eabe6be82fd7, type: 3}
+    - {fileID: 21300006, guid: a7ecdb46a00d4058bf90eabe6be82fd7, type: 3}
+    Multiple: 1
+    Hash: e1a833e27fd8aa71eb3ef1358288cc0c
+    Meta: 
+    Tags: []
+  Firearms2H:
+  - Name: PulsePistol
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Firearms1H.PulsePistol
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms1H/Pro/PulsePistol.png
+    Sprite: {fileID: 21300004, guid: a7ecdb46a00d4058bf90eabe6be82fd7, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: a7ecdb46a00d4058bf90eabe6be82fd7, type: 3}
+    - {fileID: 21300012, guid: a7ecdb46a00d4058bf90eabe6be82fd7, type: 3}
+    - {fileID: 21300008, guid: a7ecdb46a00d4058bf90eabe6be82fd7, type: 3}
+    - {fileID: 21300002, guid: a7ecdb46a00d4058bf90eabe6be82fd7, type: 3}
+    - {fileID: 21300000, guid: a7ecdb46a00d4058bf90eabe6be82fd7, type: 3}
+    - {fileID: 21300010, guid: a7ecdb46a00d4058bf90eabe6be82fd7, type: 3}
+    - {fileID: 21300006, guid: a7ecdb46a00d4058bf90eabe6be82fd7, type: 3}
+    Multiple: 1
+    Hash: e1a833e27fd8aa71eb3ef1358288cc0c
+    Meta: 
+    Tags: []
+  - Name: LightHandBlaster
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Firearms1H.LightHandBlaster
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms1H/Basic/LightHandBlaster.png
+    Sprite: {fileID: 21300004, guid: cc2d8d87c56a48d68abd87570e43a2e0, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: cc2d8d87c56a48d68abd87570e43a2e0, type: 3}
+    - {fileID: 21300012, guid: cc2d8d87c56a48d68abd87570e43a2e0, type: 3}
+    - {fileID: 21300008, guid: cc2d8d87c56a48d68abd87570e43a2e0, type: 3}
+    - {fileID: 21300002, guid: cc2d8d87c56a48d68abd87570e43a2e0, type: 3}
+    - {fileID: 21300000, guid: cc2d8d87c56a48d68abd87570e43a2e0, type: 3}
+    - {fileID: 21300010, guid: cc2d8d87c56a48d68abd87570e43a2e0, type: 3}
+    - {fileID: 21300006, guid: cc2d8d87c56a48d68abd87570e43a2e0, type: 3}
+    Multiple: 1
+    Hash: 8b0c7dfe084875e18d64aecd1150ca05
+    Meta: 
+    Tags: []
+  - Name: FirestormFusionBlaster
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Firearms1H.FirestormFusionBlaster
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms1H/Pro/FirestormFusionBlaster.png
+    Sprite: {fileID: 21300004, guid: deed0a1987d24c8fa508e5bbed670407, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: deed0a1987d24c8fa508e5bbed670407, type: 3}
+    - {fileID: 21300012, guid: deed0a1987d24c8fa508e5bbed670407, type: 3}
+    - {fileID: 21300008, guid: deed0a1987d24c8fa508e5bbed670407, type: 3}
+    - {fileID: 21300002, guid: deed0a1987d24c8fa508e5bbed670407, type: 3}
+    - {fileID: 21300000, guid: deed0a1987d24c8fa508e5bbed670407, type: 3}
+    - {fileID: 21300010, guid: deed0a1987d24c8fa508e5bbed670407, type: 3}
+    - {fileID: 21300006, guid: deed0a1987d24c8fa508e5bbed670407, type: 3}
+    Multiple: 1
+    Hash: 8eb115b460d9efd8ae1ade61b18231ca
+    Meta: 
+    Tags: []
+  - Name: PP-RX
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Firearms1H.PP-RX
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms1H/Pro/PP-RX.png
+    Sprite: {fileID: 21300004, guid: e4ed54cc13f34534bb457d2cc839ccb2, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: e4ed54cc13f34534bb457d2cc839ccb2, type: 3}
+    - {fileID: 21300012, guid: e4ed54cc13f34534bb457d2cc839ccb2, type: 3}
+    - {fileID: 21300008, guid: e4ed54cc13f34534bb457d2cc839ccb2, type: 3}
+    - {fileID: 21300002, guid: e4ed54cc13f34534bb457d2cc839ccb2, type: 3}
+    - {fileID: 21300000, guid: e4ed54cc13f34534bb457d2cc839ccb2, type: 3}
+    - {fileID: 21300010, guid: e4ed54cc13f34534bb457d2cc839ccb2, type: 3}
+    - {fileID: 21300006, guid: e4ed54cc13f34534bb457d2cc839ccb2, type: 3}
+    Multiple: 1
+    Hash: b42e8204795227bf50f1fe50495a87ad
+    Meta: 
+    Tags: []
+  - Name: HB-2000
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Firearms2H.HB-2000
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms2H/Pro/HB-2000.png
+    Sprite: {fileID: 21300004, guid: 9efec27cbf2d4cc5bda354d1caf77144, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 9efec27cbf2d4cc5bda354d1caf77144, type: 3}
+    - {fileID: 21300014, guid: 9efec27cbf2d4cc5bda354d1caf77144, type: 3}
+    - {fileID: 21300008, guid: 9efec27cbf2d4cc5bda354d1caf77144, type: 3}
+    - {fileID: 21300002, guid: 9efec27cbf2d4cc5bda354d1caf77144, type: 3}
+    - {fileID: 21300000, guid: 9efec27cbf2d4cc5bda354d1caf77144, type: 3}
+    - {fileID: 21300012, guid: 9efec27cbf2d4cc5bda354d1caf77144, type: 3}
+    - {fileID: 21300018, guid: 9efec27cbf2d4cc5bda354d1caf77144, type: 3}
+    Multiple: 1
+    Hash: 2c1baa6426ad0e731131159decef45fd
+    Meta: 
+    Tags: []
+  - Name: LB-200
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Firearms1H.LB-200
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms1H/Basic/LB-200.png
+    Sprite: {fileID: 21300004, guid: 66f819c8cdbc4e2c8120b90a43a4f8e8, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 66f819c8cdbc4e2c8120b90a43a4f8e8, type: 3}
+    - {fileID: 21300012, guid: 66f819c8cdbc4e2c8120b90a43a4f8e8, type: 3}
+    - {fileID: 21300008, guid: 66f819c8cdbc4e2c8120b90a43a4f8e8, type: 3}
+    - {fileID: 21300002, guid: 66f819c8cdbc4e2c8120b90a43a4f8e8, type: 3}
+    - {fileID: 21300000, guid: 66f819c8cdbc4e2c8120b90a43a4f8e8, type: 3}
+    - {fileID: 21300010, guid: 66f819c8cdbc4e2c8120b90a43a4f8e8, type: 3}
+    - {fileID: 21300006, guid: 66f819c8cdbc4e2c8120b90a43a4f8e8, type: 3}
+    Multiple: 1
+    Hash: 7f7cb3cdae438b9c566645440c97c4c0
+    Meta: 
+    Tags: []
+  - Name: LB-600
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Firearms1H.LB-600
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms1H/Pro/LB-600.png
+    Sprite: {fileID: 21300004, guid: 1369945b365c496a9e7e9cf2917db08f, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 1369945b365c496a9e7e9cf2917db08f, type: 3}
+    - {fileID: 21300012, guid: 1369945b365c496a9e7e9cf2917db08f, type: 3}
+    - {fileID: 21300008, guid: 1369945b365c496a9e7e9cf2917db08f, type: 3}
+    - {fileID: 21300002, guid: 1369945b365c496a9e7e9cf2917db08f, type: 3}
+    - {fileID: 21300000, guid: 1369945b365c496a9e7e9cf2917db08f, type: 3}
+    - {fileID: 21300010, guid: 1369945b365c496a9e7e9cf2917db08f, type: 3}
+    - {fileID: 21300006, guid: 1369945b365c496a9e7e9cf2917db08f, type: 3}
+    Multiple: 1
+    Hash: dab83b25fbb10b4894acefa89c672ca7
+    Meta: 
+    Tags: []
+  - Name: RRII
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Firearms2H.RRII
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms2H/Pro/RRII.png
+    Sprite: {fileID: 21300004, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    - {fileID: 21300014, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    - {fileID: 21300008, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    - {fileID: 21300002, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    - {fileID: 21300000, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    - {fileID: 21300012, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    - {fileID: 21300018, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    Multiple: 1
+    Hash: 199118c9f1dbe05a69020f8e35cf2787
+    Meta: 
+    Tags: []
+  - Name: OblivionPlasmaGun
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Firearms2H.OblivionPlasmaGun
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms2H/Pro/OblivionPlasmaGun.png
+    Sprite: {fileID: 21300004, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
+    - {fileID: 21300014, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
+    - {fileID: 21300008, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
+    - {fileID: 21300002, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
+    - {fileID: 21300000, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
+    - {fileID: 21300012, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
+    - {fileID: 21300018, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
+    Multiple: 1
+    Hash: fd73b734f50ea7b8baa629cd5b9cec99
+    Meta: 
+    Tags: []
+  - Name: LR-100
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Firearms2H.LR-100
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms2H/Basic/LR-100.png
+    Sprite: {fileID: 21300004, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
+    - {fileID: 21300014, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
+    - {fileID: 21300008, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
+    - {fileID: 21300002, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
+    - {fileID: 21300000, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
+    - {fileID: 21300012, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
+    - {fileID: 21300018, guid: e40afcfa3ff142cc861f424e47ec94f6, type: 3}
+    Multiple: 1
+    Hash: 425b10cc0442023f34ba1346a8c37c4f
+    Meta: 
+    Tags: []
+  - Name: LR-300
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Firearms2H.LR-300
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms2H/Pro/LR-300.png
+    Sprite: {fileID: 21300004, guid: 16d1c69831f546fabd3ce205f32503b7, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 16d1c69831f546fabd3ce205f32503b7, type: 3}
+    - {fileID: 21300014, guid: 16d1c69831f546fabd3ce205f32503b7, type: 3}
+    - {fileID: 21300008, guid: 16d1c69831f546fabd3ce205f32503b7, type: 3}
+    - {fileID: 21300002, guid: 16d1c69831f546fabd3ce205f32503b7, type: 3}
+    - {fileID: 21300000, guid: 16d1c69831f546fabd3ce205f32503b7, type: 3}
+    - {fileID: 21300012, guid: 16d1c69831f546fabd3ce205f32503b7, type: 3}
+    - {fileID: 21300018, guid: 16d1c69831f546fabd3ce205f32503b7, type: 3}
+    Multiple: 1
+    Hash: 462324a7ffd460e1343facfeefb6cd66
+    Meta: 
+    Tags: []
+  - Name: LR-300RX
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Firearms2H.LR-300RX
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms2H/Pro/LR-300RX.png
+    Sprite: {fileID: 21300004, guid: 418ab483bc88423b913545022231ba96, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 418ab483bc88423b913545022231ba96, type: 3}
+    - {fileID: 21300014, guid: 418ab483bc88423b913545022231ba96, type: 3}
+    - {fileID: 21300008, guid: 418ab483bc88423b913545022231ba96, type: 3}
+    - {fileID: 21300002, guid: 418ab483bc88423b913545022231ba96, type: 3}
+    - {fileID: 21300000, guid: 418ab483bc88423b913545022231ba96, type: 3}
+    - {fileID: 21300012, guid: 418ab483bc88423b913545022231ba96, type: 3}
+    - {fileID: 21300018, guid: 418ab483bc88423b913545022231ba96, type: 3}
+    Multiple: 1
+    Hash: 4014bd5c6f40fbf796564749df62598b
+    Meta: 
+    Tags: []
+  - Name: LR-500
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Firearms2H.LR-500
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms2H/Pro/LR-500.png
+    Sprite: {fileID: 21300004, guid: 4c31739d765e412a8c68ae4c11c0128f, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 4c31739d765e412a8c68ae4c11c0128f, type: 3}
+    - {fileID: 21300014, guid: 4c31739d765e412a8c68ae4c11c0128f, type: 3}
+    - {fileID: 21300008, guid: 4c31739d765e412a8c68ae4c11c0128f, type: 3}
+    - {fileID: 21300002, guid: 4c31739d765e412a8c68ae4c11c0128f, type: 3}
+    - {fileID: 21300000, guid: 4c31739d765e412a8c68ae4c11c0128f, type: 3}
+    - {fileID: 21300012, guid: 4c31739d765e412a8c68ae4c11c0128f, type: 3}
+    - {fileID: 21300018, guid: 4c31739d765e412a8c68ae4c11c0128f, type: 3}
+    Multiple: 1
+    Hash: 2f31f7ddc47cc536eb4f71e9d4fd1eac
+    Meta: 
+    Tags: []
+  - Name: PR-5000
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Firearms2H.PR-5000
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms2H/Basic/PR-5000.png
+    Sprite: {fileID: 21300004, guid: 99c4e00480a44195b43c9be1900529c4, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 99c4e00480a44195b43c9be1900529c4, type: 3}
+    - {fileID: 21300014, guid: 99c4e00480a44195b43c9be1900529c4, type: 3}
+    - {fileID: 21300008, guid: 99c4e00480a44195b43c9be1900529c4, type: 3}
+    - {fileID: 21300002, guid: 99c4e00480a44195b43c9be1900529c4, type: 3}
+    - {fileID: 21300000, guid: 99c4e00480a44195b43c9be1900529c4, type: 3}
+    - {fileID: 21300012, guid: 99c4e00480a44195b43c9be1900529c4, type: 3}
+    - {fileID: 21300018, guid: 99c4e00480a44195b43c9be1900529c4, type: 3}
+    Multiple: 1
+    Hash: ad52d86c156708a04d38342678ec3957
+    Meta: 
+    Tags: []
+  - Name: PR-9000
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Firearms2H.PR-9000
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms2H/Pro/PR-9000.png
+    Sprite: {fileID: 21300004, guid: 6788e2a5462b4209bf76eab710f601d2, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 6788e2a5462b4209bf76eab710f601d2, type: 3}
+    - {fileID: 21300012, guid: 6788e2a5462b4209bf76eab710f601d2, type: 3}
+    - {fileID: 21300008, guid: 6788e2a5462b4209bf76eab710f601d2, type: 3}
+    - {fileID: 21300002, guid: 6788e2a5462b4209bf76eab710f601d2, type: 3}
+    - {fileID: 21300000, guid: 6788e2a5462b4209bf76eab710f601d2, type: 3}
+    - {fileID: 21300010, guid: 6788e2a5462b4209bf76eab710f601d2, type: 3}
+    - {fileID: 21300006, guid: 6788e2a5462b4209bf76eab710f601d2, type: 3}
+    Multiple: 1
+    Hash: 31c5d535f8a3c841a387d08ad1993a1f
+    Meta: 
+    Tags: []
+  - Name: SG-V
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Firearms2H.SG-V
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms2H/Pro/SG-V.png
+    Sprite: {fileID: 21300004, guid: 3733ba84ce824933aa034ce80c5d2048, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 3733ba84ce824933aa034ce80c5d2048, type: 3}
+    - {fileID: 21300014, guid: 3733ba84ce824933aa034ce80c5d2048, type: 3}
+    - {fileID: 21300008, guid: 3733ba84ce824933aa034ce80c5d2048, type: 3}
+    - {fileID: 21300002, guid: 3733ba84ce824933aa034ce80c5d2048, type: 3}
+    - {fileID: 21300000, guid: 3733ba84ce824933aa034ce80c5d2048, type: 3}
+    - {fileID: 21300012, guid: 3733ba84ce824933aa034ce80c5d2048, type: 3}
+    - {fileID: 21300018, guid: 3733ba84ce824933aa034ce80c5d2048, type: 3}
+    Multiple: 1
+    Hash: bc9a65f82fac2b23e2c2bfe4e1ddcfdd
+    Meta: 
+    Tags: []
+  - Name: SpreadGun
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Firearms2H.SpreadGun
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms2H/Basic/SpreadGun.png
+    Sprite: {fileID: 21300004, guid: 9a9da2f42d724de7a46d1445dbd469f4, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 9a9da2f42d724de7a46d1445dbd469f4, type: 3}
+    - {fileID: 21300014, guid: 9a9da2f42d724de7a46d1445dbd469f4, type: 3}
+    - {fileID: 21300008, guid: 9a9da2f42d724de7a46d1445dbd469f4, type: 3}
+    - {fileID: 21300002, guid: 9a9da2f42d724de7a46d1445dbd469f4, type: 3}
+    - {fileID: 21300000, guid: 9a9da2f42d724de7a46d1445dbd469f4, type: 3}
+    - {fileID: 21300012, guid: 9a9da2f42d724de7a46d1445dbd469f4, type: 3}
+    - {fileID: 21300018, guid: 9a9da2f42d724de7a46d1445dbd469f4, type: 3}
+    Multiple: 1
+    Hash: 91dc41ab557844f1504734d2c35897bb
+    Meta: 
+    Tags: []
+  Shield:
+  - Name: Communicator
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Shield.Communicator
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Shield/Pro/Communicator.png
+    Sprite: {fileID: 21300000, guid: 6416523cc19e4ac0b827efefbf020682, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 6416523cc19e4ac0b827efefbf020682, type: 3}
+    Multiple: 1
+    Hash: a6b1d0b9b26b3a3e4e712fb740107aca
+    Meta: 
+    Tags: []
+  - Name: EnergyShield
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Shield.EnergyShield
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Shield/Basic/EnergyShield.png
+    Sprite: {fileID: 21300000, guid: a95d5d129f8f43249c1870429964c4da, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: a95d5d129f8f43249c1870429964c4da, type: 3}
+    Multiple: 1
+    Hash: 9693ed6dc95b3b37017ae4e85c8ebffb
+    Meta: 
+    Tags: []
+  - Name: EnergyShield [Paint]
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Shield.EnergyShield [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Shield/Basic/EnergyShield
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 1445f47df908415ea46018f607301be1, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 1445f47df908415ea46018f607301be1, type: 3}
+    Multiple: 1
+    Hash: 2472b3786c21da68dde7a7457b76ff89
+    Meta: 
+    Tags:
+    - Paint
+  - Name: EnergyShield2
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Shield.EnergyShield2
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Shield/Basic/EnergyShield2.png
+    Sprite: {fileID: 21300000, guid: 0682e000753243cbbd6766a6756b1755, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 0682e000753243cbbd6766a6756b1755, type: 3}
+    Multiple: 1
+    Hash: aa5e9f0001fd1cb615b20a6b71112cd2
+    Meta: 
+    Tags: []
+  - Name: EnergyShield2 [Paint]
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Shield.EnergyShield2 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Shield/Basic/EnergyShield2
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: ee92551f4c104ff2ab54d270af8e4419, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: ee92551f4c104ff2ab54d270af8e4419, type: 3}
+    Multiple: 1
+    Hash: b1defe623eecb1da58b68d446842fc35
+    Meta: 
+    Tags:
+    - Paint
+  - Name: EnergyShield3
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Shield.EnergyShield3
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Shield/Basic/EnergyShield3.png
+    Sprite: {fileID: 21300000, guid: 35162d41b40c4c14b0c7d269eaa2f38a, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 35162d41b40c4c14b0c7d269eaa2f38a, type: 3}
+    Multiple: 1
+    Hash: c07477c9980b8d3641f869733bf30bd2
+    Meta: 
+    Tags: []
+  - Name: EnergyShield3 [Paint]
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Shield.EnergyShield3 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Shield/Basic/EnergyShield3
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 85d0ffee20904ed4a476c099f02d1987, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 85d0ffee20904ed4a476c099f02d1987, type: 3}
+    Multiple: 1
+    Hash: a8c00a9cea6dab7a7e8a1f38d1e5cff8
+    Meta: 
+    Tags:
+    - Paint
+  - Name: MARK-H2Shield
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Shield.MARK-H2Shield
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Shield/Pro/MARK-H2Shield.png
+    Sprite: {fileID: 21300000, guid: 4a4e9accce7a4069a7ec934192b0e0db, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 4a4e9accce7a4069a7ec934192b0e0db, type: 3}
+    Multiple: 1
+    Hash: 4c0d84c2b353298fcae5d0e9f3493918
+    Meta: 
+    Tags: []
+  - Name: MARK-H2ShieldLight
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Shield.MARK-H2ShieldLight
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Shield/Pro/MARK-H2ShieldLight.png
+    Sprite: {fileID: 21300000, guid: ca2703073c4243c5b4ebc5a455a157ab, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: ca2703073c4243c5b4ebc5a455a157ab, type: 3}
+    Multiple: 1
+    Hash: 825c005613ca79b4efc1526c22282ee3
+    Meta: 
+    Tags: []
+  - Name: MARK-H4Shield
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Shield.MARK-H4Shield
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Shield/Basic/MARK-H4Shield.png
+    Sprite: {fileID: 21300000, guid: a96d8dea542e4c9c82441a3d3ab12be6, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: a96d8dea542e4c9c82441a3d3ab12be6, type: 3}
+    Multiple: 1
+    Hash: 68e39d58525dbefb0b265ac22fc8b76e
+    Meta: 
+    Tags: []
+  - Name: SteelShield [Paint]
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Shield.SteelShield [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Shield/Basic/SteelShield
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 2cf5d7a914924ec1a8974e7e04abc9c8, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 2cf5d7a914924ec1a8974e7e04abc9c8, type: 3}
+    Multiple: 1
+    Hash: e97fde5dcbd381e2901cf19ee4d2ec3c
+    Meta: 
+    Tags:
+    - Paint
+  - Name: SteelShield2 [Paint]
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Shield.SteelShield2 [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Shield/Basic/SteelShield2
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: ac6cab4fac444045bdef9506657fe24c, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: ac6cab4fac444045bdef9506657fe24c, type: 3}
+    Multiple: 1
+    Hash: 1480f6ca191647d42796b430cd56d241
+    Meta: 
+    Tags:
+    - Paint
+  Supplies:
+  - Name: Axeorang [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Supplies.Axeorang [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Supplies/Pro/Throwing/Axeorang
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: a3a14342847c43208ea3e53568df5ad0, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: a3a14342847c43208ea3e53568df5ad0, type: 3}
+    Multiple: 1
+    Hash: ca370846180632edafd009129be429b7
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Boomerang [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Supplies.Boomerang [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Supplies/Pro/Throwing/Boomerang
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 1a41b9479f5a4b328b73e04260b0220c, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 1a41b9479f5a4b328b73e04260b0220c, type: 3}
+    Multiple: 1
+    Hash: c2b18617eb91240626e6a7a2b1db6b15
+    Meta: 
+    Tags:
+    - Paint
+  - Name: Communicator
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Supplies.Communicator
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Supplies/Pro/Radio/Communicator.png
+    Sprite: {fileID: 21300000, guid: df1f2952f1ad4ffa9e09d0018d22477e, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: df1f2952f1ad4ffa9e09d0018d22477e, type: 3}
+    Multiple: 1
+    Hash: 036f26b33cc3843fde69b16cf3cecdc3
+    Meta: 
+    Tags: []
+  - Name: Flash
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Supplies.Flash
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Supplies/Pro/Bombs/Flash.png
+    Sprite: {fileID: 21300000, guid: 4a412f88b84e4f3987721bdf4d626e20, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 4a412f88b84e4f3987721bdf4d626e20, type: 3}
+    Multiple: 1
+    Hash: 9e15f9a8cc3f288c19f004cfe93f5d27
+    Meta: 
+    Tags: []
+  - Name: LagreHealing
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Supplies.LagreHealing
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Supplies/Basic/Potions/LagreHealing.png
+    Sprite: {fileID: 21300000, guid: 67294795ae8841ad9e14f26c3e1470fa, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 67294795ae8841ad9e14f26c3e1470fa, type: 3}
+    Multiple: 1
+    Hash: 37101f301b082be207a633f2872c7528
+    Meta: 
+    Tags: []
+  - Name: MediumHealing
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Supplies.MediumHealing
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Supplies/Basic/Potions/MediumHealing.png
+    Sprite: {fileID: 21300000, guid: b5198c0297aa404c8999282f7e6ec8f3, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: b5198c0297aa404c8999282f7e6ec8f3, type: 3}
+    Multiple: 1
+    Hash: fe0646549d14a53bd6f79b574a60ba85
+    Meta: 
+    Tags: []
+  - Name: Mine
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Supplies.Mine
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Supplies/Pro/Mines/Mine.png
+    Sprite: {fileID: 21300000, guid: ce9e2e4f947b43d7b567be8082036ddb, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: ce9e2e4f947b43d7b567be8082036ddb, type: 3}
+    Multiple: 1
+    Hash: dd98b05a06840c4a4641ad387ec9cff6
+    Meta: 
+    Tags: []
+  - Name: SmallHealing
+    Collection: Basic
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Basic.Supplies.SmallHealing
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Supplies/Basic/Potions/SmallHealing.png
+    Sprite: {fileID: 21300000, guid: 51d23945cd234a76bc4c26cfac02a57c, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 51d23945cd234a76bc4c26cfac02a57c, type: 3}
+    Multiple: 1
+    Hash: a20c6dc8f98499529d50703885a27a2f
+    Meta: 
+    Tags: []
+  - Name: Smoke
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Supplies.Smoke
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Supplies/Pro/Bombs/Smoke.png
+    Sprite: {fileID: 21300000, guid: 776b5f2d50664522841bfd2f84dc578d, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 776b5f2d50664522841bfd2f84dc578d, type: 3}
+    Multiple: 1
+    Hash: 039bbadf7809edfdd0efdba1121e98e2
+    Meta: 
+    Tags: []
+  - Name: Thermal
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Supplies.Thermal
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Supplies/Pro/Bombs/Thermal.png
+    Sprite: {fileID: 21300000, guid: fdcb3eef9e234360a22924a9d53c30ab, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: fdcb3eef9e234360a22924a9d53c30ab, type: 3}
+    Multiple: 1
+    Hash: 31dac7ae50a061727bccd05223e80040
+    Meta: 
+    Tags: []
+  - Name: ThrowingStar [Paint]
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Supplies.ThrowingStar [Paint]
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Supplies/Pro/Throwing/ThrowingStar
+      [Paint].png
+    Sprite: {fileID: 21300000, guid: 8f76bc8e06ff4bd787122cedb649564a, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: 8f76bc8e06ff4bd787122cedb649564a, type: 3}
+    Multiple: 1
+    Hash: 48305131fb126bc67f2165d1aeec489e
+    Meta: 
+    Tags:
+    - Paint
+  - Name: ThrowingStar2
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Supplies.ThrowingStar2
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Supplies/Pro/Throwing/ThrowingStar2.png
+    Sprite: {fileID: 21300000, guid: fb5b175827224f438e633cb7885f2f2f, type: 3}
+    Sprites:
+    - {fileID: 21300000, guid: fb5b175827224f438e633cb7885f2f2f, type: 3}
+    Multiple: 1
+    Hash: 817434d9fb9ae65d9af79b3ecdb1d7a8
+    Meta: 
+    Tags: []
+  DebugLogging: 0

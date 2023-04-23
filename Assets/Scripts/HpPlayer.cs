@@ -3,9 +3,11 @@ using Minimalist.Bar.Quantity;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
+using Cinemachine;
 
 public class HpPlayer : MonoBehaviour
 {
+    //public CinemachineImpulseSource camShake;
     public QuantityBhv hpBar;
     public GameObject panelLoss;
     public float hp = 100;
@@ -20,6 +22,7 @@ public class HpPlayer : MonoBehaviour
         hp -= dame;
         hp = hpBar.FillAmount;
         Die();
+        //camShake.GenerateImpulse(10f);
     }
 
     private void Die()

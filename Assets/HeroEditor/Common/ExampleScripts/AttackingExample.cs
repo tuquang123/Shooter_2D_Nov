@@ -18,6 +18,8 @@ namespace HeroEditor.Common.ExampleScripts
 
         [Header("Public variable")] 
         public float attackRage = 20f;
+        public float timeBetweenShots;
+        float nextShotTime;
         [HideInInspector] public float targetDis = Mathf.Infinity;
         [HideInInspector] public Vector3 targetDir;
         
@@ -122,6 +124,7 @@ namespace HeroEditor.Common.ExampleScripts
         #endregion
         public void Start()
         {
+            timeBetweenShots = GameManager.Instance.attackSpeed;
             character.Animator.SetBool(Ready, true);
             if ((character.WeaponType == WeaponType.Firearms1H || character.WeaponType == WeaponType.Firearms2H) &&
                 firearm.Params.Type == FirearmType.Unknown)
@@ -129,9 +132,18 @@ namespace HeroEditor.Common.ExampleScripts
                 throw new Exception("Firearm params not set.");
             }
         }
+        
         public void Update()
         {
-            if (auto) AutoFire();
+            if (auto)
+            {
+                if (Time.time > nextShotTime)
+                {
+                    AutoFire();
+                    timeBetweenShots = GameManager.Instance.attackSpeed;
+                    nextShotTime = Time.time + timeBetweenShots;
+                }
+            }
             Turning();
             FindEnemy();
             IsTargetTooFar();
