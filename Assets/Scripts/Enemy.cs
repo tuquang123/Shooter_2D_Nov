@@ -2,28 +2,30 @@ using Assets.FantasyMonsters.Scripts;
 using Assets.FantasyMonsters.Scripts.Tweens;
 using DamageNumbersPro;
 using Minimalist.Bar.Quantity;
-using Minimalist.Bar.UI;
+
 using UnityEngine;
-using UnityEngine.Serialization;
+
 using Random = UnityEngine.Random;
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour ,GameManager.IDamageableEnemy
 {
+
     public GameObject hpBar;
+
+    public Transform target;
     
     public QuantityBhv quantityBhv;
     
-    //Assign prefab in inspector.
     public DamageNumber numberPrefab;
+    
+    public DamageNumber numberPrefabGold;
     
     public Transform rectParent;
     
     public int dame;
 
     public float speed;
-
-    Transform target;
-
+    
     public float hp = 100;
     
     public string poolTag;
@@ -38,8 +40,6 @@ public class Enemy : MonoBehaviour
     
     private void FixedUpdate()
     {
-        //transform.position += transform.forwar * speed * Time.deltaTime;
-        Die();
         if (target == null) return;
         //transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         transform.position += Vector3.left * speed * Time.deltaTime;
@@ -50,7 +50,7 @@ public class Enemy : MonoBehaviour
     {
         hpBar.SetActive(false);
         var currentHp = 0;
-        MyPooler.ObjectPooler.Instance.ReturnToPool(poolTag, this.gameObject);
+        MyPooler.ObjectPooler.Instance.ReturnToPool(poolTag,gameObject);
         //isActive = false;
         currentHp = 100;
         currentHp += SpawnerEnemy.Instance.lv;
@@ -60,42 +60,39 @@ public class Enemy : MonoBehaviour
         quantityBhv.MaximumAmount = currentHp;
         quantityBhv.Amount += currentHp;
         quantityBhv.FillAmount = 1;
+        speed = 1;
         speed += 0.1f;
     }
 
-    public void TakeDame(int dame)
+    public void TakeDame(float damage)
     {
-        //ShakeCamera.instance.Shake(1f,.1f);
+        Die();
         hpBar.SetActive(true);
-        quantityBhv.Amount -= dame;
+        quantityBhv.Amount -= damage;
         //Spawn new popup with a random number between 0 and 100.
-        DamageNumber damageNumber = numberPrefab.Spawn(Vector3.zero, - dame);
-
-      
+        DamageNumber damageNumber = numberPrefab.Spawn(Vector3.zero, - damage);
+        
         //Set the rect parent and anchored position.
-        //var pos = transform.position;
         damageNumber.SetAnchoredPosition(rectParent,rectParent.position );
         damageNumber.transform.parent = null;
         
         ScaleSpring.Begin(this, 1f, 1.1f, 50, 6);
-        hp -= dame;
-        //if(hpBar.activeSelf) {return;}
-        //Invoke(nameof(OffHpBar),1.2f);
-    }
-
-    public void OffHpBar()
-    {
-        hpBar.SetActive(false);
+        hp -= damage;
     }
     public void Die()
     {
         if (hp <= 0)
         {
-            GameManager.Instance.gold+= Random.Range(SpawnerEnemy.Instance.lv,40);
+            hpBar.SetActive(false);
+            var randomGold = Random.Range(SpawnerEnemy.Instance.lv,40);
+            DamageNumber damageNumberGold = numberPrefabGold.Spawn(Vector3.zero, randomGold);
+            
+            damageNumberGold.SetAnchoredPosition(rectParent,rectParent.position );
+            damageNumberGold.transform.parent = null;
+
+            GameManager.Instance.gold += randomGold;
             MyPooler.ObjectPooler.Instance.GetFromPool("F", transform.position, Quaternion.identity);
             DiscardToPool();
-            //GetComponent<Monster>().Die();
-            //speed = 0;
         }
     }
     public void OnTriggerEnter(Collider other)
@@ -107,7 +104,5 @@ public class Enemy : MonoBehaviour
             hp = 0;
             Die();
         }
-
     }
-
 }

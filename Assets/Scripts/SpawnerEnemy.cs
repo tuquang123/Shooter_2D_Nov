@@ -4,20 +4,29 @@ using UnityEngine;
 
 public class SpawnerEnemy : Singleton<SpawnerEnemy>
 {
+    public GameObject bossObj;
     public float timeNextSpawn = 0.02f;
     public int lv;
     float randy;
+    
     Vector2 whereToSpawn;
+    
+    public int[] randomPos = {-9, -11 , -13};
 
     [Range(0.5f,3f)]
     public const float minRate = 0.7f;
+    
     public float spawnRate;
+    
     float nextSpawn = 0.0f;
-
-    public int miny, maxY;
+    
     
     public List<Transform> objects = new List<Transform>();
-    
+
+    bool max = true;
+   
+    private bool checkBoss;
+
     void RemoveList()
     {
         for (int i = 0; i < objects.Count; i++)
@@ -27,31 +36,23 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
             objects.Remove(obj);
         }
     }
+
     private void LateUpdate()
     {
         RemoveList();
     }
-    bool max = true;
 
-    void SpawnEnemy(string stringName)
-    {
-        var enemyPrefab = MyPooler.ObjectPooler.Instance.GetFromPool(stringName, whereToSpawn, Quaternion.identity);
-                   
-        MyPooler.ObjectPooler.Instance.GetFromPool("F2", whereToSpawn, Quaternion.identity);
-        objects.Add(enemyPrefab.transform);
-    }
     private void FixedUpdate()
     {
         if (Time.time > nextSpawn)
         {
             lv++;
             nextSpawn = Time.time + spawnRate;
-            //int randomNumber = Random.Range(0, 2) == 0 ? -10 : 31;
-            //Debug.LogWarning(randomNumber);
 
-            randy = Random.Range(miny, maxY);
-            whereToSpawn = new Vector2(34, randy);
-            //var enemyPrefab = Instantiate(enemy, whereToSpawn, Quaternion.identity);
+            int index = Random.Range(0, 3);
+            int randomNumber = randomPos[index];
+            whereToSpawn = new Vector2(40, randomNumber);
+            
             int randomIndex = Random.Range(1,6);
             switch (randomIndex)
             {
@@ -95,6 +96,12 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
             {
                 spawnRate = minRate;
                 max = false;
+            }
+            if (spawnRate <= minRate && !checkBoss)
+            {
+                bossObj.SetActive(true);
+                objects.Add(bossObj.transform);
+                checkBoss = true;
             }
         }
     }

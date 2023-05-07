@@ -9,55 +9,32 @@ namespace Assets.HeroEditor.Common.ExampleScripts
     public class Projectile : MonoBehaviour
     {
         public int dame = 10;
-        public List<Renderer> Renderers;
+        //public List<Renderer> Renderers;
         public GameObject Trail;
         public GameObject Impact;
 	    public Rigidbody Rigidbody;
         
-		public void Start()
-        {
-            dame = GameManager.Instance.dame;
-            //Destroy(gameObject, 5);
-            //Invoke("DiscardToPool",3);
-        }
-
-	    public void Update()
+	    public void FixedUpdate()
 	    {
 		    if (Rigidbody != null && Rigidbody.useGravity)
 		    {
 			    transform.right = Rigidbody.velocity.normalized;
+                dame = GameManager.Instance.dame;
 		    }
 	    }
 
         public void OnTriggerEnter(Collider other)
         {
             Bang(other.gameObject);
-            if (other.CompareTag($"Enemy"))
-            {
-                Enemy enemy = other.GetComponent<Enemy>();
-                enemy.TakeDame(dame);
-                DiscardToPool();
-            }
-            
-        }
-        /*public void OnCollisionEnter(Collision other)
-        {
-            Bang(other.gameObject);
-            if (other.gameObject.CompareTag("Enemy"))
-            {
-                Enemy enemy = other.gameObject.GetComponent<Enemy>();
-                enemy.TakeDame(dame);
-            }
-        }*/
+            GameManager.IDamageableEnemy iDameDamageableEnemy = other.gameObject.GetComponent<GameManager.IDamageableEnemy>();
+            iDameDamageableEnemy.TakeDame(dame);
+            DiscardToPool();
 
+        }
         private void Bang(GameObject other)
         {
             
             ReplaceImpactSound(other);
-            //Destroy(GetComponent<SpriteRenderer>());
-            //Destroy(GetComponent<Rigidbody>());
-            //Destroy(GetComponent<Collider>());
-            //Destroy(gameObject, 1);
             Impact.SetActive(true);
             foreach (var ps in Trail.GetComponentsInChildren<ParticleSystem>())
             {
@@ -69,11 +46,6 @@ namespace Assets.HeroEditor.Common.ExampleScripts
 		        tr.enabled = false;
 			}
             MyPooler.ObjectPooler.Instance.GetFromPool("F2", transform.position, Quaternion.identity);
-        }
-
-        public void ReSetBullet()
-        {
-            Invoke("DiscardToPool",0.08f);
         }
         public void DiscardToPool()
         {
@@ -101,5 +73,7 @@ namespace Assets.HeroEditor.Common.ExampleScripts
                 Impact.GetComponent<AudioSource>().clip = sound.clip;
             }
         }
+        
     }
+    
 }

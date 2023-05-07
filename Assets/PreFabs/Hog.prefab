@@ -11492,7 +11492,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636986311551705364}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.26, y: 2.95, z: 0}
+  m_LocalPosition: {x: -0.26, y: 1.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4637939310262201801}
@@ -12154,8 +12154,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hpBar: {fileID: 1219039259}
+  target: {fileID: 0}
   quantityBhv: {fileID: 998037791}
   numberPrefab: {fileID: 3515927367195170040, guid: 95f78784893360848957b141a72b4b02,
+    type: 3}
+  numberPrefabGold: {fileID: 3515927367195170040, guid: 26b971241969905429c030b260aa8be9,
     type: 3}
   rectParent: {fileID: 7630880011241775952}
   dame: 10

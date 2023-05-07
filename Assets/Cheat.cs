@@ -11,11 +11,20 @@ public class Cheat : MonoBehaviour
 
     public void AddDame()
     {
-        GameManager.Instance.dame += 10;
+        GameManager.Instance.dame += 20;
     }
 
     public void AddAttackSpeed()
     {
-        GameManager.Instance.attackSpeed += .1f;
+        GameManager.Instance.attackSpeed -= .5f;
+    }
+    public void SpawnRate()
+    {
+        SpawnerEnemy.Instance.spawnRate -= .5f;
+    }
+
+    public void SpawnLevel()
+    {
+        SpawnerEnemy.Instance.lv += 10;
     }
 }

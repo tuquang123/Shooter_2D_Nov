@@ -17,6 +17,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/23/62b7fce2/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82c503977c5347cf82f44677f633fcf613be00/42/c69fe2e8/InvokableCall.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82c503977c5347cf82f44677f633fcf613be00/79/302957c0/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Boss.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Follow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HeroEditor/Common/EditorScripts/CharacterEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/TestLaunchers/PlatformSetup/XboxOnePlatformSetup.cs" root0="SKIP_HIGHLIGHTING" />
@@ -142,6 +143,14 @@
       <workItem from="1681827569405" duration="7831000" />
       <workItem from="1682093652394" duration="4937000" />
       <workItem from="1682256733460" duration="4424000" />
+      <workItem from="1682603369132" duration="3283000" />
+      <workItem from="1682700837084" duration="1296000" />
+      <workItem from="1682747502530" duration="1237000" />
+      <workItem from="1682755581051" duration="1206000" />
+      <workItem from="1683211622841" duration="3877000" />
+      <workItem from="1683349398120" duration="2772000" />
+      <workItem from="1683366215914" duration="1998000" />
+      <workItem from="1683475203415" duration="5774000" />
     </task>
     <servers />
   </component>

@@ -126,11 +126,6 @@ namespace HeroEditor.Common.ExampleScripts
         {
             timeBetweenShots = GameManager.Instance.attackSpeed;
             character.Animator.SetBool(Ready, true);
-            if ((character.WeaponType == WeaponType.Firearms1H || character.WeaponType == WeaponType.Firearms2H) &&
-                firearm.Params.Type == FirearmType.Unknown)
-            {
-                throw new Exception("Firearm params not set.");
-            }
         }
         
         public void Update()
@@ -175,17 +170,7 @@ namespace HeroEditor.Common.ExampleScripts
                     firearm.Fire.FireButtonUp = CrossPlatformInputManager.GetButtonUp("Shoot");
                     firearm.Reload.ReloadButtonDown = CrossPlatformInputManager.GetButtonDown("Reload");
                     break;
-                case WeaponType.Supplies:
-                    if (Input.GetKeyDown(fireButton))
-                    {
-                        character.Animator.Play(Time.frameCount % 2 == 0 ? "UseSupply" : "ThrowSupply",
-                            0); // Play animation randomly.
-                    }
-                    break;
-            }
-            if (Input.GetKeyDown(fireButton))
-            {
-                character.GetReady();
+               
             }
         }
 

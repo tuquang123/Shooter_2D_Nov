@@ -1308,6 +1308,42 @@ MonoBehaviour:
     Hash: b42e8204795227bf50f1fe50495a87ad
     Meta: 
     Tags: []
+  - Name: RRII
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Firearms2H.RRII
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms2H/Pro/RRII.png
+    Sprite: {fileID: 21300004, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    - {fileID: 21300014, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    - {fileID: 21300008, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    - {fileID: 21300002, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    - {fileID: 21300000, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    - {fileID: 21300012, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    - {fileID: 21300018, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
+    Multiple: 1
+    Hash: 199118c9f1dbe05a69020f8e35cf2787
+    Meta: 
+    Tags: []
+  - Name: OblivionPlasmaGun
+    Collection: Pro
+    Edition: CyberpunkHeroes
+    Id: CyberpunkHeroes.Pro.Firearms2H.OblivionPlasmaGun
+    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms2H/Pro/OblivionPlasmaGun.png
+    Sprite: {fileID: 21300004, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
+    Sprites:
+    - {fileID: 21300004, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
+    - {fileID: 21300014, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
+    - {fileID: 21300008, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
+    - {fileID: 21300002, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
+    - {fileID: 21300000, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
+    - {fileID: 21300012, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
+    - {fileID: 21300018, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
+    Multiple: 1
+    Hash: fd73b734f50ea7b8baa629cd5b9cec99
+    Meta: 
+    Tags: []
   - Name: HB-2000
     Collection: Pro
     Edition: CyberpunkHeroes
@@ -1362,42 +1398,6 @@ MonoBehaviour:
     Hash: dab83b25fbb10b4894acefa89c672ca7
     Meta: 
     Tags: []
-  - Name: RRII
-    Collection: Pro
-    Edition: CyberpunkHeroes
-    Id: CyberpunkHeroes.Pro.Firearms2H.RRII
-    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms2H/Pro/RRII.png
-    Sprite: {fileID: 21300004, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
-    - {fileID: 21300014, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
-    - {fileID: 21300008, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
-    - {fileID: 21300002, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
-    - {fileID: 21300000, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
-    - {fileID: 21300012, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
-    - {fileID: 21300018, guid: f98292df967f47fd9b29bcf280e19435, type: 3}
-    Multiple: 1
-    Hash: 199118c9f1dbe05a69020f8e35cf2787
-    Meta: 
-    Tags: []
-  - Name: OblivionPlasmaGun
-    Collection: Pro
-    Edition: CyberpunkHeroes
-    Id: CyberpunkHeroes.Pro.Firearms2H.OblivionPlasmaGun
-    Path: Assets/HeroEditor/CyberpunkHeroes/Sprites/Equipment/Firearms2H/Pro/OblivionPlasmaGun.png
-    Sprite: {fileID: 21300004, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
-    Sprites:
-    - {fileID: 21300004, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
-    - {fileID: 21300014, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
-    - {fileID: 21300008, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
-    - {fileID: 21300002, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
-    - {fileID: 21300000, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
-    - {fileID: 21300012, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
-    - {fileID: 21300018, guid: 922c5ab800d740ddb58993e969b67943, type: 3}
-    Multiple: 1
-    Hash: fd73b734f50ea7b8baa629cd5b9cec99
-    Meta: 
-    Tags: []
   - Name: LR-100
     Collection: Basic
     Edition: CyberpunkHeroes
@@ -1424,7 +1424,7 @@ MonoBehaviour:
     Sprite: {fileID: 21300004, guid: 16d1c69831f546fabd3ce205f32503b7, type: 3}
     Sprites:
     - {fileID: 21300004, guid: 16d1c69831f546fabd3ce205f32503b7, type: 3}
-    - {fileID: 21300014, guid: 16d1c69831f546fabd3ce205f32503b7, type: 3}
+    - {fileID: 21300014, guid: 99c4e00480a44195b43c9be1900529c4, type: 3}
     - {fileID: 21300008, guid: 16d1c69831f546fabd3ce205f32503b7, type: 3}
     - {fileID: 21300002, guid: 16d1c69831f546fabd3ce205f32503b7, type: 3}
     - {fileID: 21300000, guid: 16d1c69831f546fabd3ce205f32503b7, type: 3}
@@ -1442,7 +1442,7 @@ MonoBehaviour:
     Sprite: {fileID: 21300004, guid: 418ab483bc88423b913545022231ba96, type: 3}
     Sprites:
     - {fileID: 21300004, guid: 418ab483bc88423b913545022231ba96, type: 3}
-    - {fileID: 21300014, guid: 418ab483bc88423b913545022231ba96, type: 3}
+    - {fileID: 21300014, guid: e3be069aa0814d89b56b92c50bc32f66, type: 3}
     - {fileID: 21300008, guid: 418ab483bc88423b913545022231ba96, type: 3}
     - {fileID: 21300002, guid: 418ab483bc88423b913545022231ba96, type: 3}
     - {fileID: 21300000, guid: 418ab483bc88423b913545022231ba96, type: 3}

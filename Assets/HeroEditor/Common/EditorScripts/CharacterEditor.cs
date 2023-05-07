@@ -48,8 +48,14 @@ namespace Assets.HeroEditor.Common.EditorScripts
         /// </summary>
         public void Awake()
         {
+            Character = FindObjectOfType<Character>();
             RestoreTempCharacter();
            //Encoding.Default.GetBytes(Character.ToJson());
+        }
+
+        private void LateUpdate()
+        {
+            Character = FindObjectOfType<Character>();
         }
 
         public new void Start()
@@ -63,10 +69,7 @@ namespace Assets.HeroEditor.Common.EditorScripts
            
            
         }
-        private void OnApplicationQuit()
-        {
-        }
-
+      
         /// <summary>
         /// This can be used as an example for building your own inventory UI.
         /// </summary>
