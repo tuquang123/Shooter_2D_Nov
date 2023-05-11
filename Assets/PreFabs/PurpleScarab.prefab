@@ -9538,8 +9538,8 @@ MonoBehaviour:
   _quantityType: 1
   _maximumAmount: 100
   _minimumAmount: 0
-  _currentAmount: 0
-  _fillAmount: 0
+  _currentAmount: 100
+  _fillAmount: 1
   _isSegmented: 0
   _segmentAmount: 20.0002
   _segmentCount: 5

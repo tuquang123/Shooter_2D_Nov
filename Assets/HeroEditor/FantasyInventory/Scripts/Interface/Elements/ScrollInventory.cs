@@ -7,6 +7,7 @@ using Assets.HeroEditor.FantasyInventory.Scripts.Enums;
 using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
 {
@@ -27,7 +28,7 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
         public Func<Item, bool> GenericFilter;
 
         public static string IconCollectionId = "FantasyHeroes";
-
+        
         private readonly List<ItemType> _sortByItemType = new List<ItemType>
         {
             ItemType.Currency,
@@ -143,36 +144,41 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
                 return;
             }
             bool check1Time= false;
+            //int i2 = 0;
             foreach (var item in items)
             {
-	            InventoryItem inventoryItem;
-	            if (_inventoryItems.ContainsKey(item))
+	            //i2++;
+	            //if (i2 == 5 || i2 == 10)
 	            {
-		            inventoryItem = _inventoryItems[item];
-		            inventoryItem.transform.SetAsLastSibling();
-					inventoryItems.Add(item, inventoryItem);
-					_inventoryItems.Remove(item);
-	            }
-	            else
-	            {
-		            if (!check1Time)
+		            InventoryItem inventoryItem;
+		            if (_inventoryItems.ContainsKey(item))
 		            {
-			            check1Time = true;
-			            continue;
+			            inventoryItem = _inventoryItems[item];
+			            inventoryItem.transform.SetAsLastSibling();
+			            inventoryItems.Add(item, inventoryItem);
+			            _inventoryItems.Remove(item);
 		            }
+		            else
+		            {
+			            if (!check1Time)
+			            {
+				            check1Time = true;
+				            continue;
+			            }
 		            
-		            inventoryItem = Instantiate(ItemPrefab, Grid.transform);
-		            var s = ItemPrefab.price+=1000;
-		            inventoryItem.Container = this;
-		            inventoryItem.Item = item;
-		            inventoryItems.Add(item, inventoryItem);
-	            }
+			            inventoryItem = Instantiate(ItemPrefab, Grid.transform);
+			            int random = Random.Range(100, 1000);
+			            var s = ItemPrefab.price= random;
+			            inventoryItem.Container = this;
+			            inventoryItem.Item = item;
+			            inventoryItems.Add(item, inventoryItem);
+		            }
 	            
-	            inventoryItem.Count.text = item.Count.ToString();
-                inventoryItem.Count.enabled = !HideCountLabels;
-
-                if (SelectOnRefresh) inventoryItem.Select(item == selected);
-			}
+		            inventoryItem.Count.text = item.Count.ToString();
+		            inventoryItem.Count.enabled = !HideCountLabels;
+		            if (SelectOnRefresh) inventoryItem.Select(item == selected);
+	            }
+            }
 
 			if (AddEmptyCells)
 	        {

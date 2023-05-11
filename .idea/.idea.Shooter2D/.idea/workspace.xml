@@ -10,13 +10,20 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/351e49e2a5bf4fd6beabb458ce2255f3ff600/2c/02cb3ea7/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/50fb0851389d483bad476aa05ecca5f424000/ea/b7e23911/ParticleSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5406a456cf734443b3d02a7d123287f1299290/9e/c29aea6d/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5d2c6930dc4245bd9e8752ecbd6f1a014800/07/6e2127b8/SpriteCollection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5d2c6930dc4245bd9e8752ecbd6f1a014800/14/cef4b4f3/CharacterBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5d2c6930dc4245bd9e8752ecbd6f1a014800/8e/daf0b90e/CharacterEditorBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5d2c6930dc4245bd9e8752ecbd6f1a014800/9a/bf43e3b3/SpriteGroupEntry.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/23/62b7fce2/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/2a/20d8c20e/IntPtr.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6af207ecd21044628913f7cc589986ae6e00/b0/099d0f3c/SendMouseEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82c503977c5347cf82f44677f633fcf613be00/42/c69fe2e8/InvokableCall.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82c503977c5347cf82f44677f633fcf613be00/70/e25e78ad/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82c503977c5347cf82f44677f633fcf613be00/79/302957c0/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82c503977c5347cf82f44677f633fcf613be00/ef/a0918901/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8d3a4cbacdae45b384e0e80b376938e13600/0f/92eff8ad/NativeInputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bbfbd5a71eea45d1a1354233c800516b762200/c1/141b5e4a/SerializedProperty.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Boss.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Follow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HeroEditor/Common/EditorScripts/CharacterEditor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -151,6 +158,12 @@
       <workItem from="1683349398120" duration="2772000" />
       <workItem from="1683366215914" duration="1998000" />
       <workItem from="1683475203415" duration="5774000" />
+      <workItem from="1683562215594" duration="9777000" />
+      <workItem from="1683653643707" duration="1462000" />
+      <workItem from="1683734575543" duration="5206000" />
+      <workItem from="1683743871118" duration="601000" />
+      <workItem from="1683810778549" duration="5260000" />
+      <workItem from="1683819682154" duration="3307000" />
     </task>
     <servers />
   </component>

@@ -55,7 +55,7 @@ namespace Assets.HeroEditor.Common.EditorScripts
 
         private void LateUpdate()
         {
-            Character = FindObjectOfType<Character>();
+            //Character = FindObjectOfType<Character>();
         }
 
         public new void Start()

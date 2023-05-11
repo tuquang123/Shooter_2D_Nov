@@ -96,6 +96,7 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
                 StartCoroutine(OnPointerClickDelayed(eventData));
                 //Invoke("ActiveFalse",0.25f);
                 //GameManager.Instance.Close();
+                //gameObject.transform.parent = GameManager.Instance.father;
             }
         }
         void ActiveFalse()
@@ -144,7 +145,7 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
                 Container.OnRightClick?.Invoke(Item);
             }
         }
-
+        
         public void Select(bool selected)
         {
             if (Toggle == null) return;

@@ -1,3 +1,7 @@
+using System;
+using Assets.HeroEditor.Common.CharacterScripts.Firearms;
+using Assets.HeroEditor.Common.CharacterScripts.Firearms.Enums;
+using Assets.HeroEditor.Common.Data;
 using Assets.HeroEditor.Common.EditorScripts;
 using Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements;
 using UnityEngine;
@@ -6,6 +10,7 @@ using UnityEngine.UI;
 
 public class GameManager : Singleton<GameManager>
 {
+    public Firearm firearm;
     public int dame = 10;
     public int gold = 1000;
     public float attackSpeed = 1;
@@ -23,8 +28,11 @@ public class GameManager : Singleton<GameManager>
     private bool i;
    
     public GameObject paneLoss;
+   
     private void Start()
     {
+        //Open();
+        
         gold = PlayerPrefs.GetInt("gold", 0);
         
         openShopGun.onClick.AddListener(Open);
@@ -33,6 +41,7 @@ public class GameManager : Singleton<GameManager>
        
         restart.onClick.AddListener(Restart);
     }
+    
     void OnApplicationQuit()
     {
         PlayerPrefs.SetInt("gold", gold);
@@ -51,7 +60,8 @@ public class GameManager : Singleton<GameManager>
             i=true;
         }
         panelGun.SetActive(true);
-        Time.timeScale = 0;
+        Time.timeScale = 0; 
+        //SpawnerEnemy.Instance.isSpawn = true;
     }
     public void Close()
     {

@@ -1,13 +1,14 @@
+using System;
 using Assets.FantasyMonsters.Scripts;
 using Assets.FantasyMonsters.Scripts.Tweens;
 using DamageNumbersPro;
 using Minimalist.Bar.Quantity;
-
+using Minimalist.Bar.SampleScene;
 using UnityEngine;
 
 using Random = UnityEngine.Random;
 
-public class Enemy : MonoBehaviour ,GameManager.IDamageableEnemy
+public class Enemy : MonoBehaviour ,GameManager.IDamageableEnemy , IHealable
 {
 
     public GameObject hpBar;
@@ -41,6 +42,7 @@ public class Enemy : MonoBehaviour ,GameManager.IDamageableEnemy
     private void FixedUpdate()
     {
         if (target == null) return;
+        Die();
         //transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
         transform.position += Vector3.left * speed * Time.deltaTime;
         GetComponent<Monster>().SetState(MonsterState.Run);
@@ -49,24 +51,10 @@ public class Enemy : MonoBehaviour ,GameManager.IDamageableEnemy
     public void DiscardToPool()
     {
         hpBar.SetActive(false);
-        var currentHp = 0;
         MyPooler.ObjectPooler.Instance.ReturnToPool(poolTag,gameObject);
-        //isActive = false;
-        currentHp = 100;
-        currentHp += SpawnerEnemy.Instance.lv;
-
-        hp = currentHp;
-
-        quantityBhv.MaximumAmount = currentHp;
-        quantityBhv.Amount += currentHp;
-        quantityBhv.FillAmount = 1;
-        speed = 1;
-        speed += 0.1f;
     }
-
     public void TakeDame(float damage)
     {
-        Die();
         hpBar.SetActive(true);
         quantityBhv.Amount -= damage;
         //Spawn new popup with a random number between 0 and 100.
@@ -78,12 +66,18 @@ public class Enemy : MonoBehaviour ,GameManager.IDamageableEnemy
         
         ScaleSpring.Begin(this, 1f, 1.1f, 50, 6);
         hp -= damage;
+        //Die();
     }
     public void Die()
     {
         if (hp <= 0)
         {
-            hpBar.SetActive(false);
+            hp = 100;
+            hp += SpawnerEnemy.Instance.lv;
+            quantityBhv.MaximumAmount = hp;
+            ReceiveHeal(hp);
+            //if(speed>=3) speed += SpawnerEnemy.Instance.lv / 10;
+
             var randomGold = Random.Range(SpawnerEnemy.Instance.lv,40);
             DamageNumber damageNumberGold = numberPrefabGold.Spawn(Vector3.zero, randomGold);
             
@@ -95,6 +89,8 @@ public class Enemy : MonoBehaviour ,GameManager.IDamageableEnemy
             DiscardToPool();
         }
     }
+    
+
     public void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -104,5 +100,10 @@ public class Enemy : MonoBehaviour ,GameManager.IDamageableEnemy
             hp = 0;
             Die();
         }
+    }
+
+    public void ReceiveHeal(float heal)
+    {
+        quantityBhv.Amount+=heal;
     }
 }

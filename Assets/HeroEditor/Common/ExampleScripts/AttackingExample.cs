@@ -150,7 +150,7 @@ namespace HeroEditor.Common.ExampleScripts
                 case WeaponType.Melee1H:
                 case WeaponType.Melee2H:
                 case WeaponType.MeleePaired:
-                    if (Input.GetKeyDown(fireButton))
+                    if (CrossPlatformInputManager.GetButtonDown("Shoot"))
                     {
                         character.Slash();
                     }
