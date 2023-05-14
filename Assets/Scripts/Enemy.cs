@@ -75,6 +75,7 @@ public class Enemy : MonoBehaviour ,GameManager.IDamageableEnemy , IHealable
             hp = 100;
             hp += SpawnerEnemy.Instance.lv;
             quantityBhv.MaximumAmount = hp;
+            //speed++;
             ReceiveHeal(hp);
             //if(speed>=3) speed += SpawnerEnemy.Instance.lv / 10;
 

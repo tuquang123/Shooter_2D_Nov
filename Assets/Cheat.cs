@@ -1,7 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 
+namespace UnityAsyncAwaitUtil
+{
 public class Cheat : MonoBehaviour
 {
     public void AddGold()
@@ -27,4 +31,6 @@ public class Cheat : MonoBehaviour
     {
         SpawnerEnemy.Instance.lv += 10;
     }
+}
+    
 }
