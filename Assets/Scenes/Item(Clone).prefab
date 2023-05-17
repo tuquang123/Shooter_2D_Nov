@@ -371,7 +371,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 452431026001481618}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements.InventoryItem,
           Assembly-CSharp
         m_MethodName: Buy
@@ -752,7 +752,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4751387501069329321}
-  - component: {fileID: 452431026001481618}
   - component: {fileID: 4400632373974727028}
   m_Layer: 0
   m_Name: Item(Clone)
@@ -786,34 +785,6 @@ RectTransform:
   m_AnchoredPosition: {x: 165, y: -165}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &452431026001481618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7205560168291292304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a0d4d1a493640f68b6438b176bc7906, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textPrice: {fileID: 5805300778268966116}
-  panel: {fileID: 3874123606893005675}
-  active: 0
-  Icon: {fileID: 799807240011170156}
-  Background: {fileID: 2666820039958346282}
-  Count: {fileID: 5441743891773805014}
-  Modificator: {fileID: 0}
-  Item:
-    Id: CyberpunkHeroes.Pro.Firearms1H.PulsePistol
-    Modifier:
-      Id: 0
-      Level: 0
-    Count: 1
-  Toggle: {fileID: 4400632373974727028}
-  Container: {fileID: 0}
-  price: 0
 --- !u!114 &4400632373974727028
 MonoBehaviour:
   m_ObjectHideFlags: 0

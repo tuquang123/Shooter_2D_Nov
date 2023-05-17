@@ -1,3 +1,4 @@
+using System;
 using Assets.HeroEditor.Common.CharacterScripts;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,6 +14,22 @@ public class Move : MonoBehaviour
     public Rigidbody rb;
 
     Vector3 move;
+
+    private void Reset()
+    {
+        Character = FindObjectOfType<Character>();
+        speed = 2f;
+        Rigidbody rigidbody = gameObject.AddComponent<Rigidbody>();
+        rigidbody.constraints = RigidbodyConstraints.FreezeRotationX |
+                                RigidbodyConstraints.FreezeRotationY |
+                                RigidbodyConstraints.FreezeRotationZ |
+                                RigidbodyConstraints.FreezePositionZ;
+        rigidbody.useGravity = false;
+        BoxCollider boxCollider = gameObject.AddComponent<BoxCollider>();
+        boxCollider.center = new Vector3(0f, 1.2f, 0f);
+        boxCollider.size = new Vector3(1.3f, 2.7f, 1f);
+        rb = FindObjectOfType<Rigidbody>();
+    }
 
     private void Update()
     {

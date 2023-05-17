@@ -47,7 +47,7 @@ namespace Assets.HeroEditor.Common.CharacterScripts
 	    /// </summary>
 		public void SetExpression(string expression)
 	    {
-		    transform.parent.GetComponent<Character>().SetExpression(expression);
+		    //transform.parent.GetComponent<Character>().SetExpression(expression);
 		}
 
 	    /// <summary>

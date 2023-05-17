@@ -32,5 +32,9 @@ namespace Assets.HeroEditor.Common.CharacterScripts
         {
             return ((Character) character).Firearm;
         }
+        public static Firearm GetFirearm2(this CharacterBase character)
+        {
+            return ((Character) character).Firearm;
+        }
     }
 }

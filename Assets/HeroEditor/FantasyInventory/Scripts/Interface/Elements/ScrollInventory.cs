@@ -144,11 +144,17 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
                 return;
             }
             bool check1Time= false;
-            //int i2 = 0;
+            int i2 = 0;
+            var itemID = GameManager.Instance.itemID;
             foreach (var item in items)
             {
-	            //i2++;
-	            //if (i2 == 5 || i2 == 10)
+	            i2++; 
+	            //if(itemID.Count==0)break;
+	            if (itemID.Count == 1)
+	            {
+		            itemID.Add(itemID[0]);
+	            }
+	            if (itemID.Count > 0 && i2 == itemID[0] || i2 == itemID[1])
 	            {
 		            InventoryItem inventoryItem;
 		            if (_inventoryItems.ContainsKey(item))
@@ -160,11 +166,11 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
 		            }
 		            else
 		            {
-			            if (!check1Time)
+			            /*if (!check1Time)
 			            {
 				            check1Time = true;
 				            continue;
-			            }
+			            }*/
 		            
 			            inventoryItem = Instantiate(ItemPrefab, Grid.transform);
 			            int random = Random.Range(100, 1000);

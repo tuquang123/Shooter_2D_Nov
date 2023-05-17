@@ -53,9 +53,9 @@ namespace Assets.HeroEditor.Common.EditorScripts
            //Encoding.Default.GetBytes(Character.ToJson());
         }
 
-        private void LateUpdate()
+        public void UpdatePlayer()
         {
-            //Character = FindObjectOfType<Character>();
+            Character = FindObjectOfType<Character>();
         }
 
         public new void Start()

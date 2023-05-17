@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Assets.HeroEditor.Common.CharacterScripts.Firearms;
 using Assets.HeroEditor.Common.CharacterScripts.Firearms.Enums;
 using Assets.HeroEditor.Common.Data;
@@ -31,8 +32,18 @@ public class GameManager : Singleton<GameManager>
     private bool i;
 
     public GameObject paneLoss;
+    
+    public GameObject paneShop;
 
     public RectTransform open;
+
+    public List<GameObject> player;
+    
+    public List<int> itemID;
+    
+    public int countEquipGun = 0;
+
+    //public CharacterEditor CharacterEditor;
 
     private void Start()
     {
@@ -67,7 +78,7 @@ public class GameManager : Singleton<GameManager>
             i = true;
         }
 
-        open.anchoredPosition = new Vector2(1675, 213);
+        //open.anchoredPosition = new Vector2(1675, 213);
         panelGun.SetActive(true);
         Time.timeScale = 0;
     }
@@ -90,6 +101,20 @@ public class GameManager : Singleton<GameManager>
         Time.timeScale = 1;
         //gold -= 1000;
         paneLoss.SetActive(false);
+    }
+
+    public void PlayerActive(int i)
+    {
+        //for (int j = 0; j < player.Count; j++)
+        player[i].SetActive(true);
+        player[0].SetActive(false);
+        characterEditor.UpdatePlayer();
+        player[i].transform.position = player[0].transform.position;
+    }
+
+    public void ShopAcitve(bool stage)
+    {
+        paneShop.SetActive(stage);
     }
 
     public interface IDamageableEnemy

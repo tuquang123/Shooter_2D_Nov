@@ -2,6 +2,7 @@
 using Assets.HeroEditor.Common.CharacterScripts;
 using Assets.HeroEditor.Common.CharacterScripts.Firearms;
 using Assets.HeroEditor.Common.CharacterScripts.Firearms.Enums;
+using Assets.HeroEditor.Common.CommonScripts;
 using HeroEditor.Common.Enums;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
@@ -28,7 +29,7 @@ namespace HeroEditor.Common.ExampleScripts
         public FirearmFire fire;
         public Transform armL;
         public Transform armR;
-        public KeyCode fireButton;
+        //public KeyCode fireButton;
 
         [Header("Disable arm auto rotation , auto shoot")]
         public bool fixedArm;
@@ -38,8 +39,22 @@ namespace HeroEditor.Common.ExampleScripts
         private static readonly int Ready = Animator.StringToHash("Ready");
         private static readonly int State = Animator.StringToHash("State");
 
-        #region Turn , Find , Set , Remove : Target
+        private void Reset()
+        {
+            character = FindObjectOfType<Character>();
+            firearm = FindObjectOfType<Firearm>();
+            fire = FindObjectOfType<FirearmFire>();
+            var armL2 = GameObject.Find("ArmL");
+            armL = armL2.transform;
+            var armL3 = GameObject.Find("ArmR[1]");
+            armR = armL3.transform;
+            attackRage = 10;
+            timeBetweenShots = 1;
+            fire.CreateBullets = true;
+        }
 
+        #region Turn , Find , Set , Remove : Target
+        
         /// <summary>
         /// Turning Player
         /// </summary>
@@ -134,7 +149,7 @@ namespace HeroEditor.Common.ExampleScripts
             {
                 if (Time.time > nextShotTime)
                 {
-                    AutoFire();
+                    //AutoFire();
                     timeBetweenShots = GameManager.Instance.attackSpeed;
                     nextShotTime = Time.time + timeBetweenShots;
                 }
