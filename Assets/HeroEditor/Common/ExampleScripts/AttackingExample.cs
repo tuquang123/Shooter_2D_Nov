@@ -149,7 +149,7 @@ namespace HeroEditor.Common.ExampleScripts
             {
                 if (Time.time > nextShotTime)
                 {
-                    //AutoFire();
+                    AutoFire();
                     timeBetweenShots = GameManager.Instance.attackSpeed;
                     nextShotTime = Time.time + timeBetweenShots;
                 }

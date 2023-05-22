@@ -16,7 +16,10 @@ public class GameManager : Singleton<GameManager>
     public int dame = 10;
     public int gold = 1000;
 
-    public Text goldShow;
+    //public Text goldShow;
+    
+    public Text daysText;
+    
     public float attackSpeed = 1;
     public ScrollInventory scrollInventory;
     public Button restart;
@@ -35,19 +38,28 @@ public class GameManager : Singleton<GameManager>
     
     public GameObject paneShop;
 
-    public RectTransform open;
+    //public RectTransform open;
 
     public List<GameObject> player;
     
     public List<int> itemID;
     
+    public List<Transform> slotItem;
+    
     public int countEquipGun = 0;
+    
+    public GameObject days;
+
+    public int daysLive = 1;
 
     //public CharacterEditor CharacterEditor;
+    public GridLayoutGroup GridLayoutGroup;
 
     private void Start()
     {
+        goldText.text = gold.ToString();
         //Open();
+        Invoke("DayFist",3);
 
         gold = PlayerPrefs.GetInt("gold", 0);
 
@@ -58,6 +70,11 @@ public class GameManager : Singleton<GameManager>
         restart.onClick.AddListener(Restart);
     }
 
+    public void DayFist()
+    {
+        days.SetActive(false);
+    }
+
     void OnApplicationQuit()
     {
         PlayerPrefs.SetInt("gold", gold);
@@ -66,20 +83,15 @@ public class GameManager : Singleton<GameManager>
 
     private void FixedUpdate()
     {
-        goldText.text = gold.ToString();
-        goldShow.text = gold.ToString();
+        //goldText.text = gold.ToString();
+        //goldShow.text = gold.ToString();
     }
 
     public void Open()
     {
-        if (!i)
-        {
-            characterEditor.OnSelectTab(true);
-            i = true;
-        }
-
         //open.anchoredPosition = new Vector2(1675, 213);
-        panelGun.SetActive(true);
+        //panelGun.SetActive(true);
+        paneShop.SetActive(true);
         Time.timeScale = 0;
     }
 
@@ -112,9 +124,26 @@ public class GameManager : Singleton<GameManager>
         player[i].transform.position = player[0].transform.position;
     }
 
-    public void ShopAcitve(bool stage)
+    public void ShopAcitveFalse()
     {
-        paneShop.SetActive(stage);
+        paneShop.SetActive(false);
+        characterEditor.OnSelectTab(true);
+        Time.timeScale = 1;
+        days.SetActive(true);
+        Invoke("Day",3);
+    }
+   
+    public void Day()
+    {
+        daysText.text = daysLive.ToString("Day " + daysLive);
+        days.SetActive(false);
+       SpawnerEnemy.Instance.countMaxSpawn *= 2;
+       SpawnerEnemy.Instance.countSpawn = 0;
+       SpawnerEnemy.Instance.isSpawn = true;
+       SpawnerEnemy.Instance.isOpen = false;
+       SpawnerEnemy.Instance.countWaveEnemy = 0;
+       daysLive++;
+       SpawnerEnemy.Instance.goldReward = 0;
     }
 
     public interface IDamageableEnemy

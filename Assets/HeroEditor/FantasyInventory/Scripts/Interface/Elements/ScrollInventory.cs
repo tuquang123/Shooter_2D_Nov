@@ -149,7 +149,7 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
             foreach (var item in items)
             {
 	            i2++; 
-	            //if(itemID.Count==0)break;
+	            if(itemID.Count==0)break;
 	            if (itemID.Count == 1)
 	            {
 		            itemID.Add(itemID[0]);

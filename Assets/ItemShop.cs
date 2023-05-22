@@ -12,8 +12,8 @@ public class ItemShop : MonoBehaviour
     public GameObject equipItem;
     public GameObject removeItem;
     public Text textPrice;
-
-    private void Awake()
+    
+    private void Start()
     {
         textPrice.text = price.ToString();
     }
@@ -25,20 +25,6 @@ public class ItemShop : MonoBehaviour
         GameManager.Instance.goldText.text = GameManager.Instance.gold.ToString();
         boughtItem.SetActive(false);
         equipItem.SetActive(true);
-    }
-    List<T> RemoveDuplicates<T>(List<T> list)
-    {
-        List<T> result = new List<T>();
-
-        foreach (T item in list)
-        {
-            if (!result.Contains(item))
-            {
-                result.Add(item);
-            }
-        }
-
-        return result;
     }
     public void Equipment()
     {
@@ -52,7 +38,18 @@ public class ItemShop : MonoBehaviour
         }
         if (GameManager.Instance.countEquipGun < 2)
         {
+            if(GameManager.Instance.countEquipGun == 0 )
+            {
+                transform.position = GameManager.Instance.slotItem[0].position;
+                transform.SetParent(GameManager.Instance.slotItem[0]);
+            }
+            if(GameManager.Instance.countEquipGun == 1)
+            {
+                transform.position = GameManager.Instance.slotItem[1].position;
+                transform.SetParent(GameManager.Instance.slotItem[1]);
+            }
             GameManager.Instance.countEquipGun++;
+            //GameManager.Instance.countEquipGun++;
             if (GameManager.Instance.itemID != null) GameManager.Instance.itemID.Add(id);
             equipItem.SetActive(false);
             removeItem.SetActive(true);
@@ -65,5 +62,11 @@ public class ItemShop : MonoBehaviour
         GameManager.Instance.itemID.Remove(id);
         removeItem.SetActive(false);
         equipItem.SetActive(true);
+        
+        //RectTransform rectTransform = GetComponent<RectTransform>();
+        //rectTransform.anchoredPosition = originalPosition;
+        transform.SetParent(GameManager.Instance.GridLayoutGroup.transform);
+        GameManager.Instance.GridLayoutGroup.SetLayoutHorizontal();
+        GameManager.Instance.GridLayoutGroup.SetLayoutVertical();
     }
 }

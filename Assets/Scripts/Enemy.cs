@@ -86,6 +86,8 @@ public class Enemy : MonoBehaviour ,GameManager.IDamageableEnemy , IHealable
             damageNumberGold.transform.parent = null;
 
             GameManager.Instance.gold += randomGold;
+            SpawnerEnemy.Instance.goldReward += randomGold;
+            GameManager.Instance.goldText.text = GameManager.Instance.gold.ToString();
             MyPooler.ObjectPooler.Instance.GetFromPool("F", transform.position, Quaternion.identity);
             DiscardToPool();
         }

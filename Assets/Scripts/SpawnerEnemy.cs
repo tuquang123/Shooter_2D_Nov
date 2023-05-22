@@ -4,12 +4,13 @@ using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 public class SpawnerEnemy : Singleton<SpawnerEnemy>
 {
     public GameObject bossObj;
     public GameObject goldRewardObj;
-    
+
     public float timeNextSpawn = 0.02f;
     public int lv;
     
@@ -46,6 +47,10 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
     public int countWaveEnemy;
 
     public DOTweenAnimation textGold;
+
+    public int goldReward;
+    
+    public Text goldShow;
     
     void RemoveList()
     {
@@ -75,6 +80,7 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
 
     public void ActiveGold()
     {
+        goldShow.text = goldReward.ToString();
         goldRewardObj.SetActive(true);
         textGold.DOPlay();
         textGold.DORestart();
@@ -84,7 +90,6 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
         goldRewardObj.SetActive(false);
         GameManager.Instance.Open();
     }
-
     private void FixedUpdate()
     {
         if (countSpawn == countMaxSpawn)

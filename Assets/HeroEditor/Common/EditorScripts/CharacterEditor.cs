@@ -75,10 +75,10 @@ namespace Assets.HeroEditor.Common.EditorScripts
         /// </summary>
         public void OnSelectTab(bool value)
         {
-            if (value)
+            //if (value)
             {
                 Refresh();
-                Inventory.OnReset();
+                //Inventory.OnReset();
             }
         }
 
