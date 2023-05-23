@@ -60,7 +60,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2020.3.24f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\OS\Desktop\Shooter2D -debugCodeOptimization" />
@@ -176,6 +176,8 @@
       <workItem from="1684421830083" duration="5790000" />
       <workItem from="1684765272073" duration="2095000" />
       <workItem from="1684767415139" duration="6750000" />
+      <workItem from="1684848919980" duration="7129000" />
+      <workItem from="1684862564330" duration="709000" />
     </task>
     <servers />
   </component>

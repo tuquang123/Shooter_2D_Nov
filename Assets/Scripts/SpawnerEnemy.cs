@@ -56,7 +56,7 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
     {
         for (int i = 0; i < objects.Count; i++)
         {
-            Transform obj = this.objects[i];
+            Transform obj = objects[i];
             if (obj.gameObject.activeSelf) continue;
             objects.Remove(obj);
         }
@@ -65,6 +65,7 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
     private void LateUpdate()
     {
         RemoveList();
+        //goldShow.text = goldReward.ToString();
     }
 
     public void IsSpawnEnemy()
@@ -82,8 +83,7 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
     {
         goldShow.text = goldReward.ToString();
         goldRewardObj.SetActive(true);
-        textGold.DOPlay();
-        textGold.DORestart();
+        
     }
     public void IsActiveFalse()
     {
@@ -106,11 +106,9 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
             if (objects.Count == 0 && isOpen == false && countWaveEnemy == 3)
             {
                 Invoke("IsActiveFalse", 3.2f);
-                //GameManager.Instance.Open();
-                //goldRewardObj.SetActive(true);
                 ActiveGold();
                 isOpen = true;
-                //countSpawn++;
+                
             }
         }
 

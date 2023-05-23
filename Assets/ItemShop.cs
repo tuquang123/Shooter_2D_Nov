@@ -38,15 +38,10 @@ public class ItemShop : MonoBehaviour
         }
         if (GameManager.Instance.countEquipGun < 2)
         {
-            if(GameManager.Instance.countEquipGun == 0 )
+            //if(GameManager.Instance.countEquipGun == 0 )
             {
-                transform.position = GameManager.Instance.slotItem[0].position;
-                transform.SetParent(GameManager.Instance.slotItem[0]);
-            }
-            if(GameManager.Instance.countEquipGun == 1)
-            {
-                transform.position = GameManager.Instance.slotItem[1].position;
-                transform.SetParent(GameManager.Instance.slotItem[1]);
+                transform.position = GameManager.Instance.slotItem.position;
+                transform.SetParent(GameManager.Instance.slotItem);
             }
             GameManager.Instance.countEquipGun++;
             //GameManager.Instance.countEquipGun++;

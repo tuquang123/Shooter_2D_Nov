@@ -44,7 +44,7 @@ public class GameManager : Singleton<GameManager>
     
     public List<int> itemID;
     
-    public List<Transform> slotItem;
+    public Transform slotItem;
     
     public int countEquipGun = 0;
     
@@ -126,23 +126,23 @@ public class GameManager : Singleton<GameManager>
 
     public void ShopAcitveFalse()
     {
+        daysLive++;
         paneShop.SetActive(false);
         characterEditor.OnSelectTab(true);
         Time.timeScale = 1;
         days.SetActive(true);
+        daysText.text = daysLive.ToString("Day " + daysLive);
         Invoke("Day",3);
     }
    
     public void Day()
     {
-        daysText.text = daysLive.ToString("Day " + daysLive);
         days.SetActive(false);
        SpawnerEnemy.Instance.countMaxSpawn *= 2;
        SpawnerEnemy.Instance.countSpawn = 0;
        SpawnerEnemy.Instance.isSpawn = true;
        SpawnerEnemy.Instance.isOpen = false;
        SpawnerEnemy.Instance.countWaveEnemy = 0;
-       daysLive++;
        SpawnerEnemy.Instance.goldReward = 0;
     }
 
