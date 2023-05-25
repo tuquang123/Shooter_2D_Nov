@@ -39,7 +39,7 @@ public class Enemy : MonoBehaviour ,GameManager.IDamageableEnemy , IHealable
         target = GameObject.FindGameObjectWithTag("Player").gameObject.transform;
     }
     
-    private void FixedUpdate()
+    private void Update()
     {
         if (target == null) return;
         Die();

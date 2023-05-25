@@ -178,6 +178,8 @@
       <workItem from="1684767415139" duration="6750000" />
       <workItem from="1684848919980" duration="7129000" />
       <workItem from="1684862564330" duration="709000" />
+      <workItem from="1684936247023" duration="3692000" />
+      <workItem from="1685021249314" duration="5288000" />
     </task>
     <servers />
   </component>
@@ -191,23 +193,6 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/HeroEditor/FantasyInventory/Scripts/Interface/Elements/ScrollInventory.cs</url>
-          <line>183</line>
-          <properties documentPath="C:\Users\OS\Desktop\Shooter2D\Assets\HeroEditor\FantasyInventory\Scripts\Interface\Elements\ScrollInventory.cs" initialLine="180" containingFunctionPresentation="method 'Refresh'">
-            <startOffsets>
-              <option value="5735" />
-            </startOffsets>
-            <endOffsets>
-              <option value="5782" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#System.Linq.GroupedEnumerable`2" memberName="_keySelector" />

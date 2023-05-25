@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Assets.HeroEditor.Common.CharacterScripts.Firearms;
 using Assets.HeroEditor.Common.CharacterScripts.Firearms.Enums;
 using Assets.HeroEditor.Common.Data;
@@ -46,7 +47,11 @@ public class GameManager : Singleton<GameManager>
     
     public Transform slotItem;
     
-    public int countEquipGun = 0;
+    public int countEquipGun ;
+    
+    public int countSuit ;
+    
+    public int countPartNer ;
     
     public GameObject days;
 
@@ -55,11 +60,12 @@ public class GameManager : Singleton<GameManager>
     //public CharacterEditor CharacterEditor;
     public GridLayoutGroup GridLayoutGroup;
 
-    private void Start()
+    private async void Start()
     {
         goldText.text = gold.ToString();
-        //Open();
-        Invoke("DayFist",3);
+        
+        await UniTask.Delay(TimeSpan.FromSeconds(3));
+        await DayFirst();
 
         gold = PlayerPrefs.GetInt("gold", 0);
 
@@ -69,12 +75,12 @@ public class GameManager : Singleton<GameManager>
 
         restart.onClick.AddListener(Restart);
     }
-
-    public void DayFist()
+    public async UniTask DayFirst()
     {
         days.SetActive(false);
     }
 
+    
     void OnApplicationQuit()
     {
         PlayerPrefs.SetInt("gold", gold);
@@ -100,7 +106,7 @@ public class GameManager : Singleton<GameManager>
         Time.timeScale = 1;
         panelGun.SetActive(false);
         scrollInventory.OnReset();
-        SpawnerEnemy.Instance.countMaxSpawn *= 2;
+        SpawnerEnemy.Instance.countMaxSpawn ++;
         SpawnerEnemy.Instance.countSpawn = 0;
         SpawnerEnemy.Instance.isSpawn = true;
         SpawnerEnemy.Instance.isOpen = false;
@@ -123,8 +129,8 @@ public class GameManager : Singleton<GameManager>
         characterEditor.UpdatePlayer();
         player[i].transform.position = player[0].transform.position;
     }
-
-    public void ShopAcitveFalse()
+    
+    public async void ShopActiveFalse()
     {
         daysLive++;
         paneShop.SetActive(false);
@@ -132,19 +138,21 @@ public class GameManager : Singleton<GameManager>
         Time.timeScale = 1;
         days.SetActive(true);
         daysText.text = daysLive.ToString("Day " + daysLive);
-        Invoke("Day",3);
+        await UniTask.Delay(TimeSpan.FromSeconds(3));
+        await Day();
     }
-   
-    public void Day()
+
+    public async UniTask Day()
     {
         days.SetActive(false);
-       SpawnerEnemy.Instance.countMaxSpawn *= 2;
-       SpawnerEnemy.Instance.countSpawn = 0;
-       SpawnerEnemy.Instance.isSpawn = true;
-       SpawnerEnemy.Instance.isOpen = false;
-       SpawnerEnemy.Instance.countWaveEnemy = 0;
-       SpawnerEnemy.Instance.goldReward = 0;
+        SpawnerEnemy.Instance.countMaxSpawn *= 2;
+        SpawnerEnemy.Instance.countSpawn = 0;
+        SpawnerEnemy.Instance.isSpawn = true;
+        SpawnerEnemy.Instance.isOpen = false;
+        SpawnerEnemy.Instance.countWaveEnemy = 0;
+        SpawnerEnemy.Instance.goldReward = 0;
     }
+
 
     public interface IDamageableEnemy
     {

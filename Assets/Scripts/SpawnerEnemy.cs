@@ -45,14 +45,12 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
     public int countMaxSpawn;
 
     public int countWaveEnemy;
-
-    public DOTweenAnimation textGold;
-
+    
     public int goldReward;
     
-    public Text goldShow;
+    public NumberAnimation numberAnimation;
     
-    void RemoveList()
+    public void RemoveList()
     {
         for (int i = 0; i < objects.Count; i++)
         {
@@ -65,7 +63,6 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
     private void LateUpdate()
     {
         RemoveList();
-        //goldShow.text = goldReward.ToString();
     }
 
     public void IsSpawnEnemy()
@@ -81,7 +78,8 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
 
     public void ActiveGold()
     {
-        goldShow.text = goldReward.ToString();
+        //goldShow.text = goldReward.ToString();
+        numberAnimation.value = goldReward;
         goldRewardObj.SetActive(true);
         
     }
@@ -103,7 +101,7 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
                     isEndWave = false;
                 }
             }
-            if (objects.Count == 0 && isOpen == false && countWaveEnemy == 3)
+            if (objects.Count == 0 && isOpen == false && countWaveEnemy == 2)
             {
                 Invoke("IsActiveFalse", 3.2f);
                 ActiveGold();

@@ -6,6 +6,13 @@ using UnityEngine.UI;
 
 public class ItemShop : MonoBehaviour
 {
+    public TypeITem typeITem;
+    public enum TypeITem
+    {
+        Gun,
+        Suit,
+        Partner
+    }
     public int id;
     public int price;
     public GameObject boughtItem;
@@ -33,35 +40,76 @@ public class ItemShop : MonoBehaviour
             if (GameManager.Instance.itemID[0] == GameManager.Instance.itemID[1])
             {
                 GameManager.Instance.itemID.RemoveAt(1);
-                //GameManager.Instance.itemID.RemoveAt(0);
             }
         }
-        if (GameManager.Instance.countEquipGun < 2)
+        //gun
+        if (typeITem == TypeITem.Gun && GameManager.Instance.countEquipGun < 2 )
         {
-            //if(GameManager.Instance.countEquipGun == 0 )
-            {
-                transform.position = GameManager.Instance.slotItem.position;
-                transform.SetParent(GameManager.Instance.slotItem);
-            }
             GameManager.Instance.countEquipGun++;
-            //GameManager.Instance.countEquipGun++;
+            
             if (GameManager.Instance.itemID != null) GameManager.Instance.itemID.Add(id);
+            transform.position = GameManager.Instance.slotItem.position;
+            transform.SetParent(GameManager.Instance.slotItem);
+       
             equipItem.SetActive(false);
             removeItem.SetActive(true);
+            
+        }
+        //suit
+        if (typeITem == TypeITem.Suit && GameManager.Instance.countSuit < 1)
+        {
+            GameManager.Instance.countSuit++;
+            transform.position = GameManager.Instance.slotItem.position;
+            transform.SetParent(GameManager.Instance.slotItem);
+       
+            equipItem.SetActive(false);
+            removeItem.SetActive(true);
+        }
+        //partner
+        if (typeITem == TypeITem.Partner && GameManager.Instance.countPartNer < 1)
+        {
+            GameManager.Instance.countPartNer++;
+            transform.position = GameManager.Instance.slotItem.position;
+            transform.SetParent(GameManager.Instance.slotItem);
+       
+            equipItem.SetActive(false);
+            removeItem.SetActive(true);
+            
         }
     }
 
     public void Remove()
     {
-        GameManager.Instance.countEquipGun--;
-        GameManager.Instance.itemID.Remove(id);
-        removeItem.SetActive(false);
-        equipItem.SetActive(true);
+        if (typeITem == TypeITem.Gun)
+        {
+            GameManager.Instance.countEquipGun--;
+            GameManager.Instance.itemID.Remove(id);
+            removeItem.SetActive(false);
+            equipItem.SetActive(true);
         
-        //RectTransform rectTransform = GetComponent<RectTransform>();
-        //rectTransform.anchoredPosition = originalPosition;
-        transform.SetParent(GameManager.Instance.GridLayoutGroup.transform);
-        GameManager.Instance.GridLayoutGroup.SetLayoutHorizontal();
-        GameManager.Instance.GridLayoutGroup.SetLayoutVertical();
+            transform.SetParent(GameManager.Instance.GridLayoutGroup.transform);
+            GameManager.Instance.GridLayoutGroup.SetLayoutHorizontal();
+            GameManager.Instance.GridLayoutGroup.SetLayoutVertical();
+        }
+        if (typeITem == TypeITem.Suit)
+        {
+            GameManager.Instance.countSuit--;
+            removeItem.SetActive(false);
+            equipItem.SetActive(true);
+        
+            transform.SetParent(GameManager.Instance.GridLayoutGroup.transform);
+            GameManager.Instance.GridLayoutGroup.SetLayoutHorizontal();
+            GameManager.Instance.GridLayoutGroup.SetLayoutVertical();
+        }
+        if (typeITem == TypeITem.Partner)
+        {
+            GameManager.Instance.countPartNer--;
+            removeItem.SetActive(false);
+            equipItem.SetActive(true);
+        
+            transform.SetParent(GameManager.Instance.GridLayoutGroup.transform);
+            GameManager.Instance.GridLayoutGroup.SetLayoutHorizontal();
+            GameManager.Instance.GridLayoutGroup.SetLayoutVertical();
+        }
     }
 }
