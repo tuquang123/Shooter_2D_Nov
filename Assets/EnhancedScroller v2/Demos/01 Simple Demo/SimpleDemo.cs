@@ -2,6 +2,7 @@
 using System.Collections;
 using EnhancedUI;
 using EnhancedUI.EnhancedScroller;
+using HeroEditor.Common;
 
 namespace EnhancedScrollerDemos.SuperSimpleDemo
 {
@@ -19,7 +20,8 @@ namespace EnhancedScrollerDemos.SuperSimpleDemo
         /// Internal representation of our data. Note that the scroller will never see
         /// this, so it separates the data from the layout using MVC principles.
         /// </summary>
-        private SmallList<Data> _data;
+        //private SmallList<Data> _data;
+        public SpriteCollection data;
 
         /// <summary>
         /// This is our scroller we will be a delegate for
@@ -56,9 +58,14 @@ namespace EnhancedScrollerDemos.SuperSimpleDemo
         private void LoadLargeData()
         {
             // set up some simple data
-            _data = new SmallList<Data>();
-            for (var i = 0; i < 1000; i++)
-                _data.Add(new Data() { someText = "Cell Data Index " + i.ToString() });
+            //_data = new SmallList<Data>();
+            for (var i = 0; i < data.Firearms2H.Count; i++)
+            {
+                data.Firearms2H.Add(new SpriteGroupEntry("edition value", "collection value", "type value", "name value", "path value", null, null));
+
+            }
+               
+            //_data.Add(new Data() { someText = "Cell Data Index " + i.ToString() });
 
             // tell the scroller to reload now that we have the data
             scroller.ReloadData();
@@ -70,12 +77,7 @@ namespace EnhancedScrollerDemos.SuperSimpleDemo
         private void LoadSmallData()
         {
             // set up some simple data
-            _data = new SmallList<Data>();
-
-            _data.Add(new Data() { someText = "A" });
-            _data.Add(new Data() { someText = "B" });
-            _data.Add(new Data() { someText = "C" });
-
+           
             // tell the scroller to reload now that we have the data
             scroller.ReloadData();
         }
@@ -110,7 +112,7 @@ namespace EnhancedScrollerDemos.SuperSimpleDemo
         public int GetNumberOfCells(EnhancedScroller scroller)
         {
             // in this example, we just pass the number of our data elements
-            return _data.Count;
+            return data.Firearms2H.Count;
         }
 
         /// <summary>
@@ -124,7 +126,7 @@ namespace EnhancedScrollerDemos.SuperSimpleDemo
         public float GetCellViewSize(EnhancedScroller scroller, int dataIndex)
         {
             // in this example, even numbered cells are 30 pixels tall, odd numbered cells are 100 pixels tall
-            return (dataIndex % 2 == 0 ? 30f : 100f);
+            return 300 ;
         }
 
         /// <summary>
@@ -148,7 +150,7 @@ namespace EnhancedScrollerDemos.SuperSimpleDemo
             cellView.name = "Cell " + dataIndex.ToString();
 
             // in this example, we just pass the data to our cell's view which will update its UI
-            cellView.SetData(_data[dataIndex]);
+            cellView.SetData(data.Firearms2H[dataIndex]);
 
             // return the cell to the scroller
             return cellView;

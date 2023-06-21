@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using EnhancedUI.EnhancedScroller;
+using HeroEditor.Common;
+using System;
 
 namespace EnhancedScrollerDemos.SuperSimpleDemo
 {
@@ -18,10 +20,10 @@ namespace EnhancedScrollerDemos.SuperSimpleDemo
         /// This function just takes the Demo data and displays it
         /// </summary>
         /// <param name="data"></param>
-        public void SetData(Data data)
+        public void SetData(SpriteGroupEntry data)
         {
             // update the UI text with the cell data
-            someTextText.text = data.someText;
+            someTextText.text = data.Name;
         }
     }
 }
