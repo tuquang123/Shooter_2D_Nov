@@ -2,6 +2,7 @@
 using System.Collections;
 using EnhancedUI;
 using EnhancedUI.EnhancedScroller;
+using HeroEditor.Common;
 
 namespace EnhancedScrollerDemos.GridSimulation
 {
@@ -17,7 +18,8 @@ namespace EnhancedScrollerDemos.GridSimulation
         /// Internal representation of our data. Note that the scroller will never see
         /// this, so it separates the data from the layout using MVC principles.
         /// </summary>
-        private SmallList<Data> _data;
+        //private SmallList<Data> _data;
+        public SpriteCollection data;
 
         /// <summary>
         /// This is our scroller we will be a delegate for
@@ -56,10 +58,11 @@ namespace EnhancedScrollerDemos.GridSimulation
         private void LoadData()
         {
             // set up some simple data
-            _data = new SmallList<Data>();
-            for (var i = 0; i < 1000; i ++)
+            //_data = new SmallList<Data>();
+            for (var i = 0; i < data.Firearms2H.Count; i++)
             {
-                _data.Add(new Data() { someText = i.ToString() });
+                data.Firearms2H.Add(new SpriteGroupEntry("edition value", "collection value", "type value", "name value", "path value", null, null));
+
             }
 
             // tell the scroller to reload now that we have the data
@@ -76,7 +79,7 @@ namespace EnhancedScrollerDemos.GridSimulation
         /// <returns>The number of cells</returns>
         public int GetNumberOfCells(EnhancedScroller scroller)
         {
-            return Mathf.CeilToInt((float)_data.Count / (float)numberOfCellsPerRow);
+            return data.Firearms2H.Count;
         }
 
         /// <summary>
@@ -89,7 +92,7 @@ namespace EnhancedScrollerDemos.GridSimulation
         /// <returns>The size of the cell</returns>
         public float GetCellViewSize(EnhancedScroller scroller, int dataIndex)
         {
-            return 100f;
+            return 300f;
         }
 
         /// <summary>
@@ -110,7 +113,7 @@ namespace EnhancedScrollerDemos.GridSimulation
             cellView.name = "Cell " + (dataIndex * numberOfCellsPerRow).ToString() + " to " + ((dataIndex * numberOfCellsPerRow) + numberOfCellsPerRow - 1).ToString();
 
             // pass in a reference to our data set with the offset for this cell
-            cellView.SetData(ref _data, dataIndex * numberOfCellsPerRow);
+            cellView.SetData(ref data.Firearms2H, dataIndex * numberOfCellsPerRow);
 
             // return the cell to the scroller
             return cellView;

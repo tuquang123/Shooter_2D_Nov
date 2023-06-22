@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using EnhancedUI.EnhancedScroller;
 using EnhancedUI;
 using System;
+using HeroEditor.Common;
 
 namespace EnhancedScrollerDemos.GridSimulation
 {
@@ -18,7 +19,7 @@ namespace EnhancedScrollerDemos.GridSimulation
         /// This function just takes the Demo data and displays it
         /// </summary>
         /// <param name="data"></param>
-        public void SetData(Data data)
+        public void SetData(SpriteGroupEntry data)
         {
             // this cell was outside the range of the data, so we disable the container.
             // Note: We could have disable the cell gameobject instead of a child container,
@@ -28,7 +29,7 @@ namespace EnhancedScrollerDemos.GridSimulation
             if (data != null)
             {
                 // set the text if the cell is inside the data range
-                text.text = data.someText;
+                text.text = data.Name;
             }
         }
     }

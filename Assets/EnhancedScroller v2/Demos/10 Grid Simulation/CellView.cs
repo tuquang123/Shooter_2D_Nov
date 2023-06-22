@@ -3,6 +3,8 @@ using UnityEngine.UI;
 using EnhancedUI.EnhancedScroller;
 using EnhancedUI;
 using System;
+using System.Collections.Generic;
+using HeroEditor.Common;
 
 namespace EnhancedScrollerDemos.GridSimulation
 {
@@ -18,7 +20,7 @@ namespace EnhancedScrollerDemos.GridSimulation
         /// This function just takes the Demo data and displays it
         /// </summary>
         /// <param name="data"></param>
-        public void SetData(ref SmallList<Data> data, int startingIndex)
+        public void SetData(ref List<SpriteGroupEntry> data, int startingIndex)
         {
             // loop through the sub cells to display their data (or disable them if they are outside the bounds of the data)
             for (var i = 0; i < rowCellViews.Length; i++)
