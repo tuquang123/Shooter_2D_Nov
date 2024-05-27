@@ -96,7 +96,7 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
             if (isSpawn == false && objects.Count == 0) 
             {
                 Invoke("IsSpawnEnemy", 4f);
-                if (countWaveEnemy >= 1)
+                if (countWaveEnemy >= 0)
                 {
                     isEndWave = false;
                 }
