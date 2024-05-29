@@ -17,6 +17,9 @@ namespace Assets.HeroEditor.Common.CharacterScripts.Firearms
         public Transform SlideTransform;
         public Transform MagazineTransform;
         public Transform FireTransform;
+        public Transform FireTransform2;
+        public Transform FireTransform3;
+
 
         [Header("Components")]
         public FirearmFire Fire;

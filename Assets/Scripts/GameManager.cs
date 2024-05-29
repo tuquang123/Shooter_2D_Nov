@@ -56,6 +56,8 @@ public class GameManager : Singleton<GameManager>
     public GameObject days;
 
     public int daysLive = 1;
+    
+    public int numberBullet = 1;
 
     //public CharacterEditor CharacterEditor;
     public GridLayoutGroup GridLayoutGroup;
@@ -140,6 +142,10 @@ public class GameManager : Singleton<GameManager>
         daysText.text = daysLive.ToString("Day " + daysLive);
         await UniTask.Delay(TimeSpan.FromSeconds(3));
         await Day();
+        if (GameManager.Instance.itemID[0] == GameManager.Instance.itemID[1])
+        {
+            GameManager.Instance.itemID.RemoveAt(1);
+        }
     }
 
     public async UniTask Day()

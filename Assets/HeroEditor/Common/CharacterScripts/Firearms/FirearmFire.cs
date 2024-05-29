@@ -83,6 +83,16 @@ namespace Assets.HeroEditor.Common.CharacterScripts.Firearms
 
             Firearm.AmmoShooted++;
             CreateBullet();
+            if (GameManager.Instance.numberBullet == 2)
+            {
+                CreateBullet2();
+            }
+
+            if (GameManager.Instance.numberBullet > 2)
+            {
+                CreateBullet2();
+                CreateBullet3();
+            }
             FireMuzzlePlay();
             GetComponent<AudioSource>().PlayOneShot(Firearm.Params.SoundFire, 0.5f);
             
@@ -203,6 +213,116 @@ namespace Assets.HeroEditor.Common.CharacterScripts.Firearms
 
                 bullet.GetComponent<SpriteRenderer>().sprite = Character.Firearms.Single(j => j.name == "Bullet");
                 bullet.GetComponent<Rigidbody>().velocity = Firearm.Params.MuzzleVelocity * (Firearm.FireTransform.right + spread)
+                    * Mathf.Sign(Character.transform.lossyScale.x) * Random.Range(0.85f, 1.15f);
+                //bullet.GetComponent<TrailRenderer>().SetActive(true);
+
+                var sortingOrder = Character.FirearmsRenderers.Single(j => j.name == "Rifle").sortingOrder;
+                
+                /*foreach (var r in bullet.Renderers)
+                {
+                    r.sortingOrder = sortingOrder;
+                }*/
+
+                var ignoreCollider = Character.GetComponent<Collider>();
+
+                if (ignoreCollider != null)
+                {
+                    Physics.IgnoreCollision(bullet.GetComponent<Collider>(), ignoreCollider);
+                }
+
+                bullet.gameObject.layer = 31; // TODO: Create layer in your project and disable collision for it (in psysics settings)
+                Physics.IgnoreLayerCollision(31, 31, true);
+            }
+        }
+        private void CreateBullet2() // TODO: Preload and caching prefabs is recommended to improve game performance
+        {
+            if (!CreateBullets) return;
+
+	        var iterations = 1;
+
+	        if (Firearm.Params.Type == FirearmType.Shotgun)
+	        {
+		        var meta = Firearm.Params.MetaAsDictionary;
+
+		        if (meta.ContainsKey("Spread"))
+		        {
+			        iterations = int.Parse(Firearm.Params.MetaAsDictionary["Spread"]);
+				}
+		        else
+		        {
+					Debug.LogWarningFormat("Please add meta to SpriteCollection for {0}: 'Spread=N', where N is bullet fraction.", Firearm.Params.Name);
+			        iterations = 1;
+		        }
+	        }
+
+            for (var i = 0; i < iterations; i++)
+            {
+                var bullet = MyPooler.ObjectPooler.Instance.GetFromPool("B", Firearm.FireTransform2.position, Firearm.FireTransform2.rotation);
+                //var bullet = Instantiate(Firearm.Params.ProjectilePrefab, Firearm.FireTransform);
+                //bullet.transform.SetParent(Firearm.FireTransform);
+                var spread = Firearm.FireTransform2.up * Random.Range(-.5f, .5f) * (1 - Firearm.Params.Accuracy);           
+
+                //bullet.transform.localPosition = Vector3.zero;
+                //bullet.transform.localRotation = Quaternion.identity;
+                //bullet.transform.SetParent(null);
+
+                bullet.GetComponent<SpriteRenderer>().sprite = Character.Firearms.Single(j => j.name == "Bullet");
+                bullet.GetComponent<Rigidbody>().velocity = Firearm.Params.MuzzleVelocity * (Firearm.FireTransform2.right + spread)
+                    * Mathf.Sign(Character.transform.lossyScale.x) * Random.Range(0.85f, 1.15f);
+                //bullet.GetComponent<TrailRenderer>().SetActive(true);
+
+                var sortingOrder = Character.FirearmsRenderers.Single(j => j.name == "Rifle").sortingOrder;
+                
+                /*foreach (var r in bullet.Renderers)
+                {
+                    r.sortingOrder = sortingOrder;
+                }*/
+
+                var ignoreCollider = Character.GetComponent<Collider>();
+
+                if (ignoreCollider != null)
+                {
+                    Physics.IgnoreCollision(bullet.GetComponent<Collider>(), ignoreCollider);
+                }
+
+                bullet.gameObject.layer = 31; // TODO: Create layer in your project and disable collision for it (in psysics settings)
+                Physics.IgnoreLayerCollision(31, 31, true);
+            }
+        }
+        private void CreateBullet3() // TODO: Preload and caching prefabs is recommended to improve game performance
+        {
+            if (!CreateBullets) return;
+
+	        var iterations = 1;
+
+	        if (Firearm.Params.Type == FirearmType.Shotgun)
+	        {
+		        var meta = Firearm.Params.MetaAsDictionary;
+
+		        if (meta.ContainsKey("Spread"))
+		        {
+			        iterations = int.Parse(Firearm.Params.MetaAsDictionary["Spread"]);
+				}
+		        else
+		        {
+					Debug.LogWarningFormat("Please add meta to SpriteCollection for {0}: 'Spread=N', where N is bullet fraction.", Firearm.Params.Name);
+			        iterations = 1;
+		        }
+	        }
+
+            for (var i = 0; i < iterations; i++)
+            {
+                var bullet = MyPooler.ObjectPooler.Instance.GetFromPool("B", Firearm.FireTransform3.position, Firearm.FireTransform3.rotation);
+                //var bullet = Instantiate(Firearm.Params.ProjectilePrefab, Firearm.FireTransform);
+                //bullet.transform.SetParent(Firearm.FireTransform);
+                var spread = Firearm.FireTransform3.up * Random.Range(-.5f, .5f) * (1 - Firearm.Params.Accuracy);           
+
+                //bullet.transform.localPosition = Vector3.zero;
+                //bullet.transform.localRotation = Quaternion.identity;
+                //bullet.transform.SetParent(null);
+
+                bullet.GetComponent<SpriteRenderer>().sprite = Character.Firearms.Single(j => j.name == "Bullet");
+                bullet.GetComponent<Rigidbody>().velocity = Firearm.Params.MuzzleVelocity * (Firearm.FireTransform3.right + spread)
                     * Mathf.Sign(Character.transform.lossyScale.x) * Random.Range(0.85f, 1.15f);
                 //bullet.GetComponent<TrailRenderer>().SetActive(true);
 

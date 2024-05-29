@@ -11,7 +11,9 @@ public class ItemShop : MonoBehaviour
     {
         Gun,
         Suit,
-        Partner
+        Partner,
+        Bullet
+        
     }
     public int id;
     public int price;
@@ -35,6 +37,12 @@ public class ItemShop : MonoBehaviour
     }
     public void Equipment()
     {
+        if (typeITem == TypeITem.Bullet)
+        {
+            GameManager.Instance.numberBullet ++;
+            equipItem.SetActive(false);
+
+        }
         if (GameManager.Instance.itemID.Count == 2)
         {
             if (GameManager.Instance.itemID[0] == GameManager.Instance.itemID[1])

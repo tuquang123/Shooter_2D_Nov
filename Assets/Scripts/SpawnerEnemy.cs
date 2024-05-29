@@ -9,6 +9,9 @@ using UnityEngine.UI;
 public class SpawnerEnemy : Singleton<SpawnerEnemy>
 {
     public GameObject bossObj;
+    public GameObject bossObj2;
+    public GameObject bossObj3;
+    
     public GameObject goldRewardObj;
 
     public float timeNextSpawn = 0.02f;
@@ -32,7 +35,7 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
 
     bool max = true;
 
-    private bool checkBoss;
+    private int checkBoss;
 
     public bool isSpawn = true;
 
@@ -175,11 +178,23 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
                 max = false;
             }
 
-            if (spawnRate <= minRate && !checkBoss)
+            if (lv>= 100 && checkBoss == 0)
             {
                 bossObj.SetActive(true);
                 objects.Add(bossObj.transform);
-                checkBoss = true;
+                checkBoss++;
+            }
+            if (lv>= 200 && checkBoss ==1)
+            {
+                bossObj2.SetActive(true);
+                objects.Add(bossObj2.transform);
+                checkBoss++;
+            }
+            if (lv>= 300 && checkBoss ==2)
+            {
+                bossObj3.SetActive(true);
+                objects.Add(bossObj3.transform);
+                checkBoss++;
             }
         }
     }
