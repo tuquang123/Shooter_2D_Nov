@@ -13981,6 +13981,8 @@ MonoBehaviour:
   SlideTransform: {fileID: 1139111938238163057}
   MagazineTransform: {fileID: 1139111937163879863}
   FireTransform: {fileID: 1139111937226346744}
+  FireTransform2: {fileID: 0}
+  FireTransform3: {fileID: 0}
   Fire: {fileID: 1139111938235903074}
   Reload: {fileID: 1139111938235903085}
   AmmoShooted: 0

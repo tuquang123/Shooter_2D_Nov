@@ -5453,7 +5453,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b6b7749e5a481409fc70f97f829b8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  joystick: {fileID: 0}
   Character: {fileID: 114665035978887628}
   speed: 1.7
   rb: {fileID: 139643285}
@@ -8061,6 +8060,8 @@ MonoBehaviour:
   SlideTransform: {fileID: 4765478506894912}
   MagazineTransform: {fileID: 4801272085893870}
   FireTransform: {fileID: 4056839180877742088}
+  FireTransform2: {fileID: 0}
+  FireTransform3: {fileID: 0}
   Fire: {fileID: 1283604481290215046}
   Reload: {fileID: 3490645956144113748}
   AmmoShooted: 0
@@ -13968,7 +13969,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca89afd67aa37744b8db680df8560723, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 114665035978887628}
+  hpBar: {fileID: 0}
+  panelLoss: {fileID: 0}
   hp: 1000
 --- !u!1 &1760107730670166
 GameObject:

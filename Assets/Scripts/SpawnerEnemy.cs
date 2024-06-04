@@ -122,7 +122,7 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
             int randomNumber = randomPos[index];
             whereToSpawn = new Vector2(PosX, randomNumber);
             //int randomIndex = 5;
-            int randomIndex = Random.Range(1, 6);
+            int randomIndex = Random.Range(1, 7);
             if (isSpawn)
             {
                 countSpawn++;
@@ -163,6 +163,13 @@ public class SpawnerEnemy : Singleton<SpawnerEnemy>
 
                         MyPooler.ObjectPooler.Instance.GetFromPool("F2", whereToSpawn, Quaternion.identity);
                         objects.Add(enemyPrefab5.transform);
+                        break;
+                    case 6:
+                        var enemyPrefab6 =
+                            MyPooler.ObjectPooler.Instance.GetFromPool("E6", whereToSpawn, Quaternion.identity);
+
+                        MyPooler.ObjectPooler.Instance.GetFromPool("F2", whereToSpawn, Quaternion.identity);
+                        objects.Add(enemyPrefab6.transform);
                         break;
                 }
             }

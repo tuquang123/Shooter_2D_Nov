@@ -205,7 +205,8 @@ namespace Assets.HeroEditor.Common.CharacterScripts.Firearms
                 var bullet = MyPooler.ObjectPooler.Instance.GetFromPool("B", Firearm.FireTransform.position, Firearm.FireTransform.rotation);
                 //var bullet = Instantiate(Firearm.Params.ProjectilePrefab, Firearm.FireTransform);
                 //bullet.transform.SetParent(Firearm.FireTransform);
-                var spread = Firearm.FireTransform.up * Random.Range(-.5f, .5f) * (1 - Firearm.Params.Accuracy);           
+                //var spread = Firearm.FireTransform.up * Random.Range(-.5f, .5f) * (1 - Firearm.Params.Accuracy);
+                var spread = Firearm.FireTransform.up * Random.Range(1f, 1f) * (1 - Firearm.Params.Accuracy);           
 
                 //bullet.transform.localPosition = Vector3.zero;
                 //bullet.transform.localRotation = Quaternion.identity;
@@ -213,7 +214,8 @@ namespace Assets.HeroEditor.Common.CharacterScripts.Firearms
 
                 bullet.GetComponent<SpriteRenderer>().sprite = Character.Firearms.Single(j => j.name == "Bullet");
                 bullet.GetComponent<Rigidbody>().velocity = Firearm.Params.MuzzleVelocity * (Firearm.FireTransform.right + spread)
-                    * Mathf.Sign(Character.transform.lossyScale.x) * Random.Range(0.85f, 1.15f);
+                    //* Mathf.Sign(Character.transform.lossyScale.x) * Random.Range(0.85f, 1.15f);
+                * Mathf.Sign(Character.transform.lossyScale.x) * Random.Range(1f, 1f);
                 //bullet.GetComponent<TrailRenderer>().SetActive(true);
 
                 var sortingOrder = Character.FirearmsRenderers.Single(j => j.name == "Rifle").sortingOrder;
@@ -260,7 +262,7 @@ namespace Assets.HeroEditor.Common.CharacterScripts.Firearms
                 var bullet = MyPooler.ObjectPooler.Instance.GetFromPool("B", Firearm.FireTransform2.position, Firearm.FireTransform2.rotation);
                 //var bullet = Instantiate(Firearm.Params.ProjectilePrefab, Firearm.FireTransform);
                 //bullet.transform.SetParent(Firearm.FireTransform);
-                var spread = Firearm.FireTransform2.up * Random.Range(-.5f, .5f) * (1 - Firearm.Params.Accuracy);           
+                var spread = Firearm.FireTransform2.up * Random.Range(1f, 1f) * (1 - Firearm.Params.Accuracy);           
 
                 //bullet.transform.localPosition = Vector3.zero;
                 //bullet.transform.localRotation = Quaternion.identity;
@@ -268,7 +270,7 @@ namespace Assets.HeroEditor.Common.CharacterScripts.Firearms
 
                 bullet.GetComponent<SpriteRenderer>().sprite = Character.Firearms.Single(j => j.name == "Bullet");
                 bullet.GetComponent<Rigidbody>().velocity = Firearm.Params.MuzzleVelocity * (Firearm.FireTransform2.right + spread)
-                    * Mathf.Sign(Character.transform.lossyScale.x) * Random.Range(0.85f, 1.15f);
+                    * Mathf.Sign(Character.transform.lossyScale.x) * Random.Range(1f, 1f);
                 //bullet.GetComponent<TrailRenderer>().SetActive(true);
 
                 var sortingOrder = Character.FirearmsRenderers.Single(j => j.name == "Rifle").sortingOrder;
@@ -315,7 +317,7 @@ namespace Assets.HeroEditor.Common.CharacterScripts.Firearms
                 var bullet = MyPooler.ObjectPooler.Instance.GetFromPool("B", Firearm.FireTransform3.position, Firearm.FireTransform3.rotation);
                 //var bullet = Instantiate(Firearm.Params.ProjectilePrefab, Firearm.FireTransform);
                 //bullet.transform.SetParent(Firearm.FireTransform);
-                var spread = Firearm.FireTransform3.up * Random.Range(-.5f, .5f) * (1 - Firearm.Params.Accuracy);           
+                var spread = Firearm.FireTransform3.up * Random.Range(1f, 1f) * (1 - Firearm.Params.Accuracy);           
 
                 //bullet.transform.localPosition = Vector3.zero;
                 //bullet.transform.localRotation = Quaternion.identity;
@@ -323,7 +325,7 @@ namespace Assets.HeroEditor.Common.CharacterScripts.Firearms
 
                 bullet.GetComponent<SpriteRenderer>().sprite = Character.Firearms.Single(j => j.name == "Bullet");
                 bullet.GetComponent<Rigidbody>().velocity = Firearm.Params.MuzzleVelocity * (Firearm.FireTransform3.right + spread)
-                    * Mathf.Sign(Character.transform.lossyScale.x) * Random.Range(0.85f, 1.15f);
+                    * Mathf.Sign(Character.transform.lossyScale.x) * Random.Range(1f, 1f);
                 //bullet.GetComponent<TrailRenderer>().SetActive(true);
 
                 var sortingOrder = Character.FirearmsRenderers.Single(j => j.name == "Rifle").sortingOrder;

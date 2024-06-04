@@ -12,7 +12,8 @@ public class ItemShop : MonoBehaviour
         Gun,
         Suit,
         Partner,
-        Bullet
+        Bullet,
+        Armor
         
     }
     public int id;
@@ -64,14 +65,15 @@ public class ItemShop : MonoBehaviour
             
         }
         //suit
-        if (typeITem == TypeITem.Suit && GameManager.Instance.countSuit < 1)
+        if (typeITem == TypeITem.Suit)
         {
-            GameManager.Instance.countSuit++;
-            transform.position = GameManager.Instance.slotItem.position;
-            transform.SetParent(GameManager.Instance.slotItem);
-       
+            //GameManager.Instance.countSuit++;
+            //transform.position = GameManager.Instance.slotItem.position;
+            //transform.SetParent(GameManager.Instance.slotItem);
             equipItem.SetActive(false);
-            removeItem.SetActive(true);
+       
+            //equipItem.SetActive(false);
+            //removeItem.SetActive(true);
         }
         //partner
         if (typeITem == TypeITem.Partner && GameManager.Instance.countPartNer < 1)

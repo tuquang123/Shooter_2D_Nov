@@ -125,9 +125,11 @@ public class GameManager : Singleton<GameManager>
 
     public void PlayerActive(int i)
     {
-        //for (int j = 0; j < player.Count; j++)
+        for (int j = 0; j < player.Count; j++)
+        {
+            player[j].SetActive(false);
+        }
         player[i].SetActive(true);
-        player[0].SetActive(false);
         characterEditor.UpdatePlayer();
         player[i].transform.position = player[0].transform.position;
     }

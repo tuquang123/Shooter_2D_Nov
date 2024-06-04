@@ -14560,7 +14560,7 @@ Transform:
   m_GameObject: {fileID: 1681781652526772}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children:
   - {fileID: 4397284148362552}
   - {fileID: 4393839782422742}
@@ -14580,7 +14580,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dame: 20
-  Renderers: []
   Trail: {fileID: 1093674060203738}
   Impact: {fileID: 1121886198620100}
   Rigidbody: {fileID: 54802447802259062}
