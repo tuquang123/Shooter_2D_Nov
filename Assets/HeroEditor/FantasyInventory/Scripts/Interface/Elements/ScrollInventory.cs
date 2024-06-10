@@ -27,6 +27,8 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
         public bool HideCountLabels;
         public Func<Item, bool> GenericFilter;
 
+        public bool turnOffBuy;
+
         public static string IconCollectionId = "FantasyHeroes";
         
         private readonly List<ItemType> _sortByItemType = new List<ItemType>
@@ -148,41 +150,63 @@ namespace Assets.HeroEditor.FantasyInventory.Scripts.Interface.Elements
             var itemID = GameManager.Instance.itemID;
             foreach (var item in items)
             {
-	            i2++; 
-	            if(itemID.Count==0)break;
-	            if (itemID.Count == 1)
-	            {
-		            itemID.Add(itemID[0]);
-	            }
-	            if (itemID.Count > 0 && i2 == itemID[0] || i2 == itemID[1])
+	            //Cmt here turn off buy
+	            if (turnOffBuy)
 	            {
 		            InventoryItem inventoryItem;
-		            if (_inventoryItems.ContainsKey(item))
-		            {
-			            inventoryItem = _inventoryItems[item];
-			            inventoryItem.transform.SetAsLastSibling();
-			            inventoryItems.Add(item, inventoryItem);
-			            _inventoryItems.Remove(item);
-		            }
-		            else
-		            {
-			            /*if (!check1Time)
+			            if (_inventoryItems.ContainsKey(item))
 			            {
-				            check1Time = true;
-				            continue;
-			            }*/
-		            
-			            inventoryItem = Instantiate(ItemPrefab, Grid.transform);
-			            int random = Random.Range(100, 1000);
-			            var s = ItemPrefab.price= random;
-			            inventoryItem.Container = this;
-			            inventoryItem.Item = item;
-			            inventoryItems.Add(item, inventoryItem);
-		            }
+				            inventoryItem = _inventoryItems[item];
+				            inventoryItem.transform.SetAsLastSibling();
+				            inventoryItems.Add(item, inventoryItem);
+				            _inventoryItems.Remove(item);
+			            }
+			            else
+			            {
+				            inventoryItem = Instantiate(ItemPrefab, Grid.transform);
+				            int random = Random.Range(100, 1000);
+				            var s = ItemPrefab.price= random;
+				            inventoryItem.Container = this;
+				            inventoryItem.Item = item;
+				            inventoryItems.Add(item, inventoryItem);
+			            }
 	            
-		            inventoryItem.Count.text = item.Count.ToString();
-		            inventoryItem.Count.enabled = !HideCountLabels;
-		            if (SelectOnRefresh) inventoryItem.Select(item == selected);
+			            inventoryItem.Count.text = item.Count.ToString();
+			            inventoryItem.Count.enabled = !HideCountLabels;
+			            if (SelectOnRefresh) inventoryItem.Select(item == selected);
+	            }
+	            else
+	            {
+		            i2++; 
+		            if(itemID.Count==0)break;
+		            if (itemID.Count == 1)
+		            {
+			            itemID.Add(itemID[0]);
+		            }
+		            if (itemID.Count > 0 && i2 == itemID[0] || i2 == itemID[1])
+		            {
+			            InventoryItem inventoryItem;
+			            if (_inventoryItems.ContainsKey(item))
+			            {
+				            inventoryItem = _inventoryItems[item];
+				            inventoryItem.transform.SetAsLastSibling();
+				            inventoryItems.Add(item, inventoryItem);
+				            _inventoryItems.Remove(item);
+			            }
+			            else
+			            {
+				            inventoryItem = Instantiate(ItemPrefab, Grid.transform);
+				            int random = Random.Range(100, 1000);
+				            var s = ItemPrefab.price= random;
+				            inventoryItem.Container = this;
+				            inventoryItem.Item = item;
+				            inventoryItems.Add(item, inventoryItem);
+			            }
+	            
+			            inventoryItem.Count.text = item.Count.ToString();
+			            inventoryItem.Count.enabled = !HideCountLabels;
+			            if (SelectOnRefresh) inventoryItem.Select(item == selected);
+		            }
 	            }
             }
 
